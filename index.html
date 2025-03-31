@@ -15,8 +15,9 @@
     .question-block { margin-top: 2em; }
     .answers label { display: block; text-align: left; margin-bottom: 0.5em; background: #eee; padding: 0.5em; border-radius: 8px; cursor: pointer; }
     .nav-buttons { margin-top: 1em; display: flex; justify-content: space-between; }
-    #statsChart { margin-top: 3em; }
     .note, .fachstatus { font-size: 0.9em; color: #666; margin-top: 0.5em; }
+    #toggleChart { margin-top: 2em; display: block; }
+    #statsChartContainer { display: none; margin-top: 2em; }
   </style>
 </head>
 <body>
@@ -29,9 +30,14 @@
     <div class="nav-buttons">
       <button onclick="prevQuestion()">Zurück</button>
       <button onclick="nextQuestion()">Weiter</button>
-    </div><div class="note">Hinweis: Mehrfachauswahl möglich.</div>
-    <canvas id="statsChart"></canvas>
+    </div>
+	<div class="note">Hinweis: Mehrfachauswahl möglich.</div>
+    <button id="toggleChart" onclick="toggleChart()">Lernerfolg anzeigen</button>
+    <div id="statsChartContainer">
+      <canvas id="statsChart"></canvas>
+    </div>
   </div>
+
   <script>
     let fullData = [];
     let selectedFach = '';
@@ -39,6 +45,8 @@
     let current = 0;
     let stats = JSON.parse(localStorage.getItem("quizStats") || "{}");
     let completedFaecher = JSON.parse(localStorage.getItem("completedFaecher") || "[]");
+    let chartInstance = null;
+    let frageFehlerCounter = JSON.parse(localStorage.getItem("frageFehlerCounter") || "{}");
 
     document.getElementById('file').addEventListener('change', function(e) {
       const reader = new FileReader();
@@ -51,7 +59,6 @@
         localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
         updateFachauswahl();
         document.getElementById("quiz").innerHTML = "";
-        drawChart();
       };
       reader.readAsArrayBuffer(e.target.files[0]);
     });
@@ -70,7 +77,6 @@
         completedFaecher = [];
         localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
         updateFachauswahl();
-        drawChart();
       }
     }
 
@@ -78,14 +84,20 @@
       selectedFach = this.value;
       if (!selectedFach) return;
       const fachFragen = fullData.filter(q => q.Fach === selectedFach);
-      questions = shuffleArray(fachFragen).slice(0, 12);
+      const weighted = [];
+      fachFragen.forEach(q => {
+        const id = q.Frage;
+        const fehler = frageFehlerCounter[id] || 0;
+        for (let i = 0; i < 1 + fehler; i++) weighted.push(q);
+      });
+      questions = shuffleArray(weighted).slice(0, 12);
       current = 0;
       showQuestion();
     });
 
     function formatText(text) {
       if (!text) return "";
-      return text.replaceAll("\n", "<br>")
+      return text.replaceAll("\\n", "<br>")
                  .replaceAll("(1)", "<br>1.")
                  .replaceAll("(2)", "<br>2.")
                  .replaceAll("(3)", "<br>3.")
@@ -113,11 +125,24 @@
 
     function checkAnswer() {
       const inputs = document.querySelectorAll('input[name="answer"]');
-      const correct = Array.from(inputs).every(input => input.checked == (input.value === "true"));
+      let richtig = 0, falsch = 0;
+      inputs.forEach(input => {
+        const isCorrect = input.value === "true";
+        if (input.checked && isCorrect) richtig++;
+        if (input.checked && !isCorrect) falsch++;
+        if (!input.checked && isCorrect) falsch++;
+      });
       const f = selectedFach;
       if (!stats[f]) stats[f] = { richtig: 0, falsch: 0 };
-      correct ? stats[f].richtig++ : stats[f].falsch++;
+      stats[f].richtig += richtig;
+      stats[f].falsch += falsch;
+
+      const frageId = questions[current].Frage;
+      if (!frageFehlerCounter[frageId]) frageFehlerCounter[frageId] = 0;
+      if (falsch > 0) frageFehlerCounter[frageId]++;
+
       localStorage.setItem("quizStats", JSON.stringify(stats));
+      localStorage.setItem("frageFehlerCounter", JSON.stringify(frageFehlerCounter));
       nextQuestion();
     }
 
@@ -131,7 +156,6 @@
           localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
         }
         updateFachauswahl();
-        drawChart();
         document.getElementById("quiz").innerHTML = `<h2>Fach abgeschlossen!</h2><p>Wähle ein neues Fach aus der Liste.</p>`;
       }
     }
@@ -147,24 +171,39 @@
       return arr.map(v => [Math.random(), v]).sort().map(a => a[1]);
     }
 
+    function toggleChart() {
+      const container = document.getElementById("statsChartContainer");
+      const button = document.getElementById("toggleChart");
+      if (container.style.display === "none") {
+        drawChart();
+        container.style.display = "block";
+        button.textContent = "Lernerfolg verbergen";
+      } else {
+        container.style.display = "none";
+        button.textContent = "Lernerfolg anzeigen";
+      }
+    }
+
     function drawChart() {
       const ctx = document.getElementById("statsChart").getContext("2d");
-      const labels = Object.keys(stats);
+      if (chartInstance) chartInstance.destroy();
+      const labels = Object.keys(stats).filter(f => stats[f].richtig + stats[f].falsch > 0);
       const correct = labels.map(f => stats[f].richtig);
-      const wrong = labels.map(f => stats[f].falsch);
-      new Chart(ctx, {
+      const total = labels.map(f => stats[f].richtig + stats[f].falsch);
+      const percentage = labels.map((_, i) => (correct[i] / total[i]) * 100);
+      chartInstance = new Chart(ctx, {
         type: 'bar',
         data: {
           labels,
           datasets: [
-            { label: 'Richtig', data: correct, backgroundColor: 'green' },
-            { label: 'Falsch', data: wrong, backgroundColor: 'red' }
+            { label: 'Lernerfolg (%)', data: percentage, backgroundColor: 'blue' }
           ]
         },
         options: {
+          indexAxis: 'y',
           responsive: true,
-          scales: { y: { beginAtZero: true } },
-          plugins: { title: { display: true, text: 'Lernerfolg nach Fach' } }
+          scales: { x: { beginAtZero: true, max: 100 } },
+          plugins: { title: { display: true, text: 'Lernerfolg nach Fach (%)' } }
         }
       });
     }
