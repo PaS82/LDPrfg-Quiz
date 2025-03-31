@@ -35,7 +35,13 @@
     <button id="toggleChart" onclick="toggleChart()">Lernerfolg anzeigen</button>
     <div id="statsChartContainer">
       <canvas id="statsChart"></canvas>
+		<p style="text-align:center; font-size: 0.9em; color: #444; margin-top: 0.5em;">
+		Prozentwert = (erreichte Punkte / maximal mögliche Punkte) × 100<br>
+		Eine richtige Auswahl = 1 Punkt.
+		</p>
     </div>
+	<button id="toggleReport" onclick="toggleReport()">Antwortbericht anzeigen</button>
+	<div id="reportContainer" style="display:none; margin-top: 2em;"></div>
   </div>
 
   <script>
@@ -47,6 +53,7 @@
     let completedFaecher = JSON.parse(localStorage.getItem("completedFaecher") || "[]");
     let chartInstance = null;
     let frageFehlerCounter = JSON.parse(localStorage.getItem("frageFehlerCounter") || "{}");
+	let reportLog = [];
 
     document.getElementById('file').addEventListener('change', function(e) {
       const reader = new FileReader();
@@ -207,6 +214,42 @@
         }
       });
     }
+	function logFrageAntwort(frageObj, userAntworten, richtigeAntworten) {
+    reportLog.push({
+      frage: frageObj.Frage,
+      antworten: Object.keys(frageObj).filter(k => k.includes('Antwort')).map(k => frageObj[k]),
+      userAntworten,
+      richtigeAntworten
+    });
+    localStorage.setItem("reportLog", JSON.stringify(reportLog));
+  }
+
+  function toggleReport() {
+    const container = document.getElementById("reportContainer");
+    const button = document.getElementById("toggleReport");
+    if (container.style.display === "none") {
+      container.innerHTML = "<h3>Antwortbericht</h3>" +
+        reportLog.map((entry, i) => `
+          <div style='margin-bottom:1em;'>
+            <strong>Frage ${i + 1}:</strong> ${entry.frage}<br>
+            <ul>
+              ${entry.antworten.map(a => {
+                const isChecked = entry.userAntworten.includes(a);
+                const isCorrect = entry.richtigeAntworten.includes(a);
+                return `<li style='color:${isChecked ? (isCorrect ? "green" : "red") : "black"}'>
+                  ${isChecked ? "✅" : "⬜"} ${a} ${isCorrect ? "(richtig)" : ""}
+                </li>`;
+              }).join('')}
+            </ul>
+          </div>
+        `).join('');
+      container.style.display = "block";
+      button.textContent = "Antwortbericht verbergen";
+    } else {
+      container.style.display = "none";
+      button.textContent = "Antwortbericht anzeigen";
+    }
+  }
   </script>
 </body>
 </html>
