@@ -6,14 +6,12 @@ Dieses Projekt ist ein dynamisches Multiple-Choice-Quiz basierend auf einer Exce
 - Auswahl nach Fach
 - 12 Zufallsfragen pro Fach
 - Mehrfachauswahl mit Checkboxen
-- Fortschritt-Tracking im localStorage
-- Auswertungsgrafik (Chart.js)
-- Offline-Nutzung & App-Installation (PWA-ready)
+- Fortschritt-Tracking 
+- Auswertungsgrafik
+- Offline-Nutzung & App-Installation
 
 ## Nutzung auf GitHub Pages
 1. Repository erstellen
 2. Diese Dateien hochladen
 3. In den Repository-Einstellungen unter "Pages" den Branch `main` und Ordner `/root` wählen
-4. Quiz ist live unter `https://<user>.github.io/<repo>/`
-
-Erstellt mit ❤️ für lokale und webbasierte Lernanwendungen.
+4. Quiz ist live unter `https://pas82.github.io/LDPrfg-Quiz/`
