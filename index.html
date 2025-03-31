@@ -29,8 +29,7 @@
     <div class="nav-buttons">
       <button onclick="prevQuestion()">Zurück</button>
       <button onclick="nextQuestion()">Weiter</button>
-    </div>
-	<div class="note">Hinweis: Mehrfachauswahl möglich.</div>
+    </div><div class="note">Hinweis: Mehrfachauswahl möglich.</div>
     <canvas id="statsChart"></canvas>
   </div>
   <script>
@@ -48,7 +47,11 @@
         const workbook = XLSX.read(data, {type: 'array'});
         const sheet = workbook.Sheets[workbook.SheetNames[0]];
         fullData = XLSX.utils.sheet_to_json(sheet);
+        completedFaecher = [];
+        localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
         updateFachauswahl();
+        document.getElementById("quiz").innerHTML = "";
+        drawChart();
       };
       reader.readAsArrayBuffer(e.target.files[0]);
     });
@@ -61,11 +64,13 @@
         faecher.map(f => `<option value="${f}" ${completedFaecher.includes(f) ? 'disabled' : ''}>${f}${completedFaecher.includes(f) ? ' (✅ erledigt)' : ''}</option>`).join("");
       statusBox.innerHTML = "<strong>Fächerstatus:</strong><br>" +
         faecher.map(f => `${completedFaecher.includes(f) ? '✅' : '🔓'} ${f}`).join("<br>");
+
       if (completedFaecher.length === faecher.length) {
+        alert("🎉 Alle Fächer wurden bearbeitet. Ein neuer Durchgang beginnt!");
         completedFaecher = [];
         localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
-        alert("🎉 Alle Fächer wurden bearbeitet. Ein neuer Durchgang beginnt!");
         updateFachauswahl();
+        drawChart();
       }
     }
 
@@ -121,12 +126,12 @@
         current++;
         showQuestion();
       } else {
-        drawChart();
         if (!completedFaecher.includes(selectedFach)) {
           completedFaecher.push(selectedFach);
           localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
         }
         updateFachauswahl();
+        drawChart();
         document.getElementById("quiz").innerHTML = `<h2>Fach abgeschlossen!</h2><p>Wähle ein neues Fach aus der Liste.</p>`;
       }
     }
