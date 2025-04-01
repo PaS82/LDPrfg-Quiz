@@ -47,6 +47,13 @@
   </div>
 
 <script>
+let fullData = [];
+let completedFaecher = [];
+let stats = {};
+let frageFehlerCounter = {};
+let reportLog = [];
+let sitzungsZaehler = {};
+
 window.addEventListener('DOMContentLoaded', () => {
   const parsed = Papa.parse(window.defaultCSV, {
     header: true,
