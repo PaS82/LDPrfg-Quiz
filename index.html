@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ðŸ“š DienstprÃ¼fungs-Quiz</title>
+  <title>📚 Dienstprüfungs-Quiz</title>
   <link rel="manifest" href="manifest.json">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -24,21 +24,21 @@
 </head>
 <body>
   <div class="container">
-    <h1>ðŸ“š DienstprÃ¼fungs-Quiz</h1>
+    <h1>📚 Dienstprüfungs-Quiz</h1>
     <input type="file" id="file" accept=".xlsx,.csv" />
-    <select id="fachSelect"><option value="">Fach wÃ¤hlen...</option></select>
+    <select id="fachSelect"><option value="">Fach wählen...</option></select>
     <div class="fachstatus" id="fachStatus"></div>
     <div id="quiz"></div>
     <div class="nav-buttons">
-      <button onclick="prevQuestion()">ZurÃ¼ck</button>
+      <button onclick="prevQuestion()">Zurück</button>
       <button onclick="nextQuestion()">Weiter</button>
     </div>
-    <div class="note">Hinweis: Mehrfachauswahl mÃ¶glich.</div>
+    <div class="note">Hinweis: Mehrfachauswahl möglich.</div>
     <button id="toggleChart" onclick="toggleChart()">Lernerfolg anzeigen</button>
     <div id="statsChartContainer">
       <canvas id="statsChart"></canvas>
       <p style="text-align:center; font-size: 0.9em; color: #444; margin-top: 0.5em;">
-        Prozentwert = (erreichte Punkte / maximal mÃ¶gliche Punkte) Ã— 100<br>
+        Prozentwert = (erreichte Punkte / maximal mögliche Punkte) × 100<br>
         Eine richtige Auswahl = 1 Punkt.
       </p>
     </div>
@@ -77,13 +77,13 @@
       const faecher = [...new Set(fullData.map(q => q.Fach))];
       const sel = document.getElementById("fachSelect");
       const statusBox = document.getElementById("fachStatus");
-      sel.innerHTML = '<option value="">Fach wÃ¤hlen...</option>' +
-        faecher.map(f => `<option value="${f}" ${completedFaecher.includes(f) ? 'disabled' : ''}>${f}${completedFaecher.includes(f) ? ' (âœ… erledigt)' : ''}</option>`).join("");
-      statusBox.innerHTML = "<strong>FÃ¤cherstatus:</strong><br>" +
-        faecher.map(f => `${completedFaecher.includes(f) ? 'âœ…' : 'ðŸ”“'} ${f}`).join("<br>");
+      sel.innerHTML = '<option value="">Fach wählen...</option>' +
+        faecher.map(f => `<option value="${f}" ${completedFaecher.includes(f) ? 'disabled' : ''}>${f}${completedFaecher.includes(f) ? ' (✅ erledigt)' : ''}</option>`).join("");
+      statusBox.innerHTML = "<strong>Fächerstatus:</strong><br>" +
+        faecher.map(f => `${completedFaecher.includes(f) ? '✅' : '🔓'} ${f}`).join("<br>");
 
       if (completedFaecher.length === faecher.length) {
-        alert("ðŸŽ‰ Alle FÃ¤cher wurden bearbeitet. Ein neuer Durchgang beginnt!");
+        alert("🎉 Alle Fächer wurden bearbeitet. Ein neuer Durchgang beginnt!");
         completedFaecher = [];
         localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
         updateFachauswahl();
@@ -129,7 +129,7 @@
         <form class="answers">
           ${shuffled.map((a, i) => `<label><input type="checkbox" name="answer" value="${a.correct}"> ${formatText(a.text)}</label>`).join("")}
         </form>
-        <button onclick="checkAnswer()">Antwort prÃ¼fen</button>
+        <button onclick="checkAnswer()">Antwort prüfen</button>
       </div>`;
     }
 
@@ -166,7 +166,7 @@
           localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
         }
         updateFachauswahl();
-        document.getElementById("quiz").innerHTML = `<h2>Fach abgeschlossen!</h2><p>WÃ¤hle ein neues Fach aus der Liste.</p>`;
+        document.getElementById("quiz").innerHTML = `<h2>Fach abgeschlossen!</h2><p>Wähle ein neues Fach aus der Liste.</p>`;
       }
     }
 
@@ -240,7 +240,7 @@
                 const isChecked = entry.userAntworten.includes(a);
                 const isCorrect = entry.richtigeAntworten.includes(a);
                 return `<li style='color:${isChecked ? (isCorrect ? "green" : "red") : "black"}'>
-                  ${isChecked ? "âœ…" : "â¬œ"} ${a} ${isCorrect ? "(richtig)" : ""}
+                  ${isChecked ? "✅" : "⬜"} ${a} ${isCorrect ? "(richtig)" : ""}
                 </li>`;
               }).join('')}
             </ul>
@@ -267,7 +267,7 @@ window.addEventListener('DOMContentLoaded', () => {
     updateFachauswahl();
     document.getElementById("quiz").innerHTML = "";
   } else {
-    console.warn("defaultCSV enthÃ¤lt keine gÃ¼ltigen Daten.");
+    console.warn("defaultCSV enthält keine gültigen Daten.");
   }
 });
 </script>
