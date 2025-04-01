@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>📚 Dienstprüfungs-Quiz</title>
+  <title>ðŸ“š DienstprÃ¼fungs-Quiz</title>
   <link rel="manifest" href="manifest.json">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -24,36 +24,236 @@
 </head>
 <body>
   <div class="container">
-    <h1>📚 Dienstprüfungs-Quiz</h1>
+    <h1>ðŸ“š DienstprÃ¼fungs-Quiz</h1>
     <input type="file" id="file" accept=".xlsx,.csv" />
-    <select id="fachSelect"><option value="">Fach wählen...</option></select>
+    <select id="fachSelect"><option value="">Fach wÃ¤hlen...</option></select>
     <div class="fachstatus" id="fachStatus"></div>
     <div id="quiz"></div>
     <div class="nav-buttons">
-      <button onclick="prevQuestion()">Zurück</button>
+      <button onclick="prevQuestion()">ZurÃ¼ck</button>
       <button onclick="nextQuestion()">Weiter</button>
     </div>
-	<div class="note">Hinweis: Mehrfachauswahl möglich.</div>
+    <div class="note">Hinweis: Mehrfachauswahl mÃ¶glich.</div>
     <button id="toggleChart" onclick="toggleChart()">Lernerfolg anzeigen</button>
     <div id="statsChartContainer">
       <canvas id="statsChart"></canvas>
-		<p style="text-align:center; font-size: 0.9em; color: #444; margin-top: 0.5em;">
-		Prozentwert = (erreichte Punkte / maximal mögliche Punkte) × 100<br>
-		Eine richtige Auswahl = 1 Punkt.
-		</p>
+      <p style="text-align:center; font-size: 0.9em; color: #444; margin-top: 0.5em;">
+        Prozentwert = (erreichte Punkte / maximal mÃ¶gliche Punkte) Ã— 100<br>
+        Eine richtige Auswahl = 1 Punkt.
+      </p>
     </div>
-	<button id="toggleReport" onclick="toggleReport()">Antwortbericht anzeigen</button>
-	<div id="reportContainer" style="display:none; margin-top: 2em;"></div>
+    <button id="toggleReport" onclick="toggleReport()">Antwortbericht anzeigen</button>
+    <div id="reportContainer" style="display:none; margin-top: 2em;"></div>
   </div>
 
 <script>
-let fullData = [];
-let completedFaecher = [];
-let stats = {};
-let frageFehlerCounter = {};
-let reportLog = [];
-let sitzungsZaehler = {};
 
+    let fullData = [];
+    let selectedFach = '';
+    let questions = [];
+    let current = 0;
+    let stats = JSON.parse(localStorage.getItem("quizStats") || "{}");
+    let completedFaecher = JSON.parse(localStorage.getItem("completedFaecher") || "[]");
+    let chartInstance = null;
+    let frageFehlerCounter = JSON.parse(localStorage.getItem("frageFehlerCounter") || "{}");
+	let reportLog = [];
+
+    document.getElementById('file').addEventListener('change', function(e) {
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        const data = new Uint8Array(evt.target.result);
+        const workbook = XLSX.read(data, {type: 'array'});
+        const sheet = workbook.Sheets[workbook.SheetNames[0]];
+        fullData = XLSX.utils.sheet_to_json(sheet);
+        completedFaecher = [];
+        localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
+        updateFachauswahl();
+        document.getElementById("quiz").innerHTML = "";
+      };
+      reader.readAsArrayBuffer(e.target.files[0]);
+    });
+
+    function updateFachauswahl() {
+      const faecher = [...new Set(fullData.map(q => q.Fach))];
+      const sel = document.getElementById("fachSelect");
+      const statusBox = document.getElementById("fachStatus");
+      sel.innerHTML = '<option value="">Fach wÃ¤hlen...</option>' +
+        faecher.map(f => `<option value="${f}" ${completedFaecher.includes(f) ? 'disabled' : ''}>${f}${completedFaecher.includes(f) ? ' (âœ… erledigt)' : ''}</option>`).join("");
+      statusBox.innerHTML = "<strong>FÃ¤cherstatus:</strong><br>" +
+        faecher.map(f => `${completedFaecher.includes(f) ? 'âœ…' : 'ðŸ”“'} ${f}`).join("<br>");
+
+      if (completedFaecher.length === faecher.length) {
+        alert("ðŸŽ‰ Alle FÃ¤cher wurden bearbeitet. Ein neuer Durchgang beginnt!");
+        completedFaecher = [];
+        localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
+        updateFachauswahl();
+      }
+    }
+
+    document.getElementById("fachSelect").addEventListener("change", function() {
+      selectedFach = this.value;
+      if (!selectedFach) return;
+      const fachFragen = fullData.filter(q => q.Fach === selectedFach);
+      const weighted = [];
+      fachFragen.forEach(q => {
+        const id = q.Frage;
+        const fehler = frageFehlerCounter[id] || 0;
+        for (let i = 0; i < 1 + fehler; i++) weighted.push(q);
+      });
+      questions = shuffleArray(weighted).slice(0, 12);
+      current = 0;
+      showQuestion();
+    });
+
+    function formatText(text) {
+      if (!text) return "";
+      return text.replaceAll("\\n", "<br>")
+                 .replaceAll("(1)", "<br>1.")
+                 .replaceAll("(2)", "<br>2.")
+                 .replaceAll("(3)", "<br>3.")
+                 .replaceAll("(4)", "<br>4.")
+                 .replaceAll("(.)", "<br>&bull;");
+    }
+
+    function showQuestion() {
+      const q = questions[current];
+      const answers = Object.keys(q)
+        .filter(k => k.startsWith("Richtige Antwort") || k.startsWith("Falsche Antwort"))
+        .map(k => ({ text: q[k], correct: k.startsWith("Richtige") }))
+        .filter(a => a.text && a.text.trim() !== "");
+      const shuffled = shuffleArray(answers);
+      const container = document.getElementById("quiz");
+      container.innerHTML = `<div class="question-block">
+        <h2>Frage ${current + 1}/12</h2>
+        <p>${formatText(q.Frage)}</p>
+        <form class="answers">
+          ${shuffled.map((a, i) => `<label><input type="checkbox" name="answer" value="${a.correct}"> ${formatText(a.text)}</label>`).join("")}
+        </form>
+        <button onclick="checkAnswer()">Antwort prÃ¼fen</button>
+      </div>`;
+    }
+
+    function checkAnswer() {
+      const inputs = document.querySelectorAll('input[name="answer"]');
+      let richtig = 0, falsch = 0;
+      inputs.forEach(input => {
+        const isCorrect = input.value === "true";
+        if (input.checked && isCorrect) richtig++;
+        if (input.checked && !isCorrect) falsch++;
+        if (!input.checked && isCorrect) falsch++;
+      });
+      const f = selectedFach;
+      if (!stats[f]) stats[f] = { richtig: 0, falsch: 0 };
+      stats[f].richtig += richtig;
+      stats[f].falsch += falsch;
+
+      const frageId = questions[current].Frage;
+      if (!frageFehlerCounter[frageId]) frageFehlerCounter[frageId] = 0;
+      if (falsch > 0) frageFehlerCounter[frageId]++;
+
+      localStorage.setItem("quizStats", JSON.stringify(stats));
+      localStorage.setItem("frageFehlerCounter", JSON.stringify(frageFehlerCounter));
+      nextQuestion();
+    }
+
+    function nextQuestion() {
+      if (current < questions.length - 1) {
+        current++;
+        showQuestion();
+      } else {
+        if (!completedFaecher.includes(selectedFach)) {
+          completedFaecher.push(selectedFach);
+          localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
+        }
+        updateFachauswahl();
+        document.getElementById("quiz").innerHTML = `<h2>Fach abgeschlossen!</h2><p>WÃ¤hle ein neues Fach aus der Liste.</p>`;
+      }
+    }
+
+    function prevQuestion() {
+      if (current > 0) {
+        current--;
+        showQuestion();
+      }
+    }
+
+    function shuffleArray(arr) {
+      return arr.map(v => [Math.random(), v]).sort().map(a => a[1]);
+    }
+
+    function toggleChart() {
+      const container = document.getElementById("statsChartContainer");
+      const button = document.getElementById("toggleChart");
+      if (container.style.display === "none") {
+        drawChart();
+        container.style.display = "block";
+        button.textContent = "Lernerfolg verbergen";
+      } else {
+        container.style.display = "none";
+        button.textContent = "Lernerfolg anzeigen";
+      }
+    }
+
+    function drawChart() {
+      const ctx = document.getElementById("statsChart").getContext("2d");
+      if (chartInstance) chartInstance.destroy();
+      const labels = Object.keys(stats).filter(f => stats[f].richtig + stats[f].falsch > 0);
+      const correct = labels.map(f => stats[f].richtig);
+      const total = labels.map(f => stats[f].richtig + stats[f].falsch);
+      const percentage = labels.map((_, i) => (correct[i] / total[i]) * 100);
+      chartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [
+            { label: 'Lernerfolg (%)', data: percentage, backgroundColor: 'blue' }
+          ]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          scales: { x: { beginAtZero: true, max: 100 } },
+          plugins: { title: { display: true, text: 'Lernerfolg nach Fach (%)' } }
+        }
+      });
+    }
+	function logFrageAntwort(frageObj, userAntworten, richtigeAntworten) {
+    reportLog.push({
+      frage: frageObj.Frage,
+      antworten: Object.keys(frageObj).filter(k => k.includes('Antwort')).map(k => frageObj[k]),
+      userAntworten,
+      richtigeAntworten
+    });
+    localStorage.setItem("reportLog", JSON.stringify(reportLog));
+  }
+
+  function toggleReport() {
+    const container = document.getElementById("reportContainer");
+    const button = document.getElementById("toggleReport");
+    if (container.style.display === "none") {
+      container.innerHTML = "<h3>Antwortbericht</h3>" +
+        reportLog.map((entry, i) => `
+          <div style='margin-bottom:1em;'>
+            <strong>Frage ${i + 1}:</strong> ${entry.frage}<br>
+            <ul>
+              ${entry.antworten.map(a => {
+                const isChecked = entry.userAntworten.includes(a);
+                const isCorrect = entry.richtigeAntworten.includes(a);
+                return `<li style='color:${isChecked ? (isCorrect ? "green" : "red") : "black"}'>
+                  ${isChecked ? "âœ…" : "â¬œ"} ${a} ${isCorrect ? "(richtig)" : ""}
+                </li>`;
+              }).join('')}
+            </ul>
+          </div>
+        `).join('');
+      container.style.display = "block";
+      button.textContent = "Antwortbericht verbergen";
+    } else {
+      container.style.display = "none";
+      button.textContent = "Antwortbericht anzeigen";
+    }
+  }
+  
 window.addEventListener('DOMContentLoaded', () => {
   const parsed = Papa.parse(window.defaultCSV, {
     header: true,
@@ -67,11 +267,9 @@ window.addEventListener('DOMContentLoaded', () => {
     updateFachauswahl();
     document.getElementById("quiz").innerHTML = "";
   } else {
-    console.warn("defaultCSV enthält keine gültigen Daten.");
+    console.warn("defaultCSV enthÃ¤lt keine gÃ¼ltigen Daten.");
   }
 });
 </script>
-
-<!-- Alle restlichen Skripte (quiz.js etc.) kommen hier -->
 </body>
 </html>
