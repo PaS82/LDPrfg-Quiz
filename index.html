@@ -5,42 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>📚 Dienstprüfungs-Quiz</title>
   <link rel="manifest" href="manifest.json">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js">
-    window.addEventListener('DOMContentLoaded', () => {
-      fetch('default.csv')
-        .then(response => response.text())
-        .then(text => {
-          const rows = text.split('\n').map(row => row.split(','));
-          const headers = rows.shift();
-          fullData = rows.map(row => {
-            const obj = {};
-            headers.forEach((h, i) => obj[h.trim()] = row[i] ? row[i].trim() : "");
-            return obj;
-          });
-          updateFachauswahl();
-        })
-        .catch(err => console.error("CSV konnte nicht geladen werden:", err));
-    });
-
-</script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js">
-    window.addEventListener('DOMContentLoaded', () => {
-      fetch('default.csv')
-        .then(response => response.text())
-        .then(text => {
-          const rows = text.split('\n').map(row => row.split(','));
-          const headers = rows.shift();
-          fullData = rows.map(row => {
-            const obj = {};
-            headers.forEach((h, i) => obj[h.trim()] = row[i] ? row[i].trim() : "");
-            return obj;
-          });
-          updateFachauswahl();
-        })
-        .catch(err => console.error("CSV konnte nicht geladen werden:", err));
-    });
-
-</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     body { font-family: sans-serif; background: #f4f4f4; margin: 0; padding: 1em; }
     .container { max-width: 800px; margin: auto; background: #fff; padding: 2em; border-radius: 16px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
@@ -87,7 +53,9 @@
     let completedFaecher = JSON.parse(localStorage.getItem("completedFaecher") || "[]");
     let chartInstance = null;
     let frageFehlerCounter = JSON.parse(localStorage.getItem("frageFehlerCounter") || "{}");
-	let reportLog = [];
+	let reportLog = JSON.parse(localStorage.getItem("reportLog") || "[]");
+let sitzungsZaehler = JSON.parse(localStorage.getItem("sitzungsZaehler") || "{}");
+
 
     document.getElementById('file').addEventListener('change', function(e) {
       const reader = new FileReader();
@@ -104,25 +72,42 @@
       reader.readAsArrayBuffer(e.target.files[0]);
     });
 
+    
+    
     function updateFachauswahl() {
       const faecher = [...new Set(fullData.map(q => q.Fach))];
       const sel = document.getElementById("fachSelect");
       const statusBox = document.getElementById("fachStatus");
       sel.innerHTML = '<option value="">Fach wählen...</option>' +
         faecher.map(f => `<option value="${f}" ${completedFaecher.includes(f) ? 'disabled' : ''}>${f}${completedFaecher.includes(f) ? ' (✅ erledigt)' : ''}</option>`).join("");
-      statusBox.innerHTML = "<strong>Fächerstatus:</strong><br>" +
-        faecher.map(f => `${completedFaecher.includes(f) ? '✅' : '🔓'} ${f}`).join("<br>");
 
       if (completedFaecher.length === faecher.length) {
         alert("🎉 Alle Fächer wurden bearbeitet. Ein neuer Durchgang beginnt!");
         completedFaecher = [];
         localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
-        updateFachauswahl();
+        setTimeout(() => {
+          updateFachauswahl();
+        }, 100);
+        return;
       }
+
+      statusBox.innerHTML = "<strong>Fächerstatus:</strong><br>" +
+        faecher.map(f => {
+          const statusSymbol = completedFaecher.includes(f) ? '✅' : '🔓';
+          const color = completedFaecher.includes(f) ? 'green' : 'black';
+          return `<span style='color:${color}'>${statusSymbol} ${f}</span>`;
+        }).join("<br>");
     }
+
+
 
     document.getElementById("fachSelect").addEventListener("change", function() {
       selectedFach = this.value;
+
+      if (!sitzungsZaehler[selectedFach]) sitzungsZaehler[selectedFach] = 1;
+      else sitzungsZaehler[selectedFach]++;
+      localStorage.setItem("sitzungsZaehler", JSON.stringify(sitzungsZaehler));
+
       if (!selectedFach) return;
       const fachFragen = fullData.filter(q => q.Fach === selectedFach);
       const weighted = [];
@@ -248,31 +233,24 @@
         }
       });
     }
-	function logFrageAntwort(frageObj, userAntworten, richtigeAntworten) {
-    reportLog.push({
-      frage: frageObj.Frage,
-      antworten: Object.keys(frageObj).filter(k => k.includes('Antwort')).map(k => frageObj[k]),
-      userAntworten,
-      richtigeAntworten
-    });
-    localStorage.setItem("reportLog", JSON.stringify(reportLog));
+	
+function logFrageAntwort(frageObj, userAntworten, richtigeAntworten) {
+  const fach = selectedFach;
+  const sitzung = sitzungsZaehler[fach] || 1;
+  let session = reportLog.find(r => r.fach === fach && r.sitzung === sitzung);
+  if (!session) {
+    session = { fach, sitzung, eintraege: [] };
+    reportLog.push(session);
   }
-
-  function toggleReport() {
-    const container = document.getElementById("reportContainer");
-    const button = document.getElementById("toggleReport");
-    if (container.style.display === "none") {
-      container.innerHTML = "<h3>Antwortbericht</h3>" +
-        reportLog.map((entry, i) => `
-          <div style='margin-bottom:1em;'>
-            <strong>Frage ${i + 1}:</strong> ${entry.frage}<br>
-            <ul>
-              ${entry.antworten.map(a => {
-                const isChecked = entry.userAntworten.includes(a);
-                const isCorrect = entry.richtigeAntworten.includes(a);
-                return `<li style='color:${isChecked ? (isCorrect ? "green" : "red") : "black"}'>
-                  ${isChecked ? "✅" : "⬜"} ${a} ${isCorrect ? "(richtig)" : ""}
-                </li>`;
+  session.eintraege.push({
+    frage: frageObj.Frage,
+    antworten: Object.keys(frageObj).filter(k => k.includes('Antwort')).map(k => frageObj[k]),
+    userAntworten,
+    richtigeAntworten
+  });
+  localStorage.setItem("reportLog", JSON.stringify(reportLog));
+}
+              </li>`;
               }).join('')}
             </ul>
           </div>
@@ -284,23 +262,25 @@
       button.textContent = "Antwortbericht anzeigen";
     }
   }
-  
-    window.addEventListener('DOMContentLoaded', () => {
-      fetch('default.csv')
-        .then(response => response.text())
-        .then(text => {
-          const rows = text.split('\n').map(row => row.split(','));
-          const headers = rows.shift();
-          fullData = rows.map(row => {
-            const obj = {};
-            headers.forEach((h, i) => obj[h.trim()] = row[i] ? row[i].trim() : "");
-            return obj;
-          });
-          updateFachauswahl();
-        })
-        .catch(err => console.error("CSV konnte nicht geladen werden:", err));
-    });
+  </script>
 
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+  fetch('default.csv')
+    .then(response => response.text())
+    .then(text => {
+      const rows = text.split('\n').map(row => row.split(';'));
+      const headers = rows.shift();
+      fullData = rows.filter(r => r.length > 1).map(row => {
+        const obj = {};
+        headers.forEach((h, i) => obj[h.trim()] = row[i] ? row[i].trim() : "");
+        return obj;
+      });
+      updateFachauswahl();
+    })
+    .catch(err => console.error("CSV konnte nicht geladen werden:", err));
+});
 </script>
+
 </body>
 </html>
