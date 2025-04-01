@@ -3,10 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>📚 Excel-Quiz</title>
+  <title>📚 Dienstprüfungs-Quiz</title>
   <link rel="manifest" href="manifest.json">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js">
+    window.addEventListener('DOMContentLoaded', () => {
+      fetch('default.csv')
+        .then(response => response.text())
+        .then(text => {
+          const rows = text.split('\n').map(row => row.split(','));
+          const headers = rows.shift();
+          fullData = rows.map(row => {
+            const obj = {};
+            headers.forEach((h, i) => obj[h.trim()] = row[i] ? row[i].trim() : "");
+            return obj;
+          });
+          updateFachauswahl();
+        })
+        .catch(err => console.error("CSV konnte nicht geladen werden:", err));
+    });
+
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js">
+    window.addEventListener('DOMContentLoaded', () => {
+      fetch('default.csv')
+        .then(response => response.text())
+        .then(text => {
+          const rows = text.split('\n').map(row => row.split(','));
+          const headers = rows.shift();
+          fullData = rows.map(row => {
+            const obj = {};
+            headers.forEach((h, i) => obj[h.trim()] = row[i] ? row[i].trim() : "");
+            return obj;
+          });
+          updateFachauswahl();
+        })
+        .catch(err => console.error("CSV konnte nicht geladen werden:", err));
+    });
+
+</script>
   <style>
     body { font-family: sans-serif; background: #f4f4f4; margin: 0; padding: 1em; }
     .container { max-width: 800px; margin: auto; background: #fff; padding: 2em; border-radius: 16px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
@@ -22,7 +56,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>📚 Excel-Quiz</h1>
+    <h1>📚 Dienstprüfungs-Quiz</h1>
     <input type="file" id="file" accept=".xlsx" />
     <select id="fachSelect"><option value="">Fach wählen...</option></select>
     <div class="fachstatus" id="fachStatus"></div>
@@ -250,6 +284,23 @@
       button.textContent = "Antwortbericht anzeigen";
     }
   }
-  </script>
+  
+    window.addEventListener('DOMContentLoaded', () => {
+      fetch('default.csv')
+        .then(response => response.text())
+        .then(text => {
+          const rows = text.split('\n').map(row => row.split(','));
+          const headers = rows.shift();
+          fullData = rows.map(row => {
+            const obj = {};
+            headers.forEach((h, i) => obj[h.trim()] = row[i] ? row[i].trim() : "");
+            return obj;
+          });
+          updateFachauswahl();
+        })
+        .catch(err => console.error("CSV konnte nicht geladen werden:", err));
+    });
+
+</script>
 </body>
 </html>
