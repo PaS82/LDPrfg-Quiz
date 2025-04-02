@@ -28,7 +28,7 @@
   <div class="container">
     <h1>📚 Dienstprüfungs-Quiz</h1>
 	<div id="fragen-update-container"></div>
-    
+    <input type="file" id="file" accept=".xlsx,.csv" />
     <select id="fachSelect"><option value="">Fach wählen...</option></select>
     <div class="fachstatus" id="fachStatus"></div>
     <div id="quiz"></div>
@@ -61,7 +61,18 @@
     let frageFehlerCounter = JSON.parse(localStorage.getItem("frageFehlerCounter") || "{}");
 	let reportLog = [];
 
-    
+    document.getElementById('file').addEventListener('change', function(e) {
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        const data = new Uint8Array(evt.target.result);
+        const workbook = XLSX.read(data, {type: 'array'});
+        const sheet = workbook.Sheets[workbook.SheetNames[0]];
+        window.fragen = XLSX.utils.sheet_to_json(sheet);
+        completedFaecher = [];
+        localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
+        updateFachauswahl();
+        document.getElementById("quiz").innerHTML = "";
+      };
       reader.readAsArrayBuffer(e.target.files[0]);
     });
 
