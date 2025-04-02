@@ -133,6 +133,16 @@ function showQuestion() {
     <button onclick="checkAnswer()">Antwort prüfen</button>
   </div>`;
 }
+
+function shuffleArray(arr) {
+  return arr
+    .map((v) => [Math.random(), v])
+    .sort((a, b) => a[0] - b[0])
+    .map((a) => a[1]);
+}
+
+
+	
 </script>
 <script src="fragenUpdater.js"></script>
 </body>
