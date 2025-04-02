@@ -6,8 +6,6 @@
   <title>📚 Dienstprüfungs-Quiz</title>
   <link rel="manifest" href="manifest.json">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <script src="fragenLoader.js"></script>
   <script src="fragenUpdater.js"></script>
   
@@ -62,8 +60,7 @@
 	let reportLog = [];
 
     
-      reader.readAsArrayBuffer(e.target.files[0]);
-    });
+      
 
     function updateFachauswahl() {
       const faecher = [...new Set(window.fragen.map(q => q.Fach))];
@@ -246,6 +243,15 @@
     }
   }
   
+if (parsed.data && parsed.data.length > 0) {
+    window.fragen = parsed.data;
+    completedFaecher = [];
+    localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
+    updateFachauswahl();
+    document.getElementById("quiz").innerHTML = "";
+  } else {
+    console.warn("defaultCSV enthält keine gültigen Daten.");
+  }
 });
 </script>
 <script src="fragenUpdater.js"></script>
