@@ -1,1861 +1,1091 @@
 [
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was regelt grundsätzlich die Finanzverfassung bzw. der Finanzausgleich?",
-        "Richtige Antwort": "Die grundlegenden Regeln für die finanziellen Beziehungen zwischen Bund, Ländern und Gemeinden werden im F-VG 1948 geregelt.",
-        "Richtige Antwort 2": "Das Finanzausgleichsgesetz konkretisiert die Aufteilung der Abgaben zw. den Gebietskörperschaften und die Zuständigkeiten.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "Die Grundrechte der Bürgerinnen und Bürger.",
-        "Falsche Antwort 2": "Die Aufgabenverteilung zwischen Parlament und Regierung.",
-        "Falsche Antwort 3": "Die Wahlordnung auf Landesebene."
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist das Mischsystem?",
-        "Richtige Antwort": "Die Gebietskörperschaften erhalten sowohl eigene Einnahmen als auch Mittel vom Zentralstaat.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "Nur Gemeinden erheben Steuern.",
-        "Falsche Antwort 2": "Alle Abgaben werden zentral verwaltet.",
-        "Falsche Antwort 3": "Die Gebietskörperschaften finanzieren sich ausschließlich über Kredite."
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist das Verbundsystem?",
-        "Richtige Antwort": "Die Finanzierung erfolgt ausschließlich aus gemeinschaftlichen Steuern des Zentralstaates.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist das Trennsystem?",
-        "Richtige Antwort": "Die einzelnen Gebietskörperschaften (Bund, Länder, Gemeinden) als öffentliche Auftgabenträger finanzieren sich voneinander unabhängig.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist das Mischsystem?",
-        "Richtige Antwort": "Die einzelnen Gebietskörperschaften erhalten sowohl eigene Einnahmen als auch Mittel des Übergeordneten Instanzen (Z.B. Österreich)",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Welches System der Abgabenteilung kommt in Österreich zur Anwendung?",
-        "Richtige Antwort": "Das Mischsystem",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist die Finanzverfassung?",
-        "Richtige Antwort": "Das Finanzverfassungsgesetz wurde im Jahr 1948 in Kraft gesetzt und gilt dauerhaft / unbefristet / für unbestimmte Zeit.",
-        "Richtige Antwort 2": "Dieses Finanzverfassungsgesetz regelt die Zuständigkeiten des Bundes und der Länder auf dem Gebiet des Abgabenwesens.",
-        "Richtige Antwort 3": "Es legt abstrakt die einzelnen Abgabentypen fest (ausschließliche Bundes- bzw. Landes- bzw. Gemeindeabgaben, gemeinschaftliche Abgaben, Zuschlagsabgaben etc.)",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist der Finanzausgleich?",
-        "Richtige Antwort": "Finanzausgleich = ein befristetes, einfaches Bundesgesetz",
-        "Richtige Antwort 2": "Der Finanzausgleich regelt konkret für eine jeweils bestimmte Zeitspanne die finanziellen Beziehungen zwischen Bund, Länder und Gemeinden (Gebietskörperschaften), nämlich die konkrete Verteilung der Abgaben und Steuererträge",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "Der Finanzausgleich ist ein zentrales Element jedes Bundesstaates und sollen die öffentlichen Einnahmen (Abgaben) dorthin gelenkt werden, „wo sie gebraucht werden“.",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was sind die Grundsätze der Finanzverfassung und was bedeutet sie?",
-        "Richtige Antwort": "Grundsatz der eigenen Kostentragung, die Kompetenz-Kompetenz, das Legalitätsprinzip, das Sachlichkeitsgebot: Grundsatz der Finanzausgleichsgerechtigkeit",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Der Grundsatz der eigenen Kostentragung bedeutet …",
-        "Richtige Antwort": "Die Pflicht der Kostentragung trifft die Gebietskörperschaft welche mit des Vollziehung betraut wurde.",
-        "Richtige Antwort 2": "Der Bund und die überigen Gebietskörperschaften tragen den Aufwand, der sich aus der Besorgung ihrer Aufgaben ergibt selbst.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Der Grundsatz der Kompetenz-Kompetenz bedeutet …",
-        "Richtige Antwort": "Unter Kompetenz-Kompetenz versteht man im Wesentlichen die Befugnis einer Instanz, über die Zuständigkeiten selbst verbindlich zu entscheiden.",
-        "Richtige Antwort 2": "Die Bundesgesetzgebung regelt die Verteilung der Besteuerungsrechte und Abgabenerträge zwischen dem Bund, den Ländern und Gemeinden. Dem Bund kommt somit die oberste Zuständigkeit (Kompetenz-Kompetenz) auf dem Gebiet des Finanzausgleiches durch das Recht auf Regelung der Mittelbeschaffung für die nachgeordneten Gebietskörperschaften zu.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Das Legalitätsprinzip besagt … ",
-        "Richtige Antwort": "Öffentliche Abgaben dürfen nur aufgrund von Gesetzen erhoben werden.",
-        "Richtige Antwort 2": "Das entspricht dem Art. 18 B-VG, wonach die gesamte staatliche Verwaltung nur aufgrund von Gesetzen erfolgen darf (Legalitätsprinzip).",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Das Sachlichkeitsgebot bzw. der Grundsatz der Finanzausgleichsgerechtigkeit besagt …",
-        "Richtige Antwort": "Die Verteilung der Besteuerungsrechte und der Abgabenerträge auf die Gebietskörperschaften müssen in Übereinstimmung mit der Verteilung der Lasten der öffentlichen Verwaltung erfolgen.",
-        "Richtige Antwort 2": "Die Grenzen der Leistungsfähigkeit der beteiligten Gebietskörperschaften dürfen nicht überschritten werden.",
-        "Richtige Antwort 3": "Finanzstarke Regionen sollen nicht übermäßig belastet werden, während finanzschwache Regionen ausreichend unterstützt werden sollen.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist eine Abgabe?",
-        "Richtige Antwort": "Die Abgabe ist ein Oberbegriff für Beiträge, Gebühren und Steuern.",
-        "Richtige Antwort 2": "Eine Geldleistung, die durch einen hoheitlichen Verwaltungsakt zur Erzielung von Einkünften für ein öffentl. Gemeinwesen auferlegt und von einer Behörde vorgeschrieben wird.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was versteht man Abgaben- bzw. Ertragshoheit?",
-        "Richtige Antwort": "Unter Abgabenhoheit versteht man das Rechteiner Gebietskörperschaft, Abgaben inhaltlich zu regeln. Sie liegt in Österreich primär beim Bund und den Ländern.",
-        "Richtige Antwort 2": "Unter Ertragshoheit versteht man das Recht über den Ertrag dieser Abgaben autonom verfügen zu können.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Welche Abgabentypen gibt es nach der Finanzverfassung?",
-        "Richtige Antwort": "(1) Ausschließliche Bundesabgaben deren Ertrag ganz dem Bund zufließen. (2) Zwischen Bund und Ländern geteilte Abgaben an deren Ertrag Bund und Länder (Gemeinden) beteiligt sind. (3) Ausschließliche Landesabgaben, deren Ertrag ganz den Ländern zufließt. (4) Zwischen Ländern und Gemeinden geteilte Abgaben, an deren Ertrag Länder und Gemeinden beteiligt sind. (5) Ausschließliche Gemeindeabgaben, deren Ertrag ganz den Gemeinden zufließt.",
-        "Richtige Antwort 2": "Zu den geteilten Abgaben zählen: (1) Gemeinschaftliche Bundesabgaben, die vom Bund erhoben werden und die Länder Ertragsanteile bekommen und (2) Zuschlagsabgaben (=Stammabgabe des Bundes, Zuschläge an Länder)",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Wie hoch ist in etwa das Abgabenaufkommen an den einzelnen Abgaben?",
-        "Richtige Antwort": "(1) Ausschließliche Bundesabgaben: 2022 rd. 8,9 Mrd. (2) Geteilte Abgaben zwischen Bund und Ländern (Gemeinden): 2023 rd. 104 Mrd. (3) Landesabganeben: 2022 rd. 1,4 Mrd (4) Gemeindeabgaben: 2021 rd. 6,4 Mrd.",
-        "Richtige Antwort 2": "Der größte Teil des gesamten Abgabenaufkommens mit 104 Mrd Eurofällt  in Österreich unter die geteilten Abgaben.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Zählen folgende Abgaben zu den Bundes-, Landes- oder Gemeindeabgaben? (.) Umsatzsteuer, Einkommenssteuer inkl. Lohnsteuer, Körperschaftsteuer, Veranl. Eink.st., Mineralölsteuer, KEST I, motorbezogene Versicherungssteuer, Tabaksteuer, Grunderwerbssteuer, Versicherungssteuer, KEST II, Kapitalverkehrssteuern, Eletrizitätsabgabe, Erdgasabgabe, Bier-, Wein-, Alkoholsteuer",
-        "Richtige Antwort": "Die Abgaben zählen zu den gemeinschaftlichen Bundesabgaben.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "Die Abgaben zählen zu den gemeinschaftlichen Landesabgaben.",
-        "Falsche Antwort 2": "Die Abgaben zählen zu den gemeinschaftlichen Gemeindeabgaben.",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Landes- und Rundfunkabgaben, Kurabgabe, Tourismusinteressentenbeitrag, Landesverwaltungsabgaben, Feuerschutzabgabe, Jagd- und Fischereikarten zälen zu welchem Abgabentyp?",
-        "Richtige Antwort": "Die Abgaben zählen zu den gemeinschaftlichen Landesabgaben.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "Die Abgaben zählen zu den gemeinschaftlichen Bundesabgaben.",
-        "Falsche Antwort 2": "Die Abgaben zählen zu den gemeinschaftlichen Gemeindeabgaben.",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Nächtigungsabgabe, Grundsteuer, Kommunalsteuer, Abgabe Haltung Tiere, Vergnügungssteuer, Zweitwohnsitzabgabe, Wohnbauförderungsbeitrag zählen zu welchem Abgabentyp?",
-        "Richtige Antwort": "Die Abgaben zählen zu den gemeinschaftlichen Gemeindeabgaben.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "Die Abgaben zählen zu den gemeinschaftlichen Bundesabgaben.",
-        "Falsche Antwort 2": "Die Abgaben zählen zu den gemeinschaftlichen Landesabgaben.",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Wer darf nach der Finanzverfassung in welchem Ausmaß eigene Abgaben erfinden?",
-        "Richtige Antwort": "Bund, Länder (mit Einschränkungen), Gemeinden nur mit gesonderter Ermächtigung durch Bund/Länder",
-        "Richtige Antwort 2": "Länder dürfen eigene Abgaben erfinden, sind aber mehrfach stark eingeschränkt.",
-        "Richtige Antwort 3": "Gemeinden können nicht direkt auf Bsis der Finanzverfassung eigene Abgaben erfinden. Sie brauchen Bundes- und Landesgesetze, damit sie Abgaben einheben dürfen.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist das Einspruchsrecht des Bundesregierung im Abgabenbereich?",
-        "Richtige Antwort": "Bundesregierung hat bei Abgabengesetzen der Länder die Möglichkeit diese durch Einspruch zu Fall zu bringen.",
-        "Richtige Antwort 2": "Besteht Gefährdung von Bundesinteressen, kann die Bundesregierung gegen einen Gesetzesbeschluss innerhalb von 8 Wochen nach dem Tag, an dem der Gesetzesbeschluss beim Bundeskanzleramt eigelangt ist, begründet verhindert werden.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was sind Finanzzuweisungen bzw. Transfers?",
-        "Richtige Antwort": "Finanzzuweisungen sind neben den Abgaben die wichtigste Einnahmequelle für Länder und Gemeinden.",
-        "Richtige Antwort 2": "Im F-VG wird bei den Finanzzuweisungen (= Transfers oder Transferzahlungen) zwischen Schlüsselzuweisungen und Bedarfszuweisungen unterschieden.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was versteht man unter Schlüsselzuweisungen?",
-        "Richtige Antwort": "Die Zuweisungen werden nach einem festen Schlüssel (z.B. Volkszahl) gewährt.",
-        "Richtige Antwort 2": "Damit sollen finanzschwächere Gemeinden unterstützt werden.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was versteht man unter Bedarfszuweisungen?",
-        "Richtige Antwort": "Die Bedarfszuweisungen werden als Instrument der Feinverteilung zum Ausgleich eines Speziellen Bedarfs gewährt. ",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Es gibt Finanzzuweisungen …",
-        "Richtige Antwort": "des Bundes an die Länder und Gemeinden",
-        "Richtige Antwort 2": "der Länder and die Gemeinden.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Das derzeitig getende Finanzausgleichsgesetz …",
-        "Richtige Antwort": "… ist ein einfaches Bundesgesetz …",
-        "Richtige Antwort 2": "… stammt vom 1. Jänner 2014 und gilt bis 31. Dezember 2028",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Wer führt die Verhandlungen zum Finanzausgleich bzw. wer sind die Finanzausgleichspartner?",
-        "Richtige Antwort": "Die Finanzausgleichspartner sind Bund, Länder und Gemeinden.",
-        "Richtige Antwort 2": "Die Verhandlungen werden geführt vom Finanzministerium (für den Bund), der Landesfinanzreferentenkonferenz (für die Länder) und dem Städte- und Gemeindebund (für Städte und Gemeinden).",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist der vertikale Finanzausgleich?",
-        "Richtige Antwort": "Der vertikale Finanzausgleich regelt die Beziehungen finanzausgleichsrechtlicher Art von Gebietskörperschaften verschiedener Ebenen, also zwischen Bund und Ländern bzw. Gemeinden oder zwischen Ländern und Gemeinden.",
-        "Richtige Antwort 2": "Die vertikale Verteilung wird auch Oberverteilung genannt.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist der horizontale Finanzausgleich?",
-        "Richtige Antwort": "Der horizontale Finanzausgleich regelt die finanzausgleichsrechtlichen Beziehungen zwischen Gebietskörperschaften der gleichen Ebene, also zwischen Gemeinden untereinander oder zwischen Ländern untereinander.",
-        "Richtige Antwort 2": "Die horizontale Verteilung wird auch Unterverteilung genannt.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was sind Ertragsanteile?",
-        "Richtige Antwort": "Die jeweiligen Anteile von Bund, Ländern und Gemeinden an den Steuermitteln werden als „Ertragsanteile“ bezeichnet.",
-        "Richtige Antwort 2": "Dabei geht es jährlich um mehr als € 100 Mrd. die etwa nach dem Schlüssel 2/3 Bund und 1/3 Länder und Gemeinden verteilt werden.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was sind Vorwegabzüge?",
-        "Richtige Antwort": "Unter Vorwegabzügen versteht man zweckbestimmte Abzüge von den gemeinschaftlichen Bundesausgaben vor dem Aufteilungsverfahren, bzw. vor der horizontalen Aufteilung.",
-        "Richtige Antwort 2": "Ein wichtiger Vorwegabzug ist der EU-Beitrag, aber auch Vorwegabzüge für Familienlastenausgleichsfond, Katastrophenfonds, Pflegefonds.",
-        "Richtige Antwort 3": "Der Abgabenertrag nach Abzug der Vorwegabzüge wird als „Nettoaufkommen“ bezeichnet.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Welche Aussage ist richtig?",
-        "Richtige Antwort": "Oberverteilung = vertikale Verteilung! Sie regelt die Verteilung der Erträge der gemeinschaftlichen Bundesabgaben auf die 3 Gebietskörperschaftsebenen (Bund, Länder, Gemeinden) und stellt das Kernstück des Finanzausgleichs dar! Das Nettoaufkommen (= Erträge der gemeinschaftlichen Bundesabgaben minus Vorwegabzüge) wird aufgeteilt:(.) 2/3 Bund (67,934%)(.) 1/3 Land (20,217%) und Gemeinden (11,849%)",
-        "Richtige Antwort 2": "Unterverteilung = horizontale Verteilung! Die Länder- und Gemeindeertragsanteile werden auf Land und Gemeinden bundesländerweise verteilt, wobei teilweise fixe Prozentsätze, teilweise die Verteilungskriterien „Volkszahl“, „abgestufter Bevölkerungsschlüssel“ sowie das länderweise Aufkommen der betreffenden oder einer anderen Steuer angewendet werden. Verteilungskriterien: \\n (.) Nach abgestuften Bevölkerungsschlüssel (gewichtige Einwohnerzahl) (.) Nach Fixschlüssel (historisch bedingte fixe Aufteilungsverhältnisse nach Bundesländern) (.) Nach Volkszahl (Aufteilung nach dem länderweisen Anteil an der Einwohnerzahl) (.) Örtliches Aufkommen (länderweises Aufkommen an Grunderwerbssteuer, Bodenwertabgabe und Spielbankabgabe)",
-        "Richtige Antwort 3": "Da wichtigste Aufteilungskriterium bei der Unterverteilung der Länderanteile ist die Volkszahl, bei den Ertragsanteilen der Gemeinden ist es der \"\"abgestufte Bevölkerungsschlüssel\"\".",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist der Abgestufte Bevölkerungsschlüssel? ",
-        "Richtige Antwort": "Eine Gewichtung der Einwohnerzahl durch Multiplikation mit einem Vervielfacher. Der Vervielfacher steigt mit der Einwohnerklasse, wodurch größere Gemeinden pro Kopf mehr erhalten als kleinere.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist das wichtigste Verteilungskriterium bei den Ertragsanteilen der Länder?",
-        "Richtige Antwort": "Die Volkszahl",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist das wichtigste Verteilungskriterium bei den Ertragsanteilen der Gemeinden?",
-        "Richtige Antwort": "Der abgestufte Bevölkerungsschlüssel",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was sind Transfers im Finanzausgleich?",
-        "Richtige Antwort": "Darunter versteht man im Wesentlichen Finanzströme zwischen den Gebietskörperschaften abseits der Verteilung der gemeinschaftlichen Bundesabgaben.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Zu diesen Transfers gehören wesentlich die Finanzzuweisungen und Zuschüsse. \\n Welche Transfers gibt es ...",
-        "Richtige Antwort": "Transfers des Bundes: Zuteilung von Finanzzuweisungen und Zuschüssen des Bundes auf Länder und Gemeinden.",
-        "Richtige Antwort 2": "Transfers Länder und Gemeinden: Umlagen von den Gemeinden an die Länder sowie Förderungen von den Ländern an die Gemeinden.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist diel Landesumlage und muss diese zwingend eingehoben werden?",
-        "Richtige Antwort": "Ein Beispiel für eine Transferleistung der Gemeinden an die Länder ist die sogenannte Landesumlage, welche fakultativ (d.h. die Länder können selbst entscheiden, ob sie eine derartige Umlage einheben) von den Ländern eingehoben werden kann.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist das Paktum zum Finanzausgleich?",
-        "Richtige Antwort": "Das Paktum enthält die wesentlichen Ergebnisse der Finanzausgleichsverhandlungen und bilden somit die Grundlage für das Finanzausgleichsgesetz.",
-        "Richtige Antwort 2": "Es soll den Bund vor Verfassungsklagen schützen und Länder und Gemeinden vor einseitigen Maßnahmen des Bundes. Paktum ist ein Gesamtkompromiss der Verhandlungen der FAG-Partner.",
-        "Richtige Antwort 3": "Kann theoretisch vom FAG auch ohne Verhandlungen beschlossen werden, dies kann jedoch vom VfGH bekämpft werden.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist die sogenannte Schutzklausel?",
-        "Richtige Antwort": "Die Schutzklausel soll finanzielle Ungleichheiten zwischen den Bundesländern ausgleichen und sicherstellen, dass keinn Land durch außergewöhnliche Belastungen benachteiligt wird. ",
-        "Richtige Antwort 2": "Grund: Das Abgabewesen ist vom Konsultationsmechanismus ausgenommen.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist der Konsultationsmechanismus?",
-        "Richtige Antwort": "Der Konsultationsmechanismus ist ein Verfahren, das zur besseren Koordination der Finanzausgleichspartner bei der Vorbereitung von Gesetzen und Verordnungen dient. Er soll sicherstellen, dass finanzielle Auswirkungen von Gesetzen und Verordnungen auf die verschiedenen Ebenen der Gebietskörperschaften berücksichtigt und Lastenverschiebungen vermieden werden.",
-        "Richtige Antwort 2": "Eine Art 15a B-VG Vereinbarung der Gebietskörperschaften.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Geltungsbereich des Konsultationsmechanismus?",
-        "Richtige Antwort": "Die Vereinbarung bertifft die Begutachtung von Gesetzes- und Verordnungsentwürfen des Bundes.",
-        "Richtige Antwort 2": "Die Vereinbarung betrifft die Begutachtung von Gesetzes- und Verordnungsentwürfen der Länder.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Wer sind die Vertragspartner des Konsultationsmechanismus?",
-        "Richtige Antwort": "Die Vertragspartner der Vereinbarung sind die Finanzausgleichspartner, also Bund, Länder und Gemeinden.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Welche Rechte und Pflichten ergeben sich für Bund und Länder aufgrund des Konsultationsmechanismus?",
-        "Richtige Antwort": "Es ergeben sich Informations-, Kostenberechnungs-, Verhandlungs- und Ausgabenersatzverpflichtung bei rechtssetzenden Maßnahmen, die finanzielle Auswirkungen auf andere Gebietskörperschaften haben.",
-        "Richtige Antwort 2": "Ersatzpflicht gegenüber einem Vertragspartner besteht nur dann, wenn bei Verletzung der Übermittlungs- und Verhandlungspflichten tatsächlich Kosten entstehen.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Welche Maßnahmen sind vom Konsultationsmechanismus ausgenommen?",
-        "Richtige Antwort": "Rechtssetzungsmaßnahmen, insoweit sie zwingende EU-Vorschriften umsetzen",
-        "Richtige Antwort 2": "Wenn Gebietskörperschaften als Träger von Privatrechten wie jeder andere Rechtsträger von einer Regelung betroffen sind.",
-        "Richtige Antwort 3": "Regelungen auf dem Gebiet des Abgabenrechts und des bundesgesetzlichen Finanzausgleichs sowie der daraus abgeleiteten landesgesetzlichen Regelungen.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Welche EU-Fiskalregeln gibt es unter Anderem?",
-        "Richtige Antwort": "EU-Fiskalregel hinsichtlich des zulässigen Defizits.",
-        "Richtige Antwort 2": "EU-Fiskalregel hinsichtlich des zulässigen Verschuldung.",
-        "Richtige Antwort 3": "EU-Fiskalregeln und Corona-Covid19.",
-        "Richtige Antwort 4": "Es gibt theoretisch Sanktionen bei Nichteinhalten.",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Wie hoch dürfen das jährliche Defizit und die Gesamtverschuldung nach EU-Fiskalregeln sein?",
-        "Richtige Antwort": "Das gesamtstaatliche Finanzierungsdefizit eines Mitgliedsstaates dafr 3% des BIP nicht überschreiten.",
-        "Richtige Antwort 2": "Der (Gesamt-) Schuldenstand eines Mitgliedsstaats darf 60% des BIO nicht überschreiten.",
-        "Richtige Antwort 3": "Im Maastrich-Verttrag wurden die Grenzwerte von 3% des BIP für das staatliche Haushaltsdefizit und 60% für den Schuldenstand festgelegt.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Gibt es Sanktionen für die Nichteinhaltung von EU-Fiskalregeln?",
-        "Richtige Antwort": "Theoretisch gibt es strikte Anpassungsvorschriften und am Ende drohen hohe Strafzahlungen bei Nichteinhaltung. Allerdings wurde bislang noch niemand sanktioniert.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist die sogenannte \"\"general escape clause\"\"?",
-        "Richtige Antwort": "Es ahndelt sich dabei um eine Ausweichklausel im Europäischen Stabilitäts- und Wachstumspackt, mit der die Regeln des EU-Stabilitätspats seit dem Jahr 2020 bis zum Jahr 2023 ausgesetz wurden.",
-        "Richtige Antwort 2": "Sie erlaubt bei einem \"\"schweren wirtschaftlichen Winbruch\"\" die Eu-Haushaltsaufsicht über einen Mitgliedsstaat auszusetzen.",
-        "Richtige Antwort 3": "Die EU-Mitgliedstaaten mussten somit die Schulden- und Defizitregeln offiziell für die Jahre 2020 bis 2023 nicht einhalten und konnten sich stärker verschulden um ihrer Wirtschaft unter die Arme zu greifen.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was wurde 2024 bei den EU-Fiskalregeln reformiert?",
-        "Richtige Antwort": "Die EU-Fiskalregekn geten seit 1.1.2024 wieder und wurden reformiert.",
-        "Richtige Antwort 2": "Die neuen Regeln des Stabilitäts- und Wachstumspaket (SWP) beinhalten weiterhinn die Obergrenzen für die Gesamtverschuldung (60% des BIP) sowie das jährliche Defizit (3% des BIP).",
-        "Richtige Antwort 3": "Darüber hinaus wurde ein Nettoausgabenpfadfestgelegt, strengere Anforderungen an Schuldenabbaupöäne für hoch verschuldete Länder eingeführt, eine stärkere Überwachung und Durchsetzung der Fiskalregeln eingeführt und Klimainvestitionen berücksichtigt.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Finanzrecht",
-        "Frage": "Was ist bzw. regelt der österreichische Stabilitätspakt?",
-        "Richtige Antwort": "Der Fiskalpakt verlangt von den EU-Mitgliedstaaten die Umsetzung der Fiskalregelnin nationales Recht, was in Österreich ninnerstaatlich im Österreichischen Stabilitätspakt (ÖStP) umgesetzt wurde.",
-        "Richtige Antwort 2": "Der ÖStP 2012 ist unbefristet in Form einer Art 15a B-VG Vereinbarung zwischen Bund, Ländern und Gemeinden eingeführt worden und bildet den aktuell geltenden Stabilitätspakt.",
-        "Richtige Antwort 3": "Aufgrund der Reform der EU-Fiskalreglen im Jahr 2024 ist auch eine Reformierung des ÖStP 2012 notwendig. Diese ist derzeit un Umsetzung. ",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Woran erkennt man eine Verfassung?",
-        "Richtige Antwort": "Verfassungsgesetze müssen vom Gesetzgeber ausdrücklich als solche bezeichnet werden",
-        "Richtige Antwort 2": "In Öserreich gibt es neben dem Bundes-Verfassungsgesetz (B-VG), das im Mittepunkt steht noch andere Verfassungsgesetze (z.B. Finanz-Verfassungsgesetz, Bundesverfassungsgesetz über die Neutralität, …)",
-        "Richtige Antwort 3": "Verfassungsgesetze sind viel schwerer zu ändern als einfache Gesetze.",
-        "Richtige Antwort 4": "Es gibt einzelne Verfassungsbestimmungen in einfachen Gesetzen (Verfassungsrang)",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wieviele Verfassungen gibt es in Österreich?",
-        "Richtige Antwort": "Auch die einzelnen Bundesländer in Österreich haben eine eigene Landes-Verfassung, die aber durch die Bundes-Verfassung teilweise vorgegeben wird und nicht gegen diese verstoßen darf.",
-        "Richtige Antwort 2": "Das Steirische Landes-Verfassungsgesetz wurde 2010 neu beschlossen und regelt etwa die Wahl, die Zusammensetzung des Landtags und der Landesregierung sowie die Entstehung der Landesgesetz.",
-        "Richtige Antwort 3": "Das L-VG 2010 wurde bereits mehrfach geändert (Abschaffung des Proporzes Verkleinerung des Landtags und der Landesregierung",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Funktionen hat der Staat?",
-        "Richtige Antwort": "Das B-VG unterscheidet grundsätzlich drei Staatsfunktionen: (1) die Gesetzgebung (Legislative), (2) die Gerichtsbarkeit (Judiative, Justiz), (3) die Verwaltung (Exekutive) ",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was versteht an unter Gesetzgebung?",
-        "Richtige Antwort": "Die Gesetzgebung ist jene Staatsfunktion, die von den Organen der gesetzgebenden Körperschaften (Nationalrat, Bundesrat, Landtage) ausgeübt wird.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was ist die Gerichtsbarkeit?",
-        "Richtige Antwort": "Unter Gerichtsbarkeit versteht man die Vollziehung des Gesetz durch Richterinnen und Richter (und deren Hilfsorgane), die mit Unabhängigkeit, Unabsetzbarkeit und Unverseztbarkeit ausgestattet sind.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was versteht man unter Verwaltung?",
-        "Richtige Antwort": "Verwaltung ist die Vollziehung der Gesetze durch weisungsgebundene Organe.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was versteht man unter Vollziehung?",
-        "Richtige Antwort": "Vollziehung = Gerichtsbarkeit + Verwaltung",
-        "Richtige Antwort 2": "Darunter versteht man jede Anwendung von Gesetzen durch Staatsorgane (z.B. Erlassen von Verordnungen und Bescheiden, Fällung von Uteilen und Erkänntnissen, Grundstückserwerb von Bund, Länder oder Gemeinden, Anschaffungen für den Bürobetrieb einer Behörde, Tätigkeit von Lehrer:innen)",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wodurch unterscheiden sich Gerichtsbarkeit und Verwaltung?",
-        "Richtige Antwort": "Die Gerichtsbarkeit ist von der Verwaltung getrennt, das bedeutet, dass eine Behrde nicht zugleich Gericht und Verwaltungsbehörde sein kann.",
-        "Richtige Antwort 2": "Organe der Gerichtsbarkeit sind bei ihrer Tätigkeit weisungsfrei, unabsetzbar und unversetzbar.",
-        "Richtige Antwort 3": "Organe der Verwaltung sind grundätzlich weisungsgebunden.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was besagt der Grundsatz der Gewaltentrennung und wo ist dieser verankert?",
-        "Richtige Antwort": "Der Grundsatz beruht auf dem Gedanken, dass die politische Macht geteilt sein soll, um Machtmissbrauch zu verhindern.",
-        "Richtige Antwort 2": "Der Grundsatz der Gewaltentrennung ist daher die Trennung der einzelnen Staatsfunktionen.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wer ist in Österreich für die Gesetzgebung zuständig?",
-        "Richtige Antwort": "Nationalrat gemeinsam mit dem Bundesrat frü Bundesgestze",
-        "Richtige Antwort 2": "Landtage in den Bundesländern für Landesgesetze.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wo ist die Gerichtsbarkeit angesiedelt?",
-        "Richtige Antwort": "Bei den ordentlichen Gerichten (Bezirks-, Landes-, Oberlandesgerichte, Oberster Gerichtshof)",
-        "Richtige Antwort 2": "Bei den Verwaltungsgreichten (Bundes- und Landesgericht, Verwaltungsgerichtshof) beim Verfassungsgerichtshof",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wo findet die Verwaltung statt?",
-        "Richtige Antwort": "Bei den Verwaltungsbehörden (BH, Lreg., LH, Bundesregierung, BM, Bürgermeister, Gemeinderat)",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Warum sind die Grundprinzipien der Bundesverfassung so gut geschützt? ",
-        "Richtige Antwort": "Die Grundprinzipien basieren auf gewissen grundsätzichen politischen Ideen, an die die staatliche Ordnung gebunden ist - diese sind uns als Gesellschaft wichtig.",
-        "Richtige Antwort 2": "Jede wesentliche Änderung oder Beseitigung eines Grundprinzips hat eine \"\"Gesamtänderung der Bundesverfassung\"\" zur Folge. Dies ist wiederum nur mit einer Volksabstimmung möglich.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Grundprinzipien enthält unsere Verfassung?",
-        "Richtige Antwort": "Das demokratische Grundprinzip",
-        "Richtige Antwort 2": "Das republikanische Grundprinzip",
-        "Richtige Antwort 3": "Das bundesstaatliche Grundprinzip",
-        "Richtige Antwort 4": "Das rechtsstaatliche Grundprinzip",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die österreichischen Verfassung sieht sowohl mittelbare als auch unmittelbare Element der Demokratie vor. Welches Grundprinzip wird angesprochen und wie sind die Elemente ausgestaltet?",
-        "Richtige Antwort": "Das demokratische Grundprinzip",
-        "Richtige Antwort 2": "Durch unmittelbare (direkte) Demokratie als Form demokratischer Rechtserzeugung durch Volksbegehren, Volksbefragung und Volksabstimmung",
-        "Richtige Antwort 3": "Durch mittelbare (indirekte) Demokratie, wo das Volk Vertreter:innen wählt, die das Recht erzeugen.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Woran erkennt man das Österreich eine Republik ist?",
-        "Richtige Antwort": "Der Bundespräsident ist das vom Volk gewählte Staatsoberhaupt - republikanisches Grundprinzip",
-        "Richtige Antwort 2": "Der Bundespräsident ist (.) vom Volk gewählt, (.) zeitlich begrenzt (2x6Jahre), (.)übernimmt politische und rechtliche Verantwortung",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was sagt das bundesstaatlihce Grundprinzip, und warum ist dieses in Österreich nicht voll ausgeprägt?",
-        "Richtige Antwort": "Es besagt, dass die Staatsaufgaben auf den Bund und seine Bundesländer aufgeteilt werden (Kompetenzverteilung).",
-        "Richtige Antwort 2": "In Österreich wird die ordentliche Gerichtsbarkeit nur vom Bund alleine ausgeübt.",
-        "Richtige Antwort 3": "Das Bundesgebiet ist in Gesamtstaat (bund) und seine Teilstaaten (Bundesländer) mit Teilrechtsordnung gegliedert.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was sind die wesentlichen Elemente der Bundesstaatlichkeit in Österrech?",
-        "Richtige Antwort": "Die Gesetzgebungs- und Verwaltungskompetenzen des Bundes und der Länder.",
-        "Richtige Antwort 2": "Die Verwaltungsgerichtsbarkeit des Undes und der Länder.",
-        "Richtige Antwort 3": "Das Recht der Länder, untereinander und mit dem Bund staatliche Vereinbarungen abzuschließen.",
-        "Richtige Antwort 4": "die Mitwirkung der Länder and der Bundesgesetzgebung duch den Bundesrat.",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Bundesverfassung unterscheidet die drei Staatsfunktionen Gesetzgebung, Gerichtsbarkeit und Verwaltung.",
-        "Richtige Antwort": "JA",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "NEIN",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Aussagen zur Demokratie sind richtig?",
-        "Richtige Antwort": "Wahlen sind ein Instrument der mittelbaren Demokratie.",
-        "Richtige Antwort 2": "Volksabstimmungen sind ein Instrument der unmittelbaren Demokratie",
-        "Richtige Antwort 3": "Unsere Bundesverfassung sieht sowohl Instrumente der mittelbaren als auch der unmittelbaren Demokratie vor.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "Ausdruck der unmittelbaren Demokratie ist es, dass der Nationalrat und die Landtage Gesetze beschließen.",
-        "Falsche Antwort 2": "Wenn das Volk nicht selbst über jedes Gesetz abstimmt, sondern nur die Abgeordneten, kann man nicht von Demokratie („Volksherrschaft“) sprechen.",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was ist die Generalkklausel?",
-        "Richtige Antwort": "Alle in der Bundesverfassung nicht ausdrücklich aufgezählten Kompetenzen kommen automatisch den Ländern zu.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was ist die Kompetenzverteilung? ",
-        "Richtige Antwort": "In der Bundesverfassung werden alle Kompetenzen un Gesetzgebung und Vollziehung entweder dem Bund oder den Ländern zugewiesen",
-        "Richtige Antwort 2": "Für jede Materie ist daher immer nur einer von beiden zuständig",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was sind die Merkmale eines Rechtsstaates?",
-        "Richtige Antwort": "Die Rechte und Pflichen jedes einzelnen sind in Gesetzen genau festgelegt.",
-        "Richtige Antwort 2": "Jede Person hat die Möglichkeit, sich über den Inhalt ihrer Rechte und Pflichten aus allgemein zugänglichen Quellen (Gesetzblättern) zu informieren.",
-        "Richtige Antwort 3": "Die Einhaltung der Rechtsvorschriften wird gewährleistet weil entsprechende Institutionen (Behörden, Gerichte) zur Überprüfung aller Rechtsakte vorgesehen sind. ",
-        "Richtige Antwort 4": "Grundsatz der \"\"Gesetzmäßigen Verwaltung\"\" (Legalitätsprinzip)",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Aussagen zum Wahlrecht sind richtig?",
-        "Richtige Antwort": "Alle Staatsbürger:innen die das Wahlalter erreicht haben sind wahlberechtigt (allgemeines Wahlrecht)",
-        "Richtige Antwort 2": "Es herrscht Entscheidungsfreiheit ohne Zwang und Druck (freies Wahlrecht)",
-        "Richtige Antwort 3": "Eine Stimmabgabe durch Stellvertreter:in ist unzulässig. Bei Ortsabwesenheit besteht die Möglichkeit zur Briefwahl. (persöniches Wahlrecht)",
-        "Richtige Antwort 4": "Die Entscheidung ist für Dritte nicht einsehbar (geheimes Wahlrecht)",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Aussagen zum Wahlrecht sind richtig?",
-        "Richtige Antwort": "Jede Stimme ist gleichviel wert (gleiches Wahlrecht)",
-        "Richtige Antwort 2": "Die Abgeordneten werden vom Volk direkt gewählt (unmittelbares Wahlrecht)",
-        "Richtige Antwort 3": "Möglichst allen an der Wahl teilnehmenden Parteien ist eine verhältnismäßige Verträtung zu gewähren (Vwerhältniswahlrecht). Kleinstparteien unterhalb einer Mindeststimmzahl für ein Mandat können ausgeschlossen werden.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Aussage zum Nationalrat ist richtig?",
-        "Richtige Antwort": "Der Nationalrat hat 183 Mitglieder.",
-        "Richtige Antwort 2": "Der Nationalrat wird für 5 Jahre gewählt.",
-        "Richtige Antwort 3": "Es werden politische Parteine gewählt, die je nach Wahlausgang und unter Berücksichtigung der Vorzugsstimmen eine bestimmte Anzahl von Abgeordneten entsendet.",
-        "Richtige Antwort 4": "Wahlberechtigt sind alle österreichischen Staatsbürger:innen mit Vollendung des 16. Lebensjahres bzw. wählbar mit Vollendung des 18. Lebensjahres.  ",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Aussagen zur Arbeit des Nationalrat sind zutreffend?",
-        "Richtige Antwort": "Die Arbeit das NR findet in sogenannten \"\"ordentlichen Tagungen\"\" im Zeitraum von 15. Septeber bis 15. Juni statt",
-        "Richtige Antwort 2": "Die Einberufung zu den Tagungen erfolgt durch den Bundespräsidenten, bobei innerhalb der Tagung der NR Präsident/die Präsidentin zu den Sitzungen beruft.",
-        "Richtige Antwort 3": "Die Sitzungen des Plenums (183 Nr-Mitglieder) sind idR öffentlich",
-        "Richtige Antwort 4": "Die Sitzungen der Ausschüsse sind idR nicht öffentlich.",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wer leitet die Geschäfte des Nationalrates und vertritt diesen nach außen?",
-        "Richtige Antwort": "Die Präsidentin/ Der Präsident des Nationalrates.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wie wird der Nationalrat aufgelöst?",
-        "Richtige Antwort": "Durch Ablauf der Gesetzgebungsperiode (Legislaturperiode)",
-        "Richtige Antwort 2": "Durch Auflösung durch die Bundespräsidentin/den Bundespräsidenten auf Vorschlag der Bundesregierung.",
-        "Richtige Antwort 3": "Durch Beschluss des Nationalrates (Selbstauflösung) durch ein einfaches Gesetz, auch während der laufenden Legislaturperiode",
-        "Richtige Antwort 4": "Durch Ablehnung der Absetzung des Bundespräsidentin/des Bundespräsidenten",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Aufgaben hat der Nationalrat außer der Gesetzgebung?",
-        "Richtige Antwort": "Mitwirkung an bestimmten Angelegenheiten der Bundesvollziehung.",
-        "Richtige Antwort 2": "Ausübung der politischen Kontrolle. ",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Der Bundesrat vertritt die Interssen der Länder im Gesetzgebungsverfahren des Bundes. Erist die zweite Kammer des Parlaments, wobei seine Stellung erheblich schwächer ist als jene des NR. - Richti oder Falsch",
-        "Richtige Antwort": "RICHTIG",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "FALSE",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was trifft in Bezug auf den Bundesrat (BR) zu?",
-        "Richtige Antwort": "Die Mitglieder des BR werden von den Landtagen nach dem Grundsatz der Verhältniswahl gewählt.",
-        "Richtige Antwort 2": "Den Landesparteien fallen demnach je nach Stärke im Landtag (Anzahl Mandate/Sitze) mehr oder weniger Sitze im Bundesrat zu.",
-        "Richtige Antwort 3": "Die Zahl der Mitglieder ist nicht fix (dzt. 60), sondern ist an die Volkszählung (alle 10 Jahre) gebunden.",
-        "Richtige Antwort 4": "Die Steiermark hat derzeit 9 Mitglieder im Bundesrat.",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Partialerneuerung bedeutet …",
-        "Richtige Antwort": "Die Mitglieder des Bundesrates werden regelmäßig ausgetauscht, da die Landtagswahlen zu unterschiedlichen Zeitpunkten stattfinden.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was trifft in Bezug auf den Bundesrat (BR) zu?",
-        "Richtige Antwort": "Der Vorsitz wechselt zwischen den einzelnen Bundesländern halbjährlich in aphabetischer Reihenfolge.",
-        "Richtige Antwort 2": "Der Bundesrst wird von seinem Vorsitz (Präsidentin/Präsident)an den Sitz der BR in Wien einberufen.",
-        "Richtige Antwort 3": "Die Sitzungen des BR sind grundsätzich öffentlich. Ausschüsse des BR sind wiederum grundsätzich nicht öffentlich.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Aufgaben des Bundesrat sind: ",
-        "Richtige Antwort": "Einsprüche gegen Gesetzesbeschüsse des NR zu erhebn",
-        "Richtige Antwort 2": "Verfassungsänderungen, durch die Länder-Kompetenzen eingeschränkt oder abgeschafft werden sollen, bedürfen ausdrücklich der Zustimmung des BT (Ausnahme)",
-        "Richtige Antwort 3": "Der BR kann Gesetzesänderungsanträge an den NR stellen. ",
-        "Richtige Antwort 4": "Der BR gat gewisse Rechte an der Mitwirkung der Bundesvollziehung.",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was ist die Bundesversammlung?",
-        "Richtige Antwort": "Die Mitglieder des NR und des BR zusammen bilden die Bundesversammlung.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Bundesversammlung kann den Bundespräsidenten Angeloben, über die Anordnung der Durchführung einer Volksabstimmung dessen Absetzung veranlassen, die Zustimmung zu seiner behördlichen Verfolgung geben, beim VfGH eine Anklage gegen ihn wegen Verletzung der Bundesverfassung erheben, was zu seinem Amtsverlust führen kann. Die Beschlussfassung über eine Kriegserklährung ist ebenfalls der Bundesversammlung vorbehalten. Richtig oder Falsch?",
-        "Richtige Antwort": "RICHTIG",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "FALSE",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Jedes Gesetz beginnt mit einem Antrag, der schon den Gesetzesentwurf enthlaten muss.",
-        "Richtige Antwort": "RICHTIG - ausgenommen das Volksbegehren",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "FALSE",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wie gelangen Anträge auf Erlassung von Gesetzen in den Nationalrat?",
-        "Richtige Antwort": "Mittels Initiativantrag, Ausschussantrag oder Regierungsvorlage (Vorlage der Bundesregierung).",
-        "Richtige Antwort 2": "Über Volksbegehren, mittels Antrasg des Bundesrates oder eines Drittels der Mitgliederdes Bundesrates.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Ein Initiativantrag braucht mindestens … Abgeordnete?",
-        "Richtige Antwort": "5",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "2",
-        "Falsche Antwort 2": "alle",
-        "Falsche Antwort 3": "8"
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Rolle spielen Ausschüsse bei der Gesetzgebungsarbeit?",
-        "Richtige Antwort": "Die Ausschüsse beraten über alle Gesetzesentwürfe und legen sie dem Plenum mit einem Bericht vor (Abschlussbericht).",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wird der Gesetzesentwurd in der Plenardebatte des NR angenommen, liegt ein \"\"Gesetzesbeschluss des NR\"\" vor. Richtig oder Falsch",
-        "Richtige Antwort": "RICHTIG",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "FALSE",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Bundesgesetze unterscheidet man?",
-        "Richtige Antwort": "Sogenannte \"\"einfache Gesetze\"\"",
-        "Richtige Antwort 2": "Verfassungsgesetze",
-        "Richtige Antwort 3": "Verfassungsgesetze und einzelnen Verfassungsbestimmungen in einfachen Gesetzen sind ausdrücklic als solche bezeichnet werden.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Folgende Beschlusserfordernisse müssen für Bundesgesetze mindestens erfüllt sein, wobei unbedingte (einfache) Mehrheit mehr als die Hälfte bedeutet: ",
-        "Richtige Antwort": "Für einfache Bundesgesetze: 1/3 der Abgeordneten anwesend, für den Beschluss unbdingte Mehrheit der abgegebenen Stimmen",
-        "Richtige Antwort 2": "Für Bundesverfassung bzw. Verfassungsbestimmung: die Hälfte der Abgeordneten anwesend, eine 2/3 Mehrheit des abgegebenen Stimmen für einen Beschluss",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Der Bundesrat hat 8 Wochen Zeit, einen begründeten Einspruch auf Gesetzesbeschlüsse des Nationalrates zu erheben. Richtig oder Falsch?",
-        "Richtige Antwort": "RICHTIG",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "FALSE",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was ist die Konsequenz eines Einspruchs des BR gegen einen Gesetzesentwurf des NR?",
-        "Richtige Antwort": "Dieser kann vorläufig nicht kundgemacht werden. Der NR muss über die Vorlage erneut beschließen.",
-        "Richtige Antwort 2": "Wird ein \"\"Beharrungsbeschluss\"\" gefasst, kann das Gesetz trotz Einspruch kundgemacht und beschlossen werden.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Ist das Ergebnis eine Volksabstimmung bindend?",
-        "Richtige Antwort": "JA",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "NEIN",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wie hoch ist die erforderliche Anzahl an Wahlberechtigten für ein Volksbegehren?",
-        "Richtige Antwort": "Damit ein Volksbegehren im Nationalrat berücksichtigt wird, braucht es 100.000 zum Nationalrat Wahlberechtigte, oder je ein Sechstel der Wahlberechtigten dreier Länder.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was ist ein Volksbegehren?",
-        "Richtige Antwort": "Ein Instrument der direkten Demokratie.",
-        "Richtige Antwort 2": "Damit wird die Erlassung eines Bundesgesetzes mit einem bestimmten Inhalt oder die Aufhebung einens Bundesgesetzes verlangt.",
-        "Richtige Antwort 3": "Der Nationalrat ist nur verpflichtet das Volksbegehren zu behandeln.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Gegenstand einer Volksbefragung sind …",
-        "Richtige Antwort": "… Vollzugsangelegenheiten von grundsätzlicher Bedeutung.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "… Gesetze.",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wer beschließt die Durchführung einer Volksbefragung?",
-        "Richtige Antwort": "der Nationalrat.",
-        "Richtige Antwort 2": "Die Bundesregierung. ",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "der Bundespräsident.",
-        "Falsche Antwort 2": "der Bundesrat.",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Ist das Ergebnis einer Volksbefragung rechtlich bindend? ",
-        "Richtige Antwort": "Nein, es wird sich jedoch werde Nationalrat noch Bundesregierung darüber hinwegsetzen können.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "JA",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Landesgesetze werden von den einzelnen Landtagen beschlossen? Richtig oder falsch?",
-        "Richtige Antwort": "RICHTIG",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "FALSE",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Grundsätzen gelten für die Landtagswahlen?",
-        "Richtige Antwort": "Es gelten dieselben Grundsätze wie bei den Nationalratswahlen.",
-        "Richtige Antwort 2": "Allbemeines, freies, gleiches, unmittelbares, geheimes, persönliches Verhältniswahlrecht.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wieviele Mitglieder hat der Steiermärkische Landtag? ",
-        "Richtige Antwort": "48",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "60",
-        "Falsche Antwort 2": "183",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Legislaturperiode der Landtage beträgt 5 Jahre. Die Landtage können wich aber vorzeitig auflösen. Wie?",
-        "Richtige Antwort": "Selbst",
-        "Richtige Antwort 2": "Auf antrag der Bundesregierung mit Zustimmung des Bundesrates.",
-        "Richtige Antwort 3": "Von der Bundespräsidentin/ dem Bundespräsidenten",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was sind die wesentlichen Aufgaben des Landtags?",
-        "Richtige Antwort": "Die Landesgesetzgebung und die Beschlussfassung über das Landesbudget.",
-        "Richtige Antwort 2": "Die Wahl der Mitglieder des Landesregierung und der steirischen Mitglieder des Bundesrates sowie die Wahl des Leiters/der Leiterin  des Landesrechnungshof.",
-        "Richtige Antwort 3": "Die Kontrolle der Vollziehung (d.h. der Landesregierung)",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wie werden Anträge auf Erlassung eines Landesgesetzes eingebracht?",
-        "Richtige Antwort": "Als Initioativantrag von Abgeordneten (mindestens 2)",
-        "Richtige Antwort 2": "Als Antrag von Ausschüssen sowie aus Regierungsvorlage (meistens)",
-        "Richtige Antwort 3": "durch ein Volksbegehren unterstützt durch mindestens 17.000 zum Landtag Wahlberechtigten.",
-        "Richtige Antwort 4": "Auf Gemeindeinitiative von mindestens 50 Gemeinden.",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Folgende Beschlusserfordernisse müssen Landesgesetze mindestens erfüllt sein, wobei unbedingte (einfache) Mehrheit mehr als die Hälfte bedeutet: ",
-        "Richtige Antwort": "Für einfache Landesgesetze: die Hälfte der Abgeordneten anwesend, für den Beschluss unbdingte Mehrheit der abgegebenen Stimmen",
-        "Richtige Antwort 2": "Für Landesgverfassungsgesetze bzw. Verfassungsbestimmung: die Hälfte der Abgeordneten anwesend, eine 2/3 Mehrheit des abgegebenen Stimmen für einen Beschluss",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Kann die Bundesregierung gegen ein Landesgesetz Einspruch erheben?",
-        "Richtige Antwort": "Ja, wenn ein Landesgesetz Abgabenangelegenheiten regelt.",
-        "Richtige Antwort 2": "Sie hat 8 Wochen Zeit einen Einspruch zu erheben.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "NEIN",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Kann der Landtag eine Volksabstimmung über einen Gesetzesbeschluss beschließen?",
-        "Richtige Antwort": "JA",
-        "Richtige Antwort 2": "Eine Volksabstimmung ist auch durchzuführen, wenn dies von 50.000 zum Landtag Wahlberechtigten oder von 50 Gemeinden binnen 6 Wochen, nachdem der Landtag den Gesetzesbeschluss gefasst hat verlangt wird.",
-        "Richtige Antwort 3": "Eine Volksabstimmung über Gesetzesbeschlüsse, die EU-Richtlinien umsetzen ist nicht möglich.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "NEIN",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was passiert, wenn der Beschluss eines Landesgesetzes bei einer Volksabstimmung abgelehnt wird?",
-        "Richtige Antwort": "Das Ergebnis ist bindend, das Gesetz kann nicht in Kraft treten.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "Das Gesetz kann in Kraft treten.",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wer beurkundet verfassungsmäßig zustandegekommene Landesgesetze?",
-        "Richtige Antwort": "Die Landeshauptfrau/ der Landeshauptmann beurkunden das Gesetz",
-        "Richtige Antwort 2": "Die Beurkundung ist von einem Mitglied der Landesregierung gegenzuzeichnen.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wer beurkundet verfassungsmäßig zustandegekommene Bundesgesetze?",
-        "Richtige Antwort": "Die Bundespräsidentin/ der Budespräsident beurkundet das Gesetz",
-        "Richtige Antwort 2": "Die Beurkundung ist von der Bundeskanzlerin/ dem Bundeskanzler gegenzuzeichnen.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was sind die wesentliche Merkmale der Verwaltung?",
-        "Richtige Antwort": "Die Weisungsgebundenheit.",
-        "Richtige Antwort 2": "Hierarchische Gliederung mit Weisungsrecht der Übergeordneten Organe (z.B. Oberbehörde).",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Aufgaben der Verwaltung sind:",
-        "Richtige Antwort": "Sämtliche Vollzugsaufgaben außerhalb der Gerichtsbarkeit.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Aussagen zur Weisung treffen zu:",
-        "Richtige Antwort": "Die Weisung ist ein Auftrag eines Übergeordneten Organs.",
-        "Richtige Antwort 2": "Das Organ das die Weisung ausspricht, muss zuständig sein und die Angelegenheit muss im Zuständigkeitsbereich des Angewiesenen liegen.",
-        "Richtige Antwort 3": "Das Nichtbefolgen der Weisung hat disziplinarrechtliche Konsequenzen. ",
-        "Richtige Antwort 4": "Grundsätzlich müssen auch rechtswiedrige Weiungen befolgt werden. Bedenken müssen kundgetan werden. Die Weisung muss schriftlich erneuert werden, sonst gilt sie als zurückgezogen (Remonstrationsrecht).",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wann muss eine Weisung abgeleht werden?",
-        "Richtige Antwort": "Wenn sie von einem unzuständigen Organ kommt.",
-        "Richtige Antwort 2": "Wenn sie gegen Strafrecht verstößt.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was sind Merkmale der Hoheitsverwaltung?",
-        "Richtige Antwort": "Behörde setzt einseitig verbindliche Rechtsakte, ohne Zustimmung der Betrffnen. Diese sind verbindlich.",
-        "Richtige Antwort 2": "Das Gesetz kennt unterschiedliche Rechtsformen: Verordnung, Bescheid, faktische Amtshandlung.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Aussagen treffen zu?",
-        "Richtige Antwort": "Verordnungen führen Gesetze für die Allgemeinheit (genereller Adressatenkreis) näher aus.",
-        "Richtige Antwort 2": "Bescheide sind an einen individuellen Adressatenkreis gerichtet. Ihnen geht grundsätzlich ein Verfahren voraus. GegenBescheide können Rechtsmittel eingesetzt werden.",
-        "Richtige Antwort 3": "\"\"Faktische Amtshandlungen\"\" sind verfahrensfreie Amtshandlungen (z.B. Festnahmen, Entzug des Führerscheind, …)",
-        "Richtige Antwort 4": "Bei der Privatwirtschaftsverwaltung wird die öffentliche Hand als Vertragspartner tätig.",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Aussagen in Bezug auf das Legalitätsprinzip treffen zu?",
-        "Richtige Antwort": "Der Grundsatz der Gesetzmäßigkeit in der Verwaltung meint, dass die gesamte staatliche Verwaltung nur auf Grundlage von Gesetzen ausgeübt werden darf.",
-        "Richtige Antwort 2": "Damit wird willkührliches Handeln der Behörden verhindert.",
-        "Richtige Antwort 3": "Im Rahmen der Priwatwirtschaftsverwaltung ist eine gesetzliche Ermächtigung nicht vorgesehen, die Verwaltung darf aber dennoch nicht gegen Gesetze verstoßen.",
-        "Richtige Antwort 4": "Der Gesetzgeber muss das hoheitliche Handeln der Verwaltungsorgane genau vorherbestimmen, spich Inhalte und Zuständigkeiten und das Verfahren regeln.",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Aussagen in Bezug auf die Amtshaftung treffen zu?",
-        "Richtige Antwort": "Für den Bereich der Hoheitsverwaltung haftet der Rechtsträger für den Schaden, der bei Vollziehung der Gesetze durch rechtswiedriges Verhalten entsteht.",
-        "Richtige Antwort 2": "Der zum Schadenersetz verpflichtete Rechtsträger kann vonn der Personen, die als seine Organe gehandelt haben, bei grober Fahrlässigkeit, Schadenersatz verlangen (Rückersatz).",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Aussagen in Bezug auf die Organhaftung treffen zu?",
-        "Richtige Antwort": "Rechtsträger haben Schadenersatzanspruch gegen Organwalter:innen, die durch Handlungen in Ausübung ihrer Organfunktion den jeweiligen Rechtsträger unmittelbar gechädigt haben.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Aussagen in Bezug auf die Diensnehmerhaftung treffen zu?",
-        "Richtige Antwort": "Der Dienstgeber muss gegenüber Dritten den Schaden ersetzen, den seine Organe in Ausübung der Privatwirtschaftsverwaltung zugefügt haben.",
-        "Richtige Antwort 2": "Unter bestimmten Voraussetzungen kann sich der Dienstgeber das Geld vom Dienstnehmer zurückholen.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was besagt das Steirische Auskunftspflichtgesetz?",
-        "Richtige Antwort": "Soweit keine Verschwiegenheit vorliegt, muss die Auskunft erteilt werden.",
-        "Richtige Antwort 2": "Bearbeitungszeit: 8 Wochenfrist",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Grundlagen zum Datenschutz bilden auf europäischer Ebene Artikel 7 und 8 der Grundrechtecharte (GRC) sowie die Datenschutzgrundverordnung sowie national (Ö) der Artikel 8 EMRK (als Verfassungsbestimmung), das Grundrecht auf Datenschutz und das Datenschutzgesetz ",
-        "Richtige Antwort": "JA",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "NEIN",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "§1 DSG Grundrecht auf Datenschutz: schützt insbesondere alle personenbezogenen Daten sowie besonders schutzwürdige Daten.",
-        "Richtige Antwort": "JA",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "NEIN",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was sind oberste Verwaltungsorgane des Bundes?",
-        "Richtige Antwort": "Bundespräsidentin/Bundespräsident",
-        "Richtige Antwort 2": "Bundesregierung und Bundesministerinnen/ Bundesminister",
-        "Richtige Antwort 3": "Bundesministerien",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wie wird die Bundespräsidentin/der Bundespräsident gewählt? ",
-        "Richtige Antwort": "Nach den gleichen Grundsätzen des Wahlrechtsw wie Nationalrat und Landtag - in gleicher, unmittelbarer, persönlicher, ffreier und geheimer Wahl für eine Amtsdauer von 6 Jahren (2x hintereinander mgl.).",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wer ist wahlberechtigt bzw. wählbar?",
-        "Richtige Antwort": "Wahlberechtigt sind alle österreichischen Staatsbürger, die zum Nationalrat wahlberechtigt sind.",
-        "Richtige Antwort 2": "Jeder österreichische Staatsbürger mit Wahlrecht zum Nationalrat der das 35. Lebensjahr überschritten hat ist wählbar.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wie endet das Amt der Bundespräsidenten/der Bundespräsidentin?",
-        "Richtige Antwort": "durch Zeitablauf/ Tod",
-        "Richtige Antwort 2": "Durch Erkenntnis des VfGH aufgrund einer durch Beschluss des Bundesversammlung erhobeen Anklage",
-        "Richtige Antwort 3": "Durch Absetzung durch Volksabstimmung, die von der Bundesversmmlung beschlossen wurde.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Der Bundespräsident darf ohne Vorschlag…",
-        "Richtige Antwort": "den Bundeskanzler ernennen/entlassen",
-        "Richtige Antwort 2": "die gesamte Bundesregierung entlassen",
-        "Richtige Antwort 3": "Bundesgesetze beurkunden",
-        "Richtige Antwort 4": "hat den Oberbefehl über das Bundesheer",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Der Bundespräsident darf auf Vorschlag…",
-        "Richtige Antwort": "die übrigen Mittglieder der Breg sowie Staatssekretäre bestellen oder entlassen",
-        "Richtige Antwort 2": "Staatsverträge abschließen",
-        "Richtige Antwort 3": "Nationalrat und Landtage auflösen",
-        "Richtige Antwort 4": "Höchstrichter ernennen ",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Bundesregierung ist ein Kollegialorgan. Was ist damit gemeint?",
-        "Richtige Antwort": "Die Bundesregierung ist die Gesamtheit aller Bundesminister:innen, dem Bundeskanzler und der Vizekanzler:in",
-        "Richtige Antwort 2": "Im Gegensatz dazu ist eine Bundesministerin/ ein Bundesminister ein monokratisches Organ.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wo wird die Zahl der Bundesminister:innen festgelegt?",
-        "Richtige Antwort": "Im Bundesministergesetz, welches vom Nationalrat gemeinsam mit dem Bundesrat beschlossen wird.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Staatssekretär:innen sind keine Mitglieder der Bundesregierung, was ist ihre Aufgabe?",
-        "Richtige Antwort": " die \"\"Unterstützung der Geschäftsführung\"\"",
-        "Richtige Antwort 2": "die \"\"parlamentarische Vertretung\"\" der Bundesminister:innen",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Rechtsakte in der Bundesverwaltung werden immer \"\"namensder jeweiligen Bundesminister:in\"\" gesetzt. Warum ist das so?",
-        "Richtige Antwort": "Die jeweilige Behörde ist immer der Bundesminister oder die Bundesministerein.",
-        "Richtige Antwort 2": "Das Bundesministerien sind der dazugehörige Geschäftsapparat.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wie wird die Bundesverwaltung auf mittlerer und unterster Ebene besorgt?",
-        "Richtige Antwort": "durch die Behörden des Bundes (unmittelbare Bundesverwaltung) - Bundesbehörde im organisatorisch und funktionellem Sinn mit speziellen Aufgaben",
-        "Richtige Antwort 2": "Durch die Landeshauptfrauen/Landeshauptmänner (mittelbare Bundesverwaltung) - funktionell Bundesbehörde und organisatorisch Landesbehörde",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Der Rechtszug…",
-        "Richtige Antwort": "… in der unmittelbaren Bundesverwaltung geht über ein Bundesverwaltungsgericht.",
-        "Richtige Antwort 2": "… in der mittelbaren Bundesverwaltung über ein Landesverwaltungsgericht.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wer besorgt die Landesverwaltung?",
-        "Richtige Antwort": "Die Landesregierung als Kollegialorgan (oberstes Organ der Landesvollziehung) bzw. einzelne Regierungsmitglieder als monokratische Organe",
-        "Richtige Antwort 2": "Das Amt der Landesregierung",
-        "Richtige Antwort 3": "Die Bezirkshauptmannschaften",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Landesregierung fasst ihre Beschlüsse",
-        "Richtige Antwort": "einstimmig",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "mehrstimmig",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Landesregierung besteht aus 6 bis 8 Mitgliedern, die …",
-        "Richtige Antwort": "… vom Landtag gewählt werden.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "… Vom Nationalrat gewählt werden.",
-        "Falsche Antwort 2": "… vom Bundespräsidenten ernannt werden.",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Das Amt der Landesregierung ist, …",
-        "Richtige Antwort": "… der Geschäftsapparat der Landesregierung in Angelegenheiten der Landesverwaltung.",
-        "Richtige Antwort 2": "… der Geschäftsapparat der Landeshauptfrau/der Landeshauptmannes und der einzelnen Mitglieder der LReg. in Angelegenheiten  der mittelbaren Bundesverwaltung.",
-        "Richtige Antwort 3": "in Abteilungen gegliedert.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Leitung des innern Dienstes liegt bei…",
-        "Richtige Antwort": "… der Landesamtsdirektion, die wiedrum unter der Aufsicht des Landeshauptmanns/ der Landeshauptfrau steht.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wer ist für die Besorgung aller Angelegenheiten der Bundes- und Landesverwaltung mit Ausnahme von Graz (Stadt mit eigenem Statut) zuständig?",
-        "Richtige Antwort": "Die Bezirkshauptmannschaft. Ihr Leiter ist die Bezirkshauptfrau oder der Bezirkshauptmann. Diese werden von der Landesregierung bestellt.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Bezirkshauptmannschaften sind in Sachen des inneren Dienses dem LH unterstellt. Richtig oder Falsch?",
-        "Richtige Antwort": "RICHTIG",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "FALSE",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Bezirkshauptmannschaften sind in Sachen der Landesverwaltung unterstellt. Richtig oder Falsch?",
-        "Richtige Antwort": "RICHTIG",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "FALSE",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Bezirkshauptmannschaften sind in Sachen der mittelbaren Bundesverwaltung dem LH bzw. eingelnen Mitgliedern der Lreg. unterstellt. Richtig oder Falsch?",
-        "Richtige Antwort": "RICHTIG",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "FALSE",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die Bezirkshauptmannschaften sind in Sachen der Sicherheitsverwaltung der Landespolizeidirektion unterstellt. Richtig oder Falsch?",
-        "Richtige Antwort": "RICHTIG",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "FALSE",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was ist die Besonderheit von Städten mit eigenem Statut?",
-        "Richtige Antwort": "In gewisser Weise sind sie rechtlich hervorgehoben, da sie die Agenden der Bezirksverwaltung durch Gemeindeorgane besorgen.",
-        "Richtige Antwort 2": "Ab einer Einwohnerzahl von 20.000 Einwohnern kann eine Gemeinde erhoben werden. In der Stmk nur Graz.",
-        "Richtige Antwort 3": "Geschäftsapparat heißt Magistrat.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welche Organe hat die Gemeinde?",
-        "Richtige Antwort": "Bürgermeister - monokratisches Gemeindeorgan, das nicht Mitglied im Gemeinderat sein muss.",
-        "Richtige Antwort 2": "Gemeinderat, als oberstes Organ der Gemeinde mit 9 bis 3 Mitgliedern. Die Wahl erfolgt nach den gleichen Grundsätzen der NR- bzw. Ldtg-Wahl",
-        "Richtige Antwort 3": "Gemeindevorstand",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was ist mit Einheitsgemeinde gemeint? ",
-        "Richtige Antwort": "Alle Gemeinden sind rechtlich gleichgestellt.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Selbstverwaltung der Gemeinden bedeutet: ",
-        "Richtige Antwort": "In bestimmten Angelegenheiten (eigener Wirkungsbereich) sind die Gemeinden frei von Weisungen.",
-        "Richtige Antwort 2": "Die LReg. und der LH sind nur Aufsichtsbehörde, haben aber kein Weisungsrecht.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Der eigene Wirkungsbereich der Gemeinden umfasst:",
-        "Richtige Antwort": "die Verwaltung des Gemeindevermögens, der Gemeindeunternehmen und Gemeindebetriebe",
-        "Richtige Antwort 2": "das Recht, gewisse Abgaben Auszuschreiben und den Haushalt selbst zu führen",
-        "Richtige Antwort 3": "Angelegenheiten der Hoheitsverwaltung, die durch Gesetze als solche des eigenen Wirkungsbereichs bezeichnet sind.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Im Instanzenzug gibt es in den Gemeinden eine Besonderheit. Welche?",
-        "Richtige Antwort": "Einen zweigliedrigen Instanzenzug im eigenen Wirkungsbereich: Berufung gegen Bescheid des Bürgermeisters (1. Instanz) an Gemeinderat (2. Instanz). Erst dann Beschwerde an LVwG",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Die wichtigsten Aufgaben des Gemeinderates im eigenen Wirkungsbereich sind…",
-        "Richtige Antwort": "… die Wahl des Bürgermeisters und des Gemeindevorstands",
-        "Richtige Antwort 2": "… der Beschluss des Gemeindebudgets",
-        "Richtige Antwort 3": "… die Erlasssung von Verordnungen.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wer ist die Behörde in Angelegenheiten des übertragenen Wirkungsbereich der Gemeinden?",
-        "Richtige Antwort": "Ausschließlich der Bürgermeister/ die Bürgermeisterin",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was sind Gemeindeverbände?",
-        "Richtige Antwort": "In Gemeindeverbänden arbeiten mehrere Gemeinden in einer Sache zusammen. Sie haben eigene Organe und haben selbst Rechtspersönlichkeit.",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was sind Verwaltungsgemeinschaften?",
-        "Richtige Antwort": "Mehrere Gemeinden arbeiten in einem losen Zusammenschluss in einer Sache zusammen (z.B. Müllabfuhr). Die Verwaltungsgemeinschaft ist selbst nicht rechtskräftig und hat selbst keine Organe. ",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Welchen rechtlichen Verantwortlichkeiten unterliegen Organe der Vollziehung?",
-        "Richtige Antwort": "Strafrechtliche Verantwortlichkeit",
-        "Richtige Antwort 2": "Zivilrechtliche Verantwortlichkeit - Schadenersatz",
-        "Richtige Antwort 3": "Disziplinarrechtlicher Verantwortlichkeit",
-        "Richtige Antwort 4": "Staatsrechtliche Verantwortlichkeit",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Auf Beschluss der Bundesversammlung kann eine Volksabstimmung über die Absetzung des Bundespräsidenten beschlossen werden. Was sind die Konsequenzen?",
-        "Richtige Antwort": "Wird der Bundespräsidet duch die Abstimmung im Amt bestätigt, hat das die Auflösung des Nationalrates zur Folge.",
-        "Richtige Antwort 2": "Wird der Bundespräsident nicht bestätigt, wird er abgesetzt.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was sind die Konsequenzen eines Mistrauensvotums?",
-        "Richtige Antwort": "Die Mitglieder der Breg. (BK, VK, Minister:innen, Staatssekretär:innen) verlieren ihre Funktion wenn der NR sein Misstrauen ausspricht",
-        "Richtige Antwort 2": "Die Mitglieder der Lreg. (LH, LHStV, und übrige Mitglieder) verlieren ihre Funktion wenn der Landtag das Misstrauen ausspricht.",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was sieht das Interpelletationsrecht vor?",
-        "Richtige Antwort": "Der NR und der BR können an die Breg. über Angelegenheiten aus dem gesamten Bereich der Bundesvollziehung befragen.",
-        "Richtige Antwort 2": "Beantwortung kann mündlich oder schriftlich erfolgen. Nichtbeantwortung ist zu begründen.",
-        "Richtige Antwort 3": "Gleiches sieht die Steiermärkische Landesverfassung vor.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Was versteht man unter zweistufiger Verwaltungsgerichtsbarkeit?",
-        "Richtige Antwort": "Es gibt 9 Landesverwaltungsgerichte (LVwG) + 2 Bundesverwaltungsgerichte (BVwG, BFG) sowie den Verwaltungsgerichtshof (VwGH)",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Wer garantiert auch die Rechtsstaatlichkeit in Österreich?",
-        "Richtige Antwort": "Die Verwaltungsgerichtsbarkeit (BVwG, BFG, LVwG bzw. VwGH) und die Verfassungsgerichtsbarkeit (VfGH)",
-        "Richtige Antwort 2": "",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "Es ist kein verwaltungsinterner Instanzenzug mehr vorgesehen. Was gibt es dazu zu sagen?",
-        "Richtige Antwort": "Es gibt keinen Instanzenzug von einer Verwaltungsbehörde zu einer anderen Verwaltungsbehörde (d.h. keine Berufung).",
-        "Richtige Antwort 2": "Nur im eigenen Wirkungsbereich der Gemeinden gibt es einen zweigliedrigen Instanzenzug noch (Berufung an GR)",
-        "Richtige Antwort 3": "Beschwerde ist nur an ein Verwaltungsgericht möglich. Diese sind unabhängig und weisungsfrei außerhalb der Verwaltung angesiedelt.",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    },
-    {
-        "Fach": "Verfassungsrecht",
-        "Frage": "VwGH und VfGH sind die Höchstgreichte letzter Instanz, was sind ihre Aufgaben?",
-        "Richtige Antwort": "Die Gerichtshöfe öffentlichen Rechts kontrollieren auch die Verwaltung.",
-        "Richtige Antwort 2": "Angefochtene Verwaltungsakte werden auf Gesetz- bzw. Verfassungswiedrigkeit geprüft und ggf. aufgehoben. ",
-        "Richtige Antwort 3": "",
-        "Richtige Antwort 4": "",
-        "Falsche Antwort 1": "",
-        "Falsche Antwort 2": "",
-        "Falsche Antwort 3": ""
-    }
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was regelt grundsätzlich die Finanzverfassung bzw. der Finanzausgleich?",
+    "Richtige Antwort": "Die grundlegenden Regeln für die finanziellen Beziehungen zwischen Bund, Ländern und Gemeinden werden im F-VG 1948 geregelt.",
+    "Falsche Antwort": [
+      "Die Grundrechte der Bürgerinnen und Bürger.",
+      "Die Aufgabenverteilung zwischen Parlament und Regierung.",
+      "Die Wahlordnung auf Landesebene."
+    ]
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist das Mischsystem?",
+    "Richtige Antwort": "Die Gebietskörperschaften erhalten sowohl eigene Einnahmen als auch Mittel vom Zentralstaat.",
+    "Falsche Antwort": [
+      "Nur Gemeinden erheben Steuern.",
+      "Alle Abgaben werden zentral verwaltet.",
+      "Die Gebietskörperschaften finanzieren sich ausschließlich über Kredite."
+    ]
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist das Verbundsystem?",
+    "Richtige Antwort": "Die Finanzierung erfolgt ausschließlich aus gemeinschaftlichen Steuern des Zentralstaates.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist das Trennsystem?",
+    "Richtige Antwort": "Die einzelnen Gebietskörperschaften (Bund, Länder, Gemeinden) als öffentliche Auftgabenträger finanzieren sich voneinander unabhängig.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist das Mischsystem?",
+    "Richtige Antwort": "Die einzelnen Gebietskörperschaften erhalten sowohl eigene Einnahmen als auch Mittel des Übergeordneten Instanzen (Z.B. Österreich)",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Welches System der Abgabenteilung kommt in Österreich zur Anwendung?",
+    "Richtige Antwort": "Das Mischsystem",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist die Finanzverfassung?",
+    "Richtige Antwort": "Das Finanzverfassungsgesetz wurde im Jahr 1948 in Kraft gesetzt und gilt dauerhaft / unbefristet / für unbestimmte Zeit.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist der Finanzausgleich?",
+    "Richtige Antwort": "Finanzausgleich = ein befristetes, einfaches Bundesgesetz",
+    "Falsche Antwort": [
+      "Der Finanzausgleich ist ein zentrales Element jedes Bundesstaates und sollen die öffentlichen Einnahmen (Abgaben) dorthin gelenkt werden, „wo sie gebraucht werden“."
+    ]
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was sind die Grundsätze der Finanzverfassung und was bedeutet sie?",
+    "Richtige Antwort": "Grundsatz der eigenen Kostentragung, die Kompetenz-Kompetenz, das Legalitätsprinzip, das Sachlichkeitsgebot: Grundsatz der Finanzausgleichsgerechtigkeit",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Der Grundsatz der eigenen Kostentragung bedeutet …",
+    "Richtige Antwort": "Die Pflicht der Kostentragung trifft die Gebietskörperschaft welche mit des Vollziehung betraut wurde.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Der Grundsatz der Kompetenz-Kompetenz bedeutet …",
+    "Richtige Antwort": "Unter Kompetenz-Kompetenz versteht man im Wesentlichen die Befugnis einer Instanz, über die Zuständigkeiten selbst verbindlich zu entscheiden.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Das Legalitätsprinzip besagt … ",
+    "Richtige Antwort": "Öffentliche Abgaben dürfen nur aufgrund von Gesetzen erhoben werden.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Das Sachlichkeitsgebot bzw. der Grundsatz der Finanzausgleichsgerechtigkeit besagt …",
+    "Richtige Antwort": "Die Verteilung der Besteuerungsrechte und der Abgabenerträge auf die Gebietskörperschaften müssen in Übereinstimmung mit der Verteilung der Lasten der öffentlichen Verwaltung erfolgen.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist eine Abgabe?",
+    "Richtige Antwort": "Die Abgabe ist ein Oberbegriff für Beiträge, Gebühren und Steuern.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was versteht man Abgaben- bzw. Ertragshoheit?",
+    "Richtige Antwort": "Unter Abgabenhoheit versteht man das Rechteiner Gebietskörperschaft, Abgaben inhaltlich zu regeln. Sie liegt in Österreich primär beim Bund und den Ländern.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Welche Abgabentypen gibt es nach der Finanzverfassung?",
+    "Richtige Antwort": "(1) Ausschließliche Bundesabgaben deren Ertrag ganz dem Bund zufließen. (2) Zwischen Bund und Ländern geteilte Abgaben an deren Ertrag Bund und Länder (Gemeinden) beteiligt sind. (3) Ausschließliche Landesabgaben, deren Ertrag ganz den Ländern zufließt. (4) Zwischen Ländern und Gemeinden geteilte Abgaben, an deren Ertrag Länder und Gemeinden beteiligt sind. (5) Ausschließliche Gemeindeabgaben, deren Ertrag ganz den Gemeinden zufließt.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Wie hoch ist in etwa das Abgabenaufkommen an den einzelnen Abgaben?",
+    "Richtige Antwort": "(1) Ausschließliche Bundesabgaben: 2022 rd. 8,9 Mrd. (2) Geteilte Abgaben zwischen Bund und Ländern (Gemeinden): 2023 rd. 104 Mrd. (3) Landesabganeben: 2022 rd. 1,4 Mrd (4) Gemeindeabgaben: 2021 rd. 6,4 Mrd.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Zählen folgende Abgaben zu den Bundes-, Landes- oder Gemeindeabgaben? (.) Umsatzsteuer, Einkommenssteuer inkl. Lohnsteuer, Körperschaftsteuer, Veranl. Eink.st., Mineralölsteuer, KEST I, motorbezogene Versicherungssteuer, Tabaksteuer, Grunderwerbssteuer, Versicherungssteuer, KEST II, Kapitalverkehrssteuern, Eletrizitätsabgabe, Erdgasabgabe, Bier-, Wein-, Alkoholsteuer",
+    "Richtige Antwort": "Die Abgaben zählen zu den gemeinschaftlichen Bundesabgaben.",
+    "Falsche Antwort": [
+      "Die Abgaben zählen zu den gemeinschaftlichen Landesabgaben.",
+      "Die Abgaben zählen zu den gemeinschaftlichen Gemeindeabgaben."
+    ]
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Landes- und Rundfunkabgaben, Kurabgabe, Tourismusinteressentenbeitrag, Landesverwaltungsabgaben, Feuerschutzabgabe, Jagd- und Fischereikarten zälen zu welchem Abgabentyp?",
+    "Richtige Antwort": "Die Abgaben zählen zu den gemeinschaftlichen Landesabgaben.",
+    "Falsche Antwort": [
+      "Die Abgaben zählen zu den gemeinschaftlichen Bundesabgaben.",
+      "Die Abgaben zählen zu den gemeinschaftlichen Gemeindeabgaben."
+    ]
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Nächtigungsabgabe, Grundsteuer, Kommunalsteuer, Abgabe Haltung Tiere, Vergnügungssteuer, Zweitwohnsitzabgabe, Wohnbauförderungsbeitrag zählen zu welchem Abgabentyp?",
+    "Richtige Antwort": "Die Abgaben zählen zu den gemeinschaftlichen Gemeindeabgaben.",
+    "Falsche Antwort": [
+      "Die Abgaben zählen zu den gemeinschaftlichen Bundesabgaben.",
+      "Die Abgaben zählen zu den gemeinschaftlichen Landesabgaben."
+    ]
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Wer darf nach der Finanzverfassung in welchem Ausmaß eigene Abgaben erfinden?",
+    "Richtige Antwort": "Bund, Länder (mit Einschränkungen), Gemeinden nur mit gesonderter Ermächtigung durch Bund/Länder",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist das Einspruchsrecht des Bundesregierung im Abgabenbereich?",
+    "Richtige Antwort": "Bundesregierung hat bei Abgabengesetzen der Länder die Möglichkeit diese durch Einspruch zu Fall zu bringen.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was sind Finanzzuweisungen bzw. Transfers?",
+    "Richtige Antwort": "Finanzzuweisungen sind neben den Abgaben die wichtigste Einnahmequelle für Länder und Gemeinden.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was versteht man unter Schlüsselzuweisungen?",
+    "Richtige Antwort": "Die Zuweisungen werden nach einem festen Schlüssel (z.B. Volkszahl) gewährt.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was versteht man unter Bedarfszuweisungen?",
+    "Richtige Antwort": "Die Bedarfszuweisungen werden als Instrument der Feinverteilung zum Ausgleich eines Speziellen Bedarfs gewährt. ",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Es gibt Finanzzuweisungen …",
+    "Richtige Antwort": "des Bundes an die Länder und Gemeinden",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Das derzeitig getende Finanzausgleichsgesetz …",
+    "Richtige Antwort": "… ist ein einfaches Bundesgesetz …",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Wer führt die Verhandlungen zum Finanzausgleich bzw. wer sind die Finanzausgleichspartner?",
+    "Richtige Antwort": "Die Finanzausgleichspartner sind Bund, Länder und Gemeinden.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist der vertikale Finanzausgleich?",
+    "Richtige Antwort": "Der vertikale Finanzausgleich regelt die Beziehungen finanzausgleichsrechtlicher Art von Gebietskörperschaften verschiedener Ebenen, also zwischen Bund und Ländern bzw. Gemeinden oder zwischen Ländern und Gemeinden.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist der horizontale Finanzausgleich?",
+    "Richtige Antwort": "Der horizontale Finanzausgleich regelt die finanzausgleichsrechtlichen Beziehungen zwischen Gebietskörperschaften der gleichen Ebene, also zwischen Gemeinden untereinander oder zwischen Ländern untereinander.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was sind Ertragsanteile?",
+    "Richtige Antwort": "Die jeweiligen Anteile von Bund, Ländern und Gemeinden an den Steuermitteln werden als „Ertragsanteile“ bezeichnet.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was sind Vorwegabzüge?",
+    "Richtige Antwort": "Unter Vorwegabzügen versteht man zweckbestimmte Abzüge von den gemeinschaftlichen Bundesausgaben vor dem Aufteilungsverfahren, bzw. vor der horizontalen Aufteilung.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Welche Aussage ist richtig?",
+    "Richtige Antwort": "Oberverteilung = vertikale Verteilung! Sie regelt die Verteilung der Erträge der gemeinschaftlichen Bundesabgaben auf die 3 Gebietskörperschaftsebenen (Bund, Länder, Gemeinden) und stellt das Kernstück des Finanzausgleichs dar! Das Nettoaufkommen (= Erträge der gemeinschaftlichen Bundesabgaben minus Vorwegabzüge) wird aufgeteilt:(.) 2/3 Bund (67,934%)(.) 1/3 Land (20,217%) und Gemeinden (11,849%)",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist der Abgestufte Bevölkerungsschlüssel? ",
+    "Richtige Antwort": "Eine Gewichtung der Einwohnerzahl durch Multiplikation mit einem Vervielfacher. Der Vervielfacher steigt mit der Einwohnerklasse, wodurch größere Gemeinden pro Kopf mehr erhalten als kleinere.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist das wichtigste Verteilungskriterium bei den Ertragsanteilen der Länder?",
+    "Richtige Antwort": "Die Volkszahl",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist das wichtigste Verteilungskriterium bei den Ertragsanteilen der Gemeinden?",
+    "Richtige Antwort": "Der abgestufte Bevölkerungsschlüssel",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was sind Transfers im Finanzausgleich?",
+    "Richtige Antwort": "Darunter versteht man im Wesentlichen Finanzströme zwischen den Gebietskörperschaften abseits der Verteilung der gemeinschaftlichen Bundesabgaben.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Zu diesen Transfers gehören wesentlich die Finanzzuweisungen und Zuschüsse. \\n Welche Transfers gibt es ...",
+    "Richtige Antwort": "Transfers des Bundes: Zuteilung von Finanzzuweisungen und Zuschüssen des Bundes auf Länder und Gemeinden.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist diel Landesumlage und muss diese zwingend eingehoben werden?",
+    "Richtige Antwort": "Ein Beispiel für eine Transferleistung der Gemeinden an die Länder ist die sogenannte Landesumlage, welche fakultativ (d.h. die Länder können selbst entscheiden, ob sie eine derartige Umlage einheben) von den Ländern eingehoben werden kann.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist das Paktum zum Finanzausgleich?",
+    "Richtige Antwort": "Das Paktum enthält die wesentlichen Ergebnisse der Finanzausgleichsverhandlungen und bilden somit die Grundlage für das Finanzausgleichsgesetz.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist die sogenannte Schutzklausel?",
+    "Richtige Antwort": "Die Schutzklausel soll finanzielle Ungleichheiten zwischen den Bundesländern ausgleichen und sicherstellen, dass keinn Land durch außergewöhnliche Belastungen benachteiligt wird. ",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist der Konsultationsmechanismus?",
+    "Richtige Antwort": "Der Konsultationsmechanismus ist ein Verfahren, das zur besseren Koordination der Finanzausgleichspartner bei der Vorbereitung von Gesetzen und Verordnungen dient. Er soll sicherstellen, dass finanzielle Auswirkungen von Gesetzen und Verordnungen auf die verschiedenen Ebenen der Gebietskörperschaften berücksichtigt und Lastenverschiebungen vermieden werden.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Geltungsbereich des Konsultationsmechanismus?",
+    "Richtige Antwort": "Die Vereinbarung bertifft die Begutachtung von Gesetzes- und Verordnungsentwürfen des Bundes.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Wer sind die Vertragspartner des Konsultationsmechanismus?",
+    "Richtige Antwort": "Die Vertragspartner der Vereinbarung sind die Finanzausgleichspartner, also Bund, Länder und Gemeinden.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Welche Rechte und Pflichten ergeben sich für Bund und Länder aufgrund des Konsultationsmechanismus?",
+    "Richtige Antwort": "Es ergeben sich Informations-, Kostenberechnungs-, Verhandlungs- und Ausgabenersatzverpflichtung bei rechtssetzenden Maßnahmen, die finanzielle Auswirkungen auf andere Gebietskörperschaften haben.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Welche Maßnahmen sind vom Konsultationsmechanismus ausgenommen?",
+    "Richtige Antwort": "Rechtssetzungsmaßnahmen, insoweit sie zwingende EU-Vorschriften umsetzen",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Welche EU-Fiskalregeln gibt es unter Anderem?",
+    "Richtige Antwort": "EU-Fiskalregel hinsichtlich des zulässigen Defizits.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Wie hoch dürfen das jährliche Defizit und die Gesamtverschuldung nach EU-Fiskalregeln sein?",
+    "Richtige Antwort": "Das gesamtstaatliche Finanzierungsdefizit eines Mitgliedsstaates dafr 3% des BIP nicht überschreiten.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Gibt es Sanktionen für die Nichteinhaltung von EU-Fiskalregeln?",
+    "Richtige Antwort": "Theoretisch gibt es strikte Anpassungsvorschriften und am Ende drohen hohe Strafzahlungen bei Nichteinhaltung. Allerdings wurde bislang noch niemand sanktioniert.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist die sogenannte \"\"general escape clause\"\"?",
+    "Richtige Antwort": "Es ahndelt sich dabei um eine Ausweichklausel im Europäischen Stabilitäts- und Wachstumspackt, mit der die Regeln des EU-Stabilitätspats seit dem Jahr 2020 bis zum Jahr 2023 ausgesetz wurden.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was wurde 2024 bei den EU-Fiskalregeln reformiert?",
+    "Richtige Antwort": "Die EU-Fiskalregekn geten seit 1.1.2024 wieder und wurden reformiert.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Finanzrecht",
+    "Frage": "Was ist bzw. regelt der österreichische Stabilitätspakt?",
+    "Richtige Antwort": "Der Fiskalpakt verlangt von den EU-Mitgliedstaaten die Umsetzung der Fiskalregelnin nationales Recht, was in Österreich ninnerstaatlich im Österreichischen Stabilitätspakt (ÖStP) umgesetzt wurde.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Woran erkennt man eine Verfassung?",
+    "Richtige Antwort": "Verfassungsgesetze müssen vom Gesetzgeber ausdrücklich als solche bezeichnet werden",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wieviele Verfassungen gibt es in Österreich?",
+    "Richtige Antwort": "Auch die einzelnen Bundesländer in Österreich haben eine eigene Landes-Verfassung, die aber durch die Bundes-Verfassung teilweise vorgegeben wird und nicht gegen diese verstoßen darf.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Funktionen hat der Staat?",
+    "Richtige Antwort": "Das B-VG unterscheidet grundsätzlich drei Staatsfunktionen: (1) die Gesetzgebung (Legislative), (2) die Gerichtsbarkeit (Judiative, Justiz), (3) die Verwaltung (Exekutive) ",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was versteht an unter Gesetzgebung?",
+    "Richtige Antwort": "Die Gesetzgebung ist jene Staatsfunktion, die von den Organen der gesetzgebenden Körperschaften (Nationalrat, Bundesrat, Landtage) ausgeübt wird.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was ist die Gerichtsbarkeit?",
+    "Richtige Antwort": "Unter Gerichtsbarkeit versteht man die Vollziehung des Gesetz durch Richterinnen und Richter (und deren Hilfsorgane), die mit Unabhängigkeit, Unabsetzbarkeit und Unverseztbarkeit ausgestattet sind.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was versteht man unter Verwaltung?",
+    "Richtige Antwort": "Verwaltung ist die Vollziehung der Gesetze durch weisungsgebundene Organe.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was versteht man unter Vollziehung?",
+    "Richtige Antwort": "Vollziehung = Gerichtsbarkeit + Verwaltung",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wodurch unterscheiden sich Gerichtsbarkeit und Verwaltung?",
+    "Richtige Antwort": "Die Gerichtsbarkeit ist von der Verwaltung getrennt, das bedeutet, dass eine Behrde nicht zugleich Gericht und Verwaltungsbehörde sein kann.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was besagt der Grundsatz der Gewaltentrennung und wo ist dieser verankert?",
+    "Richtige Antwort": "Der Grundsatz beruht auf dem Gedanken, dass die politische Macht geteilt sein soll, um Machtmissbrauch zu verhindern.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wer ist in Österreich für die Gesetzgebung zuständig?",
+    "Richtige Antwort": "Nationalrat gemeinsam mit dem Bundesrat frü Bundesgestze",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wo ist die Gerichtsbarkeit angesiedelt?",
+    "Richtige Antwort": "Bei den ordentlichen Gerichten (Bezirks-, Landes-, Oberlandesgerichte, Oberster Gerichtshof)",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wo findet die Verwaltung statt?",
+    "Richtige Antwort": "Bei den Verwaltungsbehörden (BH, Lreg., LH, Bundesregierung, BM, Bürgermeister, Gemeinderat)",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Warum sind die Grundprinzipien der Bundesverfassung so gut geschützt? ",
+    "Richtige Antwort": "Die Grundprinzipien basieren auf gewissen grundsätzichen politischen Ideen, an die die staatliche Ordnung gebunden ist - diese sind uns als Gesellschaft wichtig.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Grundprinzipien enthält unsere Verfassung?",
+    "Richtige Antwort": "Das demokratische Grundprinzip",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die österreichischen Verfassung sieht sowohl mittelbare als auch unmittelbare Element der Demokratie vor. Welches Grundprinzip wird angesprochen und wie sind die Elemente ausgestaltet?",
+    "Richtige Antwort": "Das demokratische Grundprinzip",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Woran erkennt man das Österreich eine Republik ist?",
+    "Richtige Antwort": "Der Bundespräsident ist das vom Volk gewählte Staatsoberhaupt - republikanisches Grundprinzip",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was sagt das bundesstaatlihce Grundprinzip, und warum ist dieses in Österreich nicht voll ausgeprägt?",
+    "Richtige Antwort": "Es besagt, dass die Staatsaufgaben auf den Bund und seine Bundesländer aufgeteilt werden (Kompetenzverteilung).",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was sind die wesentlichen Elemente der Bundesstaatlichkeit in Österrech?",
+    "Richtige Antwort": "Die Gesetzgebungs- und Verwaltungskompetenzen des Bundes und der Länder.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Bundesverfassung unterscheidet die drei Staatsfunktionen Gesetzgebung, Gerichtsbarkeit und Verwaltung.",
+    "Richtige Antwort": "JA",
+    "Falsche Antwort": [
+      "NEIN"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Aussagen zur Demokratie sind richtig?",
+    "Richtige Antwort": "Wahlen sind ein Instrument der mittelbaren Demokratie.",
+    "Falsche Antwort": [
+      "Ausdruck der unmittelbaren Demokratie ist es, dass der Nationalrat und die Landtage Gesetze beschließen.",
+      "Wenn das Volk nicht selbst über jedes Gesetz abstimmt, sondern nur die Abgeordneten, kann man nicht von Demokratie („Volksherrschaft“) sprechen."
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was ist die Generalkklausel?",
+    "Richtige Antwort": "Alle in der Bundesverfassung nicht ausdrücklich aufgezählten Kompetenzen kommen automatisch den Ländern zu.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was ist die Kompetenzverteilung? ",
+    "Richtige Antwort": "In der Bundesverfassung werden alle Kompetenzen un Gesetzgebung und Vollziehung entweder dem Bund oder den Ländern zugewiesen",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was sind die Merkmale eines Rechtsstaates?",
+    "Richtige Antwort": "Die Rechte und Pflichen jedes einzelnen sind in Gesetzen genau festgelegt.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Aussagen zum Wahlrecht sind richtig?",
+    "Richtige Antwort": "Alle Staatsbürger:innen die das Wahlalter erreicht haben sind wahlberechtigt (allgemeines Wahlrecht)",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Aussagen zum Wahlrecht sind richtig?",
+    "Richtige Antwort": "Jede Stimme ist gleichviel wert (gleiches Wahlrecht)",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Aussage zum Nationalrat ist richtig?",
+    "Richtige Antwort": "Der Nationalrat hat 183 Mitglieder.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Aussagen zur Arbeit des Nationalrat sind zutreffend?",
+    "Richtige Antwort": "Die Arbeit das NR findet in sogenannten \"\"ordentlichen Tagungen\"\" im Zeitraum von 15. Septeber bis 15. Juni statt",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wer leitet die Geschäfte des Nationalrates und vertritt diesen nach außen?",
+    "Richtige Antwort": "Die Präsidentin/ Der Präsident des Nationalrates.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wie wird der Nationalrat aufgelöst?",
+    "Richtige Antwort": "Durch Ablauf der Gesetzgebungsperiode (Legislaturperiode)",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Aufgaben hat der Nationalrat außer der Gesetzgebung?",
+    "Richtige Antwort": "Mitwirkung an bestimmten Angelegenheiten der Bundesvollziehung.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Der Bundesrat vertritt die Interssen der Länder im Gesetzgebungsverfahren des Bundes. Erist die zweite Kammer des Parlaments, wobei seine Stellung erheblich schwächer ist als jene des NR. - Richti oder Falsch",
+    "Richtige Antwort": "RICHTIG",
+    "Falsche Antwort": [
+      "FALSE"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was trifft in Bezug auf den Bundesrat (BR) zu?",
+    "Richtige Antwort": "Die Mitglieder des BR werden von den Landtagen nach dem Grundsatz der Verhältniswahl gewählt.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Partialerneuerung bedeutet …",
+    "Richtige Antwort": "Die Mitglieder des Bundesrates werden regelmäßig ausgetauscht, da die Landtagswahlen zu unterschiedlichen Zeitpunkten stattfinden.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was trifft in Bezug auf den Bundesrat (BR) zu?",
+    "Richtige Antwort": "Der Vorsitz wechselt zwischen den einzelnen Bundesländern halbjährlich in aphabetischer Reihenfolge.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Aufgaben des Bundesrat sind: ",
+    "Richtige Antwort": "Einsprüche gegen Gesetzesbeschüsse des NR zu erhebn",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was ist die Bundesversammlung?",
+    "Richtige Antwort": "Die Mitglieder des NR und des BR zusammen bilden die Bundesversammlung.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Bundesversammlung kann den Bundespräsidenten Angeloben, über die Anordnung der Durchführung einer Volksabstimmung dessen Absetzung veranlassen, die Zustimmung zu seiner behördlichen Verfolgung geben, beim VfGH eine Anklage gegen ihn wegen Verletzung der Bundesverfassung erheben, was zu seinem Amtsverlust führen kann. Die Beschlussfassung über eine Kriegserklährung ist ebenfalls der Bundesversammlung vorbehalten. Richtig oder Falsch?",
+    "Richtige Antwort": "RICHTIG",
+    "Falsche Antwort": [
+      "FALSE"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Jedes Gesetz beginnt mit einem Antrag, der schon den Gesetzesentwurf enthlaten muss.",
+    "Richtige Antwort": "RICHTIG - ausgenommen das Volksbegehren",
+    "Falsche Antwort": [
+      "FALSE"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wie gelangen Anträge auf Erlassung von Gesetzen in den Nationalrat?",
+    "Richtige Antwort": "Mittels Initiativantrag, Ausschussantrag oder Regierungsvorlage (Vorlage der Bundesregierung).",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Ein Initiativantrag braucht mindestens … Abgeordnete?",
+    "Richtige Antwort": "5",
+    "Falsche Antwort": [
+      "2",
+      "alle",
+      "8"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Rolle spielen Ausschüsse bei der Gesetzgebungsarbeit?",
+    "Richtige Antwort": "Die Ausschüsse beraten über alle Gesetzesentwürfe und legen sie dem Plenum mit einem Bericht vor (Abschlussbericht).",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wird der Gesetzesentwurd in der Plenardebatte des NR angenommen, liegt ein \"\"Gesetzesbeschluss des NR\"\" vor. Richtig oder Falsch",
+    "Richtige Antwort": "RICHTIG",
+    "Falsche Antwort": [
+      "FALSE"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Bundesgesetze unterscheidet man?",
+    "Richtige Antwort": "Sogenannte \"\"einfache Gesetze\"\"",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Folgende Beschlusserfordernisse müssen für Bundesgesetze mindestens erfüllt sein, wobei unbedingte (einfache) Mehrheit mehr als die Hälfte bedeutet: ",
+    "Richtige Antwort": "Für einfache Bundesgesetze: 1/3 der Abgeordneten anwesend, für den Beschluss unbdingte Mehrheit der abgegebenen Stimmen",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Der Bundesrat hat 8 Wochen Zeit, einen begründeten Einspruch auf Gesetzesbeschlüsse des Nationalrates zu erheben. Richtig oder Falsch?",
+    "Richtige Antwort": "RICHTIG",
+    "Falsche Antwort": [
+      "FALSE"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was ist die Konsequenz eines Einspruchs des BR gegen einen Gesetzesentwurf des NR?",
+    "Richtige Antwort": "Dieser kann vorläufig nicht kundgemacht werden. Der NR muss über die Vorlage erneut beschließen.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Ist das Ergebnis eine Volksabstimmung bindend?",
+    "Richtige Antwort": "JA",
+    "Falsche Antwort": [
+      "NEIN"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wie hoch ist die erforderliche Anzahl an Wahlberechtigten für ein Volksbegehren?",
+    "Richtige Antwort": "Damit ein Volksbegehren im Nationalrat berücksichtigt wird, braucht es 100.000 zum Nationalrat Wahlberechtigte, oder je ein Sechstel der Wahlberechtigten dreier Länder.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was ist ein Volksbegehren?",
+    "Richtige Antwort": "Ein Instrument der direkten Demokratie.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Gegenstand einer Volksbefragung sind …",
+    "Richtige Antwort": "… Vollzugsangelegenheiten von grundsätzlicher Bedeutung.",
+    "Falsche Antwort": [
+      "… Gesetze."
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wer beschließt die Durchführung einer Volksbefragung?",
+    "Richtige Antwort": "der Nationalrat.",
+    "Falsche Antwort": [
+      "der Bundespräsident.",
+      "der Bundesrat."
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Ist das Ergebnis einer Volksbefragung rechtlich bindend? ",
+    "Richtige Antwort": "Nein, es wird sich jedoch werde Nationalrat noch Bundesregierung darüber hinwegsetzen können.",
+    "Falsche Antwort": [
+      "JA"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Landesgesetze werden von den einzelnen Landtagen beschlossen? Richtig oder falsch?",
+    "Richtige Antwort": "RICHTIG",
+    "Falsche Antwort": [
+      "FALSE"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Grundsätzen gelten für die Landtagswahlen?",
+    "Richtige Antwort": "Es gelten dieselben Grundsätze wie bei den Nationalratswahlen.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wieviele Mitglieder hat der Steiermärkische Landtag? ",
+    "Richtige Antwort": "48",
+    "Falsche Antwort": [
+      "60",
+      "183"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Legislaturperiode der Landtage beträgt 5 Jahre. Die Landtage können wich aber vorzeitig auflösen. Wie?",
+    "Richtige Antwort": "Selbst",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was sind die wesentlichen Aufgaben des Landtags?",
+    "Richtige Antwort": "Die Landesgesetzgebung und die Beschlussfassung über das Landesbudget.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wie werden Anträge auf Erlassung eines Landesgesetzes eingebracht?",
+    "Richtige Antwort": "Als Initioativantrag von Abgeordneten (mindestens 2)",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Folgende Beschlusserfordernisse müssen Landesgesetze mindestens erfüllt sein, wobei unbedingte (einfache) Mehrheit mehr als die Hälfte bedeutet: ",
+    "Richtige Antwort": "Für einfache Landesgesetze: die Hälfte der Abgeordneten anwesend, für den Beschluss unbdingte Mehrheit der abgegebenen Stimmen",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Kann die Bundesregierung gegen ein Landesgesetz Einspruch erheben?",
+    "Richtige Antwort": "Ja, wenn ein Landesgesetz Abgabenangelegenheiten regelt.",
+    "Falsche Antwort": [
+      "NEIN"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Kann der Landtag eine Volksabstimmung über einen Gesetzesbeschluss beschließen?",
+    "Richtige Antwort": "JA",
+    "Falsche Antwort": [
+      "NEIN"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was passiert, wenn der Beschluss eines Landesgesetzes bei einer Volksabstimmung abgelehnt wird?",
+    "Richtige Antwort": "Das Ergebnis ist bindend, das Gesetz kann nicht in Kraft treten.",
+    "Falsche Antwort": [
+      "Das Gesetz kann in Kraft treten."
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wer beurkundet verfassungsmäßig zustandegekommene Landesgesetze?",
+    "Richtige Antwort": "Die Landeshauptfrau/ der Landeshauptmann beurkunden das Gesetz",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wer beurkundet verfassungsmäßig zustandegekommene Bundesgesetze?",
+    "Richtige Antwort": "Die Bundespräsidentin/ der Budespräsident beurkundet das Gesetz",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was sind die wesentliche Merkmale der Verwaltung?",
+    "Richtige Antwort": "Die Weisungsgebundenheit.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Aufgaben der Verwaltung sind:",
+    "Richtige Antwort": "Sämtliche Vollzugsaufgaben außerhalb der Gerichtsbarkeit.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Aussagen zur Weisung treffen zu:",
+    "Richtige Antwort": "Die Weisung ist ein Auftrag eines Übergeordneten Organs.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wann muss eine Weisung abgeleht werden?",
+    "Richtige Antwort": "Wenn sie von einem unzuständigen Organ kommt.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was sind Merkmale der Hoheitsverwaltung?",
+    "Richtige Antwort": "Behörde setzt einseitig verbindliche Rechtsakte, ohne Zustimmung der Betrffnen. Diese sind verbindlich.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Aussagen treffen zu?",
+    "Richtige Antwort": "Verordnungen führen Gesetze für die Allgemeinheit (genereller Adressatenkreis) näher aus.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Aussagen in Bezug auf das Legalitätsprinzip treffen zu?",
+    "Richtige Antwort": "Der Grundsatz der Gesetzmäßigkeit in der Verwaltung meint, dass die gesamte staatliche Verwaltung nur auf Grundlage von Gesetzen ausgeübt werden darf.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Aussagen in Bezug auf die Amtshaftung treffen zu?",
+    "Richtige Antwort": "Für den Bereich der Hoheitsverwaltung haftet der Rechtsträger für den Schaden, der bei Vollziehung der Gesetze durch rechtswiedriges Verhalten entsteht.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Aussagen in Bezug auf die Organhaftung treffen zu?",
+    "Richtige Antwort": "Rechtsträger haben Schadenersatzanspruch gegen Organwalter:innen, die durch Handlungen in Ausübung ihrer Organfunktion den jeweiligen Rechtsträger unmittelbar gechädigt haben.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Aussagen in Bezug auf die Diensnehmerhaftung treffen zu?",
+    "Richtige Antwort": "Der Dienstgeber muss gegenüber Dritten den Schaden ersetzen, den seine Organe in Ausübung der Privatwirtschaftsverwaltung zugefügt haben.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was besagt das Steirische Auskunftspflichtgesetz?",
+    "Richtige Antwort": "Soweit keine Verschwiegenheit vorliegt, muss die Auskunft erteilt werden.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Grundlagen zum Datenschutz bilden auf europäischer Ebene Artikel 7 und 8 der Grundrechtecharte (GRC) sowie die Datenschutzgrundverordnung sowie national (Ö) der Artikel 8 EMRK (als Verfassungsbestimmung), das Grundrecht auf Datenschutz und das Datenschutzgesetz ",
+    "Richtige Antwort": "JA",
+    "Falsche Antwort": [
+      "NEIN"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "§1 DSG Grundrecht auf Datenschutz: schützt insbesondere alle personenbezogenen Daten sowie besonders schutzwürdige Daten.",
+    "Richtige Antwort": "JA",
+    "Falsche Antwort": [
+      "NEIN"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was sind oberste Verwaltungsorgane des Bundes?",
+    "Richtige Antwort": "Bundespräsidentin/Bundespräsident",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wie wird die Bundespräsidentin/der Bundespräsident gewählt? ",
+    "Richtige Antwort": "Nach den gleichen Grundsätzen des Wahlrechtsw wie Nationalrat und Landtag - in gleicher, unmittelbarer, persönlicher, ffreier und geheimer Wahl für eine Amtsdauer von 6 Jahren (2x hintereinander mgl.).",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wer ist wahlberechtigt bzw. wählbar?",
+    "Richtige Antwort": "Wahlberechtigt sind alle österreichischen Staatsbürger, die zum Nationalrat wahlberechtigt sind.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wie endet das Amt der Bundespräsidenten/der Bundespräsidentin?",
+    "Richtige Antwort": "durch Zeitablauf/ Tod",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Der Bundespräsident darf ohne Vorschlag…",
+    "Richtige Antwort": "den Bundeskanzler ernennen/entlassen",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Der Bundespräsident darf auf Vorschlag…",
+    "Richtige Antwort": "die übrigen Mittglieder der Breg sowie Staatssekretäre bestellen oder entlassen",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Bundesregierung ist ein Kollegialorgan. Was ist damit gemeint?",
+    "Richtige Antwort": "Die Bundesregierung ist die Gesamtheit aller Bundesminister:innen, dem Bundeskanzler und der Vizekanzler:in",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wo wird die Zahl der Bundesminister:innen festgelegt?",
+    "Richtige Antwort": "Im Bundesministergesetz, welches vom Nationalrat gemeinsam mit dem Bundesrat beschlossen wird.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Staatssekretär:innen sind keine Mitglieder der Bundesregierung, was ist ihre Aufgabe?",
+    "Richtige Antwort": " die \"\"Unterstützung der Geschäftsführung\"\"",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Rechtsakte in der Bundesverwaltung werden immer \"\"namensder jeweiligen Bundesminister:in\"\" gesetzt. Warum ist das so?",
+    "Richtige Antwort": "Die jeweilige Behörde ist immer der Bundesminister oder die Bundesministerein.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wie wird die Bundesverwaltung auf mittlerer und unterster Ebene besorgt?",
+    "Richtige Antwort": "durch die Behörden des Bundes (unmittelbare Bundesverwaltung) - Bundesbehörde im organisatorisch und funktionellem Sinn mit speziellen Aufgaben",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Der Rechtszug…",
+    "Richtige Antwort": "… in der unmittelbaren Bundesverwaltung geht über ein Bundesverwaltungsgericht.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wer besorgt die Landesverwaltung?",
+    "Richtige Antwort": "Die Landesregierung als Kollegialorgan (oberstes Organ der Landesvollziehung) bzw. einzelne Regierungsmitglieder als monokratische Organe",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Landesregierung fasst ihre Beschlüsse",
+    "Richtige Antwort": "einstimmig",
+    "Falsche Antwort": [
+      "mehrstimmig"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Landesregierung besteht aus 6 bis 8 Mitgliedern, die …",
+    "Richtige Antwort": "… vom Landtag gewählt werden.",
+    "Falsche Antwort": [
+      "… Vom Nationalrat gewählt werden.",
+      "… vom Bundespräsidenten ernannt werden."
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Das Amt der Landesregierung ist, …",
+    "Richtige Antwort": "… der Geschäftsapparat der Landesregierung in Angelegenheiten der Landesverwaltung.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Leitung des innern Dienstes liegt bei…",
+    "Richtige Antwort": "… der Landesamtsdirektion, die wiedrum unter der Aufsicht des Landeshauptmanns/ der Landeshauptfrau steht.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wer ist für die Besorgung aller Angelegenheiten der Bundes- und Landesverwaltung mit Ausnahme von Graz (Stadt mit eigenem Statut) zuständig?",
+    "Richtige Antwort": "Die Bezirkshauptmannschaft. Ihr Leiter ist die Bezirkshauptfrau oder der Bezirkshauptmann. Diese werden von der Landesregierung bestellt.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Bezirkshauptmannschaften sind in Sachen des inneren Dienses dem LH unterstellt. Richtig oder Falsch?",
+    "Richtige Antwort": "RICHTIG",
+    "Falsche Antwort": [
+      "FALSE"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Bezirkshauptmannschaften sind in Sachen der Landesverwaltung unterstellt. Richtig oder Falsch?",
+    "Richtige Antwort": "RICHTIG",
+    "Falsche Antwort": [
+      "FALSE"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Bezirkshauptmannschaften sind in Sachen der mittelbaren Bundesverwaltung dem LH bzw. eingelnen Mitgliedern der Lreg. unterstellt. Richtig oder Falsch?",
+    "Richtige Antwort": "RICHTIG",
+    "Falsche Antwort": [
+      "FALSE"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die Bezirkshauptmannschaften sind in Sachen der Sicherheitsverwaltung der Landespolizeidirektion unterstellt. Richtig oder Falsch?",
+    "Richtige Antwort": "RICHTIG",
+    "Falsche Antwort": [
+      "FALSE"
+    ]
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was ist die Besonderheit von Städten mit eigenem Statut?",
+    "Richtige Antwort": "In gewisser Weise sind sie rechtlich hervorgehoben, da sie die Agenden der Bezirksverwaltung durch Gemeindeorgane besorgen.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welche Organe hat die Gemeinde?",
+    "Richtige Antwort": "Bürgermeister - monokratisches Gemeindeorgan, das nicht Mitglied im Gemeinderat sein muss.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was ist mit Einheitsgemeinde gemeint? ",
+    "Richtige Antwort": "Alle Gemeinden sind rechtlich gleichgestellt.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Selbstverwaltung der Gemeinden bedeutet: ",
+    "Richtige Antwort": "In bestimmten Angelegenheiten (eigener Wirkungsbereich) sind die Gemeinden frei von Weisungen.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Der eigene Wirkungsbereich der Gemeinden umfasst:",
+    "Richtige Antwort": "die Verwaltung des Gemeindevermögens, der Gemeindeunternehmen und Gemeindebetriebe",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Im Instanzenzug gibt es in den Gemeinden eine Besonderheit. Welche?",
+    "Richtige Antwort": "Einen zweigliedrigen Instanzenzug im eigenen Wirkungsbereich: Berufung gegen Bescheid des Bürgermeisters (1. Instanz) an Gemeinderat (2. Instanz). Erst dann Beschwerde an LVwG",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Die wichtigsten Aufgaben des Gemeinderates im eigenen Wirkungsbereich sind…",
+    "Richtige Antwort": "… die Wahl des Bürgermeisters und des Gemeindevorstands",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wer ist die Behörde in Angelegenheiten des übertragenen Wirkungsbereich der Gemeinden?",
+    "Richtige Antwort": "Ausschließlich der Bürgermeister/ die Bürgermeisterin",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was sind Gemeindeverbände?",
+    "Richtige Antwort": "In Gemeindeverbänden arbeiten mehrere Gemeinden in einer Sache zusammen. Sie haben eigene Organe und haben selbst Rechtspersönlichkeit.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was sind Verwaltungsgemeinschaften?",
+    "Richtige Antwort": "Mehrere Gemeinden arbeiten in einem losen Zusammenschluss in einer Sache zusammen (z.B. Müllabfuhr). Die Verwaltungsgemeinschaft ist selbst nicht rechtskräftig und hat selbst keine Organe. ",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Welchen rechtlichen Verantwortlichkeiten unterliegen Organe der Vollziehung?",
+    "Richtige Antwort": "Strafrechtliche Verantwortlichkeit",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Auf Beschluss der Bundesversammlung kann eine Volksabstimmung über die Absetzung des Bundespräsidenten beschlossen werden. Was sind die Konsequenzen?",
+    "Richtige Antwort": "Wird der Bundespräsidet duch die Abstimmung im Amt bestätigt, hat das die Auflösung des Nationalrates zur Folge.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was sind die Konsequenzen eines Mistrauensvotums?",
+    "Richtige Antwort": "Die Mitglieder der Breg. (BK, VK, Minister:innen, Staatssekretär:innen) verlieren ihre Funktion wenn der NR sein Misstrauen ausspricht",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was sieht das Interpelletationsrecht vor?",
+    "Richtige Antwort": "Der NR und der BR können an die Breg. über Angelegenheiten aus dem gesamten Bereich der Bundesvollziehung befragen.",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Was versteht man unter zweistufiger Verwaltungsgerichtsbarkeit?",
+    "Richtige Antwort": "Es gibt 9 Landesverwaltungsgerichte (LVwG) + 2 Bundesverwaltungsgerichte (BVwG, BFG) sowie den Verwaltungsgerichtshof (VwGH)",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Wer garantiert auch die Rechtsstaatlichkeit in Österreich?",
+    "Richtige Antwort": "Die Verwaltungsgerichtsbarkeit (BVwG, BFG, LVwG bzw. VwGH) und die Verfassungsgerichtsbarkeit (VfGH)",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "Es ist kein verwaltungsinterner Instanzenzug mehr vorgesehen. Was gibt es dazu zu sagen?",
+    "Richtige Antwort": "Es gibt keinen Instanzenzug von einer Verwaltungsbehörde zu einer anderen Verwaltungsbehörde (d.h. keine Berufung).",
+    "Falsche Antwort": []
+  },
+  {
+    "Fach": "Verfassungsrecht",
+    "Frage": "VwGH und VfGH sind die Höchstgreichte letzter Instanz, was sind ihre Aufgaben?",
+    "Richtige Antwort": "Die Gerichtshöfe öffentlichen Rechts kontrollieren auch die Verwaltung.",
+    "Falsche Antwort": []
+  }
 ]
