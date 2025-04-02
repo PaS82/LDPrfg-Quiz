@@ -242,17 +242,6 @@
       button.textContent = "Antwortbericht anzeigen";
     }
   }
-  
-if (parsed.data && parsed.data.length > 0) {
-    window.fragen = parsed.data;
-    completedFaecher = [];
-    localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
-    updateFachauswahl();
-    document.getElementById("quiz").innerHTML = "";
-  } else {
-    console.warn("defaultCSV enthält keine gültigen Daten.");
-  }
-});
 </script>
 <script src="fragenUpdater.js"></script>
 </body>
