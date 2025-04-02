@@ -61,10 +61,6 @@
     let frageFehlerCounter = JSON.parse(localStorage.getItem("frageFehlerCounter") || "{}");
 	let reportLog = [];
 
-    
-      reader.readAsArrayBuffer(e.target.files[0]);
-    });
-
     function updateFachauswahl() {
       const faecher = [...new Set(window.fragen.map(q => q.Fach))];
       const sel = document.getElementById("fachSelect");
@@ -137,7 +133,6 @@ function showQuestion() {
     <button onclick="checkAnswer()">Antwort prüfen</button>
   </div>`;
 }
-);
 </script>
 <script src="fragenUpdater.js"></script>
 </body>
