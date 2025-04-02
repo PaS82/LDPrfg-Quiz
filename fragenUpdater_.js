@@ -1,85 +1,57 @@
 // fragenUpdater.js
 // Dieses Modul kann per <script src="fragenUpdater.js"> eingebunden werden
-// Es lädt automatisch fragen.json (falls vorhanden)
-// und erlaubt das Einlesen einer CSV/XLSX-Datei sowie das Speichern als fragen.json
+// und erweitert window.fragen dynamisch um neue Einträge aus einer CSV oder Excel-Datei.
+// Erweiterung: Fragenkatalog kann als fragen.json gespeichert werden
 
 (function () {
   const containerId = "fragen-update-container";
-  let statusMessage = "";
-
-  window.addEventListener("DOMContentLoaded", () => {
-    createUI();
-
-    // Lade fragen.json beim Start (optional)
-    fetch("fragen.json")
-      .then(res => res.ok ? res.json() : [])
-      .then(data => {
-        if (Array.isArray(data)) {
-          window.fragen = data;
-          console.log("Fragen aus fragen.json geladen:", data.length);
-          statusMessage = `📄 ${data.length} Fragen aus fragen.json geladen.`;
-        } else {
-          window.fragen = [];
-          console.warn("Ungültiges JSON, starte mit leerem Katalog.");
-          statusMessage = "⚠️ Ungültiges JSON – leer gestartet.";
-        }
-      })
-      .catch(() => {
-        console.log("Keine fragen.json gefunden – beginne leer.");
-        window.fragen = [];
-        statusMessage = "ℹ️ Keine fragen.json gefunden – beginne leer.";
-      })
-      .finally(() => {
-        showStatus(statusMessage);
-      });
-  });
 
   function createUI() {
     const container = document.getElementById(containerId);
     if (!container) return;
 
-    container.innerHTML = '';
+    container.innerHTML = ''; // sicherstellen, dass keine doppelten Elemente entstehen
 
     const wrapper = document.createElement("div");
     wrapper.style.display = "flex";
     wrapper.style.flexDirection = "column";
-    wrapper.style.gap = "0.3em";
-    wrapper.style.background = "#f4f4f4";
+    wrapper.style.gap = "0.5em";
+    wrapper.style.background = "#f9f9f9";
     wrapper.style.border = "1px solid #ccc";
-    wrapper.style.borderRadius = "8px";
-    wrapper.style.padding = "0.7em";
+    wrapper.style.borderRadius = "12px";
+    wrapper.style.padding = "1em";
     wrapper.style.marginBottom = "1em";
-    wrapper.style.fontSize = "0.85em";
-    wrapper.style.maxWidth = "400px";
+    wrapper.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.05)";
 
     const fileInput = document.createElement("input");
     fileInput.type = "file";
     fileInput.accept = ".csv,.xlsx";
     fileInput.id = "fragen-upload";
-    fileInput.style.fontSize = "0.85em";
 
-    fileInput.addEventListener("change", () => {
-      const file = fileInput.files[0];
-      if (file) handleFileUpload(file);
-    });
+    const button = document.createElement("button");
+    button.textContent = "📥 Fragenkatalog aktualisieren";
+    button.onclick = handleFileUpload;
 
     const saveButton = document.createElement("button");
-    saveButton.textContent = "💾 Fragen speichern";
-    saveButton.style.fontSize = "0.85em";
+    saveButton.textContent = "💾 Fragenkatalog speichern";
     saveButton.onclick = downloadFragenAsJSON;
 
     const status = document.createElement("div");
     status.id = "fragen-update-status";
-    status.style.fontSize = "0.85em";
+    status.style.fontSize = "0.9em";
     status.style.color = "#333";
 
     wrapper.appendChild(fileInput);
+    wrapper.appendChild(button);
     wrapper.appendChild(saveButton);
     wrapper.appendChild(status);
     container.appendChild(wrapper);
   }
 
-  function handleFileUpload(file) {
+  function handleFileUpload() {
+    const file = document.getElementById("fragen-upload").files[0];
+    if (!file) return;
+
     const fileName = file.name.toLowerCase();
     if (fileName.endsWith(".csv")) {
       const reader = new FileReader();
@@ -96,7 +68,7 @@
           }
         });
       };
-      reader.readAsText(file, "utf-8");
+      reader.readAsText(file, "ISO-8859-1");
     } else if (fileName.endsWith(".xlsx")) {
       const reader = new FileReader();
       reader.onload = function (e) {
@@ -113,9 +85,6 @@
   }
 
   function updateFragen(parsedData) {
-    if (!Array.isArray(window.fragen)) {
-      window.fragen = [];
-    }
     const neueFragen = parseFragenDynamisch(parsedData);
     const vorher = window.fragen.length;
     const merged = mergeFragen(window.fragen, neueFragen);
@@ -169,4 +138,7 @@
     const statusEl = document.getElementById("fragen-update-status");
     if (statusEl) statusEl.textContent = msg;
   }
+
+  // Initialisierung beim Laden des Scripts
+  document.addEventListener("DOMContentLoaded", createUI);
 })();
