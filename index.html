@@ -121,6 +121,58 @@ function showQuestion() {
       }
     });
   }
+  function checkAnswer() {
+  const inputs = document.querySelectorAll('input[name="answer"]');
+  let richtig = 0, falsch = 0;
+  let userAntworten = [];
+
+  inputs.forEach(input => {
+    const isCorrect = input.value === "true";
+    const antwortText = input.parentElement.textContent.trim();
+    if (input.checked) {
+      userAntworten.push(antwortText);
+      if (isCorrect) richtig++;
+      else falsch++;
+    }
+    if (!input.checked && isCorrect) falsch++;
+  });
+
+  const f = selectedFach;
+  if (!stats[f]) stats[f] = { richtig: 0, falsch: 0 };
+  stats[f].richtig += richtig;
+  stats[f].falsch += falsch;
+
+  const frageId = questions[current].Frage;
+  if (!frageFehlerCounter[frageId]) frageFehlerCounter[frageId] = 0;
+  if (falsch > 0) frageFehlerCounter[frageId]++;
+
+  const richtigeAntworten = [questions[current]["Richtige Antwort"]];
+  logFrageAntwort(questions[current], userAntworten, richtigeAntworten);
+
+  localStorage.setItem("quizStats", JSON.stringify(stats));
+  localStorage.setItem("frageFehlerCounter", JSON.stringify(frageFehlerCounter));
+  nextQuestion();
+}
+function nextQuestion() {
+  if (current < questions.length - 1) {
+    current++;
+    showQuestion();
+  } else {
+    if (!completedFaecher.includes(selectedFach)) {
+      completedFaecher.push(selectedFach);
+      localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
+    }
+    updateFachauswahl();
+    document.getElementById("quiz").innerHTML = `<h2>Fach abgeschlossen!</h2><p>Wähle ein neues Fach aus der Liste.</p>`;
+  }
+}
+function prevQuestion() {
+  if (current > 0) {
+    current--;
+    showQuestion();
+  }
+}
+
 
   const shuffled = shuffleArray(answers);
   const container = document.getElementById("quiz");
