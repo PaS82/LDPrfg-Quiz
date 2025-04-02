@@ -10,28 +10,42 @@
     const container = document.getElementById(containerId);
     if (!container) return;
 
+    container.innerHTML = ''; // sicherstellen, dass keine doppelten Elemente entstehen
+
+    const wrapper = document.createElement("div");
+    wrapper.style.display = "flex";
+    wrapper.style.flexDirection = "column";
+    wrapper.style.gap = "0.5em";
+    wrapper.style.background = "#f9f9f9";
+    wrapper.style.border = "1px solid #ccc";
+    wrapper.style.borderRadius = "12px";
+    wrapper.style.padding = "1em";
+    wrapper.style.marginBottom = "1em";
+    wrapper.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.05)";
+
     const fileInput = document.createElement("input");
     fileInput.type = "file";
     fileInput.accept = ".csv,.xlsx";
     fileInput.id = "fragen-upload";
 
     const button = document.createElement("button");
-    button.textContent = "Fragenkatalog aktualisieren";
+    button.textContent = "📥 Fragenkatalog aktualisieren";
     button.onclick = handleFileUpload;
 
     const saveButton = document.createElement("button");
-    saveButton.textContent = "Fragenkatalog speichern";
-    saveButton.style.marginLeft = "0.5em";
+    saveButton.textContent = "💾 Fragenkatalog speichern";
     saveButton.onclick = downloadFragenAsJSON;
 
     const status = document.createElement("div");
     status.id = "fragen-update-status";
-    status.style.marginTop = "0.5em";
+    status.style.fontSize = "0.9em";
+    status.style.color = "#333";
 
-    container.appendChild(fileInput);
-    container.appendChild(button);
-    container.appendChild(saveButton);
-    container.appendChild(status);
+    wrapper.appendChild(fileInput);
+    wrapper.appendChild(button);
+    wrapper.appendChild(saveButton);
+    wrapper.appendChild(status);
+    container.appendChild(wrapper);
   }
 
   function handleFileUpload() {
