@@ -44,6 +44,7 @@
     </div>
     <button id="toggleReport" onclick="toggleReport()">Antwortbericht anzeigen</button>
     <div id="reportContainer" style="display:none; margin-top: 2em;"></div>
+    <button onclick="resetStats()">Statistik zurücksetzen</button>
   </div>
 
 <script>
@@ -248,10 +249,26 @@ function shuffleArray(arr) {
   return arr.map(v => [Math.random(), v]).sort((a, b) => a[0] - b[0]).map(a => a[1]);
 }
 
+<script>
+
+function resetStats() {
+  if (confirm("Willst du wirklich die gesamte Statistik löschen?")) {
+    localStorage.removeItem("quizStats");
+    localStorage.removeItem("completedFaecher");
+    localStorage.removeItem("frageFehlerCounter");
+    localStorage.removeItem("reportLog");
+    location.reload();
+  }
+}
+
+// ... eventuell weitere Funktionen (z. B. window.checkAnswer = checkAnswer; usw.)
+</script>
+
+
 window.checkAnswer = checkAnswer;
 window.nextQuestion = nextQuestion;
 window.prevQuestion = prevQuestion;
 </script>
-<script src="fragenUpdater.js"></script>
+
 </body>
 </html>
