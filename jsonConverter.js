@@ -48,6 +48,7 @@ function handleFileUpload(file, callback) {
 
 function convertToJsonStructure(data) {
   return data.map((row) => {
+    
     const richtigeAntworten = Object.keys(row)
       .filter((key) => key.toLowerCase().startsWith("richtigeantwort"))
       .map((key) => row[key])
@@ -59,10 +60,11 @@ function convertToJsonStructure(data) {
       .filter((val) => val);
 
     return {
-      fach: row.Fach || row.fach || "",
-      frage: row.Frage || row.frage || "",
-      richtigeAntworten,
-      falscheAntworten,
+      Fach: row.Fach || row.fach || "",
+      Frage: row.Frage || row.frage || "",
+      "Richtige Antwort": richtigeAntwort,
+      "Falsche Antwort": falscheAntwort,
     };
+
   });
 }
