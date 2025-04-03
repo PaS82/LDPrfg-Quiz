@@ -8,7 +8,7 @@
   <link rel="manifest" href="manifest.json">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="fragenLoader.js"></script>
-  <script src="fragenUpdater.js"></script>
+  <script src="jsonConverter.js"></script>
   <style>
     body { font-family: sans-serif; background: #f4f4f4; margin: 0; padding: 1em; }
     .container { max-width: 800px; margin: auto; background: #fff; padding: 2em; border-radius: 16px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
@@ -25,7 +25,15 @@
 <body>
   <div class="container">
     <h1>📚 Dienstprüfungs-Quiz</h1>
-    <div id="fragen-update-container"></div>
+    
+    <div id="converter-panel" style="position: fixed; bottom: 10px; right: 10px; background: #f0f0f0; border: 1px solid #ccc; border-radius: 8px; padding: 10px; width: 300px; font-family: sans-serif;">
+    <button onclick="togglePanel()" style="margin-bottom: 10px;">🔽 CSV/Excel zu JSON</button>
+      <div id="panel-body" style="display: none;">
+        <input type="file" id="fileInput" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" />
+        <button onclick="convertAndDownload()" style="margin-top: 10px;">Konvertieren und Speichern</button>
+      </div>
+    </div>
+    
     <select id="fachSelect"><option value="">Fach wählen...</option></select>
     <div class="fachstatus" id="fachStatus"></div>
     <div id="quiz"></div>
