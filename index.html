@@ -186,6 +186,70 @@ function toggleChart() {
   }
 }
 
+// Kreisdiagramm
+
+function drawChart() {
+  const ctx = document.getElementById("statsChart").getContext("2d");
+  if (chartInstance) chartInstance.destroy();
+
+  const f = selectedFach;
+  if (!f || !stats[f]) return;
+
+  const richtig = stats[f].richtig || 0;
+  const falsch = stats[f].falsch || 0;
+
+  chartInstance = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: ['Richtig', 'Falsch'],
+      datasets: [{
+        data: [richtig, falsch],
+        backgroundColor: ['green', 'red']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        title: { display: true, text: `Verteilung für ${f}` }
+      }
+    }
+  });
+}
+
+/*
+// Balkendiagramm
+
+function drawChart() {
+  const ctx = document.getElementById("statsChart").getContext("2d");
+  if (chartInstance) chartInstance.destroy();
+
+  const labels = Object.keys(stats).filter(f => stats[f].richtig + stats[f].falsch > 0);
+  const richtig = labels.map(f => stats[f].richtig);
+  const falsch = labels.map(f => stats[f].falsch);
+
+  chartInstance = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [
+        { label: 'Richtig', data: richtig, stack: 'Stack 0' },
+        { label: 'Falsch', data: falsch, stack: 'Stack 0' }
+      ]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      plugins: { title: { display: true, text: 'Richtig vs. Falsch nach Fach' } },
+      scales: {
+        x: { stacked: true, beginAtZero: true },
+        y: { stacked: true }
+      }
+    }
+  });
+}
+*/
+  
+/*
 function drawChart() {
   const ctx = document.getElementById("statsChart").getContext("2d");
   if (chartInstance) chartInstance.destroy();
@@ -207,7 +271,7 @@ function drawChart() {
     }
   });
 }
-
+*/
 function toggleReport() {
   const container = document.getElementById("reportContainer");
   const button = document.getElementById("toggleReport");
