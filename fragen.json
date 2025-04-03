@@ -2,7 +2,10 @@
   {
     "Fach": "Finanzrecht",
     "Frage": "Was regelt grundsätzlich die Finanzverfassung bzw. der Finanzausgleich?",
-    "Richtige Antwort": "Die grundlegenden Regeln für die finanziellen Beziehungen zwischen Bund, Ländern und Gemeinden werden im F-VG 1948 geregelt.",
+    "Richtige Antwort": [
+      "Die grundlegenden Regeln für die finanziellen Beziehungen zwischen Bund, Ländern und Gemeinden werden im F-VG 1948 geregelt.",
+      "Das Finanzausgleichsgesetz konkretisiert die Aufteilung der Abgaben zw. den Gebietskörperschaften und die Zuständigkeiten."
+    ],
     "Falsche Antwort": [
       "Die Grundrechte der Bürgerinnen und Bürger.",
       "Die Aufgabenverteilung zwischen Parlament und Regierung.",
@@ -12,7 +15,9 @@
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist das Mischsystem?",
-    "Richtige Antwort": "Die Gebietskörperschaften erhalten sowohl eigene Einnahmen als auch Mittel vom Zentralstaat.",
+    "Richtige Antwort": [
+      "Die Gebietskörperschaften erhalten sowohl eigene Einnahmen als auch Mittel vom Zentralstaat."
+    ],
     "Falsche Antwort": [
       "Nur Gemeinden erheben Steuern.",
       "Alle Abgaben werden zentral verwaltet.",
@@ -22,1070 +27,2180 @@
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist das Verbundsystem?",
-    "Richtige Antwort": "Die Finanzierung erfolgt ausschließlich aus gemeinschaftlichen Steuern des Zentralstaates.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Finanzierung erfolgt ausschließlich aus gemeinschaftlichen Steuern des Zentralstaates."
+    ],
+    "Falsche Antwort": [
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Die Finanzierung erfolgt ausschließlich aus gemeinschaftlichen Steuern des Zentralstaates. hat damit gesetzlich nichts zu tun.",
+      "Die Finanzierung erfolgt ausschließlich aus gemeinschaftlichen Steuern des Zentralstaates. ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist das Trennsystem?",
-    "Richtige Antwort": "Die einzelnen Gebietskörperschaften (Bund, Länder, Gemeinden) als öffentliche Auftgabenträger finanzieren sich voneinander unabhängig.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die einzelnen Gebietskörperschaften (Bund, Länder, Gemeinden) als öffentliche Auftgabenträger finanzieren sich voneinander unabhängig."
+    ],
+    "Falsche Antwort": [
+      "Die einzelnen Gebietskörperschaften (Bund, Länder, Gemeinden) als öffentliche Auftgabenträger finanzieren sich voneinander unabhängig. hat damit gesetzlich nichts zu tun.",
+      "Die einzelnen Gebietskörperschaften (Bund, Länder, Gemeinden) als öffentliche Auftgabenträger finanzieren sich voneinander unabhängig. ist nach EU-Recht nicht zuständig.",
+      "Nur der Bund darf das Thema regeln."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist das Mischsystem?",
-    "Richtige Antwort": "Die einzelnen Gebietskörperschaften erhalten sowohl eigene Einnahmen als auch Mittel des Übergeordneten Instanzen (Z.B. Österreich)",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die einzelnen Gebietskörperschaften erhalten sowohl eigene Einnahmen als auch Mittel des Übergeordneten Instanzen (Z.B. Österreich)"
+    ],
+    "Falsche Antwort": [
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Die einzelnen Gebietskörperschaften erhalten sowohl eigene Einnahmen als auch Mittel des Übergeordneten Instanzen (Z.B. Österreich) hat damit gesetzlich nichts zu tun.",
+      "Nur der Bund darf das Thema regeln."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Welches System der Abgabenteilung kommt in Österreich zur Anwendung?",
-    "Richtige Antwort": "Das Mischsystem",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Das Mischsystem"
+    ],
+    "Falsche Antwort": [
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Das Mischsystem ist nach EU-Recht nicht zuständig.",
+      "Das Mischsystem hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist die Finanzverfassung?",
-    "Richtige Antwort": "Das Finanzverfassungsgesetz wurde im Jahr 1948 in Kraft gesetzt und gilt dauerhaft / unbefristet / für unbestimmte Zeit.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Das Finanzverfassungsgesetz wurde im Jahr 1948 in Kraft gesetzt und gilt dauerhaft / unbefristet / für unbestimmte Zeit.",
+      "Dieses Finanzverfassungsgesetz regelt die Zuständigkeiten des Bundes und der Länder auf dem Gebiet des Abgabenwesens.",
+      "Es legt abstrakt die einzelnen Abgabentypen fest (ausschließliche Bundes- bzw. Landes- bzw. Gemeindeabgaben, gemeinschaftliche Abgaben, Zuschlagsabgaben etc.)"
+    ],
+    "Falsche Antwort": [
+      "Es legt abstrakt die einzelnen Abgabentypen fest (ausschließliche Bundes- bzw. Landes- bzw. Gemeindeabgaben, gemeinschaftliche Abgaben, Zuschlagsabgaben etc.) hat damit gesetzlich nichts zu tun.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Dieses Finanzverfassungsgesetz regelt die Zuständigkeiten des Bundes und der Länder auf dem Gebiet des Abgabenwesens. hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist der Finanzausgleich?",
-    "Richtige Antwort": "Finanzausgleich = ein befristetes, einfaches Bundesgesetz",
+    "Richtige Antwort": [
+      "Finanzausgleich = ein befristetes, einfaches Bundesgesetz",
+      "Der Finanzausgleich regelt konkret für eine jeweils bestimmte Zeitspanne die finanziellen Beziehungen zwischen Bund, Länder und Gemeinden (Gebietskörperschaften), nämlich die konkrete Verteilung der Abgaben und Steuererträge"
+    ],
     "Falsche Antwort": [
-      "Der Finanzausgleich ist ein zentrales Element jedes Bundesstaates und sollen die öffentlichen Einnahmen (Abgaben) dorthin gelenkt werden, „wo sie gebraucht werden“."
+      "Der Finanzausgleich ist ein zentrales Element jedes Bundesstaates und sollen die öffentlichen Einnahmen (Abgaben) dorthin gelenkt werden, „wo sie gebraucht werden“.",
+      "Finanzausgleich = ein befristetes, einfaches Bundesgesetz ist nach EU-Recht nicht zuständig.",
+      "Finanzausgleich = ein befristetes, einfaches Bundesgesetz hat damit gesetzlich nichts zu tun."
     ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was sind die Grundsätze der Finanzverfassung und was bedeutet sie?",
-    "Richtige Antwort": "Grundsatz der eigenen Kostentragung, die Kompetenz-Kompetenz, das Legalitätsprinzip, das Sachlichkeitsgebot: Grundsatz der Finanzausgleichsgerechtigkeit",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Grundsatz der eigenen Kostentragung, die Kompetenz-Kompetenz, das Legalitätsprinzip, das Sachlichkeitsgebot: Grundsatz der Finanzausgleichsgerechtigkeit"
+    ],
+    "Falsche Antwort": [
+      "Grundsatz der eigenen Kostentragung, die Kompetenz-Kompetenz, das Legalitätsprinzip, das Sachlichkeitsgebot: Grundsatz der Finanzausgleichsgerechtigkeit ist nach EU-Recht nicht zuständig.",
+      "Nur der Bund darf das Thema regeln.",
+      "Grundsatz der eigenen Kostentragung, die Kompetenz-Kompetenz, das Legalitätsprinzip, das Sachlichkeitsgebot: Grundsatz der Finanzausgleichsgerechtigkeit hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Der Grundsatz der eigenen Kostentragung bedeutet …",
-    "Richtige Antwort": "Die Pflicht der Kostentragung trifft die Gebietskörperschaft welche mit des Vollziehung betraut wurde.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Pflicht der Kostentragung trifft die Gebietskörperschaft welche mit des Vollziehung betraut wurde.",
+      "Der Bund und die überigen Gebietskörperschaften tragen den Aufwand, der sich aus der Besorgung ihrer Aufgaben ergibt selbst."
+    ],
+    "Falsche Antwort": [
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Die Pflicht der Kostentragung trifft die Gebietskörperschaft welche mit des Vollziehung betraut wurde. ist nach EU-Recht nicht zuständig.",
+      "Nur der Bund darf das Thema regeln."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Der Grundsatz der Kompetenz-Kompetenz bedeutet …",
-    "Richtige Antwort": "Unter Kompetenz-Kompetenz versteht man im Wesentlichen die Befugnis einer Instanz, über die Zuständigkeiten selbst verbindlich zu entscheiden.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Unter Kompetenz-Kompetenz versteht man im Wesentlichen die Befugnis einer Instanz, über die Zuständigkeiten selbst verbindlich zu entscheiden.",
+      "Die Bundesgesetzgebung regelt die Verteilung der Besteuerungsrechte und Abgabenerträge zwischen dem Bund, den Ländern und Gemeinden. Dem Bund kommt somit die oberste Zuständigkeit (Kompetenz-Kompetenz) auf dem Gebiet des Finanzausgleiches durch das Recht auf Regelung der Mittelbeschaffung für die nachgeordneten Gebietskörperschaften zu."
+    ],
+    "Falsche Antwort": [
+      "Unter Kompetenz-Kompetenz versteht man im Wesentlichen die Befugnis einer Instanz, über die Zuständigkeiten selbst verbindlich zu entscheiden. hat damit gesetzlich nichts zu tun.",
+      "Nur der Bund darf kompetenz regeln.",
+      "Unter Kompetenz-Kompetenz versteht man im Wesentlichen die Befugnis einer Instanz, über die Zuständigkeiten selbst verbindlich zu entscheiden. ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Das Legalitätsprinzip besagt … ",
-    "Richtige Antwort": "Öffentliche Abgaben dürfen nur aufgrund von Gesetzen erhoben werden.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Öffentliche Abgaben dürfen nur aufgrund von Gesetzen erhoben werden.",
+      "Das entspricht dem Art. 18 B-VG, wonach die gesamte staatliche Verwaltung nur aufgrund von Gesetzen erfolgen darf (Legalitätsprinzip)."
+    ],
+    "Falsche Antwort": [
+      "Nur der Bund darf das Thema regeln.",
+      "Öffentliche Abgaben dürfen nur aufgrund von Gesetzen erhoben werden. hat damit gesetzlich nichts zu tun.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Das Sachlichkeitsgebot bzw. der Grundsatz der Finanzausgleichsgerechtigkeit besagt …",
-    "Richtige Antwort": "Die Verteilung der Besteuerungsrechte und der Abgabenerträge auf die Gebietskörperschaften müssen in Übereinstimmung mit der Verteilung der Lasten der öffentlichen Verwaltung erfolgen.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Verteilung der Besteuerungsrechte und der Abgabenerträge auf die Gebietskörperschaften müssen in Übereinstimmung mit der Verteilung der Lasten der öffentlichen Verwaltung erfolgen.",
+      "Die Grenzen der Leistungsfähigkeit der beteiligten Gebietskörperschaften dürfen nicht überschritten werden.",
+      "Finanzstarke Regionen sollen nicht übermäßig belastet werden, während finanzschwache Regionen ausreichend unterstützt werden sollen."
+    ],
+    "Falsche Antwort": [
+      "Nur der Bund darf das Thema regeln.",
+      "Die Verteilung der Besteuerungsrechte und der Abgabenerträge auf die Gebietskörperschaften müssen in Übereinstimmung mit der Verteilung der Lasten der öffentlichen Verwaltung erfolgen. hat damit gesetzlich nichts zu tun.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist eine Abgabe?",
-    "Richtige Antwort": "Die Abgabe ist ein Oberbegriff für Beiträge, Gebühren und Steuern.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Abgabe ist ein Oberbegriff für Beiträge, Gebühren und Steuern.",
+      "Eine Geldleistung, die durch einen hoheitlichen Verwaltungsakt zur Erzielung von Einkünften für ein öffentl. Gemeinwesen auferlegt und von einer Behörde vorgeschrieben wird."
+    ],
+    "Falsche Antwort": [
+      "Nur der Bund darf abgabe regeln.",
+      "Eine Geldleistung, die durch einen hoheitlichen Verwaltungsakt zur Erzielung von Einkünften für ein öffentl. Gemeinwesen auferlegt und von einer Behörde vorgeschrieben wird. ist nach EU-Recht nicht zuständig.",
+      "Die Abgabe ist ein Oberbegriff für Beiträge, Gebühren und Steuern. ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was versteht man Abgaben- bzw. Ertragshoheit?",
-    "Richtige Antwort": "Unter Abgabenhoheit versteht man das Rechteiner Gebietskörperschaft, Abgaben inhaltlich zu regeln. Sie liegt in Österreich primär beim Bund und den Ländern.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Unter Abgabenhoheit versteht man das Rechteiner Gebietskörperschaft, Abgaben inhaltlich zu regeln. Sie liegt in Österreich primär beim Bund und den Ländern.",
+      "Unter Ertragshoheit versteht man das Recht über den Ertrag dieser Abgaben autonom verfügen zu können."
+    ],
+    "Falsche Antwort": [
+      "Unter Ertragshoheit versteht man das Recht über den Ertrag dieser Abgaben autonom verfügen zu können. ist nach EU-Recht nicht zuständig.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Unter Abgabenhoheit versteht man das Rechteiner Gebietskörperschaft, Abgaben inhaltlich zu regeln. Sie liegt in Österreich primär beim Bund und den Ländern. ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Welche Abgabentypen gibt es nach der Finanzverfassung?",
-    "Richtige Antwort": "(1) Ausschließliche Bundesabgaben deren Ertrag ganz dem Bund zufließen. (2) Zwischen Bund und Ländern geteilte Abgaben an deren Ertrag Bund und Länder (Gemeinden) beteiligt sind. (3) Ausschließliche Landesabgaben, deren Ertrag ganz den Ländern zufließt. (4) Zwischen Ländern und Gemeinden geteilte Abgaben, an deren Ertrag Länder und Gemeinden beteiligt sind. (5) Ausschließliche Gemeindeabgaben, deren Ertrag ganz den Gemeinden zufließt.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "(1) Ausschließliche Bundesabgaben deren Ertrag ganz dem Bund zufließen. (2) Zwischen Bund und Ländern geteilte Abgaben an deren Ertrag Bund und Länder (Gemeinden) beteiligt sind. (3) Ausschließliche Landesabgaben, deren Ertrag ganz den Ländern zufließt. (4) Zwischen Ländern und Gemeinden geteilte Abgaben, an deren Ertrag Länder und Gemeinden beteiligt sind. (5) Ausschließliche Gemeindeabgaben, deren Ertrag ganz den Gemeinden zufließt.",
+      "Zu den geteilten Abgaben zählen: (1) Gemeinschaftliche Bundesabgaben, die vom Bund erhoben werden und die Länder Ertragsanteile bekommen und (2) Zuschlagsabgaben (=Stammabgabe des Bundes, Zuschläge an Länder)"
+    ],
+    "Falsche Antwort": [
+      "Nur der Bund darf abgabe regeln.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "(1) Ausschließliche Bundesabgaben deren Ertrag ganz dem Bund zufließen. (2) Zwischen Bund und Ländern geteilte Abgaben an deren Ertrag Bund und Länder (Gemeinden) beteiligt sind. (3) Ausschließliche Landesabgaben, deren Ertrag ganz den Ländern zufließt. (4) Zwischen Ländern und Gemeinden geteilte Abgaben, an deren Ertrag Länder und Gemeinden beteiligt sind. (5) Ausschließliche Gemeindeabgaben, deren Ertrag ganz den Gemeinden zufließt. hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Wie hoch ist in etwa das Abgabenaufkommen an den einzelnen Abgaben?",
-    "Richtige Antwort": "(1) Ausschließliche Bundesabgaben: 2022 rd. 8,9 Mrd. (2) Geteilte Abgaben zwischen Bund und Ländern (Gemeinden): 2023 rd. 104 Mrd. (3) Landesabganeben: 2022 rd. 1,4 Mrd (4) Gemeindeabgaben: 2021 rd. 6,4 Mrd.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "(1) Ausschließliche Bundesabgaben: 2022 rd. 8,9 Mrd. (2) Geteilte Abgaben zwischen Bund und Ländern (Gemeinden): 2023 rd. 104 Mrd. (3) Landesabganeben: 2022 rd. 1,4 Mrd (4) Gemeindeabgaben: 2021 rd. 6,4 Mrd.",
+      "Der größte Teil des gesamten Abgabenaufkommens mit 104 Mrd Eurofällt  in Österreich unter die geteilten Abgaben."
+    ],
+    "Falsche Antwort": [
+      "Der größte Teil des gesamten Abgabenaufkommens mit 104 Mrd Eurofällt  in Österreich unter die geteilten Abgaben. hat damit gesetzlich nichts zu tun.",
+      "Nur der Bund darf abgabe regeln.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Zählen folgende Abgaben zu den Bundes-, Landes- oder Gemeindeabgaben? (.) Umsatzsteuer, Einkommenssteuer inkl. Lohnsteuer, Körperschaftsteuer, Veranl. Eink.st., Mineralölsteuer, KEST I, motorbezogene Versicherungssteuer, Tabaksteuer, Grunderwerbssteuer, Versicherungssteuer, KEST II, Kapitalverkehrssteuern, Eletrizitätsabgabe, Erdgasabgabe, Bier-, Wein-, Alkoholsteuer",
-    "Richtige Antwort": "Die Abgaben zählen zu den gemeinschaftlichen Bundesabgaben.",
+    "Richtige Antwort": [
+      "Die Abgaben zählen zu den gemeinschaftlichen Bundesabgaben."
+    ],
     "Falsche Antwort": [
       "Die Abgaben zählen zu den gemeinschaftlichen Landesabgaben.",
-      "Die Abgaben zählen zu den gemeinschaftlichen Gemeindeabgaben."
+      "Die Abgaben zählen zu den gemeinschaftlichen Gemeindeabgaben.",
+      "Nur der Bund darf steuer regeln."
     ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Landes- und Rundfunkabgaben, Kurabgabe, Tourismusinteressentenbeitrag, Landesverwaltungsabgaben, Feuerschutzabgabe, Jagd- und Fischereikarten zälen zu welchem Abgabentyp?",
-    "Richtige Antwort": "Die Abgaben zählen zu den gemeinschaftlichen Landesabgaben.",
+    "Richtige Antwort": [
+      "Die Abgaben zählen zu den gemeinschaftlichen Landesabgaben."
+    ],
     "Falsche Antwort": [
       "Die Abgaben zählen zu den gemeinschaftlichen Bundesabgaben.",
-      "Die Abgaben zählen zu den gemeinschaftlichen Gemeindeabgaben."
+      "Die Abgaben zählen zu den gemeinschaftlichen Gemeindeabgaben.",
+      "Die Abgaben zählen zu den gemeinschaftlichen Landesabgaben. hat damit gesetzlich nichts zu tun."
     ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Nächtigungsabgabe, Grundsteuer, Kommunalsteuer, Abgabe Haltung Tiere, Vergnügungssteuer, Zweitwohnsitzabgabe, Wohnbauförderungsbeitrag zählen zu welchem Abgabentyp?",
-    "Richtige Antwort": "Die Abgaben zählen zu den gemeinschaftlichen Gemeindeabgaben.",
+    "Richtige Antwort": [
+      "Die Abgaben zählen zu den gemeinschaftlichen Gemeindeabgaben."
+    ],
     "Falsche Antwort": [
       "Die Abgaben zählen zu den gemeinschaftlichen Bundesabgaben.",
-      "Die Abgaben zählen zu den gemeinschaftlichen Landesabgaben."
+      "Die Abgaben zählen zu den gemeinschaftlichen Landesabgaben.",
+      "Nur der Bund darf steuer regeln."
     ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Wer darf nach der Finanzverfassung in welchem Ausmaß eigene Abgaben erfinden?",
-    "Richtige Antwort": "Bund, Länder (mit Einschränkungen), Gemeinden nur mit gesonderter Ermächtigung durch Bund/Länder",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Bund, Länder (mit Einschränkungen), Gemeinden nur mit gesonderter Ermächtigung durch Bund/Länder",
+      "Länder dürfen eigene Abgaben erfinden, sind aber mehrfach stark eingeschränkt.",
+      "Gemeinden können nicht direkt auf Bsis der Finanzverfassung eigene Abgaben erfinden. Sie brauchen Bundes- und Landesgesetze, damit sie Abgaben einheben dürfen."
+    ],
+    "Falsche Antwort": [
+      "Bund, Länder (mit Einschränkungen), Gemeinden nur mit gesonderter Ermächtigung durch Bund/Länder hat damit gesetzlich nichts zu tun.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Bund, Länder (mit Einschränkungen), Gemeinden nur mit gesonderter Ermächtigung durch Bund/Länder ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist das Einspruchsrecht des Bundesregierung im Abgabenbereich?",
-    "Richtige Antwort": "Bundesregierung hat bei Abgabengesetzen der Länder die Möglichkeit diese durch Einspruch zu Fall zu bringen.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Bundesregierung hat bei Abgabengesetzen der Länder die Möglichkeit diese durch Einspruch zu Fall zu bringen.",
+      "Besteht Gefährdung von Bundesinteressen, kann die Bundesregierung gegen einen Gesetzesbeschluss innerhalb von 8 Wochen nach dem Tag, an dem der Gesetzesbeschluss beim Bundeskanzleramt eigelangt ist, begründet verhindert werden."
+    ],
+    "Falsche Antwort": [
+      "Bundesregierung hat bei Abgabengesetzen der Länder die Möglichkeit diese durch Einspruch zu Fall zu bringen. hat damit gesetzlich nichts zu tun.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Nur der Bund darf abgabe regeln."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was sind Finanzzuweisungen bzw. Transfers?",
-    "Richtige Antwort": "Finanzzuweisungen sind neben den Abgaben die wichtigste Einnahmequelle für Länder und Gemeinden.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Finanzzuweisungen sind neben den Abgaben die wichtigste Einnahmequelle für Länder und Gemeinden.",
+      "Im F-VG wird bei den Finanzzuweisungen (= Transfers oder Transferzahlungen) zwischen Schlüsselzuweisungen und Bedarfszuweisungen unterschieden."
+    ],
+    "Falsche Antwort": [
+      "Nur der Bund darf das Thema regeln.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Im F-VG wird bei den Finanzzuweisungen (= Transfers oder Transferzahlungen) zwischen Schlüsselzuweisungen und Bedarfszuweisungen unterschieden. hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was versteht man unter Schlüsselzuweisungen?",
-    "Richtige Antwort": "Die Zuweisungen werden nach einem festen Schlüssel (z.B. Volkszahl) gewährt.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Zuweisungen werden nach einem festen Schlüssel (z.B. Volkszahl) gewährt.",
+      "Damit sollen finanzschwächere Gemeinden unterstützt werden."
+    ],
+    "Falsche Antwort": [
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Die Zuweisungen werden nach einem festen Schlüssel (z.B. Volkszahl) gewährt. ist nach EU-Recht nicht zuständig.",
+      "Damit sollen finanzschwächere Gemeinden unterstützt werden. hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was versteht man unter Bedarfszuweisungen?",
-    "Richtige Antwort": "Die Bedarfszuweisungen werden als Instrument der Feinverteilung zum Ausgleich eines Speziellen Bedarfs gewährt. ",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Bedarfszuweisungen werden als Instrument der Feinverteilung zum Ausgleich eines Speziellen Bedarfs gewährt. "
+    ],
+    "Falsche Antwort": [
+      "Nur der Bund darf das Thema regeln.",
+      "Die Bedarfszuweisungen werden als Instrument der Feinverteilung zum Ausgleich eines Speziellen Bedarfs gewährt. hat damit gesetzlich nichts zu tun.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Es gibt Finanzzuweisungen …",
-    "Richtige Antwort": "des Bundes an die Länder und Gemeinden",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "des Bundes an die Länder und Gemeinden",
+      "der Länder and die Gemeinden."
+    ],
+    "Falsche Antwort": [
+      "der Länder and die Gemeinden. hat damit gesetzlich nichts zu tun.",
+      "Nur der Bund darf das Thema regeln.",
+      "der Länder and die Gemeinden. ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Das derzeitig getende Finanzausgleichsgesetz …",
-    "Richtige Antwort": "… ist ein einfaches Bundesgesetz …",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "… ist ein einfaches Bundesgesetz …",
+      "… stammt vom 1. Jänner 2014 und gilt bis 31. Dezember 2028"
+    ],
+    "Falsche Antwort": [
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Nur der Bund darf gesetz regeln.",
+      "… ist ein einfaches Bundesgesetz … ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Wer führt die Verhandlungen zum Finanzausgleich bzw. wer sind die Finanzausgleichspartner?",
-    "Richtige Antwort": "Die Finanzausgleichspartner sind Bund, Länder und Gemeinden.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Finanzausgleichspartner sind Bund, Länder und Gemeinden.",
+      "Die Verhandlungen werden geführt vom Finanzministerium (für den Bund), der Landesfinanzreferentenkonferenz (für die Länder) und dem Städte- und Gemeindebund (für Städte und Gemeinden)."
+    ],
+    "Falsche Antwort": [
+      "Nur der Bund darf das Thema regeln.",
+      "Die Verhandlungen werden geführt vom Finanzministerium (für den Bund), der Landesfinanzreferentenkonferenz (für die Länder) und dem Städte- und Gemeindebund (für Städte und Gemeinden). hat damit gesetzlich nichts zu tun.",
+      "Die Finanzausgleichspartner sind Bund, Länder und Gemeinden. ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist der vertikale Finanzausgleich?",
-    "Richtige Antwort": "Der vertikale Finanzausgleich regelt die Beziehungen finanzausgleichsrechtlicher Art von Gebietskörperschaften verschiedener Ebenen, also zwischen Bund und Ländern bzw. Gemeinden oder zwischen Ländern und Gemeinden.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Der vertikale Finanzausgleich regelt die Beziehungen finanzausgleichsrechtlicher Art von Gebietskörperschaften verschiedener Ebenen, also zwischen Bund und Ländern bzw. Gemeinden oder zwischen Ländern und Gemeinden.",
+      "Die vertikale Verteilung wird auch Oberverteilung genannt."
+    ],
+    "Falsche Antwort": [
+      "Die vertikale Verteilung wird auch Oberverteilung genannt. hat damit gesetzlich nichts zu tun.",
+      "Der vertikale Finanzausgleich regelt die Beziehungen finanzausgleichsrechtlicher Art von Gebietskörperschaften verschiedener Ebenen, also zwischen Bund und Ländern bzw. Gemeinden oder zwischen Ländern und Gemeinden. hat damit gesetzlich nichts zu tun.",
+      "Nur der Bund darf das Thema regeln."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist der horizontale Finanzausgleich?",
-    "Richtige Antwort": "Der horizontale Finanzausgleich regelt die finanzausgleichsrechtlichen Beziehungen zwischen Gebietskörperschaften der gleichen Ebene, also zwischen Gemeinden untereinander oder zwischen Ländern untereinander.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Der horizontale Finanzausgleich regelt die finanzausgleichsrechtlichen Beziehungen zwischen Gebietskörperschaften der gleichen Ebene, also zwischen Gemeinden untereinander oder zwischen Ländern untereinander.",
+      "Die horizontale Verteilung wird auch Unterverteilung genannt."
+    ],
+    "Falsche Antwort": [
+      "Die horizontale Verteilung wird auch Unterverteilung genannt. ist nach EU-Recht nicht zuständig.",
+      "Nur der Bund darf das Thema regeln.",
+      "Die horizontale Verteilung wird auch Unterverteilung genannt. hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was sind Ertragsanteile?",
-    "Richtige Antwort": "Die jeweiligen Anteile von Bund, Ländern und Gemeinden an den Steuermitteln werden als „Ertragsanteile“ bezeichnet.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die jeweiligen Anteile von Bund, Ländern und Gemeinden an den Steuermitteln werden als „Ertragsanteile“ bezeichnet.",
+      "Dabei geht es jährlich um mehr als € 100 Mrd. die etwa nach dem Schlüssel 2/3 Bund und 1/3 Länder und Gemeinden verteilt werden."
+    ],
+    "Falsche Antwort": [
+      "Dabei geht es jährlich um mehr als € 100 Mrd. die etwa nach dem Schlüssel 2/3 Bund und 1/3 Länder und Gemeinden verteilt werden. hat damit gesetzlich nichts zu tun.",
+      "Dabei geht es jährlich um mehr als € 100 Mrd. die etwa nach dem Schlüssel 2/3 Bund und 1/3 Länder und Gemeinden verteilt werden. ist nach EU-Recht nicht zuständig.",
+      "Die jeweiligen Anteile von Bund, Ländern und Gemeinden an den Steuermitteln werden als „Ertragsanteile“ bezeichnet. hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was sind Vorwegabzüge?",
-    "Richtige Antwort": "Unter Vorwegabzügen versteht man zweckbestimmte Abzüge von den gemeinschaftlichen Bundesausgaben vor dem Aufteilungsverfahren, bzw. vor der horizontalen Aufteilung.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Unter Vorwegabzügen versteht man zweckbestimmte Abzüge von den gemeinschaftlichen Bundesausgaben vor dem Aufteilungsverfahren, bzw. vor der horizontalen Aufteilung.",
+      "Ein wichtiger Vorwegabzug ist der EU-Beitrag, aber auch Vorwegabzüge für Familienlastenausgleichsfond, Katastrophenfonds, Pflegefonds.",
+      "Der Abgabenertrag nach Abzug der Vorwegabzüge wird als „Nettoaufkommen“ bezeichnet."
+    ],
+    "Falsche Antwort": [
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Ein wichtiger Vorwegabzug ist der EU-Beitrag, aber auch Vorwegabzüge für Familienlastenausgleichsfond, Katastrophenfonds, Pflegefonds. hat damit gesetzlich nichts zu tun.",
+      "Nur der Bund darf das Thema regeln."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Welche Aussage ist richtig?",
-    "Richtige Antwort": "Oberverteilung = vertikale Verteilung! Sie regelt die Verteilung der Erträge der gemeinschaftlichen Bundesabgaben auf die 3 Gebietskörperschaftsebenen (Bund, Länder, Gemeinden) und stellt das Kernstück des Finanzausgleichs dar! Das Nettoaufkommen (= Erträge der gemeinschaftlichen Bundesabgaben minus Vorwegabzüge) wird aufgeteilt:(.) 2/3 Bund (67,934%)(.) 1/3 Land (20,217%) und Gemeinden (11,849%)",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Oberverteilung = vertikale Verteilung! Sie regelt die Verteilung der Erträge der gemeinschaftlichen Bundesabgaben auf die 3 Gebietskörperschaftsebenen (Bund, Länder, Gemeinden) und stellt das Kernstück des Finanzausgleichs dar! Das Nettoaufkommen (= Erträge der gemeinschaftlichen Bundesabgaben minus Vorwegabzüge) wird aufgeteilt:(.) 2/3 Bund (67,934%)(.) 1/3 Land (20,217%) und Gemeinden (11,849%)",
+      "Unterverteilung = horizontale Verteilung! Die Länder- und Gemeindeertragsanteile werden auf Land und Gemeinden bundesländerweise verteilt, wobei teilweise fixe Prozentsätze, teilweise die Verteilungskriterien „Volkszahl“, „abgestufter Bevölkerungsschlüssel“ sowie das länderweise Aufkommen der betreffenden oder einer anderen Steuer angewendet werden. Verteilungskriterien: \\n (.) Nach abgestuften Bevölkerungsschlüssel (gewichtige Einwohnerzahl) (.) Nach Fixschlüssel (historisch bedingte fixe Aufteilungsverhältnisse nach Bundesländern) (.) Nach Volkszahl (Aufteilung nach dem länderweisen Anteil an der Einwohnerzahl) (.) Örtliches Aufkommen (länderweises Aufkommen an Grunderwerbssteuer, Bodenwertabgabe und Spielbankabgabe)",
+      "Da wichtigste Aufteilungskriterium bei der Unterverteilung der Länderanteile ist die Volkszahl, bei den Ertragsanteilen der Gemeinden ist es der \"abgestufte Bevölkerungsschlüssel\"."
+    ],
+    "Falsche Antwort": [
+      "Unterverteilung = horizontale Verteilung! Die Länder- und Gemeindeertragsanteile werden auf Land und Gemeinden bundesländerweise verteilt, wobei teilweise fixe Prozentsätze, teilweise die Verteilungskriterien „Volkszahl“, „abgestufter Bevölkerungsschlüssel“ sowie das länderweise Aufkommen der betreffenden oder einer anderen Steuer angewendet werden. Verteilungskriterien: \\n (.) Nach abgestuften Bevölkerungsschlüssel (gewichtige Einwohnerzahl) (.) Nach Fixschlüssel (historisch bedingte fixe Aufteilungsverhältnisse nach Bundesländern) (.) Nach Volkszahl (Aufteilung nach dem länderweisen Anteil an der Einwohnerzahl) (.) Örtliches Aufkommen (länderweises Aufkommen an Grunderwerbssteuer, Bodenwertabgabe und Spielbankabgabe) hat damit gesetzlich nichts zu tun.",
+      "Nur der Bund darf das Thema regeln.",
+      "Oberverteilung = vertikale Verteilung! Sie regelt die Verteilung der Erträge der gemeinschaftlichen Bundesabgaben auf die 3 Gebietskörperschaftsebenen (Bund, Länder, Gemeinden) und stellt das Kernstück des Finanzausgleichs dar! Das Nettoaufkommen (= Erträge der gemeinschaftlichen Bundesabgaben minus Vorwegabzüge) wird aufgeteilt:(.) 2/3 Bund (67,934%)(.) 1/3 Land (20,217%) und Gemeinden (11,849%) hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist der Abgestufte Bevölkerungsschlüssel? ",
-    "Richtige Antwort": "Eine Gewichtung der Einwohnerzahl durch Multiplikation mit einem Vervielfacher. Der Vervielfacher steigt mit der Einwohnerklasse, wodurch größere Gemeinden pro Kopf mehr erhalten als kleinere.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Eine Gewichtung der Einwohnerzahl durch Multiplikation mit einem Vervielfacher. Der Vervielfacher steigt mit der Einwohnerklasse, wodurch größere Gemeinden pro Kopf mehr erhalten als kleinere."
+    ],
+    "Falsche Antwort": [
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Eine Gewichtung der Einwohnerzahl durch Multiplikation mit einem Vervielfacher. Der Vervielfacher steigt mit der Einwohnerklasse, wodurch größere Gemeinden pro Kopf mehr erhalten als kleinere. hat damit gesetzlich nichts zu tun.",
+      "Eine Gewichtung der Einwohnerzahl durch Multiplikation mit einem Vervielfacher. Der Vervielfacher steigt mit der Einwohnerklasse, wodurch größere Gemeinden pro Kopf mehr erhalten als kleinere. ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist das wichtigste Verteilungskriterium bei den Ertragsanteilen der Länder?",
-    "Richtige Antwort": "Die Volkszahl",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Volkszahl"
+    ],
+    "Falsche Antwort": [
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Die Volkszahl hat damit gesetzlich nichts zu tun.",
+      "Die Volkszahl ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist das wichtigste Verteilungskriterium bei den Ertragsanteilen der Gemeinden?",
-    "Richtige Antwort": "Der abgestufte Bevölkerungsschlüssel",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Der abgestufte Bevölkerungsschlüssel"
+    ],
+    "Falsche Antwort": [
+      "Der abgestufte Bevölkerungsschlüssel hat damit gesetzlich nichts zu tun.",
+      "Der abgestufte Bevölkerungsschlüssel ist nach EU-Recht nicht zuständig.",
+      "Nur der Bund darf das Thema regeln."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was sind Transfers im Finanzausgleich?",
-    "Richtige Antwort": "Darunter versteht man im Wesentlichen Finanzströme zwischen den Gebietskörperschaften abseits der Verteilung der gemeinschaftlichen Bundesabgaben.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Darunter versteht man im Wesentlichen Finanzströme zwischen den Gebietskörperschaften abseits der Verteilung der gemeinschaftlichen Bundesabgaben."
+    ],
+    "Falsche Antwort": [
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Nur der Bund darf das Thema regeln.",
+      "Darunter versteht man im Wesentlichen Finanzströme zwischen den Gebietskörperschaften abseits der Verteilung der gemeinschaftlichen Bundesabgaben. hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Zu diesen Transfers gehören wesentlich die Finanzzuweisungen und Zuschüsse. \\n Welche Transfers gibt es ...",
-    "Richtige Antwort": "Transfers des Bundes: Zuteilung von Finanzzuweisungen und Zuschüssen des Bundes auf Länder und Gemeinden.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Transfers des Bundes: Zuteilung von Finanzzuweisungen und Zuschüssen des Bundes auf Länder und Gemeinden.",
+      "Transfers Länder und Gemeinden: Umlagen von den Gemeinden an die Länder sowie Förderungen von den Ländern an die Gemeinden."
+    ],
+    "Falsche Antwort": [
+      "Transfers des Bundes: Zuteilung von Finanzzuweisungen und Zuschüssen des Bundes auf Länder und Gemeinden. hat damit gesetzlich nichts zu tun.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Transfers des Bundes: Zuteilung von Finanzzuweisungen und Zuschüssen des Bundes auf Länder und Gemeinden. ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist diel Landesumlage und muss diese zwingend eingehoben werden?",
-    "Richtige Antwort": "Ein Beispiel für eine Transferleistung der Gemeinden an die Länder ist die sogenannte Landesumlage, welche fakultativ (d.h. die Länder können selbst entscheiden, ob sie eine derartige Umlage einheben) von den Ländern eingehoben werden kann.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Ein Beispiel für eine Transferleistung der Gemeinden an die Länder ist die sogenannte Landesumlage, welche fakultativ (d.h. die Länder können selbst entscheiden, ob sie eine derartige Umlage einheben) von den Ländern eingehoben werden kann."
+    ],
+    "Falsche Antwort": [
+      "Ein Beispiel für eine Transferleistung der Gemeinden an die Länder ist die sogenannte Landesumlage, welche fakultativ (d.h. die Länder können selbst entscheiden, ob sie eine derartige Umlage einheben) von den Ländern eingehoben werden kann. hat damit gesetzlich nichts zu tun.",
+      "Nur der Bund darf das Thema regeln.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist das Paktum zum Finanzausgleich?",
-    "Richtige Antwort": "Das Paktum enthält die wesentlichen Ergebnisse der Finanzausgleichsverhandlungen und bilden somit die Grundlage für das Finanzausgleichsgesetz.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Das Paktum enthält die wesentlichen Ergebnisse der Finanzausgleichsverhandlungen und bilden somit die Grundlage für das Finanzausgleichsgesetz.",
+      "Es soll den Bund vor Verfassungsklagen schützen und Länder und Gemeinden vor einseitigen Maßnahmen des Bundes. Paktum ist ein Gesamtkompromiss der Verhandlungen der FAG-Partner.",
+      "Kann theoretisch vom FAG auch ohne Verhandlungen beschlossen werden, dies kann jedoch vom VfGH bekämpft werden."
+    ],
+    "Falsche Antwort": [
+      "Nur der Bund darf das Thema regeln.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Das Paktum enthält die wesentlichen Ergebnisse der Finanzausgleichsverhandlungen und bilden somit die Grundlage für das Finanzausgleichsgesetz. ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist die sogenannte Schutzklausel?",
-    "Richtige Antwort": "Die Schutzklausel soll finanzielle Ungleichheiten zwischen den Bundesländern ausgleichen und sicherstellen, dass keinn Land durch außergewöhnliche Belastungen benachteiligt wird. ",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Schutzklausel soll finanzielle Ungleichheiten zwischen den Bundesländern ausgleichen und sicherstellen, dass keinn Land durch außergewöhnliche Belastungen benachteiligt wird. ",
+      "Grund: Das Abgabewesen ist vom Konsultationsmechanismus ausgenommen."
+    ],
+    "Falsche Antwort": [
+      "Die Schutzklausel soll finanzielle Ungleichheiten zwischen den Bundesländern ausgleichen und sicherstellen, dass keinn Land durch außergewöhnliche Belastungen benachteiligt wird. ist nach EU-Recht nicht zuständig.",
+      "Die Schutzklausel soll finanzielle Ungleichheiten zwischen den Bundesländern ausgleichen und sicherstellen, dass keinn Land durch außergewöhnliche Belastungen benachteiligt wird. hat damit gesetzlich nichts zu tun.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist der Konsultationsmechanismus?",
-    "Richtige Antwort": "Der Konsultationsmechanismus ist ein Verfahren, das zur besseren Koordination der Finanzausgleichspartner bei der Vorbereitung von Gesetzen und Verordnungen dient. Er soll sicherstellen, dass finanzielle Auswirkungen von Gesetzen und Verordnungen auf die verschiedenen Ebenen der Gebietskörperschaften berücksichtigt und Lastenverschiebungen vermieden werden.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Der Konsultationsmechanismus ist ein Verfahren, das zur besseren Koordination der Finanzausgleichspartner bei der Vorbereitung von Gesetzen und Verordnungen dient. Er soll sicherstellen, dass finanzielle Auswirkungen von Gesetzen und Verordnungen auf die verschiedenen Ebenen der Gebietskörperschaften berücksichtigt und Lastenverschiebungen vermieden werden.",
+      "Eine Art 15a B-VG Vereinbarung der Gebietskörperschaften."
+    ],
+    "Falsche Antwort": [
+      "Der Konsultationsmechanismus ist ein Verfahren, das zur besseren Koordination der Finanzausgleichspartner bei der Vorbereitung von Gesetzen und Verordnungen dient. Er soll sicherstellen, dass finanzielle Auswirkungen von Gesetzen und Verordnungen auf die verschiedenen Ebenen der Gebietskörperschaften berücksichtigt und Lastenverschiebungen vermieden werden. hat damit gesetzlich nichts zu tun.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Eine Art 15a B-VG Vereinbarung der Gebietskörperschaften. hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Geltungsbereich des Konsultationsmechanismus?",
-    "Richtige Antwort": "Die Vereinbarung bertifft die Begutachtung von Gesetzes- und Verordnungsentwürfen des Bundes.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Vereinbarung bertifft die Begutachtung von Gesetzes- und Verordnungsentwürfen des Bundes.",
+      "Die Vereinbarung betrifft die Begutachtung von Gesetzes- und Verordnungsentwürfen der Länder."
+    ],
+    "Falsche Antwort": [
+      "Die Vereinbarung betrifft die Begutachtung von Gesetzes- und Verordnungsentwürfen der Länder. hat damit gesetzlich nichts zu tun.",
+      "Die Vereinbarung betrifft die Begutachtung von Gesetzes- und Verordnungsentwürfen der Länder. ist nach EU-Recht nicht zuständig.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Wer sind die Vertragspartner des Konsultationsmechanismus?",
-    "Richtige Antwort": "Die Vertragspartner der Vereinbarung sind die Finanzausgleichspartner, also Bund, Länder und Gemeinden.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Vertragspartner der Vereinbarung sind die Finanzausgleichspartner, also Bund, Länder und Gemeinden."
+    ],
+    "Falsche Antwort": [
+      "Die Vertragspartner der Vereinbarung sind die Finanzausgleichspartner, also Bund, Länder und Gemeinden. ist nach EU-Recht nicht zuständig.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Die Vertragspartner der Vereinbarung sind die Finanzausgleichspartner, also Bund, Länder und Gemeinden. hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Welche Rechte und Pflichten ergeben sich für Bund und Länder aufgrund des Konsultationsmechanismus?",
-    "Richtige Antwort": "Es ergeben sich Informations-, Kostenberechnungs-, Verhandlungs- und Ausgabenersatzverpflichtung bei rechtssetzenden Maßnahmen, die finanzielle Auswirkungen auf andere Gebietskörperschaften haben.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Es ergeben sich Informations-, Kostenberechnungs-, Verhandlungs- und Ausgabenersatzverpflichtung bei rechtssetzenden Maßnahmen, die finanzielle Auswirkungen auf andere Gebietskörperschaften haben.",
+      "Ersatzpflicht gegenüber einem Vertragspartner besteht nur dann, wenn bei Verletzung der Übermittlungs- und Verhandlungspflichten tatsächlich Kosten entstehen."
+    ],
+    "Falsche Antwort": [
+      "Nur der Bund darf das Thema regeln.",
+      "Es ergeben sich Informations-, Kostenberechnungs-, Verhandlungs- und Ausgabenersatzverpflichtung bei rechtssetzenden Maßnahmen, die finanzielle Auswirkungen auf andere Gebietskörperschaften haben. hat damit gesetzlich nichts zu tun.",
+      "Ersatzpflicht gegenüber einem Vertragspartner besteht nur dann, wenn bei Verletzung der Übermittlungs- und Verhandlungspflichten tatsächlich Kosten entstehen. hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Welche Maßnahmen sind vom Konsultationsmechanismus ausgenommen?",
-    "Richtige Antwort": "Rechtssetzungsmaßnahmen, insoweit sie zwingende EU-Vorschriften umsetzen",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Rechtssetzungsmaßnahmen, insoweit sie zwingende EU-Vorschriften umsetzen",
+      "Wenn Gebietskörperschaften als Träger von Privatrechten wie jeder andere Rechtsträger von einer Regelung betroffen sind.",
+      "Regelungen auf dem Gebiet des Abgabenrechts und des bundesgesetzlichen Finanzausgleichs sowie der daraus abgeleiteten landesgesetzlichen Regelungen."
+    ],
+    "Falsche Antwort": [
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Regelungen auf dem Gebiet des Abgabenrechts und des bundesgesetzlichen Finanzausgleichs sowie der daraus abgeleiteten landesgesetzlichen Regelungen. hat damit gesetzlich nichts zu tun.",
+      "Wenn Gebietskörperschaften als Träger von Privatrechten wie jeder andere Rechtsträger von einer Regelung betroffen sind. ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Welche EU-Fiskalregeln gibt es unter Anderem?",
-    "Richtige Antwort": "EU-Fiskalregel hinsichtlich des zulässigen Defizits.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "EU-Fiskalregel hinsichtlich des zulässigen Defizits.",
+      "EU-Fiskalregel hinsichtlich des zulässigen Verschuldung.",
+      "EU-Fiskalregeln und Corona-Covid19.",
+      "Es gibt theoretisch Sanktionen bei Nichteinhalten."
+    ],
+    "Falsche Antwort": [
+      "Es gibt theoretisch Sanktionen bei Nichteinhalten. ist nach EU-Recht nicht zuständig.",
+      "Nur der Bund darf das Thema regeln.",
+      "Es gibt theoretisch Sanktionen bei Nichteinhalten. hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Wie hoch dürfen das jährliche Defizit und die Gesamtverschuldung nach EU-Fiskalregeln sein?",
-    "Richtige Antwort": "Das gesamtstaatliche Finanzierungsdefizit eines Mitgliedsstaates dafr 3% des BIP nicht überschreiten.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Das gesamtstaatliche Finanzierungsdefizit eines Mitgliedsstaates dafr 3% des BIP nicht überschreiten.",
+      "Der (Gesamt-) Schuldenstand eines Mitgliedsstaats darf 60% des BIO nicht überschreiten.",
+      "Im Maastrich-Verttrag wurden die Grenzwerte von 3% des BIP für das staatliche Haushaltsdefizit und 60% für den Schuldenstand festgelegt."
+    ],
+    "Falsche Antwort": [
+      "Im Maastrich-Verttrag wurden die Grenzwerte von 3% des BIP für das staatliche Haushaltsdefizit und 60% für den Schuldenstand festgelegt. ist nach EU-Recht nicht zuständig.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU.",
+      "Der (Gesamt-) Schuldenstand eines Mitgliedsstaats darf 60% des BIO nicht überschreiten. ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Gibt es Sanktionen für die Nichteinhaltung von EU-Fiskalregeln?",
-    "Richtige Antwort": "Theoretisch gibt es strikte Anpassungsvorschriften und am Ende drohen hohe Strafzahlungen bei Nichteinhaltung. Allerdings wurde bislang noch niemand sanktioniert.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Theoretisch gibt es strikte Anpassungsvorschriften und am Ende drohen hohe Strafzahlungen bei Nichteinhaltung. Allerdings wurde bislang noch niemand sanktioniert."
+    ],
+    "Falsche Antwort": [
+      "Nur der Bund darf das Thema regeln.",
+      "Theoretisch gibt es strikte Anpassungsvorschriften und am Ende drohen hohe Strafzahlungen bei Nichteinhaltung. Allerdings wurde bislang noch niemand sanktioniert. hat damit gesetzlich nichts zu tun.",
+      "Theoretisch gibt es strikte Anpassungsvorschriften und am Ende drohen hohe Strafzahlungen bei Nichteinhaltung. Allerdings wurde bislang noch niemand sanktioniert. ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Finanzrecht",
-    "Frage": "Was ist die sogenannte \"\"general escape clause\"\"?",
-    "Richtige Antwort": "Es ahndelt sich dabei um eine Ausweichklausel im Europäischen Stabilitäts- und Wachstumspackt, mit der die Regeln des EU-Stabilitätspats seit dem Jahr 2020 bis zum Jahr 2023 ausgesetz wurden.",
-    "Falsche Antwort": []
+    "Frage": "Was ist die sogenannte \"general escape clause\"?",
+    "Richtige Antwort": [
+      "Es ahndelt sich dabei um eine Ausweichklausel im Europäischen Stabilitäts- und Wachstumspackt, mit der die Regeln des EU-Stabilitätspats seit dem Jahr 2020 bis zum Jahr 2023 ausgesetz wurden.",
+      "Sie erlaubt bei einem \"schweren wirtschaftlichen Winbruch\" die Eu-Haushaltsaufsicht über einen Mitgliedsstaat auszusetzen.",
+      "Die EU-Mitgliedstaaten mussten somit die Schulden- und Defizitregeln offiziell für die Jahre 2020 bis 2023 nicht einhalten und konnten sich stärker verschulden um ihrer Wirtschaft unter die Arme zu greifen."
+    ],
+    "Falsche Antwort": [
+      "Nur der Bund darf das Thema regeln.",
+      "Die EU-Mitgliedstaaten mussten somit die Schulden- und Defizitregeln offiziell für die Jahre 2020 bis 2023 nicht einhalten und konnten sich stärker verschulden um ihrer Wirtschaft unter die Arme zu greifen. ist nach EU-Recht nicht zuständig.",
+      "Diese Regelung fällt ausschließlich in die Kompetenz der EU."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was wurde 2024 bei den EU-Fiskalregeln reformiert?",
-    "Richtige Antwort": "Die EU-Fiskalregekn geten seit 1.1.2024 wieder und wurden reformiert.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die EU-Fiskalregekn geten seit 1.1.2024 wieder und wurden reformiert.",
+      "Die neuen Regeln des Stabilitäts- und Wachstumspaket (SWP) beinhalten weiterhinn die Obergrenzen für die Gesamtverschuldung (60% des BIP) sowie das jährliche Defizit (3% des BIP).",
+      "Darüber hinaus wurde ein Nettoausgabenpfadfestgelegt, strengere Anforderungen an Schuldenabbaupöäne für hoch verschuldete Länder eingeführt, eine stärkere Überwachung und Durchsetzung der Fiskalregeln eingeführt und Klimainvestitionen berücksichtigt."
+    ],
+    "Falsche Antwort": [
+      "Nur der Bund darf das Thema regeln.",
+      "Darüber hinaus wurde ein Nettoausgabenpfadfestgelegt, strengere Anforderungen an Schuldenabbaupöäne für hoch verschuldete Länder eingeführt, eine stärkere Überwachung und Durchsetzung der Fiskalregeln eingeführt und Klimainvestitionen berücksichtigt. ist nach EU-Recht nicht zuständig.",
+      "Die neuen Regeln des Stabilitäts- und Wachstumspaket (SWP) beinhalten weiterhinn die Obergrenzen für die Gesamtverschuldung (60% des BIP) sowie das jährliche Defizit (3% des BIP). hat damit gesetzlich nichts zu tun."
+    ]
   },
   {
     "Fach": "Finanzrecht",
     "Frage": "Was ist bzw. regelt der österreichische Stabilitätspakt?",
-    "Richtige Antwort": "Der Fiskalpakt verlangt von den EU-Mitgliedstaaten die Umsetzung der Fiskalregelnin nationales Recht, was in Österreich ninnerstaatlich im Österreichischen Stabilitätspakt (ÖStP) umgesetzt wurde.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Der Fiskalpakt verlangt von den EU-Mitgliedstaaten die Umsetzung der Fiskalregelnin nationales Recht, was in Österreich ninnerstaatlich im Österreichischen Stabilitätspakt (ÖStP) umgesetzt wurde.",
+      "Der ÖStP 2012 ist unbefristet in Form einer Art 15a B-VG Vereinbarung zwischen Bund, Ländern und Gemeinden eingeführt worden und bildet den aktuell geltenden Stabilitätspakt.",
+      "Aufgrund der Reform der EU-Fiskalreglen im Jahr 2024 ist auch eine Reformierung des ÖStP 2012 notwendig. Diese ist derzeit un Umsetzung. "
+    ],
+    "Falsche Antwort": [
+      "Der Fiskalpakt verlangt von den EU-Mitgliedstaaten die Umsetzung der Fiskalregelnin nationales Recht, was in Österreich ninnerstaatlich im Österreichischen Stabilitätspakt (ÖStP) umgesetzt wurde. hat damit gesetzlich nichts zu tun.",
+      "Der ÖStP 2012 ist unbefristet in Form einer Art 15a B-VG Vereinbarung zwischen Bund, Ländern und Gemeinden eingeführt worden und bildet den aktuell geltenden Stabilitätspakt. hat damit gesetzlich nichts zu tun.",
+      "Der ÖStP 2012 ist unbefristet in Form einer Art 15a B-VG Vereinbarung zwischen Bund, Ländern und Gemeinden eingeführt worden und bildet den aktuell geltenden Stabilitätspakt. ist nach EU-Recht nicht zuständig."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Woran erkennt man eine Verfassung?",
-    "Richtige Antwort": "Verfassungsgesetze müssen vom Gesetzgeber ausdrücklich als solche bezeichnet werden",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Verfassungsgesetze müssen vom Gesetzgeber ausdrücklich als solche bezeichnet werden",
+      "In Öserreich gibt es neben dem Bundes-Verfassungsgesetz (B-VG), das im Mittepunkt steht noch andere Verfassungsgesetze (z.B. Finanz-Verfassungsgesetz, Bundesverfassungsgesetz über die Neutralität, …)",
+      "Verfassungsgesetze sind viel schwerer zu ändern als einfache Gesetze.",
+      "Es gibt einzelne Verfassungsbestimmungen in einfachen Gesetzen (Verfassungsrang)"
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsgesetze sind viel schwerer zu ändern als einfache Gesetze. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wieviele Verfassungen gibt es in Österreich?",
-    "Richtige Antwort": "Auch die einzelnen Bundesländer in Österreich haben eine eigene Landes-Verfassung, die aber durch die Bundes-Verfassung teilweise vorgegeben wird und nicht gegen diese verstoßen darf.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Auch die einzelnen Bundesländer in Österreich haben eine eigene Landes-Verfassung, die aber durch die Bundes-Verfassung teilweise vorgegeben wird und nicht gegen diese verstoßen darf.",
+      "Das Steirische Landes-Verfassungsgesetz wurde 2010 neu beschlossen und regelt etwa die Wahl, die Zusammensetzung des Landtags und der Landesregierung sowie die Entstehung der Landesgesetz.",
+      "Das L-VG 2010 wurde bereits mehrfach geändert (Abschaffung des Proporzes Verkleinerung des Landtags und der Landesregierung"
+    ],
+    "Falsche Antwort": [
+      "Das L-VG 2010 wurde bereits mehrfach geändert (Abschaffung des Proporzes Verkleinerung des Landtags und der Landesregierung darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Das Steirische Landes-Verfassungsgesetz wurde 2010 neu beschlossen und regelt etwa die Wahl, die Zusammensetzung des Landtags und der Landesregierung sowie die Entstehung der Landesgesetz. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Funktionen hat der Staat?",
-    "Richtige Antwort": "Das B-VG unterscheidet grundsätzlich drei Staatsfunktionen: (1) die Gesetzgebung (Legislative), (2) die Gerichtsbarkeit (Judiative, Justiz), (3) die Verwaltung (Exekutive) ",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Das B-VG unterscheidet grundsätzlich drei Staatsfunktionen: (1) die Gesetzgebung (Legislative), (2) die Gerichtsbarkeit (Judiative, Justiz), (3) die Verwaltung (Exekutive) "
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Das B-VG unterscheidet grundsätzlich drei Staatsfunktionen: (1) die Gesetzgebung (Legislative), (2) die Gerichtsbarkeit (Judiative, Justiz), (3) die Verwaltung (Exekutive) darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was versteht an unter Gesetzgebung?",
-    "Richtige Antwort": "Die Gesetzgebung ist jene Staatsfunktion, die von den Organen der gesetzgebenden Körperschaften (Nationalrat, Bundesrat, Landtage) ausgeübt wird.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Gesetzgebung ist jene Staatsfunktion, die von den Organen der gesetzgebenden Körperschaften (Nationalrat, Bundesrat, Landtage) ausgeübt wird."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Gesetzgebung ist jene Staatsfunktion, die von den Organen der gesetzgebenden Körperschaften (Nationalrat, Bundesrat, Landtage) ausgeübt wird. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was ist die Gerichtsbarkeit?",
-    "Richtige Antwort": "Unter Gerichtsbarkeit versteht man die Vollziehung des Gesetz durch Richterinnen und Richter (und deren Hilfsorgane), die mit Unabhängigkeit, Unabsetzbarkeit und Unverseztbarkeit ausgestattet sind.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Unter Gerichtsbarkeit versteht man die Vollziehung des Gesetz durch Richterinnen und Richter (und deren Hilfsorgane), die mit Unabhängigkeit, Unabsetzbarkeit und Unverseztbarkeit ausgestattet sind."
+    ],
+    "Falsche Antwort": [
+      "Unter Gerichtsbarkeit versteht man die Vollziehung des Gesetz durch Richterinnen und Richter (und deren Hilfsorgane), die mit Unabhängigkeit, Unabsetzbarkeit und Unverseztbarkeit ausgestattet sind. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was versteht man unter Verwaltung?",
-    "Richtige Antwort": "Verwaltung ist die Vollziehung der Gesetze durch weisungsgebundene Organe.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Verwaltung ist die Vollziehung der Gesetze durch weisungsgebundene Organe."
+    ],
+    "Falsche Antwort": [
+      "Verwaltung ist die Vollziehung der Gesetze durch weisungsgebundene Organe. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was versteht man unter Vollziehung?",
-    "Richtige Antwort": "Vollziehung = Gerichtsbarkeit + Verwaltung",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Vollziehung = Gerichtsbarkeit + Verwaltung",
+      "Darunter versteht man jede Anwendung von Gesetzen durch Staatsorgane (z.B. Erlassen von Verordnungen und Bescheiden, Fällung von Uteilen und Erkänntnissen, Grundstückserwerb von Bund, Länder oder Gemeinden, Anschaffungen für den Bürobetrieb einer Behörde, Tätigkeit von Lehrer:innen)"
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Vollziehung = Gerichtsbarkeit + Verwaltung darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wodurch unterscheiden sich Gerichtsbarkeit und Verwaltung?",
-    "Richtige Antwort": "Die Gerichtsbarkeit ist von der Verwaltung getrennt, das bedeutet, dass eine Behrde nicht zugleich Gericht und Verwaltungsbehörde sein kann.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Gerichtsbarkeit ist von der Verwaltung getrennt, das bedeutet, dass eine Behrde nicht zugleich Gericht und Verwaltungsbehörde sein kann.",
+      "Organe der Gerichtsbarkeit sind bei ihrer Tätigkeit weisungsfrei, unabsetzbar und unversetzbar.",
+      "Organe der Verwaltung sind grundätzlich weisungsgebunden."
+    ],
+    "Falsche Antwort": [
+      "Organe der Verwaltung sind grundätzlich weisungsgebunden. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was besagt der Grundsatz der Gewaltentrennung und wo ist dieser verankert?",
-    "Richtige Antwort": "Der Grundsatz beruht auf dem Gedanken, dass die politische Macht geteilt sein soll, um Machtmissbrauch zu verhindern.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Der Grundsatz beruht auf dem Gedanken, dass die politische Macht geteilt sein soll, um Machtmissbrauch zu verhindern.",
+      "Der Grundsatz der Gewaltentrennung ist daher die Trennung der einzelnen Staatsfunktionen."
+    ],
+    "Falsche Antwort": [
+      "Der Grundsatz der Gewaltentrennung ist daher die Trennung der einzelnen Staatsfunktionen. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wer ist in Österreich für die Gesetzgebung zuständig?",
-    "Richtige Antwort": "Nationalrat gemeinsam mit dem Bundesrat frü Bundesgestze",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Nationalrat gemeinsam mit dem Bundesrat frü Bundesgestze",
+      "Landtage in den Bundesländern für Landesgesetze."
+    ],
+    "Falsche Antwort": [
+      "Nationalrat gemeinsam mit dem Bundesrat frü Bundesgestze darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Landtage in den Bundesländern für Landesgesetze. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wo ist die Gerichtsbarkeit angesiedelt?",
-    "Richtige Antwort": "Bei den ordentlichen Gerichten (Bezirks-, Landes-, Oberlandesgerichte, Oberster Gerichtshof)",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Bei den ordentlichen Gerichten (Bezirks-, Landes-, Oberlandesgerichte, Oberster Gerichtshof)",
+      "Bei den Verwaltungsgreichten (Bundes- und Landesgericht, Verwaltungsgerichtshof) beim Verfassungsgerichtshof"
+    ],
+    "Falsche Antwort": [
+      "Bei den ordentlichen Gerichten (Bezirks-, Landes-, Oberlandesgerichte, Oberster Gerichtshof) darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wo findet die Verwaltung statt?",
-    "Richtige Antwort": "Bei den Verwaltungsbehörden (BH, Lreg., LH, Bundesregierung, BM, Bürgermeister, Gemeinderat)",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Bei den Verwaltungsbehörden (BH, Lreg., LH, Bundesregierung, BM, Bürgermeister, Gemeinderat)"
+    ],
+    "Falsche Antwort": [
+      "Bei den Verwaltungsbehörden (BH, Lreg., LH, Bundesregierung, BM, Bürgermeister, Gemeinderat) darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Warum sind die Grundprinzipien der Bundesverfassung so gut geschützt? ",
-    "Richtige Antwort": "Die Grundprinzipien basieren auf gewissen grundsätzichen politischen Ideen, an die die staatliche Ordnung gebunden ist - diese sind uns als Gesellschaft wichtig.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Grundprinzipien basieren auf gewissen grundsätzichen politischen Ideen, an die die staatliche Ordnung gebunden ist - diese sind uns als Gesellschaft wichtig.",
+      "Jede wesentliche Änderung oder Beseitigung eines Grundprinzips hat eine \"Gesamtänderung der Bundesverfassung\" zur Folge. Dies ist wiederum nur mit einer Volksabstimmung möglich."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Die Grundprinzipien basieren auf gewissen grundsätzichen politischen Ideen, an die die staatliche Ordnung gebunden ist - diese sind uns als Gesellschaft wichtig. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Grundprinzipien enthält unsere Verfassung?",
-    "Richtige Antwort": "Das demokratische Grundprinzip",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Das demokratische Grundprinzip",
+      "Das republikanische Grundprinzip",
+      "Das bundesstaatliche Grundprinzip",
+      "Das rechtsstaatliche Grundprinzip"
+    ],
+    "Falsche Antwort": [
+      "Das demokratische Grundprinzip darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die österreichischen Verfassung sieht sowohl mittelbare als auch unmittelbare Element der Demokratie vor. Welches Grundprinzip wird angesprochen und wie sind die Elemente ausgestaltet?",
-    "Richtige Antwort": "Das demokratische Grundprinzip",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Das demokratische Grundprinzip",
+      "Durch unmittelbare (direkte) Demokratie als Form demokratischer Rechtserzeugung durch Volksbegehren, Volksbefragung und Volksabstimmung",
+      "Durch mittelbare (indirekte) Demokratie, wo das Volk Vertreter:innen wählt, die das Recht erzeugen."
+    ],
+    "Falsche Antwort": [
+      "Durch mittelbare (indirekte) Demokratie, wo das Volk Vertreter:innen wählt, die das Recht erzeugen. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Woran erkennt man das Österreich eine Republik ist?",
-    "Richtige Antwort": "Der Bundespräsident ist das vom Volk gewählte Staatsoberhaupt - republikanisches Grundprinzip",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Der Bundespräsident ist das vom Volk gewählte Staatsoberhaupt - republikanisches Grundprinzip",
+      "Der Bundespräsident ist (.) vom Volk gewählt, (.) zeitlich begrenzt (2x6Jahre), (.)übernimmt politische und rechtliche Verantwortung"
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Der Bundespräsident ist (.) vom Volk gewählt, (.) zeitlich begrenzt (2x6Jahre), (.)übernimmt politische und rechtliche Verantwortung darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was sagt das bundesstaatlihce Grundprinzip, und warum ist dieses in Österreich nicht voll ausgeprägt?",
-    "Richtige Antwort": "Es besagt, dass die Staatsaufgaben auf den Bund und seine Bundesländer aufgeteilt werden (Kompetenzverteilung).",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Es besagt, dass die Staatsaufgaben auf den Bund und seine Bundesländer aufgeteilt werden (Kompetenzverteilung).",
+      "In Österreich wird die ordentliche Gerichtsbarkeit nur vom Bund alleine ausgeübt.",
+      "Das Bundesgebiet ist in Gesamtstaat (bund) und seine Teilstaaten (Bundesländer) mit Teilrechtsordnung gegliedert."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Es besagt, dass die Staatsaufgaben auf den Bund und seine Bundesländer aufgeteilt werden (Kompetenzverteilung). darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was sind die wesentlichen Elemente der Bundesstaatlichkeit in Österrech?",
-    "Richtige Antwort": "Die Gesetzgebungs- und Verwaltungskompetenzen des Bundes und der Länder.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Gesetzgebungs- und Verwaltungskompetenzen des Bundes und der Länder.",
+      "Die Verwaltungsgerichtsbarkeit des Undes und der Länder.",
+      "Das Recht der Länder, untereinander und mit dem Bund staatliche Vereinbarungen abzuschließen.",
+      "die Mitwirkung der Länder and der Bundesgesetzgebung duch den Bundesrat."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Gesetzgebungs- und Verwaltungskompetenzen des Bundes und der Länder. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Bundesverfassung unterscheidet die drei Staatsfunktionen Gesetzgebung, Gerichtsbarkeit und Verwaltung.",
-    "Richtige Antwort": "JA",
+    "Richtige Antwort": [
+      "JA"
+    ],
     "Falsche Antwort": [
-      "NEIN"
+      "NEIN",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Aussagen zur Demokratie sind richtig?",
-    "Richtige Antwort": "Wahlen sind ein Instrument der mittelbaren Demokratie.",
+    "Richtige Antwort": [
+      "Wahlen sind ein Instrument der mittelbaren Demokratie.",
+      "Volksabstimmungen sind ein Instrument der unmittelbaren Demokratie",
+      "Unsere Bundesverfassung sieht sowohl Instrumente der mittelbaren als auch der unmittelbaren Demokratie vor."
+    ],
     "Falsche Antwort": [
       "Ausdruck der unmittelbaren Demokratie ist es, dass der Nationalrat und die Landtage Gesetze beschließen.",
-      "Wenn das Volk nicht selbst über jedes Gesetz abstimmt, sondern nur die Abgeordneten, kann man nicht von Demokratie („Volksherrschaft“) sprechen."
+      "Wenn das Volk nicht selbst über jedes Gesetz abstimmt, sondern nur die Abgeordneten, kann man nicht von Demokratie („Volksherrschaft“) sprechen.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was ist die Generalkklausel?",
-    "Richtige Antwort": "Alle in der Bundesverfassung nicht ausdrücklich aufgezählten Kompetenzen kommen automatisch den Ländern zu.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Alle in der Bundesverfassung nicht ausdrücklich aufgezählten Kompetenzen kommen automatisch den Ländern zu."
+    ],
+    "Falsche Antwort": [
+      "Alle in der Bundesverfassung nicht ausdrücklich aufgezählten Kompetenzen kommen automatisch den Ländern zu. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was ist die Kompetenzverteilung? ",
-    "Richtige Antwort": "In der Bundesverfassung werden alle Kompetenzen un Gesetzgebung und Vollziehung entweder dem Bund oder den Ländern zugewiesen",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "In der Bundesverfassung werden alle Kompetenzen un Gesetzgebung und Vollziehung entweder dem Bund oder den Ländern zugewiesen",
+      "Für jede Materie ist daher immer nur einer von beiden zuständig"
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "In der Bundesverfassung werden alle Kompetenzen un Gesetzgebung und Vollziehung entweder dem Bund oder den Ländern zugewiesen darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was sind die Merkmale eines Rechtsstaates?",
-    "Richtige Antwort": "Die Rechte und Pflichen jedes einzelnen sind in Gesetzen genau festgelegt.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Rechte und Pflichen jedes einzelnen sind in Gesetzen genau festgelegt.",
+      "Jede Person hat die Möglichkeit, sich über den Inhalt ihrer Rechte und Pflichten aus allgemein zugänglichen Quellen (Gesetzblättern) zu informieren.",
+      "Die Einhaltung der Rechtsvorschriften wird gewährleistet weil entsprechende Institutionen (Behörden, Gerichte) zur Überprüfung aller Rechtsakte vorgesehen sind. ",
+      "Grundsatz der \"Gesetzmäßigen Verwaltung\" (Legalitätsprinzip)"
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Die Einhaltung der Rechtsvorschriften wird gewährleistet weil entsprechende Institutionen (Behörden, Gerichte) zur Überprüfung aller Rechtsakte vorgesehen sind. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Aussagen zum Wahlrecht sind richtig?",
-    "Richtige Antwort": "Alle Staatsbürger:innen die das Wahlalter erreicht haben sind wahlberechtigt (allgemeines Wahlrecht)",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Alle Staatsbürger:innen die das Wahlalter erreicht haben sind wahlberechtigt (allgemeines Wahlrecht)",
+      "Es herrscht Entscheidungsfreiheit ohne Zwang und Druck (freies Wahlrecht)",
+      "Eine Stimmabgabe durch Stellvertreter:in ist unzulässig. Bei Ortsabwesenheit besteht die Möglichkeit zur Briefwahl. (persöniches Wahlrecht)",
+      "Die Entscheidung ist für Dritte nicht einsehbar (geheimes Wahlrecht)"
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Alle Staatsbürger:innen die das Wahlalter erreicht haben sind wahlberechtigt (allgemeines Wahlrecht) darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Aussagen zum Wahlrecht sind richtig?",
-    "Richtige Antwort": "Jede Stimme ist gleichviel wert (gleiches Wahlrecht)",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Jede Stimme ist gleichviel wert (gleiches Wahlrecht)",
+      "Die Abgeordneten werden vom Volk direkt gewählt (unmittelbares Wahlrecht)",
+      "Möglichst allen an der Wahl teilnehmenden Parteien ist eine verhältnismäßige Verträtung zu gewähren (Vwerhältniswahlrecht). Kleinstparteien unterhalb einer Mindeststimmzahl für ein Mandat können ausgeschlossen werden."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Jede Stimme ist gleichviel wert (gleiches Wahlrecht) darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Aussage zum Nationalrat ist richtig?",
-    "Richtige Antwort": "Der Nationalrat hat 183 Mitglieder.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Der Nationalrat hat 183 Mitglieder.",
+      "Der Nationalrat wird für 5 Jahre gewählt.",
+      "Es werden politische Parteine gewählt, die je nach Wahlausgang und unter Berücksichtigung der Vorzugsstimmen eine bestimmte Anzahl von Abgeordneten entsendet.",
+      "Wahlberechtigt sind alle österreichischen Staatsbürger:innen mit Vollendung des 16. Lebensjahres bzw. wählbar mit Vollendung des 18. Lebensjahres.  "
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Der Nationalrat wird für 5 Jahre gewählt. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Aussagen zur Arbeit des Nationalrat sind zutreffend?",
-    "Richtige Antwort": "Die Arbeit das NR findet in sogenannten \"\"ordentlichen Tagungen\"\" im Zeitraum von 15. Septeber bis 15. Juni statt",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Arbeit das NR findet in sogenannten \"ordentlichen Tagungen\" im Zeitraum von 15. Septeber bis 15. Juni statt",
+      "Die Einberufung zu den Tagungen erfolgt durch den Bundespräsidenten, bobei innerhalb der Tagung der NR Präsident/die Präsidentin zu den Sitzungen beruft.",
+      "Die Sitzungen des Plenums (183 Nr-Mitglieder) sind idR öffentlich",
+      "Die Sitzungen der Ausschüsse sind idR nicht öffentlich."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Sitzungen der Ausschüsse sind idR nicht öffentlich. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Einberufung zu den Tagungen erfolgt durch den Bundespräsidenten, bobei innerhalb der Tagung der NR Präsident/die Präsidentin zu den Sitzungen beruft. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wer leitet die Geschäfte des Nationalrates und vertritt diesen nach außen?",
-    "Richtige Antwort": "Die Präsidentin/ Der Präsident des Nationalrates.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Präsidentin/ Der Präsident des Nationalrates."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Präsidentin/ Der Präsident des Nationalrates. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wie wird der Nationalrat aufgelöst?",
-    "Richtige Antwort": "Durch Ablauf der Gesetzgebungsperiode (Legislaturperiode)",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Durch Ablauf der Gesetzgebungsperiode (Legislaturperiode)",
+      "Durch Auflösung durch die Bundespräsidentin/den Bundespräsidenten auf Vorschlag der Bundesregierung.",
+      "Durch Beschluss des Nationalrates (Selbstauflösung) durch ein einfaches Gesetz, auch während der laufenden Legislaturperiode",
+      "Durch Ablehnung der Absetzung des Bundespräsidentin/des Bundespräsidenten"
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Durch Ablauf der Gesetzgebungsperiode (Legislaturperiode) darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Aufgaben hat der Nationalrat außer der Gesetzgebung?",
-    "Richtige Antwort": "Mitwirkung an bestimmten Angelegenheiten der Bundesvollziehung.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Mitwirkung an bestimmten Angelegenheiten der Bundesvollziehung.",
+      "Ausübung der politischen Kontrolle. "
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Mitwirkung an bestimmten Angelegenheiten der Bundesvollziehung. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Der Bundesrat vertritt die Interssen der Länder im Gesetzgebungsverfahren des Bundes. Erist die zweite Kammer des Parlaments, wobei seine Stellung erheblich schwächer ist als jene des NR. - Richti oder Falsch",
-    "Richtige Antwort": "RICHTIG",
+    "Richtige Antwort": [
+      "RICHTIG"
+    ],
     "Falsche Antwort": [
-      "FALSE"
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "RICHTIG darf Grundrechte einschränken, wann immer es nötig erscheint."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was trifft in Bezug auf den Bundesrat (BR) zu?",
-    "Richtige Antwort": "Die Mitglieder des BR werden von den Landtagen nach dem Grundsatz der Verhältniswahl gewählt.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Mitglieder des BR werden von den Landtagen nach dem Grundsatz der Verhältniswahl gewählt.",
+      "Den Landesparteien fallen demnach je nach Stärke im Landtag (Anzahl Mandate/Sitze) mehr oder weniger Sitze im Bundesrat zu.",
+      "Die Zahl der Mitglieder ist nicht fix (dzt. 60), sondern ist an die Volkszählung (alle 10 Jahre) gebunden.",
+      "Die Steiermark hat derzeit 9 Mitglieder im Bundesrat."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Die Zahl der Mitglieder ist nicht fix (dzt. 60), sondern ist an die Volkszählung (alle 10 Jahre) gebunden. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Mitglieder des BR werden von den Landtagen nach dem Grundsatz der Verhältniswahl gewählt. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Partialerneuerung bedeutet …",
-    "Richtige Antwort": "Die Mitglieder des Bundesrates werden regelmäßig ausgetauscht, da die Landtagswahlen zu unterschiedlichen Zeitpunkten stattfinden.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Mitglieder des Bundesrates werden regelmäßig ausgetauscht, da die Landtagswahlen zu unterschiedlichen Zeitpunkten stattfinden."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Die Mitglieder des Bundesrates werden regelmäßig ausgetauscht, da die Landtagswahlen zu unterschiedlichen Zeitpunkten stattfinden. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was trifft in Bezug auf den Bundesrat (BR) zu?",
-    "Richtige Antwort": "Der Vorsitz wechselt zwischen den einzelnen Bundesländern halbjährlich in aphabetischer Reihenfolge.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Der Vorsitz wechselt zwischen den einzelnen Bundesländern halbjährlich in aphabetischer Reihenfolge.",
+      "Der Bundesrst wird von seinem Vorsitz (Präsidentin/Präsident)an den Sitz der BR in Wien einberufen.",
+      "Die Sitzungen des BR sind grundsätzich öffentlich. Ausschüsse des BR sind wiederum grundsätzich nicht öffentlich."
+    ],
+    "Falsche Antwort": [
+      "Der Vorsitz wechselt zwischen den einzelnen Bundesländern halbjährlich in aphabetischer Reihenfolge. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Aufgaben des Bundesrat sind: ",
-    "Richtige Antwort": "Einsprüche gegen Gesetzesbeschüsse des NR zu erhebn",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Einsprüche gegen Gesetzesbeschüsse des NR zu erhebn",
+      "Verfassungsänderungen, durch die Länder-Kompetenzen eingeschränkt oder abgeschafft werden sollen, bedürfen ausdrücklich der Zustimmung des BT (Ausnahme)",
+      "Der BR kann Gesetzesänderungsanträge an den NR stellen. ",
+      "Der BR gat gewisse Rechte an der Mitwirkung der Bundesvollziehung."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Einsprüche gegen Gesetzesbeschüsse des NR zu erhebn darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was ist die Bundesversammlung?",
-    "Richtige Antwort": "Die Mitglieder des NR und des BR zusammen bilden die Bundesversammlung.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Mitglieder des NR und des BR zusammen bilden die Bundesversammlung."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Die Mitglieder des NR und des BR zusammen bilden die Bundesversammlung. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Bundesversammlung kann den Bundespräsidenten Angeloben, über die Anordnung der Durchführung einer Volksabstimmung dessen Absetzung veranlassen, die Zustimmung zu seiner behördlichen Verfolgung geben, beim VfGH eine Anklage gegen ihn wegen Verletzung der Bundesverfassung erheben, was zu seinem Amtsverlust führen kann. Die Beschlussfassung über eine Kriegserklährung ist ebenfalls der Bundesversammlung vorbehalten. Richtig oder Falsch?",
-    "Richtige Antwort": "RICHTIG",
+    "Richtige Antwort": [
+      "RICHTIG"
+    ],
     "Falsche Antwort": [
-      "FALSE"
+      "RICHTIG darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Jedes Gesetz beginnt mit einem Antrag, der schon den Gesetzesentwurf enthlaten muss.",
-    "Richtige Antwort": "RICHTIG - ausgenommen das Volksbegehren",
+    "Richtige Antwort": [
+      "RICHTIG - ausgenommen das Volksbegehren"
+    ],
     "Falsche Antwort": [
-      "FALSE"
+      "RICHTIG - ausgenommen das Volksbegehren darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wie gelangen Anträge auf Erlassung von Gesetzen in den Nationalrat?",
-    "Richtige Antwort": "Mittels Initiativantrag, Ausschussantrag oder Regierungsvorlage (Vorlage der Bundesregierung).",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Mittels Initiativantrag, Ausschussantrag oder Regierungsvorlage (Vorlage der Bundesregierung).",
+      "Über Volksbegehren, mittels Antrasg des Bundesrates oder eines Drittels der Mitgliederdes Bundesrates."
+    ],
+    "Falsche Antwort": [
+      "Über Volksbegehren, mittels Antrasg des Bundesrates oder eines Drittels der Mitgliederdes Bundesrates. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Ein Initiativantrag braucht mindestens … Abgeordnete?",
-    "Richtige Antwort": "5",
+    "Richtige Antwort": [
+      5
+    ],
     "Falsche Antwort": [
-      "2",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
       "alle",
-      "8"
+      "5 darf Grundrechte einschränken, wann immer es nötig erscheint."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Rolle spielen Ausschüsse bei der Gesetzgebungsarbeit?",
-    "Richtige Antwort": "Die Ausschüsse beraten über alle Gesetzesentwürfe und legen sie dem Plenum mit einem Bericht vor (Abschlussbericht).",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Ausschüsse beraten über alle Gesetzesentwürfe und legen sie dem Plenum mit einem Bericht vor (Abschlussbericht)."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Ausschüsse beraten über alle Gesetzesentwürfe und legen sie dem Plenum mit einem Bericht vor (Abschlussbericht). darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
-    "Frage": "Wird der Gesetzesentwurd in der Plenardebatte des NR angenommen, liegt ein \"\"Gesetzesbeschluss des NR\"\" vor. Richtig oder Falsch",
-    "Richtige Antwort": "RICHTIG",
+    "Frage": "Wird der Gesetzesentwurd in der Plenardebatte des NR angenommen, liegt ein \"Gesetzesbeschluss des NR\" vor. Richtig oder Falsch",
+    "Richtige Antwort": [
+      "RICHTIG"
+    ],
     "Falsche Antwort": [
-      "FALSE"
+      "RICHTIG darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Bundesgesetze unterscheidet man?",
-    "Richtige Antwort": "Sogenannte \"\"einfache Gesetze\"\"",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Sogenannte \"einfache Gesetze\"",
+      "Verfassungsgesetze",
+      "Verfassungsgesetze und einzelnen Verfassungsbestimmungen in einfachen Gesetzen sind ausdrücklic als solche bezeichnet werden."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsgesetze darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Sogenannte \"einfache Gesetze\" darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Folgende Beschlusserfordernisse müssen für Bundesgesetze mindestens erfüllt sein, wobei unbedingte (einfache) Mehrheit mehr als die Hälfte bedeutet: ",
-    "Richtige Antwort": "Für einfache Bundesgesetze: 1/3 der Abgeordneten anwesend, für den Beschluss unbdingte Mehrheit der abgegebenen Stimmen",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Für einfache Bundesgesetze: 1/3 der Abgeordneten anwesend, für den Beschluss unbdingte Mehrheit der abgegebenen Stimmen",
+      "Für Bundesverfassung bzw. Verfassungsbestimmung: die Hälfte der Abgeordneten anwesend, eine 2/3 Mehrheit des abgegebenen Stimmen für einen Beschluss"
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Für Bundesverfassung bzw. Verfassungsbestimmung: die Hälfte der Abgeordneten anwesend, eine 2/3 Mehrheit des abgegebenen Stimmen für einen Beschluss darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Der Bundesrat hat 8 Wochen Zeit, einen begründeten Einspruch auf Gesetzesbeschlüsse des Nationalrates zu erheben. Richtig oder Falsch?",
-    "Richtige Antwort": "RICHTIG",
+    "Richtige Antwort": [
+      "RICHTIG"
+    ],
     "Falsche Antwort": [
-      "FALSE"
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "RICHTIG darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was ist die Konsequenz eines Einspruchs des BR gegen einen Gesetzesentwurf des NR?",
-    "Richtige Antwort": "Dieser kann vorläufig nicht kundgemacht werden. Der NR muss über die Vorlage erneut beschließen.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Dieser kann vorläufig nicht kundgemacht werden. Der NR muss über die Vorlage erneut beschließen.",
+      "Wird ein \"Beharrungsbeschluss\" gefasst, kann das Gesetz trotz Einspruch kundgemacht und beschlossen werden."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Dieser kann vorläufig nicht kundgemacht werden. Der NR muss über die Vorlage erneut beschließen. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Ist das Ergebnis eine Volksabstimmung bindend?",
-    "Richtige Antwort": "JA",
+    "Richtige Antwort": [
+      "JA"
+    ],
     "Falsche Antwort": [
-      "NEIN"
+      "NEIN",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wie hoch ist die erforderliche Anzahl an Wahlberechtigten für ein Volksbegehren?",
-    "Richtige Antwort": "Damit ein Volksbegehren im Nationalrat berücksichtigt wird, braucht es 100.000 zum Nationalrat Wahlberechtigte, oder je ein Sechstel der Wahlberechtigten dreier Länder.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Damit ein Volksbegehren im Nationalrat berücksichtigt wird, braucht es 100.000 zum Nationalrat Wahlberechtigte, oder je ein Sechstel der Wahlberechtigten dreier Länder."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Damit ein Volksbegehren im Nationalrat berücksichtigt wird, braucht es 100.000 zum Nationalrat Wahlberechtigte, oder je ein Sechstel der Wahlberechtigten dreier Länder. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was ist ein Volksbegehren?",
-    "Richtige Antwort": "Ein Instrument der direkten Demokratie.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Ein Instrument der direkten Demokratie.",
+      "Damit wird die Erlassung eines Bundesgesetzes mit einem bestimmten Inhalt oder die Aufhebung einens Bundesgesetzes verlangt.",
+      "Der Nationalrat ist nur verpflichtet das Volksbegehren zu behandeln."
+    ],
+    "Falsche Antwort": [
+      "Der Nationalrat ist nur verpflichtet das Volksbegehren zu behandeln. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Damit wird die Erlassung eines Bundesgesetzes mit einem bestimmten Inhalt oder die Aufhebung einens Bundesgesetzes verlangt. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Gegenstand einer Volksbefragung sind …",
-    "Richtige Antwort": "… Vollzugsangelegenheiten von grundsätzlicher Bedeutung.",
+    "Richtige Antwort": [
+      "… Vollzugsangelegenheiten von grundsätzlicher Bedeutung."
+    ],
     "Falsche Antwort": [
-      "… Gesetze."
+      "… Gesetze.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wer beschließt die Durchführung einer Volksbefragung?",
-    "Richtige Antwort": "der Nationalrat.",
+    "Richtige Antwort": [
+      "der Nationalrat.",
+      "Die Bundesregierung. "
+    ],
     "Falsche Antwort": [
       "der Bundespräsident.",
-      "der Bundesrat."
+      "der Bundesrat.",
+      "Die Bundesregierung. darf Grundrechte einschränken, wann immer es nötig erscheint."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Ist das Ergebnis einer Volksbefragung rechtlich bindend? ",
-    "Richtige Antwort": "Nein, es wird sich jedoch werde Nationalrat noch Bundesregierung darüber hinwegsetzen können.",
+    "Richtige Antwort": [
+      "Nein, es wird sich jedoch werde Nationalrat noch Bundesregierung darüber hinwegsetzen können."
+    ],
     "Falsche Antwort": [
-      "JA"
+      "JA",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Nein, es wird sich jedoch werde Nationalrat noch Bundesregierung darüber hinwegsetzen können. darf Grundrechte einschränken, wann immer es nötig erscheint."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Landesgesetze werden von den einzelnen Landtagen beschlossen? Richtig oder falsch?",
-    "Richtige Antwort": "RICHTIG",
+    "Richtige Antwort": [
+      "RICHTIG"
+    ],
     "Falsche Antwort": [
-      "FALSE"
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "RICHTIG darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Grundsätzen gelten für die Landtagswahlen?",
-    "Richtige Antwort": "Es gelten dieselben Grundsätze wie bei den Nationalratswahlen.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Es gelten dieselben Grundsätze wie bei den Nationalratswahlen.",
+      "Allbemeines, freies, gleiches, unmittelbares, geheimes, persönliches Verhältniswahlrecht."
+    ],
+    "Falsche Antwort": [
+      "Es gelten dieselben Grundsätze wie bei den Nationalratswahlen. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wieviele Mitglieder hat der Steiermärkische Landtag? ",
-    "Richtige Antwort": "48",
+    "Richtige Antwort": [
+      48
+    ],
     "Falsche Antwort": [
-      "60",
-      "183"
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "48 darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Legislaturperiode der Landtage beträgt 5 Jahre. Die Landtage können wich aber vorzeitig auflösen. Wie?",
-    "Richtige Antwort": "Selbst",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Selbst",
+      "Auf antrag der Bundesregierung mit Zustimmung des Bundesrates.",
+      "Von der Bundespräsidentin/ dem Bundespräsidenten"
+    ],
+    "Falsche Antwort": [
+      "Von der Bundespräsidentin/ dem Bundespräsidenten darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Selbst darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was sind die wesentlichen Aufgaben des Landtags?",
-    "Richtige Antwort": "Die Landesgesetzgebung und die Beschlussfassung über das Landesbudget.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Landesgesetzgebung und die Beschlussfassung über das Landesbudget.",
+      "Die Wahl der Mitglieder des Landesregierung und der steirischen Mitglieder des Bundesrates sowie die Wahl des Leiters/der Leiterin  des Landesrechnungshof.",
+      "Die Kontrolle der Vollziehung (d.h. der Landesregierung)"
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Die Kontrolle der Vollziehung (d.h. der Landesregierung) darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wie werden Anträge auf Erlassung eines Landesgesetzes eingebracht?",
-    "Richtige Antwort": "Als Initioativantrag von Abgeordneten (mindestens 2)",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Als Initioativantrag von Abgeordneten (mindestens 2)",
+      "Als Antrag von Ausschüssen sowie aus Regierungsvorlage (meistens)",
+      "durch ein Volksbegehren unterstützt durch mindestens 17.000 zum Landtag Wahlberechtigten.",
+      "Auf Gemeindeinitiative von mindestens 50 Gemeinden."
+    ],
+    "Falsche Antwort": [
+      "durch ein Volksbegehren unterstützt durch mindestens 17.000 zum Landtag Wahlberechtigten. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Als Initioativantrag von Abgeordneten (mindestens 2) darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Folgende Beschlusserfordernisse müssen Landesgesetze mindestens erfüllt sein, wobei unbedingte (einfache) Mehrheit mehr als die Hälfte bedeutet: ",
-    "Richtige Antwort": "Für einfache Landesgesetze: die Hälfte der Abgeordneten anwesend, für den Beschluss unbdingte Mehrheit der abgegebenen Stimmen",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Für einfache Landesgesetze: die Hälfte der Abgeordneten anwesend, für den Beschluss unbdingte Mehrheit der abgegebenen Stimmen",
+      "Für Landesgverfassungsgesetze bzw. Verfassungsbestimmung: die Hälfte der Abgeordneten anwesend, eine 2/3 Mehrheit des abgegebenen Stimmen für einen Beschluss"
+    ],
+    "Falsche Antwort": [
+      "Für einfache Landesgesetze: die Hälfte der Abgeordneten anwesend, für den Beschluss unbdingte Mehrheit der abgegebenen Stimmen darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Kann die Bundesregierung gegen ein Landesgesetz Einspruch erheben?",
-    "Richtige Antwort": "Ja, wenn ein Landesgesetz Abgabenangelegenheiten regelt.",
+    "Richtige Antwort": [
+      "Ja, wenn ein Landesgesetz Abgabenangelegenheiten regelt.",
+      "Sie hat 8 Wochen Zeit einen Einspruch zu erheben."
+    ],
     "Falsche Antwort": [
-      "NEIN"
+      "NEIN",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Ja, wenn ein Landesgesetz Abgabenangelegenheiten regelt. darf Grundrechte einschränken, wann immer es nötig erscheint."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Kann der Landtag eine Volksabstimmung über einen Gesetzesbeschluss beschließen?",
-    "Richtige Antwort": "JA",
+    "Richtige Antwort": [
+      "JA",
+      "Eine Volksabstimmung ist auch durchzuführen, wenn dies von 50.000 zum Landtag Wahlberechtigten oder von 50 Gemeinden binnen 6 Wochen, nachdem der Landtag den Gesetzesbeschluss gefasst hat verlangt wird.",
+      "Eine Volksabstimmung über Gesetzesbeschlüsse, die EU-Richtlinien umsetzen ist nicht möglich."
+    ],
     "Falsche Antwort": [
-      "NEIN"
+      "NEIN",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was passiert, wenn der Beschluss eines Landesgesetzes bei einer Volksabstimmung abgelehnt wird?",
-    "Richtige Antwort": "Das Ergebnis ist bindend, das Gesetz kann nicht in Kraft treten.",
+    "Richtige Antwort": [
+      "Das Ergebnis ist bindend, das Gesetz kann nicht in Kraft treten."
+    ],
     "Falsche Antwort": [
-      "Das Gesetz kann in Kraft treten."
+      "Das Gesetz kann in Kraft treten.",
+      "Das Ergebnis ist bindend, das Gesetz kann nicht in Kraft treten. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wer beurkundet verfassungsmäßig zustandegekommene Landesgesetze?",
-    "Richtige Antwort": "Die Landeshauptfrau/ der Landeshauptmann beurkunden das Gesetz",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Landeshauptfrau/ der Landeshauptmann beurkunden das Gesetz",
+      "Die Beurkundung ist von einem Mitglied der Landesregierung gegenzuzeichnen."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Die Beurkundung ist von einem Mitglied der Landesregierung gegenzuzeichnen. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wer beurkundet verfassungsmäßig zustandegekommene Bundesgesetze?",
-    "Richtige Antwort": "Die Bundespräsidentin/ der Budespräsident beurkundet das Gesetz",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Bundespräsidentin/ der Budespräsident beurkundet das Gesetz",
+      "Die Beurkundung ist von der Bundeskanzlerin/ dem Bundeskanzler gegenzuzeichnen."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Die Beurkundung ist von der Bundeskanzlerin/ dem Bundeskanzler gegenzuzeichnen. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was sind die wesentliche Merkmale der Verwaltung?",
-    "Richtige Antwort": "Die Weisungsgebundenheit.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Weisungsgebundenheit.",
+      "Hierarchische Gliederung mit Weisungsrecht der Übergeordneten Organe (z.B. Oberbehörde)."
+    ],
+    "Falsche Antwort": [
+      "Die Weisungsgebundenheit. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Hierarchische Gliederung mit Weisungsrecht der Übergeordneten Organe (z.B. Oberbehörde). darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Aufgaben der Verwaltung sind:",
-    "Richtige Antwort": "Sämtliche Vollzugsaufgaben außerhalb der Gerichtsbarkeit.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Sämtliche Vollzugsaufgaben außerhalb der Gerichtsbarkeit."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Sämtliche Vollzugsaufgaben außerhalb der Gerichtsbarkeit. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Aussagen zur Weisung treffen zu:",
-    "Richtige Antwort": "Die Weisung ist ein Auftrag eines Übergeordneten Organs.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Weisung ist ein Auftrag eines Übergeordneten Organs.",
+      "Das Organ das die Weisung ausspricht, muss zuständig sein und die Angelegenheit muss im Zuständigkeitsbereich des Angewiesenen liegen.",
+      "Das Nichtbefolgen der Weisung hat disziplinarrechtliche Konsequenzen. ",
+      "Grundsätzlich müssen auch rechtswiedrige Weiungen befolgt werden. Bedenken müssen kundgetan werden. Die Weisung muss schriftlich erneuert werden, sonst gilt sie als zurückgezogen (Remonstrationsrecht)."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Das Organ das die Weisung ausspricht, muss zuständig sein und die Angelegenheit muss im Zuständigkeitsbereich des Angewiesenen liegen. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Weisung ist ein Auftrag eines Übergeordneten Organs. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wann muss eine Weisung abgeleht werden?",
-    "Richtige Antwort": "Wenn sie von einem unzuständigen Organ kommt.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Wenn sie von einem unzuständigen Organ kommt.",
+      "Wenn sie gegen Strafrecht verstößt."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Wenn sie von einem unzuständigen Organ kommt. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Wenn sie gegen Strafrecht verstößt. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was sind Merkmale der Hoheitsverwaltung?",
-    "Richtige Antwort": "Behörde setzt einseitig verbindliche Rechtsakte, ohne Zustimmung der Betrffnen. Diese sind verbindlich.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Behörde setzt einseitig verbindliche Rechtsakte, ohne Zustimmung der Betrffnen. Diese sind verbindlich.",
+      "Das Gesetz kennt unterschiedliche Rechtsformen: Verordnung, Bescheid, faktische Amtshandlung."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Das Gesetz kennt unterschiedliche Rechtsformen: Verordnung, Bescheid, faktische Amtshandlung. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Aussagen treffen zu?",
-    "Richtige Antwort": "Verordnungen führen Gesetze für die Allgemeinheit (genereller Adressatenkreis) näher aus.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Verordnungen führen Gesetze für die Allgemeinheit (genereller Adressatenkreis) näher aus.",
+      "Bescheide sind an einen individuellen Adressatenkreis gerichtet. Ihnen geht grundsätzlich ein Verfahren voraus. GegenBescheide können Rechtsmittel eingesetzt werden.",
+      "\"Faktische Amtshandlungen\" sind verfahrensfreie Amtshandlungen (z.B. Festnahmen, Entzug des Führerscheind, …)",
+      "Bei der Privatwirtschaftsverwaltung wird die öffentliche Hand als Vertragspartner tätig."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Bei der Privatwirtschaftsverwaltung wird die öffentliche Hand als Vertragspartner tätig. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Aussagen in Bezug auf das Legalitätsprinzip treffen zu?",
-    "Richtige Antwort": "Der Grundsatz der Gesetzmäßigkeit in der Verwaltung meint, dass die gesamte staatliche Verwaltung nur auf Grundlage von Gesetzen ausgeübt werden darf.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Der Grundsatz der Gesetzmäßigkeit in der Verwaltung meint, dass die gesamte staatliche Verwaltung nur auf Grundlage von Gesetzen ausgeübt werden darf.",
+      "Damit wird willkührliches Handeln der Behörden verhindert.",
+      "Im Rahmen der Priwatwirtschaftsverwaltung ist eine gesetzliche Ermächtigung nicht vorgesehen, die Verwaltung darf aber dennoch nicht gegen Gesetze verstoßen.",
+      "Der Gesetzgeber muss das hoheitliche Handeln der Verwaltungsorgane genau vorherbestimmen, spich Inhalte und Zuständigkeiten und das Verfahren regeln."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Damit wird willkührliches Handeln der Behörden verhindert. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Aussagen in Bezug auf die Amtshaftung treffen zu?",
-    "Richtige Antwort": "Für den Bereich der Hoheitsverwaltung haftet der Rechtsträger für den Schaden, der bei Vollziehung der Gesetze durch rechtswiedriges Verhalten entsteht.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Für den Bereich der Hoheitsverwaltung haftet der Rechtsträger für den Schaden, der bei Vollziehung der Gesetze durch rechtswiedriges Verhalten entsteht.",
+      "Der zum Schadenersetz verpflichtete Rechtsträger kann vonn der Personen, die als seine Organe gehandelt haben, bei grober Fahrlässigkeit, Schadenersatz verlangen (Rückersatz)."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Für den Bereich der Hoheitsverwaltung haftet der Rechtsträger für den Schaden, der bei Vollziehung der Gesetze durch rechtswiedriges Verhalten entsteht. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Aussagen in Bezug auf die Organhaftung treffen zu?",
-    "Richtige Antwort": "Rechtsträger haben Schadenersatzanspruch gegen Organwalter:innen, die durch Handlungen in Ausübung ihrer Organfunktion den jeweiligen Rechtsträger unmittelbar gechädigt haben.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Rechtsträger haben Schadenersatzanspruch gegen Organwalter:innen, die durch Handlungen in Ausübung ihrer Organfunktion den jeweiligen Rechtsträger unmittelbar gechädigt haben."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Rechtsträger haben Schadenersatzanspruch gegen Organwalter:innen, die durch Handlungen in Ausübung ihrer Organfunktion den jeweiligen Rechtsträger unmittelbar gechädigt haben. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Aussagen in Bezug auf die Diensnehmerhaftung treffen zu?",
-    "Richtige Antwort": "Der Dienstgeber muss gegenüber Dritten den Schaden ersetzen, den seine Organe in Ausübung der Privatwirtschaftsverwaltung zugefügt haben.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Der Dienstgeber muss gegenüber Dritten den Schaden ersetzen, den seine Organe in Ausübung der Privatwirtschaftsverwaltung zugefügt haben.",
+      "Unter bestimmten Voraussetzungen kann sich der Dienstgeber das Geld vom Dienstnehmer zurückholen."
+    ],
+    "Falsche Antwort": [
+      "Unter bestimmten Voraussetzungen kann sich der Dienstgeber das Geld vom Dienstnehmer zurückholen. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was besagt das Steirische Auskunftspflichtgesetz?",
-    "Richtige Antwort": "Soweit keine Verschwiegenheit vorliegt, muss die Auskunft erteilt werden.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Soweit keine Verschwiegenheit vorliegt, muss die Auskunft erteilt werden.",
+      "Bearbeitungszeit: 8 Wochenfrist"
+    ],
+    "Falsche Antwort": [
+      "Bearbeitungszeit: 8 Wochenfrist darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Grundlagen zum Datenschutz bilden auf europäischer Ebene Artikel 7 und 8 der Grundrechtecharte (GRC) sowie die Datenschutzgrundverordnung sowie national (Ö) der Artikel 8 EMRK (als Verfassungsbestimmung), das Grundrecht auf Datenschutz und das Datenschutzgesetz ",
-    "Richtige Antwort": "JA",
+    "Richtige Antwort": [
+      "JA"
+    ],
     "Falsche Antwort": [
-      "NEIN"
+      "NEIN",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "§1 DSG Grundrecht auf Datenschutz: schützt insbesondere alle personenbezogenen Daten sowie besonders schutzwürdige Daten.",
-    "Richtige Antwort": "JA",
+    "Richtige Antwort": [
+      "JA"
+    ],
     "Falsche Antwort": [
-      "NEIN"
+      "NEIN",
+      "JA darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was sind oberste Verwaltungsorgane des Bundes?",
-    "Richtige Antwort": "Bundespräsidentin/Bundespräsident",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Bundespräsidentin/Bundespräsident",
+      "Bundesregierung und Bundesministerinnen/ Bundesminister",
+      "Bundesministerien"
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Bundespräsidentin/Bundespräsident darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wie wird die Bundespräsidentin/der Bundespräsident gewählt? ",
-    "Richtige Antwort": "Nach den gleichen Grundsätzen des Wahlrechtsw wie Nationalrat und Landtag - in gleicher, unmittelbarer, persönlicher, ffreier und geheimer Wahl für eine Amtsdauer von 6 Jahren (2x hintereinander mgl.).",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Nach den gleichen Grundsätzen des Wahlrechtsw wie Nationalrat und Landtag - in gleicher, unmittelbarer, persönlicher, ffreier und geheimer Wahl für eine Amtsdauer von 6 Jahren (2x hintereinander mgl.)."
+    ],
+    "Falsche Antwort": [
+      "Nach den gleichen Grundsätzen des Wahlrechtsw wie Nationalrat und Landtag - in gleicher, unmittelbarer, persönlicher, ffreier und geheimer Wahl für eine Amtsdauer von 6 Jahren (2x hintereinander mgl.). darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wer ist wahlberechtigt bzw. wählbar?",
-    "Richtige Antwort": "Wahlberechtigt sind alle österreichischen Staatsbürger, die zum Nationalrat wahlberechtigt sind.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Wahlberechtigt sind alle österreichischen Staatsbürger, die zum Nationalrat wahlberechtigt sind.",
+      "Jeder österreichische Staatsbürger mit Wahlrecht zum Nationalrat der das 35. Lebensjahr überschritten hat ist wählbar."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Wahlberechtigt sind alle österreichischen Staatsbürger, die zum Nationalrat wahlberechtigt sind. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wie endet das Amt der Bundespräsidenten/der Bundespräsidentin?",
-    "Richtige Antwort": "durch Zeitablauf/ Tod",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "durch Zeitablauf/ Tod",
+      "Durch Erkenntnis des VfGH aufgrund einer durch Beschluss des Bundesversammlung erhobeen Anklage",
+      "Durch Absetzung durch Volksabstimmung, die von der Bundesversmmlung beschlossen wurde."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Durch Absetzung durch Volksabstimmung, die von der Bundesversmmlung beschlossen wurde. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Der Bundespräsident darf ohne Vorschlag…",
-    "Richtige Antwort": "den Bundeskanzler ernennen/entlassen",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "den Bundeskanzler ernennen/entlassen",
+      "die gesamte Bundesregierung entlassen",
+      "Bundesgesetze beurkunden",
+      "hat den Oberbefehl über das Bundesheer"
+    ],
+    "Falsche Antwort": [
+      "den Bundeskanzler ernennen/entlassen darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Bundesgesetze beurkunden darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Der Bundespräsident darf auf Vorschlag…",
-    "Richtige Antwort": "die übrigen Mittglieder der Breg sowie Staatssekretäre bestellen oder entlassen",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "die übrigen Mittglieder der Breg sowie Staatssekretäre bestellen oder entlassen",
+      "Staatsverträge abschließen",
+      "Nationalrat und Landtage auflösen",
+      "Höchstrichter ernennen "
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Höchstrichter ernennen darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Bundesregierung ist ein Kollegialorgan. Was ist damit gemeint?",
-    "Richtige Antwort": "Die Bundesregierung ist die Gesamtheit aller Bundesminister:innen, dem Bundeskanzler und der Vizekanzler:in",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Bundesregierung ist die Gesamtheit aller Bundesminister:innen, dem Bundeskanzler und der Vizekanzler:in",
+      "Im Gegensatz dazu ist eine Bundesministerin/ ein Bundesminister ein monokratisches Organ."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Bundesregierung ist die Gesamtheit aller Bundesminister:innen, dem Bundeskanzler und der Vizekanzler:in darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wo wird die Zahl der Bundesminister:innen festgelegt?",
-    "Richtige Antwort": "Im Bundesministergesetz, welches vom Nationalrat gemeinsam mit dem Bundesrat beschlossen wird.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Im Bundesministergesetz, welches vom Nationalrat gemeinsam mit dem Bundesrat beschlossen wird."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Im Bundesministergesetz, welches vom Nationalrat gemeinsam mit dem Bundesrat beschlossen wird. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Staatssekretär:innen sind keine Mitglieder der Bundesregierung, was ist ihre Aufgabe?",
-    "Richtige Antwort": " die \"\"Unterstützung der Geschäftsführung\"\"",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      " die \"Unterstützung der Geschäftsführung\"",
+      "die \"parlamentarische Vertretung\" der Bundesminister:innen"
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "die \"Unterstützung der Geschäftsführung\" darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
-    "Frage": "Rechtsakte in der Bundesverwaltung werden immer \"\"namensder jeweiligen Bundesminister:in\"\" gesetzt. Warum ist das so?",
-    "Richtige Antwort": "Die jeweilige Behörde ist immer der Bundesminister oder die Bundesministerein.",
-    "Falsche Antwort": []
+    "Frage": "Rechtsakte in der Bundesverwaltung werden immer \"namensder jeweiligen Bundesminister:in\" gesetzt. Warum ist das so?",
+    "Richtige Antwort": [
+      "Die jeweilige Behörde ist immer der Bundesminister oder die Bundesministerein.",
+      "Das Bundesministerien sind der dazugehörige Geschäftsapparat."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die jeweilige Behörde ist immer der Bundesminister oder die Bundesministerein. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wie wird die Bundesverwaltung auf mittlerer und unterster Ebene besorgt?",
-    "Richtige Antwort": "durch die Behörden des Bundes (unmittelbare Bundesverwaltung) - Bundesbehörde im organisatorisch und funktionellem Sinn mit speziellen Aufgaben",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "durch die Behörden des Bundes (unmittelbare Bundesverwaltung) - Bundesbehörde im organisatorisch und funktionellem Sinn mit speziellen Aufgaben",
+      "Durch die Landeshauptfrauen/Landeshauptmänner (mittelbare Bundesverwaltung) - funktionell Bundesbehörde und organisatorisch Landesbehörde"
+    ],
+    "Falsche Antwort": [
+      "Durch die Landeshauptfrauen/Landeshauptmänner (mittelbare Bundesverwaltung) - funktionell Bundesbehörde und organisatorisch Landesbehörde darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Der Rechtszug…",
-    "Richtige Antwort": "… in der unmittelbaren Bundesverwaltung geht über ein Bundesverwaltungsgericht.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "… in der unmittelbaren Bundesverwaltung geht über ein Bundesverwaltungsgericht.",
+      "… in der mittelbaren Bundesverwaltung über ein Landesverwaltungsgericht."
+    ],
+    "Falsche Antwort": [
+      "… in der mittelbaren Bundesverwaltung über ein Landesverwaltungsgericht. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wer besorgt die Landesverwaltung?",
-    "Richtige Antwort": "Die Landesregierung als Kollegialorgan (oberstes Organ der Landesvollziehung) bzw. einzelne Regierungsmitglieder als monokratische Organe",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Landesregierung als Kollegialorgan (oberstes Organ der Landesvollziehung) bzw. einzelne Regierungsmitglieder als monokratische Organe",
+      "Das Amt der Landesregierung",
+      "Die Bezirkshauptmannschaften"
+    ],
+    "Falsche Antwort": [
+      "Die Landesregierung als Kollegialorgan (oberstes Organ der Landesvollziehung) bzw. einzelne Regierungsmitglieder als monokratische Organe darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Landesregierung fasst ihre Beschlüsse",
-    "Richtige Antwort": "einstimmig",
+    "Richtige Antwort": [
+      "einstimmig"
+    ],
     "Falsche Antwort": [
-      "mehrstimmig"
+      "mehrstimmig",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "einstimmig darf Grundrechte einschränken, wann immer es nötig erscheint."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Landesregierung besteht aus 6 bis 8 Mitgliedern, die …",
-    "Richtige Antwort": "… vom Landtag gewählt werden.",
+    "Richtige Antwort": [
+      "… vom Landtag gewählt werden."
+    ],
     "Falsche Antwort": [
       "… Vom Nationalrat gewählt werden.",
-      "… vom Bundespräsidenten ernannt werden."
+      "… vom Bundespräsidenten ernannt werden.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Das Amt der Landesregierung ist, …",
-    "Richtige Antwort": "… der Geschäftsapparat der Landesregierung in Angelegenheiten der Landesverwaltung.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "… der Geschäftsapparat der Landesregierung in Angelegenheiten der Landesverwaltung.",
+      "… der Geschäftsapparat der Landeshauptfrau/der Landeshauptmannes und der einzelnen Mitglieder der LReg. in Angelegenheiten  der mittelbaren Bundesverwaltung.",
+      "in Abteilungen gegliedert."
+    ],
+    "Falsche Antwort": [
+      "… der Geschäftsapparat der Landesregierung in Angelegenheiten der Landesverwaltung. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Leitung des innern Dienstes liegt bei…",
-    "Richtige Antwort": "… der Landesamtsdirektion, die wiedrum unter der Aufsicht des Landeshauptmanns/ der Landeshauptfrau steht.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "… der Landesamtsdirektion, die wiedrum unter der Aufsicht des Landeshauptmanns/ der Landeshauptfrau steht."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "… der Landesamtsdirektion, die wiedrum unter der Aufsicht des Landeshauptmanns/ der Landeshauptfrau steht. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wer ist für die Besorgung aller Angelegenheiten der Bundes- und Landesverwaltung mit Ausnahme von Graz (Stadt mit eigenem Statut) zuständig?",
-    "Richtige Antwort": "Die Bezirkshauptmannschaft. Ihr Leiter ist die Bezirkshauptfrau oder der Bezirkshauptmann. Diese werden von der Landesregierung bestellt.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Bezirkshauptmannschaft. Ihr Leiter ist die Bezirkshauptfrau oder der Bezirkshauptmann. Diese werden von der Landesregierung bestellt."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Bezirkshauptmannschaft. Ihr Leiter ist die Bezirkshauptfrau oder der Bezirkshauptmann. Diese werden von der Landesregierung bestellt. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Bezirkshauptmannschaften sind in Sachen des inneren Dienses dem LH unterstellt. Richtig oder Falsch?",
-    "Richtige Antwort": "RICHTIG",
+    "Richtige Antwort": [
+      "RICHTIG"
+    ],
     "Falsche Antwort": [
-      "FALSE"
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "RICHTIG darf Grundrechte einschränken, wann immer es nötig erscheint."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Bezirkshauptmannschaften sind in Sachen der Landesverwaltung unterstellt. Richtig oder Falsch?",
-    "Richtige Antwort": "RICHTIG",
+    "Richtige Antwort": [
+      "RICHTIG"
+    ],
     "Falsche Antwort": [
-      "FALSE"
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "RICHTIG darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Bezirkshauptmannschaften sind in Sachen der mittelbaren Bundesverwaltung dem LH bzw. eingelnen Mitgliedern der Lreg. unterstellt. Richtig oder Falsch?",
-    "Richtige Antwort": "RICHTIG",
+    "Richtige Antwort": [
+      "RICHTIG"
+    ],
     "Falsche Antwort": [
-      "FALSE"
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "RICHTIG darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die Bezirkshauptmannschaften sind in Sachen der Sicherheitsverwaltung der Landespolizeidirektion unterstellt. Richtig oder Falsch?",
-    "Richtige Antwort": "RICHTIG",
+    "Richtige Antwort": [
+      "RICHTIG"
+    ],
     "Falsche Antwort": [
-      "FALSE"
+      "RICHTIG darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
     ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was ist die Besonderheit von Städten mit eigenem Statut?",
-    "Richtige Antwort": "In gewisser Weise sind sie rechtlich hervorgehoben, da sie die Agenden der Bezirksverwaltung durch Gemeindeorgane besorgen.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "In gewisser Weise sind sie rechtlich hervorgehoben, da sie die Agenden der Bezirksverwaltung durch Gemeindeorgane besorgen.",
+      "Ab einer Einwohnerzahl von 20.000 Einwohnern kann eine Gemeinde erhoben werden. In der Stmk nur Graz.",
+      "Geschäftsapparat heißt Magistrat."
+    ],
+    "Falsche Antwort": [
+      "In gewisser Weise sind sie rechtlich hervorgehoben, da sie die Agenden der Bezirksverwaltung durch Gemeindeorgane besorgen. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Geschäftsapparat heißt Magistrat. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welche Organe hat die Gemeinde?",
-    "Richtige Antwort": "Bürgermeister - monokratisches Gemeindeorgan, das nicht Mitglied im Gemeinderat sein muss.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Bürgermeister - monokratisches Gemeindeorgan, das nicht Mitglied im Gemeinderat sein muss.",
+      "Gemeinderat, als oberstes Organ der Gemeinde mit 9 bis 3 Mitgliedern. Die Wahl erfolgt nach den gleichen Grundsätzen der NR- bzw. Ldtg-Wahl",
+      "Gemeindevorstand"
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Gemeindevorstand darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was ist mit Einheitsgemeinde gemeint? ",
-    "Richtige Antwort": "Alle Gemeinden sind rechtlich gleichgestellt.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Alle Gemeinden sind rechtlich gleichgestellt."
+    ],
+    "Falsche Antwort": [
+      "Alle Gemeinden sind rechtlich gleichgestellt. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Selbstverwaltung der Gemeinden bedeutet: ",
-    "Richtige Antwort": "In bestimmten Angelegenheiten (eigener Wirkungsbereich) sind die Gemeinden frei von Weisungen.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "In bestimmten Angelegenheiten (eigener Wirkungsbereich) sind die Gemeinden frei von Weisungen.",
+      "Die LReg. und der LH sind nur Aufsichtsbehörde, haben aber kein Weisungsrecht."
+    ],
+    "Falsche Antwort": [
+      "Die LReg. und der LH sind nur Aufsichtsbehörde, haben aber kein Weisungsrecht. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "In bestimmten Angelegenheiten (eigener Wirkungsbereich) sind die Gemeinden frei von Weisungen. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Der eigene Wirkungsbereich der Gemeinden umfasst:",
-    "Richtige Antwort": "die Verwaltung des Gemeindevermögens, der Gemeindeunternehmen und Gemeindebetriebe",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "die Verwaltung des Gemeindevermögens, der Gemeindeunternehmen und Gemeindebetriebe",
+      "das Recht, gewisse Abgaben Auszuschreiben und den Haushalt selbst zu führen",
+      "Angelegenheiten der Hoheitsverwaltung, die durch Gesetze als solche des eigenen Wirkungsbereichs bezeichnet sind."
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Angelegenheiten der Hoheitsverwaltung, die durch Gesetze als solche des eigenen Wirkungsbereichs bezeichnet sind. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Im Instanzenzug gibt es in den Gemeinden eine Besonderheit. Welche?",
-    "Richtige Antwort": "Einen zweigliedrigen Instanzenzug im eigenen Wirkungsbereich: Berufung gegen Bescheid des Bürgermeisters (1. Instanz) an Gemeinderat (2. Instanz). Erst dann Beschwerde an LVwG",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Einen zweigliedrigen Instanzenzug im eigenen Wirkungsbereich: Berufung gegen Bescheid des Bürgermeisters (1. Instanz) an Gemeinderat (2. Instanz). Erst dann Beschwerde an LVwG"
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Einen zweigliedrigen Instanzenzug im eigenen Wirkungsbereich: Berufung gegen Bescheid des Bürgermeisters (1. Instanz) an Gemeinderat (2. Instanz). Erst dann Beschwerde an LVwG darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Die wichtigsten Aufgaben des Gemeinderates im eigenen Wirkungsbereich sind…",
-    "Richtige Antwort": "… die Wahl des Bürgermeisters und des Gemeindevorstands",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "… die Wahl des Bürgermeisters und des Gemeindevorstands",
+      "… der Beschluss des Gemeindebudgets",
+      "… die Erlasssung von Verordnungen."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "… die Erlasssung von Verordnungen. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wer ist die Behörde in Angelegenheiten des übertragenen Wirkungsbereich der Gemeinden?",
-    "Richtige Antwort": "Ausschließlich der Bürgermeister/ die Bürgermeisterin",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Ausschließlich der Bürgermeister/ die Bürgermeisterin"
+    ],
+    "Falsche Antwort": [
+      "Ausschließlich der Bürgermeister/ die Bürgermeisterin darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was sind Gemeindeverbände?",
-    "Richtige Antwort": "In Gemeindeverbänden arbeiten mehrere Gemeinden in einer Sache zusammen. Sie haben eigene Organe und haben selbst Rechtspersönlichkeit.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "In Gemeindeverbänden arbeiten mehrere Gemeinden in einer Sache zusammen. Sie haben eigene Organe und haben selbst Rechtspersönlichkeit."
+    ],
+    "Falsche Antwort": [
+      "In Gemeindeverbänden arbeiten mehrere Gemeinden in einer Sache zusammen. Sie haben eigene Organe und haben selbst Rechtspersönlichkeit. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was sind Verwaltungsgemeinschaften?",
-    "Richtige Antwort": "Mehrere Gemeinden arbeiten in einem losen Zusammenschluss in einer Sache zusammen (z.B. Müllabfuhr). Die Verwaltungsgemeinschaft ist selbst nicht rechtskräftig und hat selbst keine Organe. ",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Mehrere Gemeinden arbeiten in einem losen Zusammenschluss in einer Sache zusammen (z.B. Müllabfuhr). Die Verwaltungsgemeinschaft ist selbst nicht rechtskräftig und hat selbst keine Organe. "
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Mehrere Gemeinden arbeiten in einem losen Zusammenschluss in einer Sache zusammen (z.B. Müllabfuhr). Die Verwaltungsgemeinschaft ist selbst nicht rechtskräftig und hat selbst keine Organe. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Welchen rechtlichen Verantwortlichkeiten unterliegen Organe der Vollziehung?",
-    "Richtige Antwort": "Strafrechtliche Verantwortlichkeit",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Strafrechtliche Verantwortlichkeit",
+      "Zivilrechtliche Verantwortlichkeit - Schadenersatz",
+      "Disziplinarrechtlicher Verantwortlichkeit",
+      "Staatsrechtliche Verantwortlichkeit"
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Zivilrechtliche Verantwortlichkeit - Schadenersatz darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Auf Beschluss der Bundesversammlung kann eine Volksabstimmung über die Absetzung des Bundespräsidenten beschlossen werden. Was sind die Konsequenzen?",
-    "Richtige Antwort": "Wird der Bundespräsidet duch die Abstimmung im Amt bestätigt, hat das die Auflösung des Nationalrates zur Folge.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Wird der Bundespräsidet duch die Abstimmung im Amt bestätigt, hat das die Auflösung des Nationalrates zur Folge.",
+      "Wird der Bundespräsident nicht bestätigt, wird er abgesetzt."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Wird der Bundespräsident nicht bestätigt, wird er abgesetzt. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was sind die Konsequenzen eines Mistrauensvotums?",
-    "Richtige Antwort": "Die Mitglieder der Breg. (BK, VK, Minister:innen, Staatssekretär:innen) verlieren ihre Funktion wenn der NR sein Misstrauen ausspricht",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Mitglieder der Breg. (BK, VK, Minister:innen, Staatssekretär:innen) verlieren ihre Funktion wenn der NR sein Misstrauen ausspricht",
+      "Die Mitglieder der Lreg. (LH, LHStV, und übrige Mitglieder) verlieren ihre Funktion wenn der Landtag das Misstrauen ausspricht."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Mitglieder der Lreg. (LH, LHStV, und übrige Mitglieder) verlieren ihre Funktion wenn der Landtag das Misstrauen ausspricht. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was sieht das Interpelletationsrecht vor?",
-    "Richtige Antwort": "Der NR und der BR können an die Breg. über Angelegenheiten aus dem gesamten Bereich der Bundesvollziehung befragen.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Der NR und der BR können an die Breg. über Angelegenheiten aus dem gesamten Bereich der Bundesvollziehung befragen.",
+      "Beantwortung kann mündlich oder schriftlich erfolgen. Nichtbeantwortung ist zu begründen.",
+      "Gleiches sieht die Steiermärkische Landesverfassung vor."
+    ],
+    "Falsche Antwort": [
+      "Der NR und der BR können an die Breg. über Angelegenheiten aus dem gesamten Bereich der Bundesvollziehung befragen. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Gleiches sieht die Steiermärkische Landesverfassung vor. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Was versteht man unter zweistufiger Verwaltungsgerichtsbarkeit?",
-    "Richtige Antwort": "Es gibt 9 Landesverwaltungsgerichte (LVwG) + 2 Bundesverwaltungsgerichte (BVwG, BFG) sowie den Verwaltungsgerichtshof (VwGH)",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Es gibt 9 Landesverwaltungsgerichte (LVwG) + 2 Bundesverwaltungsgerichte (BVwG, BFG) sowie den Verwaltungsgerichtshof (VwGH)"
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Es gibt 9 Landesverwaltungsgerichte (LVwG) + 2 Bundesverwaltungsgerichte (BVwG, BFG) sowie den Verwaltungsgerichtshof (VwGH) darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Wer garantiert auch die Rechtsstaatlichkeit in Österreich?",
-    "Richtige Antwort": "Die Verwaltungsgerichtsbarkeit (BVwG, BFG, LVwG bzw. VwGH) und die Verfassungsgerichtsbarkeit (VfGH)",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Verwaltungsgerichtsbarkeit (BVwG, BFG, LVwG bzw. VwGH) und die Verfassungsgerichtsbarkeit (VfGH)"
+    ],
+    "Falsche Antwort": [
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich.",
+      "Die Verwaltungsgerichtsbarkeit (BVwG, BFG, LVwG bzw. VwGH) und die Verfassungsgerichtsbarkeit (VfGH) darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "Es ist kein verwaltungsinterner Instanzenzug mehr vorgesehen. Was gibt es dazu zu sagen?",
-    "Richtige Antwort": "Es gibt keinen Instanzenzug von einer Verwaltungsbehörde zu einer anderen Verwaltungsbehörde (d.h. keine Berufung).",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Es gibt keinen Instanzenzug von einer Verwaltungsbehörde zu einer anderen Verwaltungsbehörde (d.h. keine Berufung).",
+      "Nur im eigenen Wirkungsbereich der Gemeinden gibt es einen zweigliedrigen Instanzenzug noch (Berufung an GR)",
+      "Beschwerde ist nur an ein Verwaltungsgericht möglich. Diese sind unabhängig und weisungsfrei außerhalb der Verwaltung angesiedelt."
+    ],
+    "Falsche Antwort": [
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Es gibt keinen Instanzenzug von einer Verwaltungsbehörde zu einer anderen Verwaltungsbehörde (d.h. keine Berufung). darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Verfassungsänderungen sind ohne parlamentarische Zustimmung möglich."
+    ]
   },
   {
     "Fach": "Verfassungsrecht",
     "Frage": "VwGH und VfGH sind die Höchstgreichte letzter Instanz, was sind ihre Aufgaben?",
-    "Richtige Antwort": "Die Gerichtshöfe öffentlichen Rechts kontrollieren auch die Verwaltung.",
-    "Falsche Antwort": []
+    "Richtige Antwort": [
+      "Die Gerichtshöfe öffentlichen Rechts kontrollieren auch die Verwaltung.",
+      "Angefochtene Verwaltungsakte werden auf Gesetz- bzw. Verfassungswiedrigkeit geprüft und ggf. aufgehoben. "
+    ],
+    "Falsche Antwort": [
+      "Die Gerichtshöfe öffentlichen Rechts kontrollieren auch die Verwaltung. darf Grundrechte einschränken, wann immer es nötig erscheint.",
+      "Die Landesverfassung steht immer über der Bundesverfassung.",
+      "Angefochtene Verwaltungsakte werden auf Gesetz- bzw. Verfassungswiedrigkeit geprüft und ggf. aufgehoben. darf Grundrechte einschränken, wann immer es nötig erscheint."
+    ]
   }
 ]
