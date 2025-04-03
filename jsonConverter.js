@@ -62,8 +62,8 @@ function convertToJsonStructure(data) {
     return {
       Fach: row.Fach || row.fach || "",
       Frage: row.Frage || row.frage || "",
-      "Richtige Antwort": richtigeAntwort,
-      "Falsche Antwort": falscheAntwort,
+      "Richtige Antwort": richtigeAntworten,
+      "Falsche Antwort": falscheAntworten,
     };
 
   });
