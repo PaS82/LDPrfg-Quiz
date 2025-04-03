@@ -4,22 +4,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>📚 Dienstprüfungs-Quiz</title>
+  <title>ðŸ“š DienstprÃ¼fungs-Quiz</title>
+  <link rel="manifest" href="manifest.json">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="fragenLoader.js"></script>
   <script src="fragenUpdater.js"></script>
+  <style>
+    body { font-family: sans-serif; background: #f4f4f4; margin: 0; padding: 1em; }
+    .container { max-width: 800px; margin: auto; background: #fff; padding: 2em; border-radius: 16px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h1, h2 { text-align: center; }
+    select, button, input[type=file] { width: 100%; padding: 0.5em; margin-top: 1em; font-size: 1em; }
+    .question-block { margin-top: 2em; }
+    .answers label { display: block; text-align: left; margin-bottom: 0.5em; background: #eee; padding: 0.5em; border-radius: 8px; cursor: pointer; }
+    .nav-buttons { margin-top: 1em; display: flex; justify-content: space-between; }
+    .note, .fachstatus { font-size: 0.9em; color: #666; margin-top: 0.5em; }
+    #toggleChart { margin-top: 2em; display: block; }
+    #statsChartContainer { display: none; margin-top: 2em; }
+  </style>
 </head>
 <body>
   <div class="container">
-    <select id="fachSelect"><option value="">Fach wählen...</option></select>
-    <div id="fachStatus"></div>
+    <h1>ðŸ“š DienstprÃ¼fungs-Quiz</h1>
+    <div id="fragen-update-container"></div>
+    <select id="fachSelect"><option value="">Fach wÃ¤hlen...</option></select>
+    <div class="fachstatus" id="fachStatus"></div>
     <div id="quiz"></div>
-    <button onclick="prevQuestion()">Zurück</button>
-    <button onclick="nextQuestion()">Weiter</button>
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">ZurÃ¼ck</button>
+      <button onclick="nextQuestion()">Weiter</button>
+    </div>
+    <div class="note">Hinweis: Mehrfachauswahl mÃ¶glich.</div>
+    <button id="toggleChart" onclick="toggleChart()">Lernerfolg anzeigen</button>
+    <div id="statsChartContainer">
+      <canvas id="statsChart"></canvas>
+      <p style="text-align:center; font-size: 0.9em; color: #444; margin-top: 0.5em;">
+        Prozentwert = (erreichte Punkte / maximal mÃ¶gliche Punkte) Ã— 100<br>
+        Eine richtige Auswahl = 1 Punkt.
+      </p>
+    </div>
+    <button id="toggleReport" onclick="toggleReport()">Antwortbericht anzeigen</button>
+    <div id="reportContainer" style="display:none; margin-top: 2em;"></div>
   </div>
-  
-<script>
 
+<script>
 window.fragen = [];
 let selectedFach = '';
 let questions = [];
@@ -34,13 +61,12 @@ function updateFachauswahl() {
   const faecher = [...new Set(window.fragen.map(q => q.Fach))];
   const sel = document.getElementById("fachSelect");
   const statusBox = document.getElementById("fachStatus");
-  sel.innerHTML = '<option value="">Fach wählen...</option>' +
-    faecher.map(f => `<option value="${f}" ${completedFaecher.includes(f) ? 'disabled' : ''}>${f}${completedFaecher.includes(f) ? ' (✅ erledigt)' : ''}</option>`).join("");
-  statusBox.innerHTML = "<strong>Fächerstatus:</strong><br>" +
-    faecher.map(f => `${completedFaecher.includes(f) ? '✅' : '🔓'} ${f}`).join("<br>");
-
+  sel.innerHTML = '<option value="">Fach wÃ¤hlen...</option>' +
+    faecher.map(f => `<option value="${f}" ${completedFaecher.includes(f) ? 'disabled' : ''}>${f}${completedFaecher.includes(f) ? ' (âœ… erledigt)' : ''}</option>`).join("");
+  statusBox.innerHTML = "<strong>FÃ¤cherstatus:</strong><br>" +
+    faecher.map(f => `${completedFaecher.includes(f) ? 'âœ…' : 'ðŸ”“'} ${f}`).join("<br>");
   if (completedFaecher.length === faecher.length) {
-    alert("🎉 Alle Fächer wurden bearbeitet. Ein neuer Durchgang beginnt!");
+    alert("ðŸŽ‰ Alle FÃ¤cher wurden bearbeitet. Ein neuer Durchgang beginnt!");
     completedFaecher = [];
     localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
     updateFachauswahl();
@@ -93,7 +119,7 @@ function showQuestion() {
     <form class="answers">
       ${shuffled.map((a, i) => `<label><input type="checkbox" name="answer" value="${a.correct}"> ${formatText(a.text)}</label>`).join("")}
     </form>
-    <button onclick="checkAnswer()">Antwort prüfen</button>
+    <button onclick="checkAnswer()">Antwort prÃ¼fen</button>
   </div>`;
 }
 
@@ -101,7 +127,6 @@ function checkAnswer() {
   const inputs = document.querySelectorAll('input[name="answer"]');
   let richtig = 0, falsch = 0;
   let userAntworten = [];
-
   inputs.forEach(input => {
     const isCorrect = input.value === "true";
     const antwortText = input.parentElement.textContent.trim();
@@ -112,19 +137,15 @@ function checkAnswer() {
     }
     if (!input.checked && isCorrect) falsch++;
   });
-
   const f = selectedFach;
   if (!stats[f]) stats[f] = { richtig: 0, falsch: 0 };
   stats[f].richtig += richtig;
   stats[f].falsch += falsch;
-
   const frageId = questions[current].Frage;
   if (!frageFehlerCounter[frageId]) frageFehlerCounter[frageId] = 0;
   if (falsch > 0) frageFehlerCounter[frageId]++;
-
   const richtigeAntworten = [questions[current]["Richtige Antwort"]];
   logFrageAntwort(questions[current], userAntworten, richtigeAntworten);
-
   localStorage.setItem("quizStats", JSON.stringify(stats));
   localStorage.setItem("frageFehlerCounter", JSON.stringify(frageFehlerCounter));
   nextQuestion();
@@ -140,7 +161,7 @@ function nextQuestion() {
       localStorage.setItem("completedFaecher", JSON.stringify(completedFaecher));
     }
     updateFachauswahl();
-    document.getElementById("quiz").innerHTML = `<h2>Fach abgeschlossen!</h2><p>Wähle ein neues Fach aus der Liste.</p>`;
+    document.getElementById("quiz").innerHTML = `<h2>Fach abgeschlossen!</h2><p>WÃ¤hle ein neues Fach aus der Liste.</p>`;
   }
 }
 
@@ -151,8 +172,66 @@ function prevQuestion() {
   }
 }
 
-function shuffleArray(arr) {
-  return arr.map(v => [Math.random(), v]).sort((a, b) => a[0] - b[0]).map(a => a[1]);
+function toggleChart() {
+  const container = document.getElementById("statsChartContainer");
+  const button = document.getElementById("toggleChart");
+  if (container.style.display === "none") {
+    drawChart();
+    container.style.display = "block";
+    button.textContent = "Lernerfolg verbergen";
+  } else {
+    container.style.display = "none";
+    button.textContent = "Lernerfolg anzeigen";
+  }
+}
+
+function drawChart() {
+  const ctx = document.getElementById("statsChart").getContext("2d");
+  if (chartInstance) chartInstance.destroy();
+  const labels = Object.keys(stats).filter(f => stats[f].richtig + stats[f].falsch > 0);
+  const correct = labels.map(f => stats[f].richtig);
+  const total = labels.map(f => stats[f].richtig + stats[f].falsch);
+  const percentage = labels.map((_, i) => (correct[i] / total[i]) * 100);
+  chartInstance = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{ label: 'Lernerfolg (%)', data: percentage, backgroundColor: 'blue' }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      scales: { x: { beginAtZero: true, max: 100 } },
+      plugins: { title: { display: true, text: 'Lernerfolg nach Fach (%)' } }
+    }
+  });
+}
+
+function toggleReport() {
+  const container = document.getElementById("reportContainer");
+  const button = document.getElementById("toggleReport");
+  if (container.style.display === "none") {
+    container.innerHTML = "<h3>Antwortbericht</h3>" +
+      reportLog.map((entry, i) => `
+        <div style='margin-bottom:1em;'>
+          <strong>Frage ${i + 1}:</strong> ${entry.frage}<br>
+          <ul>
+            ${entry.antworten.map(a => {
+              const isChecked = entry.userAntworten.includes(a);
+              const isCorrect = entry.richtigeAntworten.includes(a);
+              return `<li style='color:${isChecked ? (isCorrect ? "green" : "red") : "black"}'>
+                ${isChecked ? "âœ…" : "â¬œ"} ${a} ${isCorrect ? "(richtig)" : ""}
+              </li>`;
+            }).join('')}
+          </ul>
+        </div>
+      `).join('');
+    container.style.display = "block";
+    button.textContent = "Antwortbericht verbergen";
+  } else {
+    container.style.display = "none";
+    button.textContent = "Antwortbericht anzeigen";
+  }
 }
 
 function logFrageAntwort(frageObj, userAntworten, richtigeAntworten) {
@@ -165,12 +244,14 @@ function logFrageAntwort(frageObj, userAntworten, richtigeAntworten) {
   localStorage.setItem("reportLog", JSON.stringify(reportLog));
 }
 
+function shuffleArray(arr) {
+  return arr.map(v => [Math.random(), v]).sort((a, b) => a[0] - b[0]).map(a => a[1]);
+}
+
 window.checkAnswer = checkAnswer;
 window.nextQuestion = nextQuestion;
 window.prevQuestion = prevQuestion;
-
 </script>
-
-  <script src="fragenUpdater.js"></script>
+<script src="fragenUpdater.js"></script>
 </body>
 </html>
