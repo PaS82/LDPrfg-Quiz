@@ -220,30 +220,67 @@ function drawChart() {
 
 // Stapeldiagramm
 
+// Gestapeltes Prozent-Stapeldiagramm
 function drawChart() {
   const ctx = document.getElementById("statsChart").getContext("2d");
   if (chartInstance) chartInstance.destroy();
 
   const labels = Object.keys(stats).filter(f => stats[f].richtig + stats[f].falsch > 0);
-  const richtig = labels.map(f => stats[f].richtig);
-  const falsch = labels.map(f => stats[f].falsch);
+  const richtigProzent = labels.map(f => {
+    const s = stats[f];
+    return (s.richtig / (s.richtig + s.falsch)) * 100;
+  });
+  const falschProzent = labels.map(f => {
+    const s = stats[f];
+    return (s.falsch / (s.richtig + s.falsch)) * 100;
+  });
 
   chartInstance = new Chart(ctx, {
     type: 'bar',
     data: {
       labels,
       datasets: [
-        { label: 'Richtig', data: richtig, stack: 'Stack 0' },
-        { label: 'Falsch', data: falsch, stack: 'Stack 0' }
+        {
+          label: 'Richtig (%)',
+          data: richtigProzent,
+          backgroundColor: 'green',
+          stack: 'stack1'
+        },
+        {
+          label: 'Falsch (%)',
+          data: falschProzent,
+          backgroundColor: 'red',
+          stack: 'stack1'
+        }
       ]
     },
     options: {
       indexAxis: 'y',
       responsive: true,
-      plugins: { title: { display: true, text: 'Richtig vs. Falsch nach Fach' } },
       scales: {
-        x: { stacked: true, beginAtZero: true },
+        x: {
+          stacked: true,
+          beginAtZero: true,
+          max: 100,
+          title: {
+            display: true,
+            text: 'Prozent (%)'
+          }
+        },
         y: { stacked: true }
+      },
+      plugins: {
+        title: {
+          display: true,
+          text: 'Lernerfolg pro Fach (richtig vs. falsch in %)'
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return `${context.dataset.label}: ${context.raw.toFixed(1)} %`;
+            }
+          }
+        }
       }
     }
   });
