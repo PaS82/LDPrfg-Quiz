@@ -111,7 +111,7 @@ function formatText(text) {
              .replaceAll("(4)", "<br>4.")
              .replaceAll("(.)", "<br>&bull;");
 }
-
+/*
 function showQuestion() {
   const q = questions[current];
   const answers = [];
@@ -136,7 +136,42 @@ function showQuestion() {
     <button onclick="checkAnswer()">Antwort prüfen</button>
   </div>`;
 }
+*/
+  function showQuestion() {
+  const q = questions[current];
+  const answers = [];
 
+  // ✨ Robust gegen String ODER Array bei "Richtige Antwort"
+  if (q["Richtige Antwort"]) {
+    const richtige = Array.isArray(q["Richtige Antwort"]) ? q["Richtige Antwort"] : [q["Richtige Antwort"]];
+    richtige.forEach(text => {
+      if (text && text.trim()) {
+        answers.push({ text: text.trim(), correct: true });
+      }
+    });
+  }
+
+  // ✨ Unverändert, da "Falsche Antwort" bei dir immer Array ist
+  if (Array.isArray(q["Falsche Antwort"])) {
+    q["Falsche Antwort"].forEach(text => {
+      if (text && text.trim()) {
+        answers.push({ text: text.trim(), correct: false });
+      }
+    });
+  }
+
+  const shuffled = shuffleArray(answers);
+  const container = document.getElementById("quiz");
+  container.innerHTML = `<div class="question-block">
+    <h2>Frage ${current + 1}/12</h2>
+    <p>${formatText(q.Frage)}</p>
+    <form class="answers">
+      ${shuffled.map((a, i) => `<label><input type="checkbox" name="answer" value="${a.correct}"> ${formatText(a.text)}</label>`).join("")}
+    </form>
+    <button onclick="checkAnswer()">Antwort prüfen</button>
+  </div>`;
+}
+  
 function checkAnswer() {
   const inputs = document.querySelectorAll('input[name="answer"]');
   let richtig = 0, falsch = 0;
