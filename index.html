@@ -315,7 +315,14 @@ function drawChart() {
             text: 'Prozent (%)'
           }
         },
-        y: { stacked: true }
+        y: { stacked: true,
+            ticks: {
+              autoSkip: false,
+              font:{
+                size:12
+              }
+            }
+           }
       },
       plugins: {
         title: {
