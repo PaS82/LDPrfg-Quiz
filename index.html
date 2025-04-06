@@ -35,7 +35,41 @@
 <body>
   <div class="container">
     <h1>📚 Dienstprüfungs-Quiz</h1>
-    
+
+    <div id="converter-panel" style="
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+  background: transparent; 
+  font-family: sans-serif; 
+  z-index: 1000;
+">
+  <button onclick="togglePanel()" title="CSV/Excel in JSON umwandeln" style="
+    font-size: 0.9em; 
+    padding: 5px 10px; 
+    border-radius: 8px; 
+    border: 1px solid #ccc; 
+    background: #fff; 
+    cursor: pointer; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  ">🔽</button>
+
+  <div id="panel-body" style="
+    display: none;
+    margin-top: 5px; 
+    background: #f9f9f9; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    width: 220px; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  ">
+    <input type="file" id="fileInput" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" style="width: 100%; font-size: 0.8em;" />
+    <button onclick="convertAndDownload()" style="margin-top: 5px; width: 100%; font-size: 0.9em;">Konvertieren & Download</button>
+  </div>
+</div>
+
+    <!--
     <div id="converter-panel" style="position: fixed; bottom: 10px; right: 10px; background: #f0f0f0; border: 1px solid #ccc; border-radius: 8px; padding: 10px; width: 300px; font-family: sans-serif;">
     <button onclick="togglePanel()" style="margin-bottom: 10px;">🔽 CSV/Excel zu JSON</button>
       <div id="panel-body" style="display: none;">
@@ -43,7 +77,7 @@
         <button onclick="convertAndDownload()" style="margin-top: 10px;">Konvertieren und Speichern</button>
       </div>
     </div>
-    
+    -->
     <select id="fachSelect"><option value="">Fach wählen...</option></select>
     <div class="fachstatus" id="fachStatus"></div>
     <div id="quiz"></div>
