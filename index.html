@@ -14,6 +14,13 @@
   
   <script src="fragenLoader.js"></script>
   <script src="jsonConverter.js"></script>
+  <script src="shuffleArray.js"></script>
+  <script src="formatText.js"></script>
+  <script src="logFrageAntwort.js"></script>
+  <script src="toggleReport.js"></script>
+  <script src="checkAnswer.js"></script>
+
+  
   <style>
     body { font-family: sans-serif; background: #f4f4f4; margin: 0; padding: 1em; }
     .container { max-width: 800px; margin: auto; background: #fff; padding: 2em; border-radius: 16px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
@@ -456,16 +463,19 @@ function resetStats() {
 
 // ... eventuell weitere Funktionen (z. B. window.checkAnswer = checkAnswer; usw.)
 
+</script>
+
+<script>
+
 window.checkAnswer = checkAnswer;
 window.nextQuestion = nextQuestion;
 window.prevQuestion = prevQuestion;
 window.toggleChart = toggleChart;
 window.resetStats = resetStats;
+  
 </script>
   
-<script src="logFrageAntwort.js"></script>
-<script src="toggleReport.js"></script>
-<script src="checkAnswer.js"></script>
+
 
 
 </body>
