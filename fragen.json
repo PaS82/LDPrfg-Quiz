@@ -2924,4 +2924,611 @@
       "Im strukturellen Saldo werden lediglich die Ausgaben für soziale Wohlfahrt und öffentliche Investitionen berücksichtigt, um eine Überbewertung der Staatsausgaben zu vermeiden."
     ]
   }
+  {
+    "Fach": "Europarecht",
+    "Frage": "Die Europäische Kommission besteht aus …",
+    "Richtige Antwort": [
+      "… derzeit 27 Kommissaren (einer pro Mitgliedsstaat) und deren Amtszeit auf 5 Jahre befristete ist."
+    ],
+    "Falsche Antwort": [
+      "… insgesamt 15 Kommissaren, die von den fünf größten Staaten der EU ernannt werden, mit einer Amtszeit von 4 Jahren.",
+      "… einem Präsident, einem Vizepräsidenten und 25 weiteren Kommissaren, die alle für eine unbestimmte Zeit ernannt werden.",
+      "… 28 Kommissaren, wobei jedes Mitgliedsland einen Kommissar stellt und zwei weitere Kommissare von der EU gewählt werden, mit einer Amtszeit von 7 Jahren."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was ist die Supranationalität (der EU) und was kennzeichnet diese?",
+    "Richtige Antwort": [
+      "Die Supranationalität ist das wichtigste Unterscheidungsmerkmal der EU zu anderen internationalen Organisationen. Die Mitgliedsstaaten haben damit gewisse Kompetenzen an die EU abgegeben.",
+      "Beschlüsse werden meist mehrheitliche gefasst.",
+      "Die Organe haben Einfluss auf die Rechtssetzung und sind in deren Willensbekundung unabhängig von den Mitgliedsstaaten.",
+      "Öffentliche Gewalt wird teilweise unabhängig vom Willen der Staaten ausgeübt."
+    ],
+    "Falsche Antwort": [
+      "Die Supranationalität ermöglicht es den Mitgliedsstaaten, EU-Gesetze zu ignorieren, wenn diese ihren nationalen Interessen widersprechen.",
+      "In der EU haben nur die größten Mitgliedsstaaten wie Deutschland und Frankreich das Recht, an der Rechtssetzung mitzuwirken.",
+      "Jeder Mitgliedsstaat kann eigenständig neue Mitglieder in die EU aufnehmen, ohne die Zustimmung anderer Mitgliedsstaaten zu benötigen."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was ist der Europäischen Rat und wer ist stimmberechtigt?",
+    "Richtige Antwort": [
+      "Der Europäische Rat (ER) ist das Gremium der Staats- und Regierungschefs der Europäischen Union (EU). Er dient als übergeordnete Institution dazu Kompromisse zw. Mitgliedstaaten zu finden und Impulse für die weitere Entwicklung der Union zu setzen.",
+      "Er erlässt keine Rechtsakte, aber er ist das eigentliche Entscheidungszentrum der EU im politischen Vorfeld des rechtlichen Tätigwerdens der Organe (\"EU Gipfel\".",
+      "Stimmberechtigt sind die Staats- und Regierungschefs - in Österreich der aktuelle Bundeskanzler."
+    ],
+    "Falsche Antwort": [
+      "Der Europäische Rat besteht aus den Außenministern der EU-Mitgliedstaaten, die gemeinsam über die Außenpolitik der Union entscheiden.",
+      "Im Europäischen Rat hat jeder Mitgliedstaat unabhängig von seiner Größe zwei Stimmen, wodurch kleinere Länder eine stärkere Stimme erhalten.",
+      "Der Europäische Rat ist ein ständiges Organ der EU mit Sitz in Brüssel, das täglich tagt, um die laufenden politischen und wirtschaftlichen Angelegenheiten der Union zu überwachen."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was ist der Rat der EU?",
+    "Richtige Antwort": [
+      "Der Rat der EU ist das wichtigste Rechtssetzungsorgan der EU mit Sitz in Brüssel.",
+      "Der Rat besteht aus je einem Minister/ einer Ministerin pro Mitgliedsland (dzt 27), die für ihre Land jeweils verbindlich handeln."
+    ],
+    "Falsche Antwort": [
+      "Der Rat der EU ist ein beratendes Gremium, das aus Vertretern der regionalen Regierungen der Mitgliedstaaten besteht.",
+      "Der Rat der EU setzt sich aus den Botschaftern der EU-Mitgliedsstaaten zusammen, die ständig in Brüssel ansässig sind.",
+      "Der Rat der EU wird alle fünf Jahre direkt von den Bürgern der EU-Mitgliedstaaten gewählt, um die europäische Gesetzgebung zu überwachen."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Wer vertritt Österreich im Rat der EU?",
+    "Richtige Antwort": [
+      "Der Rat der EU setzt sich aus jeweils einem Vertreter pro Mitgliedstaat zusammen, der ermächtigt sein muss, für seine Regierung verbindliche Entscheidungen zu treffen.Die Vertretung von Österreichs im Rat der EU erfolgt durch den jeweiligen Minister.",
+      "Je nach Beratungsgegenstand tagen unterschiedliche Räte (Minister:innen aud den Mitgliedsstaaten), daher tritt der Rat, obwohl er ein ordentliches Organ ist, immer in unterschiedlicher personeller Besetzung zusammen."
+    ],
+    "Falsche Antwort": [
+      "Österreich wird im Rat der EU durch den Bundeskanzler vertreten, der für alle Themenbereiche zuständig ist.",
+      "Die Vertretung Österreichs im Rat der EU wird durch einen ständigen Botschafter übernommen, der in allen Sitzungen präsent ist.",
+      "Österreich wird im Rat der EU durch den Präsidenten vertreten, der die oberste Entscheidungsgewalt in allen EU-Angelegenheiten hat."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Wer führt im Rat der EU den Vorsitz?",
+    "Richtige Antwort": [
+      "Im Rat der EU führt immer ein Land für 6 Monate den Vorsitz.",
+      "Eine Ausnahme sind die \"Auswärtige Angelegenheiten\", die nicht alle 6 Monate gewechselt werden.",
+      "Der Vorsitz wird von zuvor festgelegten Gruppen von je drei Staaten gebildet, wobei ein Staat den Vorsitz hat und die anderen beiden auf Basis eines gemeinsam erstellten Programms unterstützen."
+    ],
+    "Falsche Antwort": [
+      "Der Vorsitz im Rat der EU wird permanent von einem Mitgliedstaat gehalten, der durch eine Mehrheitswahl innerhalb des Rates bestimmt wird.",
+      "Die Europäische Kommission übernimmt den Vorsitz im Rat der EU, um eine konsistente Politikführung und Kontinuität sicherzustellen.",
+      "Der Vorsitz im Rat der EU rotiert jährlich zwischen den fünf größten Mitgliedsstaaten, um eine ausgewogene Vertretung und Einflussnahme zu gewährleisten."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Welche Beschlussquoren (Mechanismen) gibt es im Rat der EU?",
+    "Richtige Antwort": [
+      "Einfahce Mehrheit, Nach dem Grundsatz \"one state, one vote\". Füreine Beschlussfassung müssen aktuell 14 Statten  zustimmen.",
+      "Qualifizierte (\"doppelte\") Mehrheit: mindestens 55% der Staaten (also mindestens 15 von 17 Staaten) mit mindestens 65% der Gesamtbevölkerung in der EU.",
+      "Sperrminorität: mindestens 4 Ratsmitglieder, die mehr als 35% der EU vertreten",
+      "Einstimmigkeit: Alle Mitglieder müssen zustimmen. Enthaltungen entsprechen Zustimmung)."
+    ],
+    "Falsche Antwort": [
+      "Relative Mehrheit: Mindestens 40% der Staaten müssen zustimmen, unabhängig von der Bevölkerungszahl.",
+      "Dreiviertel-Mehrheit: Mindestens 75% der Staaten müssen zustimmen, wobei die Bevölkerungszahl keine Rolle spielt.",
+      "Verstärkte Qualifizierte Mehrheit: Mindestens 70% der Staaten und 80% der EU-Gesamtbevölkerung müssen für einen Beschluss stimmen."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was ist die Rolle des Kommissionspräsidenten?",
+    "Richtige Antwort": [
+      "Er/Sie verteilt die Zuständigkeiten innerhalb der Kommission und kann diese auch ändern.",
+      "Sie/Er kann einzelne Mitglieder der Kommission entlassen.",
+      "Sie/Er hat kein inhaltliches Weisungsrecht gegenüber den anderen Kommissionsmitgliedern."
+    ],
+    "Falsche Antwort": [
+      "Er/Sie ist verantwortlich für die Ernennung der Richter des Europäischen Gerichtshofs.",
+      "Sie/Er kann Gesetzesvorschläge direkt dem Europäischen Parlament zur Abstimmung vorlegen.",
+      "Sie/Er führt den Vorsitz im Europäischen Rat und setzt dessen Tagesordnung fest."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was ist Aufgabe der Europäischen Kommission (EK)?",
+    "Richtige Antwort": [
+      "Initiativmonopol:\\n Durch Vorschläge der EK  kommt ein Rechtssetzungsprozess in Gang (Motor der EU).",
+      "Exekutivbefugnisse:\\n Unionsrecht wird überwiegend von den Mitgliedsstaaten vollzogen. Dort, wo es aber \"unionsunmittelbaren Vollzug\" gibt, ist dies meist Aufgabe der EK.",
+      "Kontrolle:\\n Die EK ist \"Hüterin der Verträge (Unionsrecht\" - Sie überwacht die Einhaltung des Unionsrechts.",
+      "Die EK vertritt die Interessen der EU."
+    ],
+    "Falsche Antwort": [
+      "Judikative Befugnisse: Die EK fungiert als oberstes Gericht der EU und entscheidet bei rechtlichen Streitigkeiten zwischen den Mitgliedsstaaten.",
+      "Gesetzgebende Gewalt: Die EK hat die alleinige Befugnis, EU-Gesetze zu erlassen und zu ändern, ohne die Zustimmung des Europäischen Parlaments und des Rates der EU.",
+      "Nationale Sicherheit: Die EK ist verantwortlich für die Verteidigungspolitik und militärische Angelegenheiten der Mitgliedsstaaten."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Wie wird die Europäische Kommission (EK) bestellt?",
+    "Richtige Antwort": [
+      "Ja. Von jedem Mitgliedsstaat werden Personen für die Kommission vorgeschlagen, die dann vom Rat mit qualifizierter Mehrheit angenommen wird."
+    ],
+    "Falsche Antwort": [
+      "Die Europäische Kommission wird direkt durch eine Wahl von den Bürgern der EU-Mitgliedsstaaten bestimmt.",
+      "Die Mitglieder der Europäischen Kommission werden vom Europäischen Gerichtshof ausgewählt, um eine unabhängige Überwachung der EU-Gesetzgebung zu gewährleisten.",
+      "Die Europäische Kommission setzt sich aus Abgeordneten des Europäischen Parlaments zusammen, die nach jeder Wahl neu von den Fraktionen bestimmt werden."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Wer ist im Europäischen Parlament aktiv und passiv wahlberechtigt und wie wird gewählt?",
+    "Richtige Antwort": [
+      "Bei der Wahl kann jede/r EU-Bürger:in der/die den Wohnsitz in einem anderen EU-Staat hat in diesem Wohnsitzstaat seinen/ihr aktives und passives Wahlrecht ausüben.",
+      "Wird seit 1979 alle fünf Jahre in allgemeinen, unmittelbaren, freien, geheimen, aber nicht gleichen Europawahlen von den Bürgern der EU gewählt. Das Europäische Parlament ist daher nicht nur das einzige direkt gewählte Organ der Europäischen Union, sondern die einzige direkt gewählte supranationale Institution weltweit."
+    ],
+    "Falsche Antwort": [
+      "Die Mitglieder des Europäischen Parlaments werden durch eine indirekte Wahl von den nationalen Parlamenten der Mitgliedsstaaten bestimmt, wobei jeder Staat eine bestimmte Anzahl von Abgeordneten entsendet, basierend auf der Größe seiner Bevölkerung.",
+      "Nur Bürgerinnen und Bürger, die ihren Wohnsitz im Land ihrer Staatsangehörigkeit haben, sind aktiv und passiv wahlberechtigt für das Europäische Parlament, was bedeutet, dass EU-Bürger, die in einem anderen EU-Land leben, nicht wählen dürfen.",
+      "Die Wahlen zum Europäischen Parlament finden alle sieben Jahre statt, und die Wahlberechtigung ist auf EU-Bürger beschränkt, die mindestens 25 Jahre alt sind, um das passive Wahlrecht auszuüben."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Welche Aufgaben hat das Europäische Parlament?",
+    "Richtige Antwort": [
+      "Rechtssetzung:\\n Im AEUV wird pro Sachgebiet angegeben, welches Verfahren anzuwenden ist, und welche Rolle der Rat einnimmt. IdR werden ordentliche Gesetzgebungsverfahren eingesetzt, indem Parlament und Rat gleichberechtigt (qualifizierte Mehrheit) sind.",
+      "Kontrolle:\\n Das Europäosche Parlament hat insbesondere Kontrollfunktion gegenüber der Kommission.",
+      "Haushalt:\\n Das Parlament entscheidet mit dem Rat über den von der Kommission vorgeschlagenen Haushaltsvorentwurf.",
+      "Das Europäische Parlament vertritt die Unionsbürger:innen."
+    ],
+    "Falsche Antwort": [
+      "Das Europäische Parlament kann eigenständig europäische Gesetze erlassen, ohne die Zustimmung des Rates oder der Kommission zu benötigen.",
+      "Das Europäische Parlament hat die Hauptaufgabe, nationale Gesetzgebungen der Mitgliedstaaten zu überprüfen und gegebenenfalls zu korrigieren.",
+      "Das Europäische Parlament ernennt die Richter des Europäischen Gerichtshofs."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Welche Verfahrensarten gibt es vor dem EU-Gerichthof?",
+    "Richtige Antwort": [
+      "Vertragsverletzungsverfahren: Es wird geprüft, ob Unionsrecht verletzt wurde.\\n(Mahnschreiben, Stellungnahme, begr. StellungnahmeKlage EuGH)",
+      "Nichtigkeitsklage: EuGH prüft Rechtmäßigkeit von verbindlichen Unionsrechtsakten (Richtlinien, Entscheidungen, …)",
+      "Vorabentscheidung: Es geht um Auslegungsfragen bezüglich der Verträge und Unionsrechtsakte bzw, die Auslegung und Gültigkeit von Sekundärrecht, wenn das vor einem nationalen Gericht von Bedeutung ist."
+    ],
+    "Falsche Antwort": [
+      "Revisionsverfahren: Der EU-Gerichtshof kann frühere Entscheidungen auf Antrag eines Mitgliedstaats überprüfen und gegebenenfalls aufheben.",
+      "Eilverfahren: Der EU-Gerichtshof entscheidet über schnelle einstweilige Anordnungen, um temporäre Maßnahmen gegen Mitgliedstaaten durchzusetzen.",
+      "Konsultationsverfahren: Der EU-Gerichtshof berät EU-Institutionen oder Mitgliedstaaten in politischen Fragen zur zukünftigen Gestaltung von EU-Gesetzen."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Worum geht es in den Verfahren des EU-GH?",
+    "Richtige Antwort": [
+      "Es geht um die Wahrung und Auslegung des Unionsrechts.",
+      "Es ist ein Merkmal der Supranationalität, dass die Unioneine umfassende und für alle bindende Gerichtsbarkeit beinhaltet."
+    ],
+    "Falsche Antwort": [
+      "Es geht um die Durchsetzung nationaler Gesetze der Mitgliedstaaten auf EU-Ebene.",
+      "Es dient der Schlichtung diplomatischer Konflikte zwischen den EU-Mitgliedstaaten.",
+      "Die Hauptaufgabe besteht darin, die Direktiven der Vereinten Nationen innerhalb der EU umzusetzen."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Mit welchem Verfahren vor dem Gerichtshof der EU kann ein Mitgliedstaat gegen eine EU-Richtlinie (Sekundärrecht) wegen des Verstoßes des Prinzips der begrenzten Ermächtigung (Primärrecht) vorgehen?",
+    "Richtige Antwort": [
+      "Mit der Nichtigkeitsklage -  klagebefugt sind einzelne Organe und Mitgliedsstaaten, uU Einzelpersonen."
+    ],
+    "Falsche Antwort": [
+      "Mit der Untätigkeitsklage – wenn EU-Institutionen ihre vertraglichen Verpflichtungen nicht innerhalb einer angemessenen Frist erfüllen.",
+      "Mit dem Vorabentscheidungsverfahren – ein Mitgliedstaat kann den Gerichtshof der EU anrufen, um die Auslegung des EU-Rechts zu klären.",
+      "Mit der Beschwerde beim Europäischen Ombudsmann – ein Mitgliedstaat kann Beschwerde einreichen, wenn er der Meinung ist, dass eine Institution der EU seine Rechte verletzt hat."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was bedeutet der Grundsatz des institutionellen Gleichgewichts?",
+    "Richtige Antwort": [
+      "System das die gegenseitige Kontrolle und das Machtgleichgewicht der handelnden Organe (Europ. Kommission, Rat der EU, Europ. Parlament) in der EU regelt.",
+      "Das System von \"checks and balances\", vorallem zwischen Rat, Kommission und Parlament, nachdem kein Organ vorherrschen ist, wird als institutionelles Gleichgewicht bezeichnet."
+    ],
+    "Falsche Antwort": [
+      "Der Grundsatz des institutionellen Gleichgewichts bezieht sich auf die Gleichverteilung von finanziellen Ressourcen zwischen den Mitgliedsstaaten der Europäischen Union.",
+      "Das Prinzip des institutionellen Gleichgewichts bedeutet, dass jedes EU-Land die gleiche Anzahl von Sitzen im Europäischen Parlament hat, um die Gleichheit der Staaten zu gewährleisten.",
+      "Unter dem Grundsatz des institutionellen Gleichgewichts versteht man die einheitliche Rechtsprechung durch den Europäischen Gerichtshof, die sicherstellt, dass alle Gesetze in jedem Mitgliedstaat gleich interpretiert und angewendet werden."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was ist das europäische Primärrecht?",
+    "Richtige Antwort": [
+      "Primärrecht besteht in erster Linie aus den Verträgen und allen Änderungen und wird von den Mitgliedsstaaten geschaffen."
+    ],
+    "Falsche Antwort": [
+      "Das europäische Primärrecht umfasst die von der Europäischen Kommission erlassenen Verordnungen und Richtlinien, die direkt in allen Mitgliedsstaaten gelten.",
+      "Primärrecht wird ausschließlich vom Europäischen Gerichtshof entwickelt und basiert auf der Rechtsprechung und Interpretation bestehender europäischer Gesetze.",
+      "Das europäische Primärrecht besteht aus den Entscheidungen des Europäischen Rates und ist vorrangig für die Außenpolitik der EU-Mitgliedsstaaten verantwortlich."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Wer erzeugt Primärrecht?",
+    "Richtige Antwort": [
+      "Alle Mitgliedsstaaten "
+    ],
+    "Falsche Antwort": [
+      "Der Europäische Gerichtshof",
+      "Die Europäische Kommission",
+      "Das Europäische Parlament"
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was ist europäisches Sekundärrecht?",
+    "Richtige Antwort": [
+      "Das Sekundärrecht ist abgeleitetes Recht, das auf Grundlage des Primärrechts geschaffene wurde.",
+      "Die Organe der EU erlassen Säkundärrecht in den Bereichen mittels der Verfahren, welche die Verträge vorsehen."
+    ],
+    "Falsche Antwort": [
+      "Das Sekundärrecht umfasst die Gründungsverträge der Europäischen Union, wie den Vertrag über die Europäische Union (EUV) und den Vertrag über die Arbeitsweise der Europäischen Union (AEUV).",
+      "Sekundärrecht wird direkt von den Mitgliedstaaten der EU geschaffen und bedarf keiner Zustimmung durch die EU-Organe.",
+      "Europäisches Sekundärrecht beinhaltet ausschließlich die Rechtsprechung des Europäischen Gerichtshofs, die als bindendes Recht für alle Mitgliedstaaten gilt."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Wozu dient das Sekundärrecht?",
+    "Richtige Antwort": [
+      "Es dien der Konkretisierung des Primärrechts.",
+      "Sekundärrecht ist zur Ausfüllung der Verträge nötig, das diese oft nur allgemeine Grundsätze aufstellen, die für viel Bereiche näher konkretisiert werden müssen."
+    ],
+    "Falsche Antwort": [
+      "Es dient der direkten Änderung der grundlegenden Verträge der Europäischen Union.",
+      "Sekundärrecht ist dazu da, die Entscheidungen des Europäischen Gerichtshofs zu überprüfen und gegebenenfalls zu korrigieren.",
+      "Es dient dazu, den Mitgliedstaaten erlaubte Ausnahmen von den EU-Verträgen zu gewähren."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Welche Kompetenzordnung gibt es?",
+    "Richtige Antwort": [
+      "Ausschließliche Unionszuständigkeit (zB. geneinsame Zolltarife, gemeinsame Handelspolitik) sowie geteilte Zuständigkeiten ((zB. Umwelt, Energie).",
+      "Begrenzte Ermächtigung: Die Union darf nur Regelungen treffen, wo ihr im Vertrag ausdrücklich kompetenzen zugewiesen wurden.",
+      "Subsidiaritätsprinzip: Die größere Einheit (die Union) soll nicht Aufgaben erfüllen, die von kleineren Einheiten (Mitgliedsstaaten) ausreichend bewältigt werden könne."
+    ],
+    "Falsche Antwort": [
+      "Generelle Unionszuständigkeit: Die Europäische Union hat in allen Bereichen Vorrang vor den nationalen Gesetzgebungen der Mitgliedsstaaten.",
+      "Unbeschränkte Ermächtigung: Die EU kann in jedem Bereich, der ihr als notwendig erscheint, Gesetze erlassen, ohne dass eine spezifische Kompetenzzuweisung im Vertrag erforderlich ist.",
+      "Föderalisierungsprinzip: Die Union ist befugt, in allen Angelegenheiten, die die Mitgliedsstaaten betreffen, zentralisierte Entscheidungen zu treffen und eigene Institutionen auf jeder staatlichen Ebene zu etablieren."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was bedeutet die Kompetenzordnung?",
+    "Richtige Antwort": [
+      "Die Kompetenzordnung regelt die Verteilung bzw. die Zuständigkeiten der EU",
+      "Weil die Mitgliedsstaaten Kompetenzen an die EU Abgegeben haben, wird Gewalt teilweise unabhängig vom Willen der Staaten ausgeübt."
+    ],
+    "Falsche Antwort": [
+      "Die Kompetenzordnung beschreibt die Verfahrensregeln für die Wahl des Europäischen Parlaments.",
+      "Die Kompetenzordnung ist ein rechtliches Instrument, das es jedem EU-Mitgliedsstaat erlaubt, unabhängig Gesetze zu erlassen, die EU-Richtlinien widersprechen.",
+      "Die Kompetenzordnung verpflichtet EU-Mitgliedsstaaten, ihre nationalen Gerichte nach den Vorgaben der EU zu strukturieren."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Wie wird die Kompetenzordnung durchgesetzt?",
+    "Richtige Antwort": [
+      "Die Kompetenzordnung der EU wird durchgesetzt, indem die EU-Institutionen Gesetze erlassen und die Mitgliedstaaten diese umsetzen. Die EU-Verträge legen fest, welche Zuständigkeiten die EU und die Mitgliedstaaten haben. "
+    ],
+    "Falsche Antwort": [
+      "Die Kompetenzordnung wird ausschließlich durch die nationalen Gerichte der Mitgliedstaaten durchgesetzt, die direkt überprüfen, ob EU-Recht korrekt angewendet wird.",
+      "Die Kompetenzordnung wird durch eine spezielle Abteilung der Vereinten Nationen überwacht, die sicherstellt, dass die EU und ihre Mitgliedstaaten ihre jeweiligen Befugnisse nicht überschreiten.",
+      "Die Durchsetzung der Kompetenzordnung erfolgt direkt durch die Bürger der EU, die durch Volksabstimmungen über die Verteilung der Zuständigkeiten zwischen der EU und den Mitgliedstaaten entscheiden."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Wonach richtet sich die Kompetenzverteilung zwischen EU und Mitgliedstaaten?",
+    "Richtige Antwort": [
+      "Die Aufteilung der Kompetenzen zwischen den einzelnen Mitgliedstaaten und der EU wurde von allen EU-Mitgliedstaaten gemeinsam beschlossen und in den EU-Verträgen festgehalten.",
+      "Die wesentlichen Bestimmungen finden sich im Vertrag über die Arbeitsweise der Europäischen Union (AEUV)"
+    ],
+    "Falsche Antwort": [
+      "Die Kompetenzverteilung wird jährlich durch eine Abstimmung im Europäischen Rat neu bestimmt, um flexibel auf aktuelle politische Entwicklungen reagieren zu können.",
+      "Die Kompetenzverteilung basiert auf historischen Vereinbarungen und Traditionen, die vor der Gründung der Europäischen Union zwischen den europäischen Staaten bestanden.",
+      "Die Kompetenzen werden ausschließlich durch den Europäischen Gerichtshof festgelegt, der je nach Bedarf und Rechtsstreitigkeiten die Zuständigkeiten zwischen der EU und den Mitgliedstaaten verteilt."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was ist eine EU-Verordnung und wie wirkt sie?",
+    "Richtige Antwort": [
+      "EU-Verordnungen sind unmittelbar und allgemein gültig. Das hat Rechtsvereiheitlichung zur Folge.",
+      "Das bedeutet, die muss nicht in nationales Recht umgesetzt werden. (supranationale Rechtswirkung)",
+      "Eine EU-Verordnung ist vergelchbar mit einem nationalen Gesetz, welches zur Konkretisierung allgemeinerer Regelungen in den Verträgen dient."
+    ],
+    "Falsche Antwort": [
+      "EU-Verordnungen sind Vorschläge der EU-Kommission, die von den Mitgliedstaaten individuell angepasst und umgesetzt werden müssen.",
+      "Eine EU-Verordnung tritt erst in Kraft, nachdem sie von jedem einzelnen EU-Mitgliedsstaat ratifiziert wurde.",
+      "EU-Verordnungen dienen als Empfehlungen an die Mitgliedstaaten und haben keine bindende rechtliche Wirkung."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was ist eine EU-Richtlinie und wie wird sie umgesetzt?",
+    "Richtige Antwort": [
+      "Eine EU-Richtlinie ist ein zweistufiger Rechtsakt, der auf europäischer Ebene ergeht und innerhalb einer Frist in nationales Recht umgesetzt werden muss.",
+      "Eine Richtlinie wirkt nicht unmittelbar, sie ist aber verbindlich hinsichtlich ihres Zieles.",
+      "Auf nationaler Ebene gibt es unterschiedliche Möglichkeiten eine Richtlinie umzusetzen. (zB. Verordnung in bestehende oder neue Gesetze, …) ",
+      "Es kommt zu einer Rechtsangleichung, wobei die RL einen weniger starken Eingriff in die Souveränität der Mitgliedsstaaten bedeutet."
+    ],
+    "Falsche Antwort": [
+      "Eine EU-Richtlinie tritt unmittelbar in allen EU-Mitgliedsstaaten in Kraft, ohne dass nationale Parlamente sie in nationales Recht umwandeln müssen.",
+      "EU-Richtlinien sind Empfehlungen, die von den Mitgliedsstaaten freiwillig umgesetzt werden können, ohne verpflichtende Ziele oder Fristen.",
+      "Die Umsetzung einer EU-Richtlinie in nationales Recht erfolgt automatisch und erfordert keine gesetzgeberische Tätigkeit der nationalen Parlamente."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was ist bei der Umsetzung von Richtlinien zu beachten?",
+    "Richtige Antwort": [
+      "Die Umsetzung der Richtlinie auf nationaler Ebene hat eine Frist – diese ist zu beachten. Es ist darauf zu achten, dass d. Umsetzung in keinem Widerspruch zu besteh. Recht steht.",
+      "Wird eine RL nicht fristgerecht umgesetzt, gilt sie unmittelbar."
+    ],
+    "Falsche Antwort": [
+      "Richtlinien müssen immer direkt von den nationalen Gerichten angewendet werden, unabhängig davon, ob sie bisher in nationales Recht umgesetzt wurden oder nicht.",
+      "Bei der Umsetzung einer Richtlinie ist es erforderlich, dass sie von jedem EU-Mitgliedstaat einzeln ratifiziert wird, bevor sie nationales Recht werden kann.",
+      "Es ist nicht notwendig, dass die Inhalte einer Richtlinie mit der nationalen Verfassung übereinstimmen, da EU-Recht keine höhere Rechtsautorität als nationales Recht hat."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Wie wirken Beschluss und Empfehlung/Stellungnahme auf EU-Ebene?",
+    "Richtige Antwort": [
+      "Beschlüsse werden verwendet Einzelfälle verbindlich zu regeln. Sie sind vergleichbar mit Bescheiden.",
+      "Während die generellen Rechtsakte (VO, RL) einen unbestimmten Adressatenkreis haben, haben Beschlüsse einen eingeschränkten Adressatenkreis (mehrere Individuen, Unternehmen, Mitgliedsstaaten).",
+      "Sie müssen nicht in nationales Recht umgesetzt werden.",
+      "Empfehlung & Stellungnahme haben keine verbindliche Wirkung. Sie sind Meinungsäußerung und empfiehlt bestimmte Verhaltensweisen."
+    ],
+    "Falsche Antwort": [
+      "Beschlüsse gelten für alle Mitgliedsstaaten der EU und müssen von jedem einzelnen Staat in nationales Recht umgesetzt werden.",
+      "Empfehlungen und Stellungnahmen sind verbindlich und müssen von den Adressaten befolgt werden, um EU-Rechtsverletzungen zu vermeiden.",
+      "Die Wirkung von Beschlüssen ist auf den Bereich der Wirtschaftspolitik beschränkt und hat keinen Einfluss auf andere Politikbereiche wie Umwelt oder Gesundheit."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was bedeutet unmittelbare Anwendung?",
+    "Richtige Antwort": [
+      "Sekundärrecht: VO und Beschlüsse sind immer anzuwenden. RL wirken nach Umsetzung in nationales Recht, bzw. nach Fristablauf unmittelbar. Empfehlungen und Stellungnahmen wirken nie.",
+      "Primärrecht kann unmittelbar wirken, Voraussetzung ist die Bestimmung im AEUV gegeben ist. Unbedingt wirkt sie dann wenn ihre Wirkung nicht von einem weiteren Rechtsakt abhängig und kein Ermessensspielraum für die Anwendung besteht. Bsp. Gleichstellung von Mann und Frau im Erwerbsleben oder Warenverkehrsfreiheit"
+    ],
+    "Falsche Antwort": [
+      "Unmittelbare Anwendung bedeutet, dass alle Formen des Sekundärrechts, einschließlich Richtlinien, Verordnungen und Beschlüsse, erst nach einer speziellen Bestätigung durch den Europäischen Gerichtshof in den Mitgliedstaaten angewendet werden dürfen.",
+      "Die unmittelbare Anwendung bezieht sich ausschließlich auf das Primärrecht der EU. Sekundärrechtliche Maßnahmen wie Richtlinien und Verordnungen müssen immer erst durch nationale Gesetzgebung in den Mitgliedstaaten umgesetzt werden, bevor sie Rechtswirkung entfalten können.",
+      "Primärrecht der EU, wie die in den EU-Verträgen festgelegten Grundsätze, kann niemals unmittelbar in den Mitgliedstaaten angewendet werden, da es stets einer Umsetzung durch nationales Recht oder spezifische EU-Verordnungen bedarf, um wirksam zu werden."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was bedeutet Vorrang des Unionsrechts?",
+    "Richtige Antwort": [
+      "Bei Normenkollision zwischen nationalem und EU Recht gilt immer das EU Recht. Vorrang des unmittelbar anwendbaren EU Recht."
+    ],
+    "Falsche Antwort": [
+      "EU-Recht muss in jedem Fall durch nationale Gesetzgebung bestätigt werden, bevor es Vorrang vor dem nationalen Recht hat.",
+      "Der Vorrang des Unionsrechts bedeutet, dass nationale Gerichte das EU-Recht nur dann anwenden müssen, wenn es keine entsprechenden nationalen Gesetze gibt.",
+      "Nationales Recht hat Vorrang vor EU-Recht, solange die nationalen Interessen als vorrangig betrachtet werden."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Welches Verfahren dient der Einhaltung des Subsidiaritätsgrundsatzes?",
+    "Richtige Antwort": [
+      "Die Subsidiaritätsrüge und die Subsidiaritätsklage sind Verfahren, die die Einhaltung des Subsidiaritätsgrundsatzes sicherstellen. "
+    ],
+    "Falsche Antwort": [
+      "Das Verfahren der qualifizierten Mehrheit im Europäischen Rat ist zuständig für die Überwachung des Subsidiaritätsgrundsatzes.",
+      "Die Europäische Bürgerinitiative dient als Instrument zur Einhaltung des Subsidiaritätsgrundsatzes.",
+      "Das Vorabentscheidungsverfahren vor dem Europäischen Gerichtshof garantiert die Einhaltung des Subsidiaritätsgrundsatzes."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Warum gilt für die EU die Aussage, EU-Aufbau in Form einer Doppelunion?",
+    "Richtige Antwort": [
+      "Weil die EU als Staaten- und Bürgerunion aufgebaut ist.",
+      "Staatenunion: Die EU stützt sich auf die Regierungen der Mitgliedstaaten die demokratisch legitimiert sind und maßgebliche Entscheidungsbefugnisse der EU (Rat und Europäischer Rat) haben.",
+      "Bürgerunion: Die EU stützt sich auf die EU Bürger denen ggü. sie Gewalt ausübt und die die Union unmittelbar demokratisch kontrolliert (Wahl zum Europäischen Parlament)"
+    ],
+    "Falsche Antwort": [
+      "Die EU wird als Doppelunion bezeichnet, weil sie sowohl eine Wirtschafts- als auch eine politische Union ist, die hauptsächlich auf ökonomischen und finanziellen Säulen basiert.",
+      "Die Bezeichnung Doppelunion bezieht sich auf die Trennung der EU in zwei geographische Blöcke: die Eurozone und die Nicht-Euro-Länder, die jeweils unterschiedliche politische Verpflichtungen haben.",
+      "Die EU ist als Doppelunion aufgebaut, weil sie aus zwei Hauptorganen besteht: der Europäischen Kommission und dem Europäischen Gerichtshof, die gemeinsam die legislative und judikative Macht ausüben."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Welche rechtlichen Rahmenbedingungen der EU gibt es?",
+    "Richtige Antwort": [
+      "Den EU-Vertrag (EUV), in dem die Werte, Ziele, Aufbau und Funktionsweise der EU definiert sind.",
+      "Den Vertrag über die Arbeitsweise der EU (AEUV), der die Tätigkeitsbereiche der EU genauer beschreibt.",
+      "Die Europäische Grundrechtecharta, als Garantie der Grundrechte."
+    ],
+    "Falsche Antwort": [
+      "Die Europäische Verfassung, die als oberstes Gesetz alle Mitgliedsstaaten bindet.",
+      "Die Europäische Wirtschaftszone (EWZ), die als Hauptregulierungsmechanismus für alle wirtschaftlichen Aktivitäten innerhalb der EU dient.",
+      "Das Europäische Einheitsgesetz, welches nationales Recht in den Mitgliedstaaten ersetzt."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was sind die Ziele der Europäischen Union?",
+    "Richtige Antwort": [
+      "Förderung von Frieden, der Werte der Union und des Wohlergehes der Völker",
+      "Der Binnenmarkt, wirtschaftlicher, sozialer und territorialer Zusammenhalt sowie Solidarität der Mitgliedstaaten,",
+      " Raum der Freiheit, Sicherheit des Rechtes",
+      "Wahrung der kulturellen und sprachlichen Vielfalt"
+    ],
+    "Falsche Antwort": [
+      "Schaffung einer gemeinsamen Verteidigungsallianz und militärischen Eingreiftruppe",
+      "Festlegung und Durchsetzung einer einheitlichen europäischen Amtssprache",
+      "Direkte Kontrolle über die nationalen Bildungssysteme der Mitgliedstaaten"
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was sind die Werte der Europäischen Union?",
+    "Richtige Antwort": [
+      "Menschenwürde, Freiheit, Demokratie, Gleichheit, Rechtsstaatlichkeit, Menschenrechte."
+    ],
+    "Falsche Antwort": [
+      "Kapitalismus, Fortschritt, Freihandel, Multikulturalismus.",
+      "Zentralismus, Monarchie, Tradition, Patriotismus.",
+      "Individualismus, Wettbewerb, Privatisierung, Marktregulierung."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was sind die Voraussetzungen für einen EU Beitritt:",
+    "Richtige Antwort": [
+      "Jeder europäische Staat, der die Werte in Art 2 EUV achtet und die Kopenhagner Kriterien einhält. Die EU muss außerdem in Bezug auf die Aufnahme des jeweiligen Staats aufnahmefähg sein.",
+      "Einhalten der politischen Kriterien: demokratisches und rechtsstaatliche Ordnung, Wahrung der Menschenrechte, Achtung und Schutz von Minderheiten.",
+      "Einhalten des wirtschaftlichen Kriteriums: funktionsfähige Marktwirtschaft, die den Wettbewerbsdruck und den Marktkräften innerhalb der EU standhält.",
+      "Einhalten des rechtlichen Kriteriums: Übernehmen der durch die Mitgliedschaft erwachsenen Pflichten und sich die politischen und wirtschaftlichen Ziele der Union zu eigen machen können."
+    ],
+    "Falsche Antwort": [
+      "Ein europäischer Staat muss Mitglied der NATO sein, um der EU beitreten zu können.",
+      "Der Beitritt ist nur möglich, wenn der betreffende Staat bereits Teil des Schengen-Raums ist.",
+      "Ein Kandidatenland muss vor der Aufnahme in die EU eine festgelegte Anzahl von EU-Gesetzen und -Verordnungen vollständig umgesetzt haben."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Welche Austrittsmöglichkeit aus der EU gibt es?",
+    "Richtige Antwort": [
+      "Die Möglichkeit eines Austritts ist seit dem Lissabon-Vertrag 2009 explizit geregelt.",
+      "Der Jeweilige Staat teilt dem Europäischen Rat den Austrittswunsch mit. Kommt es innerhalb von zwei Jahren nicht zu einer Einigung, kommt es zu einem harten Austritt (sunset clause)."
+    ],
+    "Falsche Antwort": [
+      "Ein EU-Mitgliedstaat kann nur mit Zustimmung aller anderen Mitgliedstaaten aus der Union austreten.",
+      "Der Austritt aus der EU ist unumkehrbar und kann nicht durch eine spätere Abstimmung im Europäischen Parlament rückgängig gemacht werden.",
+      "Ein Mitgliedstaat kann durch ein einfaches Mehrheitsvotum im Europäischen Parlament aus der EU ausgeschlossen werden."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Welche EU-Organe bzw. Institutionen der EU gibt es?",
+    "Richtige Antwort": [
+      "Die EU hat sieben Organe und zwei beratende Einrichtungen.",
+      "(.) Rat der EU (Ministerrat) – Vertritt die Interessen d. Staaten(.) Europ. Parlament – Vertritt die Interessen des Volkes(.) Europ. Kommission – Vertritt die Interessen der EU\r\n",
+      "(.) Europ. Rat – Übergeordn. Institution z. Findung v. Kompromissen + Impulsen zw. Staaten (.) EUGH – Wahrung & Auslegung d. Unionsrechts > Vertragsverletzungsv./Nichtigkeitsklage (.) EU-RH - Finanzielle Gewissen der EU (.) Europ. Zentralbank - Gewährleistung v. Preisstabilität",
+      "Beratende Einrichtungen: \\n(.) Wirtschafts- und Solzialausschuss (.) Ausschuss der Regionen."
+    ],
+    "Falsche Antwort": [
+      "Die EU besitzt drei Hauptorgane: die Europäische Kommission, das Europäische Gericht erster Instanz und den Europäischen Rechnungshof.",
+      "Zu den Hauptinstitutionen der EU zählen der Europäische Verteidigungsrat, das Europäische Parlament und der Europäische Wirtschaftsrat.",
+      "Die EU wird von fünf wesentlichen Organen geleitet: der Europäischen Zentralbank, dem Rat der Europäischen Union, der Europäischen Menschenrechtskommission, dem Europäischen Parlament und der Europäischen Kommission."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Woraus besteht der Europäische Rat?",
+    "Richtige Antwort": [
+      "Der Europäische Rat besteht aus den Staats- und Regierungschefs der Mitgliedstaaten, dem Präsident des Europäischen Rates sowie des Präsidenten der Europäischen Kommission"
+    ],
+    "Falsche Antwort": [
+      "Der Europäische Rat setzt sich zusammen aus den Außenministern der EU-Mitgliedstaaten, dem Präsidenten des Europäischen Parlaments und dem Präsidenten der Europäischen Zentralbank.",
+      "Der Europäische Rat besteht aus den Finanzministern der Mitgliedstaaten, dem Präsidenten des Europäischen Gerichtshofs sowie dem Hohen Vertreter der EU für Außen- und Sicherheitspolitik.",
+      "Der Europäische Rat umfasst Vertreter der regionalen Regierungen aller Mitgliedstaaten, den Präsidenten des Europäischen Rates und den Generalsekretär des Rates der Europäischen Union."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Woraus besteht der Rat der EU?",
+    "Richtige Antwort": [
+      "Der Rat der EU setzt sich aus den Ministern zusammen, die in ihrem Mitgliedsstaat  zum jeweiligen Thema befugt sind, verbindlich zu handeln."
+    ],
+    "Falsche Antwort": [
+      "Der Rat der EU besteht aus Vertretern der nationalen Parlamente jedes Mitgliedsstaates, die speziell für europäische Angelegenheiten gewählt werden.",
+      "Der Rat der EU wird durch eine feste Gruppe von EU-Kommissaren gebildet, die jeweils einem Mitgliedsstaat angehören und die Interessen der EU als Ganzes vertreten.",
+      "Der Rat der EU setzt sich aus den Botschaftern der Mitgliedstaaten bei der EU zusammen, die ständig in Brüssel ansässig sind und die Außenpolitik ihrer Länder koordinieren."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Woraus besteht die Europäische Kommission?",
+    "Richtige Antwort": [
+      "Besteht aus je einem Kommissar pro mitgliedsstaat (akt. 27) und dem Kommissionspräsidenten."
+    ],
+    "Falsche Antwort": [
+      "Besteht aus zwei Vertretern jedes Mitgliedsstaates – einem Kommissar und einem Stellvertreter – sowie dem Kommissionspräsidenten.",
+      "Setzt sich zusammen aus 15 Kommissaren, die unabhängig von der Anzahl der Mitgliedsstaaten sind, inklusive einem Hochkommissar für Außenpolitik.",
+      "Besteht aus einem zentralen Komitee von fünf Kommissaren, die die größten Mitgliedsstaaten vertreten, und einem rotierenden Vorsitz."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Absetzung der gesamten Kommission durch Parlament",
+    "Richtige Antwort": [
+      "Bei einem Misstrauensvotum des Europäischen Parlaments stimmen 2/3 der Parlamentsabgeordneten zu, muss die gesamte Kommission zurücktreten."
+    ],
+    "Falsche Antwort": [
+      "Wenn mehr als 50% der Mitgliedstaaten dies fordern, kann das Europäische Parlament die gesamte Kommission absetzen.",
+      "Die gesamte Kommission muss zurücktreten, wenn eine einfache Mehrheit im Europäischen Parlament gegen sie stimmt.",
+      "Das Europäische Parlament benötigt eine Mehrheit von 75% der Stimmen, um ein erfolgreiches Misstrauensvotum gegen die Kommission zu erreichen."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Was ist die Aufgabe des Europäischen Rates?",
+    "Richtige Antwort": [
+      "Europäischer Rat legt die allgemeinen politischen Zielvorstellungen und Prioritäten der Union fest, wird dabei aber nicht gesetzgeberisch tätig.",
+      "Ernennung der Europäischen Kommission",
+      "Überwachung der Werte der Union."
+    ],
+    "Falsche Antwort": [
+      "Der Europäische Rat ist verantwortlich für die direkte Umsetzung der EU-Gesetze in den Mitgliedstaaten.",
+      "Der Europäische Rat entscheidet über die Aufnahme neuer Mitgliedstaaten in die Europäische Union.",
+      "Der Europäische Rat hat die Befugnis, nationale Gesetze der Mitgliedstaaten aufzuheben, wenn diese im Widerspruch zu EU-Recht stehen."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "In welchem Ausschuss ist die Steiermark Mitglied?",
+    "Richtige Antwort": [
+      "Die Steiermark hat einen Sitz im Ausschuss der Regionen, einem Beratungsgremium bestehend aus Vertreter:innen der regionalen und lokalen Gebietskörperschaften (Bundesländer, Stäte, Gemeinden)."
+    ],
+    "Falsche Antwort": [
+      "Die Steiermark ist Mitglied des Europäischen Wirtschafts- und Sozialausschusses, welcher aus Vertretern der verschiedenen wirtschaftlichen und sozialen Gruppen der EU besteht.",
+      "Die Steiermark vertritt Österreich im Ausschuss für die Regionale Entwicklung des Europäischen Parlaments, der sich mit Fragen der regionalen Entwicklung und Kohäsion in der EU befasst.",
+      "Die Steiermark hat einen Sitz in der Europäischen Kommission, wo sie speziell für regionale Entwicklungsprojekte in Zentraleuropa zuständig ist."
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Wer kann nicht Mitglied im EU Parlament sein? Bundespräsident (Auswahl: Minister, Mitglieder der Landesregierung, Staatssekretäre)",
+    "Richtige Antwort": [],
+    "Falsche Antwort": [
+      "Mitglieder des Europäischen Gerichtshofs",
+      "Bürgermeister großer Städte",
+      "Hochrangige EU-Beamte"
+    ]
+  },
+  {
+    "Fach": "Europarecht",
+    "Frage": "Welche Aussage über die Mitwirkung des Europäischen Parlaments an der Gesetzgebung trifft zu? ",
+    "Richtige Antwort": [
+      "Der Großteil der Rechtsvorschriften der EU wird gemäß dem sogenannten ordentlichen Gesetzgebungs-verfahren erlassen, das auch als „Mitentscheidungsverfahren“ bezeichnet wird. Es ist das Standardgesetzgebungsverfahren der EU, in dem  das EUROPÄISCHE PARLAMENT und der RAT DER EUROPÄISCHEN UNION GLEICHBERECHTIGT sind."
+    ],
+    "Falsche Antwort": [
+      "Das Europäische Parlament hat lediglich eine beratende Rolle im Gesetzgebungsprozess der EU, während der Rat der Europäischen Union die endgültigen Entscheidungen trifft.",
+      "Alle Rechtsvorschriften der EU müssen ausschließlich vom Europäischen Parlament genehmigt werden, bevor sie in Kraft treten können, während der Rat der Europäischen Union nur geringfügige Änderungen vorschlagen darf.",
+      "Das Europäische Parlament ist ausschließlich für die Überwachung der Umsetzung der Gesetzgebung verantwortlich und hat keine direkte Beteiligung an der Erstellung neuer EU-Gesetze."
+    ]
+  }
 ]
