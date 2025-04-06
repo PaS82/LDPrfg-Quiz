@@ -3530,5 +3530,500 @@
       "Alle Rechtsvorschriften der EU müssen ausschließlich vom Europäischen Parlament genehmigt werden, bevor sie in Kraft treten können, während der Rat der Europäischen Union nur geringfügige Änderungen vorschlagen darf.",
       "Das Europäische Parlament ist ausschließlich für die Überwachung der Umsetzung der Gesetzgebung verantwortlich und hat keine direkte Beteiligung an der Erstellung neuer EU-Gesetze."
     ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Für welche Auftraggeber gilt das BVergG?",
+    "Richtige Antwort": [
+      "Für öffentliche Auftraggeber (Bund, Länder, Gemeinden, Gemeindeverbände und Einrichtungen öffentlichen Rechts)",
+      "Für öffentliche oder private Sektorenauftraggeber (Wasser, Energie, Verkehr, Post)"
+    ],
+    "Falsche Antwort": [
+      "Für alle privaten Unternehmen, die mehr als 50 Mitarbeiter beschäftigen.",
+      "Für nichtstaatliche Organisationen und internationale Hilfsorganisationen.",
+      "Für private Bildungseinrichtungen und private Forschungsinstitute."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was sind Bauaufträge?",
+    "Richtige Antwort": [
+      "Die Ausführung bzw. die Planung und Ausführung von Bauleistungen",
+      "Erbringung von Bauleistungen durch Dritte nach Erfordernissen des Auftraggebers.",
+      "Die Ausführung bzw. die Planung und Ausführung von Bauvorhaben."
+    ],
+    "Falsche Antwort": [
+      "Die reine Beratung und Überwachung von Bauvorhaben durch Architekten und Ingenieure.",
+      "Die Lieferung von Baumaterialien und Ausrüstung ohne Installationsdienste.",
+      "Langfristige Finanzierung und Investition in Immobilienprojekte."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Welche Zwecke soll Vergaberecht erfüllen?",
+    "Richtige Antwort": [
+      "Bei der Vergabe der Leistungen kommen öffentliche Mittel zum Einsatz, weshalb die Mittel effizient und sparsam eingesetzt werden sollen (Kostenreduktion).",
+      "Es soll einen fairer Wettbewerb für Unternehmen garantieren, wobei die Entscheidung des Auftraggebers sachbezogen und nachprüfbar sein müssen."
+    ],
+    "Falsche Antwort": [
+      "Das Vergaberecht dient dazu, lokalen Unternehmen einen Vorteil zu verschaffen, indem diese bevorzugt bei öffentlichen Ausschreibungen berücksichtigt werden.",
+      "Vergaberecht hat das Ziel, staatliche Monopole im Bereich der öffentlichen Auftragsvergabe zu stärken und zu erhalten.",
+      "Das Vergaberecht ist primär darauf ausgerichtet, internationale Anbieter vom nationalen Markt fernzuhalten, um die inländische Wirtschaft zu schützen."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Welche nationale rechtliche Vorgabe gibt es, und welche landesrechtliche? (Umsetzung der Vergabe-RL der EU)",
+    "Richtige Antwort": [
+      "Das Bundevergabegesetz 2018 ",
+      "Das Steiermärkische Vergaberechtsschutzgesetz 2018",
+      "Die Schwellenwertverordnung (aktuell verlängert bis 31.12.2025)"
+    ],
+    "Falsche Antwort": [
+      "Das Bundesvergaberechtsschutzgesetz 2020",
+      "Die Landesvergabeordnung Bayern 2019",
+      "Das Vergabeüberwachungsgesetz Nordrhein-Westfalen 2017"
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Welche Auftragsarten gibt es?",
+    "Richtige Antwort": [
+      "Bau- Dienstleistungs-, Lieferaufträge."
+    ],
+    "Falsche Antwort": [
+      "Investitions-, Verwaltungs-, Beschaffungsaufträge.",
+      "Öffentliche, private, internationale Aufträge.",
+      "Forschungs-, Entwicklungs-, Produktionsaufträge."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Welche Ausnahmen vom Geltungsbereich des Vergaberechts?",
+    "Richtige Antwort": [
+      "(.) In-House Vergaben(.) Öffentlich – Öffentliche Kooperation(.) Beschaffung über zentrale Beschaffungsstellen (und BVergG bereits von BUndesbeschaffungs GmbH eingehalten wurde)(.) Kredit- und Darlehensaufnahme(.) Arbeitsverträge(.) Erwerb, Pacht, Miete von Grundstücken od Gebäuden"
+    ],
+    "Falsche Antwort": [
+      "Private Vergaben durch gemeinnützige Organisationen.",
+      "Direktvergaben bei geringfügigen Auftragswerten unterhalb der EU-Schwellenwerte.",
+      "Vergaben im Rahmen von reinen Forschungs- und Entwicklungsprojekten ohne kommerzielle Nutzung."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was versteht man unter In-house-Privileg?",
+    "Richtige Antwort": [
+      "Der öffentliche Auftraggeber hat über einen Rechtsträger (AN) eine ähnliche Kontrolle wie über seine eigenen Dienststellen (Kontrollkriterium)",
+      "Wesentlichkeitskriterium: Der Rechtsträger muss im Wesentlichen (mehr als 80%) für den öffentlichen Auftraggeber tätig sein. Jede andere Tätigkeit muss nebensächlich sein.",
+      "Beteiligungskriterium: Es darf keine direkte private Kapitalbeteiligung (Gesellschaftsanteile) am kontrollierten Rechtsträger bestehen."
+    ],
+    "Falsche Antwort": [
+      "Das In-house-Privileg erlaubt es öffentlichen Auftraggebern, Aufträge ohne vorherige Ausschreibung an private Unternehmen zu vergeben, solange diese Unternehmen zuvor mindestens drei Jahre für den öffentlichen Sektor tätig waren.",
+      "Im Rahmen des In-house-Privilegs ist es einem öffentlichen Auftraggeber gestattet, Aufträge direkt an Unternehmen zu vergeben, die eine geringfügige öffentliche Beteiligung von unter 25% aufweisen, ohne dass eine Ausschreibung erforderlich ist.",
+      "Das In-house-Privileg besagt, dass öffentliche Auftraggeber Aufträge direkt an internationale Unternehmen vergeben können, sofern diese Unternehmen über Niederlassungen im Inland verfügen, die mehr als 50% ihrer gesamten Betriebsleistung dem öffentlichen Sektor widmen."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Welche EU-Schwellenwerte im OSB gelten lt. Bundesvergabegesetz?",
+    "Richtige Antwort": [
+      "bei Bauaufträgen € 5.538 000,-",
+      "bei Liefer- Dienstleistungsaufträgen € 221.000,-",
+      "bei besonderen Dienstleistungsaufträgen € 750.000,-"
+    ],
+    "Falsche Antwort": [
+      "bei Bauaufträgen € 4.322.000,-",
+      "bei Liefer- und Dienstleistungsaufträgen € 199.000,-",
+      "bei besonderen Dienstleistungsaufträgen € 1.000.000,-"
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Welche Verfahreverfahren gibt es?",
+    "Richtige Antwort": [
+      "Offenes Verfahren",
+      "Nicht offenes Verfahren mit/ohne Bekanntmachung",
+      "Verhandlungsverfahren mit/ohne Bekanntmachung",
+      "Rahmenvereinbarung",
+      "Direktvergabe",
+      "Direktvergabe mit vorheriger Bekanntgabe",
+      "Dynamisches Beschaffungssystem",
+      "Wettbewerblicher Dialog",
+      "Innovationspartnerschaft",
+      "Durchführung von Wettbewerben"
+    ],
+    "Falsche Antwort": [
+      "Standardisiertes Verfahren",
+      "Offenes Ausschreibungsverfahren",
+      "Kooperatives Verhandlungsverfahren"
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was sind Regelverfahren?",
+    "Richtige Antwort": [
+      "Sowohl im Ober- als auch im Unterschwellenbereich kann zwischen dem \"offenen Verfahren\" und dem \"nicht offnen Verfahren mit vorheriger Bekanntmachung\" frei gewählt werden. (lt. BVerG 2018 Regelverfahren)",
+      "Offenes Verfahren",
+      "Nicht offenes Verfahren mit vorheriger Bekanntgabe"
+    ],
+    "Falsche Antwort": [
+      "Geschlossenes Verfahren ohne vorherige Bekanntmachung",
+      "Direktauftrag als Regelverfahren im Ober- und Unterschwellenbereich",
+      "Verhandlungsverfahren ohne Bekanntmachung als Standardoption"
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Welche Verfahren gibt es ausschließlich im US-Bereich?",
+    "Richtige Antwort": [
+      "Nicht offene Verfahren ohne vorherige Bekanntmachung",
+      "Verhandlungsverfahren ohne vorherige Bekanntmachung",
+      "Direktvergabe",
+      "Direktvergabe mit vorheriger Bekanntgabe"
+    ],
+    "Falsche Antwort": [
+      "Offenes Verfahren mit vorheriger Bekanntmachung",
+      "Wettbewerblicher Dialog",
+      "Elektronische Auktion"
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was ist eine Rahmenvereinbarung?",
+    "Richtige Antwort": [
+      "Die Rahmenvereinbarung ist eine Vereinbarung ohne Abnahmeverpflichtung mit einem oder mehreren Unternehmen, mit denen die Bedingungen für Aufträge festgelegt werden",
+      "Die Rahmenvereinbarung ist im OSB und USB möglich.",
+      "Voraussetzung für die Rahmenvereinbarung ist eines im Gesetz vorgesehenen Vergabeverfahrens voraus. (offenes Verfahren, nicht offenes Verfahren mit BM, Verhandlungsverfahren)"
+    ],
+    "Falsche Antwort": [
+      "Eine Rahmenvereinbarung ist eine verbindliche Abnahmeverpflichtung, die zwischen einem Auftraggeber und einem Lieferanten für einen festgelegten Zeitraum geschlossen wird.",
+      "Rahmenvereinbarungen sind ausschließlich im nicht offenen Verfahren ohne Bekanntmachung zulässig.",
+      "In einer Rahmenvereinbarung werden die genauen Mengen und Preise für alle zukünftigen Aufträge festgelegt und können während der Laufzeit der Vereinbarung nicht angepasst werden."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was sind die Grundsätze des Vergabeverfahrens?",
+    "Richtige Antwort": [
+      "Die unionsrechtlichen Grundsätze: Gleichbehandlung, Nichtdiskriminierung, Verhältnismäßigkeit, Transparenz, freier und lauterer Wettbewerb",
+      "Darüber hinaus lt Bverg: Vergabe nur an befugte, leistungsfähige un dzuverlässige Unternehmen, zu angemessenen Preisen, Absicht die Leisting auch zu vergeben - jedoch keine Vergabepflicht, Vertraulichkeit, Umeltgerecht (Muss), sozial (Kann), Teilnahme von KMU, kein Umgehen von Schwellenwerten  "
+    ],
+    "Falsche Antwort": [
+      "Die Grundsätze des Vergabeverfahrens umfassen hauptsächlich die politische Neutralität, die Förderung regionaler Produkte und die Bevorzugung staatlicher Unternehmen.",
+      "Zu den grundlegenden Prinzipien gehört die Priorisierung von langfristigen Vertragsbeziehungen, die Flexibilität in der Vertragsgestaltung und die Maximierung des finanziellen Gewinns für den Auftraggeber.",
+      "Die Vergabeverfahren basieren auf den Prinzipien der maximalen Geheimhaltung, der direkten Verhandlung mit ausgewählten Anbietern ohne Ausschreibung und der automatischen Bevorzugung von Großunternehmen zur Wirtschaftsförderung."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was ist bei der Direktvergabe zu dokumentieren?",
+    "Richtige Antwort": [
+      "Gegenstand und Wert des Auftrags ",
+      "Name Auftragnehmer ",
+      "Eingeholte Angebote (Preisauskünfte) evtl. Prüfung der Preisangemessenheit.",
+      "evtl. Prüfung der Preisangemessenheit."
+    ],
+    "Falsche Antwort": [
+      "Anzahl der Mitarbeiter des Auftragnehmers.",
+      "Dauer der Geschäftsbeziehung mit dem Auftragnehmer.",
+      "Finanzierungsquelle des Auftraggebers für den Auftrag."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Bei Direktvergabe mit Bekanntmachung…",
+    "Richtige Antwort": [
+      "… ist die Bekanntmachung anfechtbar.",
+      "… wird einer unbeschränkten Anzahl von Unternehemen die beabsichtigte Vergabe eines Bau-, Liefer- oder Dienstleistungsauftrags bekanntgegeben.",
+      "… die Zuschlagserteilung den Unternehmen, die sich beworben haben bzw ein Angebot gelagt haben unter Bekanntgabe des Gesmatpreises mitzuteilen."
+    ],
+    "Falsche Antwort": [
+      "… ist eine vorherige Markterkundung notwendig und verpflichtend.",
+      "… sind Bieter verpflichtet, ihre Angebote ausschließlich elektronisch einzureichen.",
+      "… erfolgt die Auswahl der Bieter ausschließlich nach dem Kriterium des niedrigsten Preises."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Wie ist ein Ausschreibung aufgebaut? Die Ausschreibung beinhaltet insbesondere …",
+    "Richtige Antwort": [
+      "… welcher Leistungsgegenstand wird nachgefragt?",
+      "… ob ein unbeschränkter oder beschränkter TN-Kreis am Vergabeverfahren teilnehmen kann.",
+      "… ob dieVergabe im OSB oder USB erfolgt.",
+      "… welche relevanten technischen und vertraglichen Bedingungen erfüllt werden müssen."
+    ],
+    "Falsche Antwort": [
+      "… welche Marketingstrategien der Bieter anwenden muss.",
+      "… wie die Gewinnmargen der Bieter kalkuliert werden sollten.",
+      "… welche persönlichen Informationen der Bietermitarbeiter überprüft werden."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was ist die Leistungsbeschreibung und welche können unterschieden werden?",
+    "Richtige Antwort": [
+      "Die Leistungsbeschreibung beschreibt den Leistungsgegenstand näher. Sie kann konstruktiv oder funktional erfolgen.",
+      "Bei der konstruktive Leistungsbeschreibung werden Leistungen nach zu erbringenden Teilleistungen in einem Leistungsverzeichnis aufgegliedert.",
+      "Bei der funktionalen Leistungsbeschreibung werden die Leistungen als Aufgabenstellung durch Festlegung von Leistungs- oder Funktionsanforderungen beschrieben.",
+      "Sie gewährt Vergleichbarkeit."
+    ],
+    "Falsche Antwort": [
+      "Die Leistungsbeschreibung ist eine grobe Skizze der benötigten Materialien für ein Projekt ohne spezifische Details zu Leistungsanforderungen oder Funktionen.",
+      "Bei der konstruktiven Leistungsbeschreibung werden nur die Endziele des Projekts definiert, ohne auf die einzelnen Teilleistungen einzugehen.",
+      "Die funktionale Leistungsbeschreibung ist die detaillierte Auflistung aller Einzelteile und Materialien, die für die Fertigstellung eines Bauvorhabens benötigt werden."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was ist der Unterschied zwischen Best- od Billigstangebots-Prinzip?",
+    "Richtige Antwort": [
+      "Beim Bestangebots-Prinzip gewinnt das beste Angebot.",
+      "Beim Billigstangebots-Prinzip gewinnt das günstigste Angebot.",
+      "Sowohl im OSB als auch um USB gilt das Bestangebots-Prinzip. Bei einigen Leistungen sogar ausnahmslos."
+    ],
+    "Falsche Antwort": [
+      "Beim Bestangebots-Prinzip wird das Angebot mit der kürzesten Lieferzeit bevorzugt.",
+      "Das Billigstangebots-Prinzip berücksichtigt neben dem Preis auch die ökologische Nachhaltigkeit des Angebots.",
+      "Im USB gilt ausnahmslos das Billigstangebots-Prinzip, während im OSB das Bestangebots-Prinzip angewendet wird."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was sind die Zuschlagskriterien?",
+    "Richtige Antwort": [
+      "Im Zuge der Ausschreibungserstellung werden Kriterien definiert, nach denen das beste Angebot ermittelt wird.",
+      "Sie müssen auftragsbezogen und nicht diskriminierend sein."
+    ],
+    "Falsche Antwort": [
+      "Zuschlagskriterien sind gesetzlich vorgeschriebene, unveränderliche Bewertungsstandards, die für alle öffentlichen Ausschreibungen identisch sind.",
+      "Sie beziehen sich ausschließlich auf den Preis des Angebotes, andere Faktoren wie Qualität oder Nachhaltigkeit dürfen nicht berücksichtigt werden.",
+      "Zuschlagskriterien werden von den Bietern während der Angebotsphase festgelegt und der ausschreibenden Stelle zur Genehmigung vorgelegt."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Wie kann die Eignung nachgewiesen werden?",
+    "Richtige Antwort": [
+      "Eintrag in den Auftragnehmerkataster Österreich (ANKÖ)",
+      "Eigenerklärung bzw. Einheitliche Europäische Eigenerklärung (EEE)",
+      "Verweis auf bereits bei anderen Vergabeferfahren erbrachte  Nachweise",
+      "Gewerbeberechtigung, Firmenbuchauszug, Berufshaftpflicht, Bankenerklärung, etc…"
+    ],
+    "Falsche Antwort": [
+      "Eintrag im Handelsregister eines beliebigen EU-Staates",
+      "Vorlage eines allgemeinen Empfehlungsschreibens eines anderen Auftraggebers",
+      "Nachweis durch mündliche Bestätigung im Rahmen der Angebotspräsentation"
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was ist bei der Öffnung von offenen und nicht offenen Verfahren in die Niederschrift aufzunehmen?",
+    "Richtige Antwort": [
+      "Angabe zu Name und Geschäftssitz des jeweiligen Bieters, Gesamtpreis oder Angebotspreis,Angabe zu sonstigen Zuschlagskriterien, Vermerke über offensichtliche Angebotsmängel, GZ und Namen der Kommissionsmitglieder"
+    ],
+    "Falsche Antwort": [
+      "Details zu den privaten Kontaktdaten der Bieter, detaillierte finanzielle Hintergrundinformationen der Bieterunternehmen, Protokolle der internen Diskussion der Kommission über die Bieter.",
+      "Spezifikationen der von den Bietern verwendeten Technologien, detaillierte Angaben zu Unterlieferanten, persönliche Bewertungen der Bieter durch die Kommissionsmitglieder.",
+      "Informationen über frühere Vertragsverhältnisse zwischen dem Auftraggeber und dem Bieter, strategische Geschäftspläne der Bieterunternehmen, geheime Vergabekriterien, die nicht öffentlich kommuniziert wurden."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was wird bei der Angebotsprüfung geprüft?",
+    "Richtige Antwort": [
+      "Es wird geprüft: (.) Eignung des Bieters sowie ggf. der Subunternehmer(.) Einhaltung der Vergabegrundsätze(.) Vollständigkeit und Form des Angebots(.) Erfüllung der sonstigen Bestimmungen der Ausschreibung(.) Preisgestaltung (Angemessenheit der Preise, rechnerische Richtigkeit)"
+    ],
+    "Falsche Antwort": [
+      "Es wird geprüft: Marktposition des Bieters und dessen Einfluss im Wettbewerb.",
+      "Es wird geprüft: Finanzhistorie des Bieters über die letzten 10 Jahre.",
+      "Es wird geprüft: Strategische Pläne des Bieters für zukünftige Geschäftsentwicklungen."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Wann ist eine vertiefte Angebotsprüfung nötig?",
+    "Richtige Antwort": [
+      "Bestehen nach der Angebotsprüfung Zweifel an der Angemessenheit der Preise oder erscheint der Angebotspreis unverhältnismäßig niedrig, wird das Angebot vertieft geprüft.",
+      "Dabei wird geprüft, ob die Preise betriebswirtschaftlich erklär- und nachvollziehbar sind."
+    ],
+    "Falsche Antwort": [
+      "Eine vertiefte Angebotsprüfung ist notwendig, wenn das Angebot von einem ausländischen Unternehmen stammt, um die Einhaltung internationaler Handelsnormen sicherzustellen.",
+      "Wenn das Angebot alle anderen in Preis und Leistung deutlich übertrifft, ist eine vertiefte Prüfung erforderlich, um Wettbewerbsvorteile zu garantieren.",
+      "Eine vertiefte Angebotsprüfung wird durchgeführt, wenn die angebotenen Leistungen von mehreren Subunternehmern erbracht werden sollen, um die Koordination und Qualitätssicherung zu überprüfen."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Wann scheiden Angebote aus?",
+    "Richtige Antwort": [
+      "Verspätet eingelangte (ungeöffnet), fehlende Eignung bzw Berufsqualifikation, Konkurs/Insolvenz, Beteiligung an Vorarbeiten (wenn dies zu Wettbewerbsverzerrung führen würde), weicht von den Ausschreibungsbedingungen ab, fehlende Preisgestaltung, nicht gleichwertige Alternativ- oder Abänderungsangebote, Widersprüche mit Unterlagen, Fehlen d rechtsgültigen Fertigung (bei Papierangeboten), Angebote nicht eingeladener Bieter, Fällt durch die (vertiefende) Angebotsprüfung, unlautere Methoden (Absprachen), fehlerhafte oder unvollständige Angebote"
+    ],
+    "Falsche Antwort": [
+      "Angebote mit der niedrigsten Preiskalkulation.",
+      "Angebote, die zusätzliche kostenlose Dienstleistungen anbieten.",
+      "Angebote von internationalen Unternehmen außerhalb der EU."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was beinhaltet eine Zuschalagsentscheidung?",
+    "Richtige Antwort": [
+      "Die Zuschlagsentscheidung beinhaltet: (.)Name des Bieters, dessen Angebot den Zuschlag erhält(.) Ende der Stillhaltefrist(.) Gründe für die Ablehnung der anderen Angebote(.) Gesamtpreis(.) Merkmale und Vorteile des erfolgreichen Angebotes"
+    ],
+    "Falsche Antwort": [
+      "Die Zuschlagsentscheidung beinhaltet: Name des Bieters, dessen Angebot abgelehnt wurde, Beginn der Stillhaltefrist, detaillierte Kostenaufstellung aller Angebote, Datenschutzerklärung.",
+      "Die Zuschlagsentscheidung beinhaltet: Gesamtanzahl der eingegangenen Angebote, Namen aller Bieter, deren Angebote geprüft wurden, detaillierter Zeitplan für die Umsetzung des Projekts, Beschreibung der Zahlungsmodalitäten.",
+      "Die Zuschlagsentscheidung beinhaltet: Liste aller Bieter mit ihren jeweiligen Angebotssummen, Angabe der verwendeten Bewertungskriterien für die Angebote, Namen der Mitglieder der Bewertungskommission, Datum der nächsten Ausschreibung."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was ist die Stillhaltefrist und wie lange dauert diese?",
+    "Richtige Antwort": [
+      "Die Stillhaltefrist im Vergabeverfahren dient dazu, dass unterlegene Bieter die Zuschlagsentscheidung prüfen können. Sie soll sicherstellen, dass die Vergabe rechtmäßig und fehlerfrei abläuft. ",
+      "Sie bertägt 10 Tage bei elektronischer Übermittlung bzw. 15 Tage bei postalischer Übermittlung.",
+      "Eine Zuschlagserteilung innerhalb der Stillhaltefristist nichtig."
+    ],
+    "Falsche Antwort": [
+      "Die Stillhaltefrist wird angewendet, um den unterlegenen Bietern die Möglichkeit zu geben, ihre Angebote zu verbessern und erneut einzureichen. Sie dauert in der Regel 20 Tage.",
+      "Während der Stillhaltefrist darf der Auftraggeber Verhandlungen mit den Bietern führen, um bessere Angebotsbedingungen zu erzielen. Diese Periode erstreckt sich meist über 5 Tage.",
+      "Die Stillhaltefrist umfasst einen Zeitraum von 30 Tagen und beginnt unmittelbar nach der Bekanntgabe des vorläufigen Zuschlags. In dieser Zeit dürfen keine weiteren Angebote eingereicht werden."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Ein Vergabeverfahern endert durch… ",
+    "Richtige Antwort": [
+      "… Zuschlag.",
+      "… Wiederruf."
+    ],
+    "Falsche Antwort": [
+      "… Bestätigung des Bedarfs.",
+      "… Vorvertragliche Vereinbarung.",
+      "… Genehmigung durch die Aufsichtsbehörde."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Welchen Rechtsschutz gibt es für Bieter im Vergabeverfahren?",
+    "Richtige Antwort": [
+      "Die Angelegenheiten des vergabespezifischen Rechtsschutzes sind im StVergRG 2018 geregelt",
+      "In der Steiermark ist das LVwG dafür zuständig."
+    ],
+    "Falsche Antwort": [
+      "Die Entscheidungen über Beschwerden im Vergabeverfahren werden ausschließlich vom Bundeskartellamt getroffen.",
+      "Bieter können bei Unstimmigkeiten direkt beim Europäischen Gerichtshof für Menschenrechte Beschwerde einlegen.",
+      "Im Falle einer Nichtberücksichtigung im Vergabeverfahren ist das örtliche Amtsgericht die erste Anlaufstelle für den Rechtsschutz."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was ist die Nichtigkeitserklärung im Vergabeverfahren?",
+    "Richtige Antwort": [
+      "War das Vergabeverfahren fehlerhaft/rechtswiedrig (festgestellt durch LVwG), wird der Vertrag für nichtig erklärt (rückwirkend) oder aufgehoben."
+    ],
+    "Falsche Antwort": [
+      "Nichtigkeitserklärung im Vergabeverfahren bedeutet, dass alle Angebote der Bieter nachträglich für ungültig erklärt werden, unabhängig von Fehlern im Verfahren.",
+      "Wenn ein Vertrag im Rahmen des Vergabeverfahrens für nichtig erklärt wird, kann der Bieter eine Entschädigung für entgangene Gewinne fordern.",
+      "Die Nichtigkeitserklärung wird von der Vergabestelle selbst durchgeführt, sobald sie einen Fehler im eigenen Verfahren feststellt, ohne dass eine externe Überprüfung erforderlich ist."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Kann eine Geldbuße gegen den Auftraggeber verhängt werden?",
+    "Richtige Antwort": [
+      "Ja, wenn das LVwG von der Nichtigkeit oder Unwirksamkeit des Vertrags absiehtkann eine Geldbuße bis zu 20% im OSB und bis zu 1ß% im USB verhängt werden."
+    ],
+    "Falsche Antwort": [
+      "Nein, Geldbußen können nur gegen Bieter und nicht gegen Auftraggeber verhängt werden.",
+      "Ja, aber die Geldbuße beträgt immer 5% des Vertragswerts, unabhängig vom Einzelfall.",
+      "Nein, Geldbußen im Vergaberecht sind ausschließlich für Verstöße gegen die Ausschreibungsfristen vorgesehen."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Welche Verfahrensarten gibt es im Ober- und Unterschwelligen Bereich?",
+    "Richtige Antwort": [
+      "Das offene Verfahren",
+      "Das nicht offene Verfahren mit vorheriger Bekanntmachung ",
+      "Die Rahmenvereinbarung (sie setzt die Durchführung eins Vergabeverfahren mit bekanntmachung voraus)",
+      "Das Verhandlungsverfahren mit/ohne Bekanntmachung"
+    ],
+    "Falsche Antwort": [
+      "Das automatisierte Vergabeverfahren ohne Einschränkungen",
+      "Die Direktauftragsvergabe ohne Bekanntmachung",
+      "Die offene Marktkonsultation als Vergabeverfahren"
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Welche Verfahren gibt es nur im Unterschwelligen Bereich?",
+    "Richtige Antwort": [
+      "Das nicht offene Verfahren ohne Bekanntmachung",
+      "Das Verhandlungsverfahren ohne Bekanntmachung",
+      "Die Direktvergabemit/ohne Bekanntmachung"
+    ],
+    "Falsche Antwort": [
+      "Das offene Verfahren mit vorheriger Bekanntmachung",
+      "Das wettbewerbliche Dialogverfahren ohne Bekanntmachung",
+      "Das Rahmenvereinbarungsverfahren mit Bekanntmachung"
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Wonach richtet sich das Vergabeverfahren?",
+    "Richtige Antwort": [],
+    "Falsche Antwort": [
+      "Nach dem höchsten Angebotspreis der Bieter.",
+      "Nach der Anzahl der bisherigen Aufträge des Bieters mit dem öffentlichen Sektor.",
+      "Nach dem Herkunftsland des Bieters oder der Bieterfirma."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Welches Gesetz gilt für die Vergabe von öffentlichen Aufträgen?",
+    "Richtige Antwort": [],
+    "Falsche Antwort": [
+      "Bundeskartellgesetz",
+      "Gesetz gegen Wettbewerbsbeschränkungen",
+      "Handelsgesetzbuch"
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Wie heißt das Rechtsschutzinstrument für Einwände bei Vergabeverfahren in der Steiermark und wohin richten sich diese?",
+    "Richtige Antwort": [
+      "Das Steiermärkische Vergaberechtsschutzgesetz 2018.",
+      "Einwände gehen an das Landesverwaltungsgericht Stmk."
+    ],
+    "Falsche Antwort": [
+      "Das Bundesvergabegesetz regelt die Einwände, die beim Bundesverwaltungsgericht eingereicht werden müssen.",
+      "Die Beschwerden werden durch das Steiermärkische Verwaltungsschutzgesetz geregelt und müssen direkt beim örtlichen Bezirksgericht eingereicht werden.",
+      "Einwände im Vergabeverfahren werden durch das Steiermärkische Wirtschaftsgerichtsgesetz behandelt und sind an das Landesgericht für Zivilrechtssachen zu richten."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Was sind die Merkmale von Verhandlungsverfahren mit vorheriger Bekanntmachung?",
+    "Richtige Antwort": [],
+    "Falsche Antwort": [
+      "Die Verfahren erfordern immer die Einreichung eines vollständigen Angebots durch alle interessierten Parteien vor Beginn der Verhandlungen.",
+      "Es ist den Bietern nicht gestattet, während des Verfahrens Änderungen an ihren Angeboten vorzunehmen.",
+      "Eine Bekanntmachung im EU-Amtsblatt ist optional und nicht zwingend erforderlich."
+    ]
+  },
+  {
+    "Fach": "Vergaberecht",
+    "Frage": "Welche Subschwellenwerte im USB gelten lt. Schwellenwert-Vo?",
+    "Richtige Antwort": [
+      "Direktvergabe v. Bau-, Lierfer- und DL-Aufträgen: € 100.000,-",
+      "Nicht offenes Verfahrenohne Bekanntmachung bei Bauaufträgen € 1.000.000,- bei Liefer- und DL-Aufträgen € 100.000,-",
+      "Verhandlungsverfahren ohne Bekanntmachung bei Bau-, Liefer- und DL-Aufträgen € 100.000,-"
+    ],
+    "Falsche Antwort": [
+      "Direktvergabe von Bauaufträgen: € 500.000,-",
+      "Nicht offenes Verfahren ohne Bekanntmachung bei Lieferaufträgen € 500.000,-",
+      "Verhandlungsverfahren ohne Bekanntmachung bei DL-Aufträgen € 500.000,-"
+    ]
   }
 ]
