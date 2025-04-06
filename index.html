@@ -104,7 +104,8 @@ document.getElementById("fachSelect").addEventListener("change", function() {
 
 function formatText(text) {
   if (!text) return "";
-  return text.replaceAll("\n", "<br>")
+  return text.replaceAll("\\n", "<br>")
+             .replaceAll("\n", "<br>")
              .replaceAll("(1)", "<br>1.")
              .replaceAll("(2)", "<br>2.")
              .replaceAll("(3)", "<br>3.")
@@ -171,7 +172,7 @@ function showQuestion() {
     <button onclick="checkAnswer()">Antwort prüfen</button>
   </div>`;
 }
-  
+ /* 
 function checkAnswer() {
   const inputs = document.querySelectorAll('input[name="answer"]');
   let richtig = 0, falsch = 0;
@@ -199,7 +200,7 @@ function checkAnswer() {
   localStorage.setItem("frageFehlerCounter", JSON.stringify(frageFehlerCounter));
   nextQuestion();
 }
-
+*/
 function nextQuestion() {
   if (current < questions.length - 1) {
     current++;
@@ -366,6 +367,7 @@ function drawChart() {
   });
 }
 */
+/*
 function toggleReport() {
   const container = document.getElementById("reportContainer");
   const button = document.getElementById("toggleReport");
@@ -398,6 +400,7 @@ function toggleReport() {
     button.textContent = "Antwortbericht anzeigen";
   }
 } 
+*/
   /*
   function toggleReport() {
   const container = document.getElementById("reportContainer");
@@ -426,7 +429,8 @@ function toggleReport() {
   }
 }
 */
-function logFrageAntwort(frageObj, userAntworten, richtigeAntworten) {
+/*
+  function logFrageAntwort(frageObj, userAntworten, richtigeAntworten) {
   reportLog.push({
     frage: frageObj.Frage,
     antworten: [frageObj["Richtige Antwort"], ...(frageObj["Falsche Antwort"] || [])],
@@ -435,7 +439,7 @@ function logFrageAntwort(frageObj, userAntworten, richtigeAntworten) {
   });
   localStorage.setItem("reportLog", JSON.stringify(reportLog));
 }
-
+*/
 function shuffleArray(arr) {
   return arr.map(v => [Math.random(), v]).sort((a, b) => a[0] - b[0]).map(a => a[1]);
 }
@@ -458,6 +462,10 @@ window.prevQuestion = prevQuestion;
 window.toggleChart = toggleChart;
 window.resetStats = resetStats;
 </script>
+  
+<script src="checkAnswer.js"></script>
+<script src="logFrageAntwort.js"></script>
+<script src="toggleReport.js"></script>
 
 </body>
 </html>
