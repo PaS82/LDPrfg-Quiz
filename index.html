@@ -204,7 +204,7 @@ function showQuestion() {
   const container = document.getElementById("quiz");
   container.innerHTML = `<div class="question-block">
     <h2>Frage ${current + 1}/12</h2>
-    <p>${formatText(q.Frage)}</p>
+    <p><strong>${formatText(q.Frage)}</strong></p>
     <form class="answers">
       ${shuffled.map((a, i) => `<label><input type="checkbox" name="answer" value="${a.correct}"> ${formatText(a.text)}</label>`).join("")}
     </form>
