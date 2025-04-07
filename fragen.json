@@ -4509,5 +4509,881 @@
       "Nicht offenes Verfahren ohne Bekanntmachung bei Bauaufträgen € 500.000,-, bei Liefer- und DL-Aufträgen € 50.000,-",
       "Verhandlungsverfahren ohne Bekanntmachung bei Lieferaufträgen € 500.000,-"
     ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Wie nennt man die „Gesamtbewegung“ der Verwaltungsreform?",
+    "Richtige Antwort": [
+      "New public management (NPM)"
+    ],
+    "Falsche Antwort": [
+      "Total Quality Government (TQG)",
+      "Public Sector Innovation (PSI)",
+      "Advanced Administrative Modernization (AAM)"
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Wie heißt die Ausprägung des New Public Managements (NPM), die in der Steirischen Landesverwaltung eingesetzt wird?",
+    "Richtige Antwort": [
+      "Wirkungsorientiertes Steuerungsmodell: Wirkung des Handelns, Effektivität und Effizienz im Vordergrund, Einsatz zeitgemäßer betriebswirtschaftlicher Instrumente (Controlling/Ziel- und Leistungsvereinbarung, Kosten-Leistungsrechnung, Prozessmanagement), (WOV=wirkungsorientierte Verwaltungsführung)"
+    ],
+    "Falsche Antwort": [
+      "Inputorientiertes Steuerungsmodell: Fokus auf Ressourcenzuweisung und -verbrauch, traditionelle kameralistische Haushaltsführung, keine spezifischen Leistungsziele (IOV=inputorientierte Verwaltungsführung).",
+      "Outputorientiertes Steuerungsmodell: Konzentration auf die Menge und Qualität der Output-Ergebnisse, Einsatz von Performance Management ohne spezifische Kostenkontrolle (OOV=outputorientierte Verwaltungsführung).",
+      "Dezentrales Steuerungsmodell: Betonung der autonomen Entscheidungsfindung in einzelnen Abteilungen, geringe zentrale Kontrolle und Koordination, Verzicht auf moderne betriebswirtschaftliche Instrumente (DSM=dezentrales Steuerungsmodell)."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was hat die Bewegung des NPMs ausgelöst, welche Eckpunkte gibt es und auf welche Grundprämis-sen baut das NPM auf?",
+    "Richtige Antwort": [
+      "Die Auslöser des NPM waren: (.)Politischer Problemdruck(.) Budgetengpässe(.) verstärkter Wettbewerb (Standortwettbewerb)(.) geänderte Leistungserw(.) Aufgabenwandel(.) Technikwandel(.) geänderte Leistungserwartung",
+      "Die Eckpunkte sind:(.) Kundenorientierung(.) Qualitäts- und Prozessmanagement(.) Controlling(.) Produkte/Leistungen(.) Wettbewerb(.) Führungskräfte-/ Personalentwicklung(.) E-Government(.) Dezentralisierung"
+    ],
+    "Falsche Antwort": [
+      "Die Auslöser des NPM waren: (.) Wachsende Bürokratie und ineffiziente Kommunalverwaltungen (.) Überregulierung (.) Datenschutzbedenken (.) Zunehmende Globalisierung.",
+      "Die Eckpunkte sind: (.) Bürokratieabbau (.) Internationale Kooperationen (.) Umweltmanagement (.) Ressourcenoptimierung (.) Digitalisierung (.) Mitarbeiterzufriedenheit.",
+      "Die Grundprämissen des NPM basieren auf: (.) Erhöhung der staatlichen Eingriffe in die Wirtschaft (.) Zentralisierung von Verwaltungsaufgaben (.) Ausweitung der öffentlichen Ausgaben (.) Stärkung des traditionellen Verwaltungsapparates."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Effizienz und Effektivität: Was bedeutet das eine, was das andere?",
+    "Richtige Antwort": [
+      "Effizienz (Wirtschaftlichkeit): Verhältnis zw. Input und Outcome (werden die Dinge richtig gemacht?)\r\n",
+      "Effektivität (Wirksamkeit): Werden die richtigen Dinge getan (Verhältnis Zielvorgabe und –erreichung) ",
+      "Nach NPM beide umso größer, je höher Konkurrenzdruck, leider auch oft konkurrierend, Abwägung erforderlich."
+    ],
+    "Falsche Antwort": [
+      "Effizienz (Wirtschaftlichkeit): Bezieht sich ausschließlich auf die Kostensenkung im Unternehmen, unabhängig von den Ergebnissen oder Zielen.",
+      "Effektivität (Wirksamkeit): Misst ausschließlich die Geschwindigkeit der Zielumsetzung, ohne die Qualität oder das Ergebnis der Handlungen zu berücksichtigen.",
+      "Nach NPM (Neues Public Management) wird Effizienz nur durch staatliche Regulierung erreicht, während Effektivität durch Marktmechanismen bestimmt wird."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was ist der Leistungskatalog? Wozu dient er als Grundlage?",
+    "Richtige Antwort": [
+      "Der Leistungskatalog ist die systematische, und nach Themen strukturierte, Zusammenstellung aller von den Dienststellen erbrachten Leistungen/Produkt.",
+      "Durch die Darstellung der Leistungen/Produkte soll das Leistungsspektrum des Landes transparent und die Zusammenhänge und Wechselwirkungen zwischen den Leistungen erkennbar werden.",
+      "Der LKAT ist die Basis für die ELZE, Stellenbeschreibung, Organisationshandbuch (OHB), Aufgabenkritik, Qualitätsmanagement, Internet, Prozessdokumentation und Optimierung, Controlling (beim Controlling muss bekannt sein, was meine Produkte sind und wieviel sie mich kosten)"
+    ],
+    "Falsche Antwort": [
+      "Der Leistungskatalog dient primär als gesetzliche Richtlinie für die Festlegung von Steuertarifen und Abgaben, die von den Bürgern entrichtet werden müssen.",
+      "Im Leistungskatalog werden ausschließlich finanzielle Kennzahlen jeder Dienststelle aufgeführt, um die Wirtschaftlichkeit der öffentlichen Verwaltung zu evaluieren.",
+      "Der Leistungskatalog ist ein internes Dokument, das nur von den Führungskräften der Verwaltung verwendet wird, um Personalentscheidungen und Beförderungen zu begründen."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was ist Prozessmanagement und welche Ziele können mit Prozessmanagement verfolgt werden?",
+    "Richtige Antwort": [
+      "Prozesse einer Organisation werden gesamthaft dokumentiert und diskutiert, Schnittstellen und Ressourcen sichtbar gemacht, ",
+      "Ziele: Steigerung der Qualität, Reduzierung der Zeit, Senkung der Kosten, (Verbesserung von Qualität, Schnelligkeit und Effizienz) durch Ausrichtung auf den Bürger "
+    ],
+    "Falsche Antwort": [
+      "Prozessmanagement ist die Überwachung und Kontrolle der Mitarbeiterleistung durch strenge Richtlinien, um die Effizienz zu maximieren.",
+      "Ziele des Prozessmanagements sind hauptsächlich die Erhöhung der Mitarbeiterzufriedenheit und die Förderung der individuellen Kreativität durch weniger strukturierte Prozesse.",
+      "Prozessmanagement konzentriert sich auf die Automatisierung aller Organisationsprozesse, um menschliche Eingriffe vollständig zu eliminieren und technologische Lösungen zu priorisieren."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was ist der CAF (Common Assessment Framework)?",
+    "Richtige Antwort": [
+      "Dabei handelt es sich um ein europaweites Qualitätsmanagementsystem das eine schrittweise Verbesserung durch Selbstbewertung und Verbesserung des Organisations-, Personal-, Budget- und Ressourcenmanagements von Dienstleistungen lebt. ",
+      "Der CAF ist ein Instrument des Total Quality Managements (TQM)."
+    ],
+    "Falsche Antwort": [
+      "Der CAF ist eine spezialisierte Softwarelösung, die von der Europäischen Kommission entwickelt wurde, um die finanzielle Transparenz öffentlicher Verwaltungen zu verbessern.",
+      "Es handelt sich um einen Finanzierungsmechanismus der EU, der darauf abzielt, die Effizienz öffentlicher Ausgaben durch direkte Investitionen in lokale Verwaltungsprojekte zu steigern.",
+      "CAF steht für \"Central Audit Facility\", eine Einrichtung, die von der EU ins Leben gerufen wurde, um die Einhaltung der gesetzlichen Vorschriften in öffentlichen Verwaltungen zu überwachen."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Nennen Sie die Phasen Controlling-Kreislaufs in der richtigen Reihenfolge",
+    "Richtige Antwort": [
+      "(1) Ziele setzen (2) Planen (3) Durchführung steuern (4) Kontrollieren"
+    ],
+    "Falsche Antwort": [
+      "(1) Planen (2) Ziele setzen (3) Kontrollieren (4) Durchführung steuern",
+      "(1) Durchführung steuern (2) Kontrollieren (3) Ziele setzen (4) Planen",
+      "(1) Kontrollieren (2) Durchführung steuern (3) Planen (4) Ziele setzen"
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was sind die Funktionen des Controllings? Worin liegt der Nutzen von Controlling?",
+    "Richtige Antwort": [
+      "Funktionen: Führungsunterstützung, Koordination, Information, Ziel und Ergebnisorientierung",
+      "Controlling bildet die Basis für die Umsetzung der Leistungs- und Wirkungsorientierung als ein Grundsatz des NPM."
+    ],
+    "Falsche Antwort": [
+      "Funktionen: Kontrolle von Verwaltungseinheiten, direkte Mitarbeiterführung, Durchsetzung von disziplinarischen Maßnahmen, Controlling dient hauptsächlich der Einsparung von Verwaltungskosten und der Reduzierung des Personalbestands.",
+      "Funktionen: Rechtsberatung, Verwaltung von Personalakten, Umsetzung von Gesetzesänderungen, Controlling ersetzt die Aufgaben der internen Revision und konzentriert sich auf die Einhaltung gesetzlicher Vorgaben.",
+      "Funktionen: Entwicklung von Marketingstrategien, Kundenbetreuung, Vertriebssteuerung, Controlling ist primär für die Steigerung des Umsatzes im öffentlichen Sektor verantwortlich und fokussiert auf Absatzmärkte."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was ist der eRZL, wozu dient er?",
+    "Richtige Antwort": [
+      "Elektronischer Ressourcen- Ziel und Leistungsplan (standardisiertes Auswertungs- und Steuerungsinstrument), zur Planung und Beobachtung von Zielen, eingesetzten Mittel und nötigen Maßnahmen, bietet Überblick über eingesetzte Ressourcen und die damit erreichten Ziele und Wirkungen und die erbrachten Leistungen. Führungskräfte erkennen, wo Handlungsbedarf besteht."
+    ],
+    "Falsche Antwort": [
+      "Elektronischer Rechts-Zentralisierer (eRZL) ist ein digitaler Assistent zur Vereinheitlichung und Zentralisierung rechtlicher Dokumente und Vorschriften in öffentlichen Verwaltungen, um die Rechtskonformität zu verbessern und die Bearbeitungszeit von Anträgen zu verkürzen.",
+      "Elektronischer Raum-Zeit-Log (eRZL) ist ein fortschrittliches Tracking-System, das in der öffentlichen Verwaltung eingesetzt wird, um die Nutzung von Büroräumen und Arbeitszeiten der Mitarbeiter zu überwachen und effizient zu gestalten.",
+      "Elektronischer Ressourcen-Zuweisungsleiter (eRZL) ist ein Software-Tool, das speziell für die gleichmäßige Verteilung von Ressourcen und Budgets innerhalb einer Organisation entwickelt wurde, um sicherzustellen, dass alle Abteilungen gleichmäßig finanziert und ausgestattet sind."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Explizites Ziel des NPMs ist die Betonung des Wettbewerbsgedankens in möglichst allen Bereichen der Verwaltung, welche Möglichkeiten und Beispiele des Wettbewerbs kennen Sie? Welche werden in der steirischen Landesverwaltung eingesetzt?",
+    "Richtige Antwort": [
+      "(.) Intrakommunale Vergleiche (zwischen Dienststellen)(.) Interkommunale Vergleiche (zwischen verschiedenen Landesverwaltungen)(.) Benchmarking (Kosten- und Leistungsvergleiche mit Privaten sowie mit der öffentl. Verw.)(.) Marktlicher Wettbewerb (zB eigene Produkte wie Softwarelösungen anbieten)(.) Interner Quasi-martklicher Wettbewerb (innerhalb der Körperschaft) (.) Preiswetbewerbe,, Ideenmanagement, österr. Vrewaltungspreis, Qualitätswettbewerbe",
+      "ZB: (.) BH Benchmarking(.) Ideenmanagement (Prämierung von umgesetzten KVP-Projekten und Verbesserungsvorschläge von Mitarbeiter:innen)(.) Österreichischer Verwaltungspreis (.) Teilnahme an Qualitätswettbewerben (Speyer-Preis, European Public Sector Award - EPSA)"
+    ],
+    "Falsche Antwort": [
+      "Exklusive Monopolstellungen (z.B. eine Verwaltungseinheit erhält das Monopol für bestimmte Dienstleistungen, um Effizienz ohne Wettbewerb zu steigern).",
+      "Vollständige Privatisierung von Verwaltungsdiensten (z.B. Übergabe aller administrativen Aufgaben an private Unternehmen ohne verbleibende staatliche Kontrolle).",
+      "Einheitliche Preisgestaltung (z.B. alle Verwaltungsdienste in verschiedenen Regionen müssen zum selben Preis angeboten werden, um faire Bedingungen zu schaffen)."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Welche Maßnahmen zur Führungskräfte- und Personalentwicklung kennen Sie?",
+    "Richtige Antwort": [
+      "(.) Stärkung der Führungskräfteverantwortung(.) Stärkung der Entscheidungskompetenz der FK(.) Ausbau betriebswirtschaftlicher Führungsinstrumentarien(.) Führen dusch Ziel- du Leistungsvereinbarung (Kontrakte)(.) Größere Flexibilität für Mitarbeiter",
+      "Einige Beispiele: Führungsrichtlinien, -ausbildung, -coaching, -feedback, -Führen in Teilzeit, Grundausbildung, Telearbeit, Mentoring, MOG"
+    ],
+    "Falsche Antwort": [
+      "Erhöhung der formalen Hierarchiestufen zur klareren Abgrenzung von Verantwortlichkeiten.",
+      "Reduzierung der Kommunikationskanäle zwischen Führungskräften und Mitarbeitern zur Steigerung der Effizienz.",
+      "Vermeidung von regelmäßigen Mitarbeiterbewertungen, um den Druck von den Angestellten zu nehmen."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Wie nennt man den verstärkten Einsatz elektronischer Medien im Verkehr zwischen Bürger*innen sowie Einrichtungen des politischen Systems?",
+    "Richtige Antwort": [
+      "Man nennt das eGovernment, wobei sich interne und externe Perspektive unterscheiden lassen.",
+      "Interner Einsatz: Datenbanken, Worflow-Systeme (ELAK, und andere Fachinformationssysteme)",
+      "Externer Einsatz: elektronische Bereitstellung von Informationen und Dienstleistungen sowie Kommunikationsmöglichkeiten"
+    ],
+    "Falsche Antwort": [
+      "Man bezeichnet dies als digitale Demokratie, bei der die Interaktion vornehmlich über soziale Medien und direkte Online-Abstimmungen erfolgt.",
+      "Dieser Prozess wird als Informationsfreiheit bezeichnet, wo staatliche Behörden verpflichtet sind, alle ihre Daten öffentlich zugänglich zu machen.",
+      "Es handelt sich um Cyber-Administration, die vor allem den automatischen Austausch von Informationen zwischen verschiedenen Regierungsebenen ohne Bürgerbeteiligung umfasst."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was ist E-Government? Welche Ziele werden verfolgt?",
+    "Richtige Antwort": [
+      "Unter eGovernment versteht man den verstärkten Einsatz elektronischer Medien im Verkehr zwischen Bürger*innen sowie Einrichtungen des politischen Systems.",
+      "Es wird der Einsatz von Informations- und Kommunikationstechnologien im Bereich Regierung und öffentliche Verwaltung darunter verstanden.",
+      "Ziele des internen Einsatzes von IT ist die Verbesserung des Informationsmanagements und verwaltungsinterner Prozessabläufe.",
+      "Ziel des externen Einsatzes von IT ist die Verbesserung der Beziehung zwischen Staat und Bürger:innen."
+    ],
+    "Falsche Antwort": [
+      "E-Government bezeichnet ausschließlich die elektronische Durchführung von Wahlen und Abstimmungen, um politische Entscheidungsprozesse zu digitalisieren.",
+      "Das Hauptziel von E-Government ist es, die Anzahl der Beschäftigten in der öffentlichen Verwaltung drastisch zu reduzieren, um Kosten zu sparen.",
+      "E-Government zielt darauf ab, alle öffentlichen Dienstleistungen ausschließlich online anzubieten und den persönlichen Kontakt zwischen Bürgern und Verwaltung vollständig zu eliminieren."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Nennen Sie Beispiele für den Einsatz von e-government in der steirischen Landesverwaltung",
+    "Richtige Antwort": [
+      "(.) Inter- und Intranetauftritte des Landes(.) Elektronische Antragstellung(.) ELAK(.) ERS - Elektronische Regierungssitzung(.) Elektronische Befragung(.) PALLAST - Papierloser Landtag"
+    ],
+    "Falsche Antwort": [
+      "E-GIS - Elektronisches Geoinformationssystem zur automatischen Grundsteuerberechnung.",
+      "E-Vote - Elektronische Abstimmungssysteme für Volksabstimmungen auf Landesebene.",
+      "MobileGov - Eine App für die direkte Kommunikation zwischen Bürgern und dem Landeshauptmann."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Nenne Merkmale der traditionellen und der modernen Verwaltung",
+    "Richtige Antwort": [
+      "Traditionell: (.) Grundsatz der Schriftlichkeit(.) Strenge Kompetenzordnung(.) Hierarchie(.) Schematische Karrierelaufbahnen aufgrund Dienstalter(.) starke Rechtsstellung (System von Regeln)(.) Input-Orientierung\r\n",
+      "Modern: (.) Einsatz betriebswirtschaftlicher Instrumente(.) Orientierung an Interessen der Bürger(.) Wirkungsorientierung als ergänzendes Konzept  (Output-Orientierung, d.h. Handeln an Ergebnissen und Wirkungen nach Außen ausgerichtet)",
+      "Basisziele: Wirksamkeit, Zweckmäßigkeit, Finanzierbarkeit, Qualität und Kundenorientierung, Wirtschaftlichkeit und Sparsamkeit"
+    ],
+    "Falsche Antwort": [
+      "Traditionell: (.) Einsatz von digitalen Technologien(.) Flexibilität in der Kompetenzordnung(.) Fokus auf Kundenorientierung(.) Leistungsabhängige Karrierelaufbahnen(.) Output-Orientierung",
+      "Modern: (.) Beibehaltung strenger hierarchischer Strukturen(.) ausschließliche Input-Orientierung (d.h. Handeln basiert auf dem Input von Ressourcen)(.) Vernachlässigung der Bürgerinteressen(.) Bevorzugung von langjährigen Dienstverhältnissen",
+      "Basisziele: Ständige Expansion der Verwaltungseinheiten(.) Maximierung der internen Prozesse(.) Vernachlässigung der Wirtschaftlichkeit(.) Fokus auf quantitative statt qualitative Ergebnisse"
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was ist ein Projekt?",
+    "Richtige Antwort": [
+      "Nach DIN 69901 ist ein Projekt ein Vorhaben. das im Wesentlichen durch Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist. Z.B. Ei Vorhaben mit zeitlicher, finanzieller und sachlicher Begrenzung sowie einem bestimmten Ziel. Gegensatz dazu sind Routineaufgaben (Linientätigkeiten); Kriterien: mind. 2 FA od. Abt. beteiligt; Dauer mind. 3 Mo; Ressourceneinsatz mehr als 50 Personentage",
+      "Der Gegensatz dazu sind Routineaufgaben (Linientätigkeiten).",
+      "Spezifische Kriterien für ein Projekt im Land Steiermark sind: (.) mind. 2 FA od. Abt. beteiligt(.) Dauer mind. 3 Mo(.) Ressourceneinsatz mehr als 50 Personentage"
+    ],
+    "Falsche Antwort": [
+      "Ein Projekt ist eine fortlaufende Aktivität eines Unternehmens, die darauf ausgerichtet ist, tägliche Operationen in verschiedenen Abteilungen zu unterstützen und zu verbessern.",
+      "Ein Projekt wird immer von einem einzelnen Mitarbeiter geleitet und umfasst Aufgaben, die täglich wiederholt werden müssen, um langfristige Unternehmensziele zu erreichen.",
+      "Projekte sind definiert durch ihre Routine und Wiederholbarkeit und können ohne zeitliche oder finanzielle Begrenzungen durchgeführt werden."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was sind laut Projektrichtlinien des Landes Steiermark die spezifischen Kriterien für ein Projekt? Welche Kriterien gelten für ein Kleinprojekt?",
+    "Richtige Antwort": [
+      "Die spezifischen Kriterien für ein Kleinprojekt sind: (.) Projektdauer von mind. 1 Kalendermonat(.) Der Ressourceneinsatz ist höher als 20 Personentage",
+      "Folgende Mindeststandards gelten: (.) Ernennung eines Projektleiters du Teams(.) schriftlicher Projektauftrag(.) Projektstrukturplan(.) regelmäßige Projektteamsitzungen(.) Projektabschlusssitzung und Abschlussbericht"
+    ],
+    "Falsche Antwort": [
+      "Die spezifischen Kriterien für ein Kleinprojekt sind: (.) Projektdauer von maximal 3 Kalendermonaten (.) Der Ressourceneinsatz ist niedriger als 15 Personentage.",
+      "Zu den grundlegenden Anforderungen gehören: (.) Erstellung eines detaillierten Kostenplans (.) monatliche Statusberichte an die Projektleitung (.) Einsatz externer Berater für die Projektüberwachung.",
+      "Ein Projekt in der Steiermark muss folgende Kriterien erfüllen: (.) Mindestbudget von 5.000 Euro (.) Vorhandensein eines internationalen Partners (.) Genehmigung durch das Landesparlament."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Welche Arten von Projekten gibt es laut Projektrichtlinien des Landes Steiermark?",
+    "Richtige Antwort": [
+      "Grundlagenprojekte: zur Schaffung einer unternehmensweitern oder abteilungsübergreifenden thematisch-fachlichen oder technischen Basis für die Weiterarbeit",
+      "Infrastrukturprojekte: dienen der Planung und Umsetzung von Infrastrukturmaßnahmen (zB. Straßenbau, IKT, Wasserbau)",
+      "Organisationsentwicklungsprojekte: um Veränderungsprozesse in der Verwaltung umzusetzen."
+    ],
+    "Falsche Antwort": [
+      "Personalentwicklungsprojekte: fokussieren auf die Weiterbildung und berufliche Entwicklung einzelner Mitarbeiter.",
+      "Marketingprojekte: dienen der Verbesserung und Umsetzung der Außendarstellung und Marktpositionierung der Verwaltung.",
+      "Finanzierungsprojekte: zielen auf die Optimierung der Haushaltsplanung und finanziellen Ressourcensteuerung ab."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Welche grundlegenden organisatorischen Regelungen gelten in der Steiermärkischen Landesverwaltung?",
+    "Richtige Antwort": [
+      "Die Geschäftsordnung der Stmk. Lreg.",
+      "Die Geschäftsverteilung der Stmk. Lreg.",
+      "Die Geschäftsordnung des Amtes der Stmk. Lreg.",
+      "Die Geschäftseinteilung des Amtes der Stmk. Lreg.",
+      "Das Erlasswesen",
+      "Das Organisationshandbuch (OHB)",
+      "Die Büroordnung"
+    ],
+    "Falsche Antwort": [
+      "Die Personalstrukturierung der Bundesverwaltung",
+      "Die Amtsrichtlinien der Lokalgemeinschaft",
+      "Der Leitfaden für externe Kommunikation"
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was regelt die Geschäftsordnung des Amtes der Steiermärkischen Landesregierung?",
+    "Richtige Antwort": [
+      "Den Geschäftsgang im Amt",
+      "Die Gliederung des Amtes (Abteilungsgruppen, Abteilungen, Fachabteilungen, Referate)",
+      "Die Bestellung von Abteilungs-. Fachabteilungs-, und Referatsleiter:innen sowie deren Verantwortlichkeit."
+    ],
+    "Falsche Antwort": [
+      "Die Besoldung und Gehaltsstufen aller Amtsmitarbeiter.",
+      "Die Festlegung der Steuersätze, die von der Landesregierung erhoben werden.",
+      "Die direkte Zuweisung von Fördermitteln an Privatpersonen und Unternehmen."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was regelt die Geschäftseinteilung des Amtes der Steiermärkischen Landesregierung?",
+    "Richtige Antwort": [
+      "Die Aufteilung der Geschäfte der Landesverwaltung und der mittelbaren Bundesverwaltung auf die einzelnen Abteilungen",
+      "die Zahl und die Bezeichnung der Abteilungen",
+      "Entsprechend der Einteilung sind die Abteilungen für die Besorgung der ihen zukommenden Geschäfte verantwortlich"
+    ],
+    "Falsche Antwort": [
+      "Die Geschäftseinteilung regelt die Vergabe von Landesförderungen und Subventionen.",
+      "Sie bestimmt die direkte Wahl der Abteilungsleiter durch die Bevölkerung der Steiermark.",
+      "Sie legt die genauen Steuersätze für die Landessteuern fest."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Wer leitet den inneren Dienst?",
+    "Richtige Antwort": [
+      "Die Landesamtsdirektion."
+    ],
+    "Falsche Antwort": [
+      "Das Bundeskanzleramt.",
+      "Die Kommunalverwaltung.",
+      "Der Ministerialrat."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was ist ein Erlass?",
+    "Richtige Antwort": [
+      "Ein Erlass ist eine verwaltungsinterne, verpflichtende Anordnung, die sich an einen generellen Adressatenkreis richtet und nach 3 Jahren automatisch außer Kraft tritt.",
+      "Eine Dienstanweisung ist kein Erlass."
+    ],
+    "Falsche Antwort": [
+      "Ein Erlass ist eine formlose Mitteilung der Verwaltung an die Bürger, die keine rechtliche Bindewirkung hat.",
+      "Ein Erlass ist eine einmalige finanzielle Zuwendung des Staates an eine öffentliche Einrichtung, die keiner gesetzlichen Grundlage bedarf.",
+      "Ein Erlass ist eine rechtliche Anordnung, die nur innerhalb der Verwaltung gilt und unbefristet in Kraft bleibt, bis sie explizit aufgehoben wird."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was ist die Büroordnung? welchen Zweck erfüllt sie? Wer hat die Büroordnung herausgegeben und, was macht sie zu einem besonderen Erlass (wie lange ist sie in Kraft)?",
+    "Richtige Antwort": [
+      "Die Büroordnung bildet den Rahmen für den Geschäftsgang, insbesondere die Aktenbearbeitung und die Bürokommunikation. Sie gilt für alle Dienststellen.",
+      "Die Büroordnung wurde von der Landesamtsdirektion herausgegeben.",
+      "Die letzte Version ist seit 1.12.2021 in Kraft."
+    ],
+    "Falsche Antwort": [
+      "Die Büroordnung ist eine Anleitung für die Raumgestaltung und Büroausstattung in öffentlichen Verwaltungen und wurde vom Bundesministerium für Inneres erstellt.",
+      "Sie wurde erstmals im Jahr 2010 eingeführt und ist seitdem ohne Änderungen in Kraft.",
+      "Hauptzweck der Büroordnung ist die Regelung der Arbeitszeiten und Pausenregelungen für Staatsbeamte."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was ist der Zweck des Geschäftszeichens?",
+    "Richtige Antwort": [
+      "Das Geschäftszeichen (GZ) ist eine eindeutige Kennzeichnung von Akten, Geschäftsfällen und Geschäftsstücken und dient der Wiederfindung der Akten."
+    ],
+    "Falsche Antwort": [
+      "Das Geschäftszeichen ist eine formale Kennzeichnung, die ausschließlich zur Verschlüsselung vertraulicher Informationen in Dokumenten verwendet wird.",
+      "Das Geschäftszeichen dient dazu, die Authentizität eines Dokuments zu bestätigen und die Unterschrift des Verantwortlichen zu ersetzen.",
+      "Das Geschäftszeichen wird verwendet, um die steuerliche Absetzbarkeit von Geschäftsfällen zu kennzeichnen und zu erleichtern."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Wie nennt man die Vernichtung oder das Ausscheidung von Akten?",
+    "Richtige Antwort": [
+      "Skartieren"
+    ],
+    "Falsche Antwort": [
+      "Archivieren",
+      "Katalogisieren",
+      "Indexieren"
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was ist das Organisationshandbuch (OHB)? Welche Inhalte umfasst das OHB?",
+    "Richtige Antwort": [
+      "Das Organisationshandbuch (OHB) ist ein Erlass auf Regelgrundlage der Geschäftsordnung des Amtes der Stmk. Lreg.",
+      "Folgende Inhalte werden behandelt: (.) Ziele und Strategien(.) Aufgabend er Dienststellen (Leistungskatalog)(.) Organisatorische Gliederung der Dienststelle (Organigramm)(.) Stellenbeschreibung(.) Organisatorische Regelungen (Dienstanweisungen)"
+    ],
+    "Falsche Antwort": [
+      "Das Organisationshandbuch (OHB) ist eine Sammlung von gesetzlichen Vorschriften, welche die rechtlichen Rahmenbedingungen für alle öffentlichen Verwaltungen in Deutschland vorgibt.",
+      "Im Organisationshandbuch (OHB) werden vorrangig finanzielle Richtlinien und Budgetplanungen der jeweiligen Dienststelle festgehalten.",
+      "Das Organisationshandbuch (OHB) konzentriert sich ausschließlich auf die Personalpolitik und enthält Richtlinien zur Mitarbeiterführung und -entwicklung."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was ist der ELAK, wozu dient er?",
+    "Richtige Antwort": [
+      "Das Elektronische Aktensystem der Landesverwaltung, IT-Instrument, Workflow-System, zur Verbesserung verwaltungsinterner Prozessabläufe."
+    ],
+    "Falsche Antwort": [
+      "ELAK steht für Europäisches Lebensmittelkontroll-Amt, eine Behörde der EU, die sich mit der Überwachung von Lebensmittelstandards befasst.",
+      "Der ELAK ist ein Energieleistungskennzeichnungs-Audit-Kit, das Unternehmen dabei unterstützt, ihre Energieeffizienz zu bewerten und zu verbessern.",
+      "ELAK bezeichnet das Europäische Labor für Angewandte Kryptographie, das sich auf die Entwicklung sicherer Kommunikationstechnologien spezialisiert."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was ist ein Meilenstein?",
+    "Richtige Antwort": [
+      "Ein Ereignis besonderer Bedeutung im Projekt, definiert oft Phasenübergänge, ein definiertes Sachergebnis gekoppelt an einen Fertigstellungstermin."
+    ],
+    "Falsche Antwort": [
+      "Eine Methode zur stetigen Bewertung der Mitarbeiterleistung über die Dauer eines Projekts.",
+      "Ein fortlaufendes Protokoll, das alle Änderungen im Projektverlauf dokumentiert.",
+      "Eine spezielle Softwareanwendung, die zur Verwaltung von Projektkosten eingesetzt wird."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was ist ein Arbeitspaket?",
+    "Richtige Antwort": [
+      "Eine in sich geschlossene Aufgabenstellung innerhalb eines Projekts, die von Einzelperson od organisatorischer Einheit bis zu einem best. Zeitpunkt mit definiertem Ergebnis und Aufwand erbracht werden kann."
+    ],
+    "Falsche Antwort": [
+      "Ein umfassender Bericht, der am Ende eines jeden Geschäftsjahres erstellt wird, um die Arbeitsleistung aller Abteilungen zu analysieren.",
+      "Ein regelmäßiges Treffen zwischen Projektmanagern und Stakeholdern, um den Fortschritt und die Richtung des Projekts zu besprechen.",
+      "Eine Softwareanwendung, die speziell entwickelt wurde, um die Ressourcenverwaltung und Zeitplanung in großen Unternehmen zu unterstützen."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Was bedeutet skartieren?",
+    "Richtige Antwort": [
+      "Vernichten od. Ausscheiden von Akten."
+    ],
+    "Falsche Antwort": [
+      "Kategorisieren und Archivieren von Dokumenten.",
+      "Digitalisieren von papierbasierten Akten.",
+      "Überprüfen der Rechtskonformität von Dokumenten."
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Wofür steht das Kürzel KVP?",
+    "Richtige Antwort": [
+      "Kontinuierlicher Verbesserungsprozess"
+    ],
+    "Falsche Antwort": [
+      "Koordiniertes Verwaltungsprogramm",
+      "Kommunale Verwaltungspartnerschaft",
+      "Kundenverwaltungsprozess"
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Welche Qualitätsmanagement – Instrumente werden in der steirischen Landesverwaltung eingesetzt?",
+    "Richtige Antwort": [
+      "CAF (Common Assessment Framework) – besonders unterstützt\r\n",
+      "KVP (Ideenmanagement und Kontinuierlicher Verbesserungsprozess)",
+      "Zertifizierbare Normen (punktuell nach Bedarf)"
+    ],
+    "Falsche Antwort": [
+      "ISO 14001 Umweltmanagementstandard",
+      "Six Sigma Methodik",
+      "Balanced Scorecard zur Leistungsmessung"
+    ]
+  },
+  {
+    "Fach": "Verwaltungsmanagement",
+    "Frage": "Dezentralisierung versus Zentral: (1) Was versteht man unter Dezentralisierung? (2) Welche Aufgaben der steirischen Landesverwaltung zentral ausgeführt werden?",
+    "Richtige Antwort": [
+      "Die weitgehende Autonomie für dezentrale Bereiche als Voraussetzung für Effizienz und Effektivität(.)Personalautonomie (Einstellung, Beförderung, Ausbildung)(.) Finanzautonomie (Globalbudget)(.) Leistungsautonomie (Leistungsvereinbarungen)(.) Organisationsautonomie (wie die Leistungserstellung erfolgt)",
+      "Zentral: Erfüllung von typischen Querschnittsaufgaben(.) Koordinatioins- und Steuerungsaufgaben: einheitliches Erscheinungsbild, personalpolitsche Leitbilder, Personal- und Dienstrecht, Kommunikation, etc.)(.) Dienstleistungen (IT -Support, Personalverrechnung, Materialbeschaffung, handwerkliche Hilfsdienste, etc.)"
+    ],
+    "Falsche Antwort": [
+      "Dezentralisierung bedeutet, dass alle wichtigen Entscheidungen von einer zentralen Behörde getroffen werden, um Einheitlichkeit und Kontrolle zu gewährleisten. Dies schließt lokale Verwaltungseinheiten von der Entscheidungsfindung aus.",
+      "Zentral: Die steirische Landesverwaltung führt keine zentralen Aufgaben aus, da sie vollständig dezentralisiert ist. Alle Entscheidungen, auch die Koordination und Steuerung, sind auf die lokalen Behörden übertragen worden.",
+      "Zentral: In der steirischen Landesverwaltung werden alle Entscheidungen über Bildungspolitik, Gesundheitsdienste und lokale Entwicklung zentral geführt, um eine einheitliche Policy über den gesamten Bundesland zu gewährleisten."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Was sind die allgemeinen Aufnahmeerfordernisse? (Skriptum, Seite 2)",
+    "Richtige Antwort": [
+      "Österreichische Staatsbürgerschaft (im Bereivch der Hoheitsverwaltung) oder unbeschränkter Zugang zum österreichischen Arbeitsmarkt (außerhalb Hoheitsverwaltung)",
+      "vollendetes 15 Lebensjahr",
+      "Volle Handlungsfähigkeit",
+      "Persönliche und fachliche Eignung"
+    ],
+    "Falsche Antwort": [
+      "Erforderlicher Hochschulabschluss in jedem Verwaltungsbereich",
+      "Nachweis über mindestens fünf Jahre Berufserfahrung in einer staatlichen Einrichtung",
+      "Mitgliedschaft in einer politischen Partei des Landes"
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Die wesentlichen Bestandteile eines Dienstvertrages? (Seite 4)",
+    "Richtige Antwort": [
+      "Name und Anschrift Dienstgeber/-nehmer",
+      "Zeitliche Angaben: Beginn ders Dienstverhältnisses, wenn auf Zeit, dann Dienstende, Probezeit",
+      "Beschäftigungsart und Ausmaß",
+      "Wirkbereich, Funktionsgruppe, Gehaltsklasse, Gehaltsstufe",
+      "Dienstort",
+      "Ausmaß des jährlichen Erholungsurlaubs",
+      "Tägliche Normalarbeitszeit"
+    ],
+    "Falsche Antwort": [
+      "Detaillierte Beschreibung des privaten Lebensstils des Dienstnehmers",
+      "Liste der persönlichen Referenzen und früheren Arbeitgeber",
+      "Verpflichtung zur Teilnahme an außerdienstlichen Veranstaltungen"
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Was versteht man unter einem Dienstverhältnis auf Probe? (Seite 4)",
+    "Richtige Antwort": [
+      "Das Probedienstverhältnis kann von jedem Vertragsteil jederzeit, ohne Angabe von Gründen, ohen Kründigungsfrist aufgelöst werden.",
+      "Probediesntverhältnis auf die Höchstdauer von einem Monat."
+    ],
+    "Falsche Antwort": [
+      "Ein Probedienstverhältnis verpflichtet den Arbeitnehmer, eine Vertragsstrafe zu zahlen, falls er vor Ablauf der Probezeit kündigt.",
+      "Das Probedienstverhältnis wird automatisch in ein unbefristetes Dienstverhältnis umgewandelt, wenn keine Kündigung innerhalb der ersten zwei Wochen erfolgt.",
+      "Während der Probezeit darf der Arbeitgeber dem Arbeitnehmer keine Urlaubstage gewähren."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Was versteht man unter einem Dienstverhältnis auf bestimmte Zeit? (Seite 4)",
+    "Richtige Antwort": [
+      "Ein Dienstverhältnis auf bestimmte Zeit endet durch Zeitablauf (kann nur einmal um 6 Mo verlängert werden – Kettenvertragsverbot)"
+    ],
+    "Falsche Antwort": [
+      "Ein Dienstverhältnis auf bestimmte Zeit kann beliebig oft verlängert werden, solange der Dienstnehmer und der Dienstgeber sich darauf einigen.",
+      "Ein Dienstverhältnis auf bestimmte Zeit wird automatisch in ein unbefristetes Dienstverhältnis umgewandelt, wenn es nicht vor Ablauf gekündigt wird.",
+      "Ein Dienstverhältnis auf bestimmte Zeit endet ausschließlich durch Kündigung seitens des Dienstnehmers oder des Dienstgebers, unabhängig vom ursprünglich vereinbarten Zeitrahmen."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Was versteht man unter der stellenwertorientierten Entlohnung? (Seite 5 f)",
+    "Richtige Antwort": [
+      "Für jede Stelle gibt es eine Stellenbeschreibung auf deren Basis die Stelle bewertet wird (Punktesystem) ",
+      "Gehaltsklassenzuordnung in einem Bewertungsverfahren zu einer der 24 Gehaltsklassen im Entlohnungsschema ST.",
+      "Die Hauptbewertungskriterien sind (.) Wissen(.) Denken(.) Verantwortung"
+    ],
+    "Falsche Antwort": [
+      "Die stellenwertorientierte Entlohnung basiert auf der individuellen Leistung der Mitarbeiter und wird jährlich überprüft.",
+      "In der stellenwertorientierten Entlohnung wird das Gehalt durch eine direkte Verhandlung zwischen Mitarbeiter und Vorgesetztem bestimmt.",
+      "Die Entlohnung erfolgt nach dem Senioritätsprinzip, wobei die Dauer der Betriebszugehörigkeit das entscheidende Kriterium für die Gehaltshöhe ist."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Wann gebührt eine Ergänzungszulage? (Seite 8)",
+    "Richtige Antwort": [
+      "Eine Ergänzungszulage gebürt Mitarbeitern, die vorübergehend (mind. 29 Tage) zu Arbeiten herangezogen werden, die üblicherweise von einem Bediensteten mit höherer Qualifikation verrichtet werden."
+    ],
+    "Falsche Antwort": [
+      "Eine Ergänzungszulage wird gewährt, wenn ein Mitarbeiter länger als 6 Monate krankheitsbedingt ausfällt und durch einen Kollegen vertreten wird.",
+      "Ergänzungszulagen werden automatisch jedem Mitarbeiter jährlich zum Ausgleich der Inflation gezahlt.",
+      "Eine Ergänzungszulage wird Mitarbeitern gewährt, die zusätzliche Aufgaben außerhalb ihrer regulären Arbeitszeit übernehmen."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Was sind Nebengebühren? (Seite 9 ff)",
+    "Richtige Antwort": [
+      "Nebengebühren sind nicht Bestandteil des Monatsbezugs. Ein Anspruch kann nur für Zeiträume bestehen für die auch Anspruch auf Gehalt besteht.",
+      "Nebengebühren sind etwa Überstundenvergütung, Fahrtkostenzuschuss, Erschwernisvergütung, Aufwandsvergütung, Sonn- und Feiertagsvergütung, Journaldienstvergütung, Gefahrenvergütung, …"
+    ],
+    "Falsche Antwort": [
+      "Nebengebühren sind feste Bestandteile des Monatsbezugs und werden unabhängig von der geleisteten Arbeitszeit oder besonderen Arbeitsbedingungen gezahlt.",
+      "Nebengebühren umfassen ausschließlich regelmäßige monatliche Zulagen wie Kinderzuschläge und Wohnbeihilfen.",
+      "Nebengebühren werden auch dann ausgezahlt, wenn kein Anspruch auf Gehalt besteht, beispielsweise während eines unbezahlten Urlaubs."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Wie erreicht man einen höheren Monatsbezug? (Seite 12)",
+    "Richtige Antwort": [
+      "Durch Vorrückung in eine höhere Gehaltsstufe",
+      "DurchÜberstellung in eine höhere Gehaltsklasse",
+      "durch Neufstsetzung des Vorrückungstermins"
+    ],
+    "Falsche Antwort": [
+      "Durch automatische jährliche Gehaltserhöhungen",
+      "Durch Reduzierung der Arbeitsstunden bei gleichbleibendem Gehalt",
+      "Durch Erreichen eines bestimmten Lebensalters"
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Welche Ansprüche bestehen bei einer gerechtfertigten Dienstverhinderung? (Seite 14)",
+    "Richtige Antwort": [
+      "bei unverschuldeter Krankheit oder Unfall haben Vertragsbedienstete, in Abhängigkeit von der Dienstzeit, Anspruch auf Weiterzahlung des vollen Gehalts. Und zwar < 5Jahre: 42 Kalendertage, mind. 5 Dienstjahre: 91 Kalendertage, mind. 10 Dienstjahre: 182 Kalendertage",
+      "Dauert die Dienstverhinderung über diese Zeiträume hinaus, gebühren für den gleichen Zeitraum 49% des Monatsgehaltes inkl. Kinderzuschuss. Das entspricht zzgl. Krankengeld aus SV ~ 100%"
+    ],
+    "Falsche Antwort": [
+      "Bei unverschuldeter Krankheit oder Unfall haben Vertragsbedienstete, unabhängig von der Dienstzeit, Anspruch auf Weiterzahlung des vollen Gehalts für maximal 30 Kalendertage, danach wird das Gehalt auf 70% reduziert.",
+      "Vertragsbedienstete erhalten bei Dienstverhinderung aufgrund unverschuldeter Krankheit oder Unfall für die ersten 10 Dienstjahre 60 Kalendertage volles Gehalt, bei mehr als 10 Dienstjahren 120 Kalendertage volles Gehalt.",
+      "Nach Ablauf der regulären Gehaltsfortzahlung im Krankheitsfall haben Vertragsbedienstete Anspruch auf eine Pauschalentschädigung in Höhe von 50% des Grundgehalts für weitere 60 Tage, unabhängig von der Dauer ihrer Beschäftigung."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Wann habe ich Anspruch auf eine Urlaubsersatzleistung? (Seite 17)",
+    "Richtige Antwort": [
+      "Bediensteten gebührt im Falle einer Pensionierung (privatrechtl-DV) oder Ausscheiden aus dem öffentlichen Dienst (offentlich-rechtliches DV) weiterhin eine Urlaubsersatzleistung. ",
+      "Keine Urlaubsersatzleistung gebührt Vertragsbediensteten, die in das öffentlich-rechtliche DV übernommen werden."
+    ],
+    "Falsche Antwort": [
+      "Bediensteten steht eine Urlaubsersatzleistung auch bei einem freiwilligen Wechsel zu einem privaten Unternehmen zu.",
+      "Eine Urlaubsersatzleistung wird gewährt, wenn der Bedienstete auf eigenen Wunsch eine unbezahlte Auszeit (Sabbatical) nimmt.",
+      "Urlaubsersatzleistung wird jedem Bediensteten bei einer Kündigung durch den Arbeitgeber aus betrieblichen Gründen gewährt."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Wann sind Ausbildungskosten zu ersetzen? (Seite 18)",
+    "Richtige Antwort": [
+      "Wenn das DV innerhalb von 3 Jahren nach Ausbildung vom Bediensteten gelöst wird (Lösung, Kündigung, Austritt), wenn der Bedienstete seine Entlassung od. Kündigung verschuldet (Entlassung, kündigung durch DG –Ausnahme krankheitsbedingt) und wenn die Ausbildung wirtschaftlich verwertbar ist."
+    ],
+    "Falsche Antwort": [
+      "Ausbildungskosten müssen nur ersetzt werden, wenn der Bedienstete innerhalb von einem Jahr nach Beendigung der Ausbildung das Dienstverhältnis aus eigenem Wunsch beendet.",
+      "Die Erstattung der Ausbildungskosten ist nur erforderlich, wenn die Ausbildung ausschließlich privat und nicht beruflich genutzt wird.",
+      "Kosten für die Ausbildung sind zu ersetzen, wenn der Bedienstete nach Abschluss der Ausbildung in ein höheres Gehaltsniveau eingestuft wird, unabhängig von der Dauer des Verbleibs im Unternehmen."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Auf welche Arten kann ein Dienstverhältnis enden? (Seite 18)",
+    "Richtige Antwort": [
+      "Pragmatisierung (übernahme in den öffentlich-rechtlichen Dienst)",
+      "Zeitablauf (DV auf Zeit)",
+      "einverständliche Auflösung des DV",
+      "Kündigung (einseitige Auflösung des DV)",
+      "Entlassung (vorzeitige Auflösung des DV durch DG)",
+      "Austritt (vorzeitige Afulösung des DV durch DN)",
+      "Tod"
+    ],
+    "Falsche Antwort": [
+      "Umwandlung in ein freiberufliches Verhältnis",
+      "Übergang in den Ruhestand nach Erreichen der Mindestbeschäftigungsdauer",
+      "Automatische Verlängerung des Dienstverhältnisses"
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Unterschied zwischen einer Kündigung und einer Entlassung? (Seite 19)",
+    "Richtige Antwort": [
+      "Das DV kann seitens des Vertragsbetdiensteten oder des Dienstgebers gekündigt werden und endet nach Ablauf der Kündigungsfrist. Eine rechtmäßige Kündigung durch den DG verlangt idR einen Kündigungsgrund.",
+      "Die Entlassung ist die fristlose Auflösung des DV durch den Dienstgeber ohne Einhaltung der Kündigungsfrist. Sie wird bei besonders schwerwiegenden Pflichtverletzungen ausgesprochen."
+    ],
+    "Falsche Antwort": [
+      "Die Kündigung kann nur durch den Dienstgeber erfolgen und benötigt keine Angabe von Gründen, während die Entlassung beidseitig jederzeit möglich ist, jedoch eine Vorankündigung erfordert.",
+      "Eine Kündigung führt sofort zur Beendigung des Dienstverhältnisses, während eine Entlassung erst nach einer gesetzlich festgelegten Überlegungsfrist von 30 Tagen wirksam wird.",
+      "Die Entlassung kann sowohl vom Dienstgeber als auch vom Vertragsbediensteten ausgesprochen werden und erfordert stets einen schwerwiegenden Grund, während die Kündigung ohne spezifische Begründung durch den Dienstgeber oder den Dienstnehmer erfolgen kann."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Unterschied zwischen einer Entlassung und dem Austritt? (Seite 19)",
+    "Richtige Antwort": [
+      "Im Gegensatz zur Entlassung können Dienstnehmer das DV vorzeitig ohne Einhaltung einer Kündigungsfrist aus wichtigen Gründen auflösen."
+    ],
+    "Falsche Antwort": [
+      "Eine Entlassung ist ein einvernehmlicher Prozess, während ein Austritt die einseitige Entscheidung des Dienstgebers ist.",
+      "Der Austritt erfolgt immer mit einer gesetzlich vorgeschriebenen Kündigungsfrist, während bei einer Entlassung keine Fristen eingehalten werden müssen.",
+      "Bei einem Austritt erhält der Dienstnehmer eine Abfindung, die bei einer Entlassung nicht gewährt wird."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Zählen Sie einige Meldepflichten auf? (Seite 23 f)",
+    "Richtige Antwort": [
+      "Namensänderung",
+      "Standesänderung",
+      "Veränderung der Staatsbürgeschaft oder Staatsangehörigkeiten",
+      "Änderung des Wohnsitzes",
+      "Dienstverhinderung, Dienstunfall",
+      "Nebenbeschäftigung"
+    ],
+    "Falsche Antwort": [
+      "Änderung der Steuerklasse",
+      "Änderung der Fahrzeugzulassung",
+      "Wechsel der Krankenversicherung"
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Was versteht man unter der Pflicht zum dienstlichen Gehorsam (Weisungsrecht)? (Seite 24)",
+    "Richtige Antwort": [
+      "Darunter versteht man Weisungen grundsätzlich zu befolgen, sofern sie nicht von einem unzuständigen Organ kommen, oder gegeb strafgesetzliche Vorschriften verstoßen.",
+      "Der/Die Vorgesetze ist jeder, der nach der inneren Organisationsstruktur des Dienststelle mit der Dienst- bzw. Fachaufsicht betraut ist und fefugt ist, Weisungen zu erteilen."
+    ],
+    "Falsche Antwort": [
+      "Die Pflicht zum dienstlichen Gehorsam bedeutet, dass Mitarbeiter ihre persönlichen Ansichten und Methoden in den Vordergrund stellen dürfen, wenn sie sich gegenüber den Anweisungen ihrer Vorgesetzten als überlegen erweisen.",
+      "Unter der Pflicht zum dienstlichen Gehorsam versteht man, dass nur Anweisungen von Personen außerhalb der eigenen Organisationseinheit befolgt werden müssen, da diese eine objektivere Sichtweise auf die Aufgaben haben.",
+      "Die Pflicht zum dienstlichen Gehorsam erlaubt es den Angestellten, Weisungen zu ignorieren, wenn diese ihre kreative oder individuelle Arbeitsweise einschränken, um die Innovation im Dienst zu fördern."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Was versteht man unter der Pflicht zur Amtsverschwiegenheit? (Seite 25 f)",
+    "Richtige Antwort": [
+      "Geheime Tatsachen aus der amtliche Tätigkeit mit Gehaimhaltungsinteresse unterliegen der Amtsverschwiegenheit.",
+      "Dies Tatsachen liegen im Interesse(.) der Aufrechterhaltung frr öffentlichen Ruhe, Ordnung und Sicherheit(.) der umfassenden Landesverteidigung(.) der auswärtigen Beziehungen(.) wirtschaftlicher Belange einer Körperschaft öffentlichen Rechts(.) oder zur Vorbereitung einer Entscheidung bzw.(.) liegen im überwiegenden Interesse einer Partei"
+    ],
+    "Falsche Antwort": [
+      "Die Pflicht zur Amtsverschwiegenheit bezieht sich ausschließlich auf persönliche Daten der Mitarbeiter und nicht auf Informationen aus der amtlichen Tätigkeit.",
+      "Amtsverschwiegenheit gilt nur für die Dauer der Amtsausübung und erlischt automatisch mit dem Ende des Dienstverhältnisses.",
+      "Unter Amtsverschwiegenheit versteht man die Pflicht, alle amtlichen Dokumente, unabhängig von ihrer Relevanz oder Sensitivität, geheim zu halten."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Was versteht man unter der Einhaltung des Dienstweges? (Seite 31)",
+    "Richtige Antwort": [
+      "Das bedeutet, dass Anträge, die sich auf das Dienstverhältnis oder dienstliche Aufgaben beziehen, beim unmittelbaren Vorgesetzten einzubringen sind. Diese haben die Pflicht zur weiterleitung."
+    ],
+    "Falsche Antwort": [
+      "Das bedeutet, dass Beschwerden und Anträge direkt an die höchste Führungsebene einer Organisation gesendet werden müssen, um bürokratische Verzögerungen zu vermeiden.",
+      "Das bedeutet, dass alle dienstlichen Kommunikationen ausschließlich schriftlich und nicht mündlich zu erfolgen haben, um eine klare Dokumentation und Rechenschaftspflicht zu gewährleisten.",
+      "Das bedeutet, dass Mitarbeiter in allen dienstlichen Angelegenheiten direkten Zugang zu jeder Abteilung oder jedem Dienst haben, ohne ihre Vorgesetzten informieren zu müssen."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Wann liegt eine Mehrdienstleistung (Überstunde) vor und wie kann diese abgegolten werden? (Seite 33)",
+    "Richtige Antwort": [
+      "Eine Überstunde ist eine angeordnete Mehrleistung über die Normalarbeitszeit hinaus",
+      "Überstunden können auf 3 Arten abgegolten werden: (.) Freizeitausgleich 1:1,5(.) Überstundenvergütung (=Nebengebühr)(.) Kombination: Freizeitausgleich 1:1 plus Überstundenzuschlag"
+    ],
+    "Falsche Antwort": [
+      "Eine Überstunde wird automatisch erfasst, sobald ein Mitarbeiter seine vorgesehene Pausenzeit überschreitet.",
+      "Überstunden müssen immer durch zusätzliche Urlaubstage abgegolten werden, unabhängig von den Wünschen des Mitarbeiters oder den Vorgaben des Unternehmens.",
+      "Die Abgeltung von Überstunden erfolgt ausschließlich durch eine pauschale Gehaltserhöhung am Ende des Jahres, basierend auf der Gesamtzahl der geleisteten Überstunden."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Aus welchen Gründen kann die Wochendienstzeit herabgesetzt werden? (Seite 33 ff)",
+    "Richtige Antwort": [
+      "Zur Pflege eines Kleinkindes, längstens bis zur Schulpflich",
+      "Aus beliebigemn Anlass",
+      "Mit geblockter Dienstleistung (Sabbatical lang&kurz)",
+      "Vor Übertritt in den Ruhestand",
+      "Pflegeteilzeit",
+      "Bildungsteilzeit"
+    ],
+    "Falsche Antwort": [
+      "Wegen kurzfristiger betrieblicher Engpässe",
+      "Aufgrund individueller Leistungsbeurteilung",
+      "Bei Umzug in eine andere Stadt"
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Welche Pflichten bestehen bei einer gerechtfertigten Abwesenheit vom Dienst? (Seite 38 f)",
+    "Richtige Antwort": [
+      "Bei längerer Krankheit muss eine ärztliche Bestätigung vorgelegt werden.",
+      "Bei Krankheit bis zu 3 Arbeitstagen reicht eine einfache Meldung.",
+      "Wird die Dienstverhinderung nicht gemeldet, liegt unentschuldetes Fernbleiben vom Dienst vor, was die Einstellung von Bezügen zur Folge hat."
+    ],
+    "Falsche Antwort": [
+      "Für jede Art von Abwesenheit, einschließlich kurzer persönlicher Erledigungen, ist eine vorherige schriftliche Genehmigung des Vorgesetzten erforderlich.",
+      "Bei einer Abwesenheit aufgrund von Krankheit ist eine ärztliche Bestätigung erst ab einer Dauer von einer Woche notwendig.",
+      "Privattelefonate während der Arbeitszeit gelten als gerechtfertigte Abwesenheit, sofern sie unter 15 Minuten bleiben."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Was versteht man unter einer Nebenbeschäftigung? (Seite 39 f)",
+    "Richtige Antwort": [
+      "Unter einer Nebenbeschäftigung werden sämtliche Beschäftigungen verstanden, die ein Bediensteter außerhalb seines Dienstverhältnisses ausübt.",
+      "Erwerbsmäßige Nebenbeschäftigungen sind zu melden!",
+      "Unzulässig ist eine Nebenbeschäftigung, die(.) den Bediensteten an der Erfüllung der dienstlichen Aufgaben behindert,(.) die Vermutung der Befangenheit hervorruft,(.) sonstige wesentliche dienstliche Interessen gefährdet.\\n Die Erwerbsmäßigkeit spielt hierbei keine Rolle."
+    ],
+    "Falsche Antwort": [
+      "Eine Nebenbeschäftigung bezieht sich ausschließlich auf ehrenamtliche Tätigkeiten, die außerhalb des Hauptberufs ausgeführt werden.",
+      "Nebenbeschäftigungen dürfen ohne vorherige Anmeldung oder Genehmigung durch den Arbeitgeber aufgenommen werden.",
+      "Die Erwerbsmäßigkeit einer Nebenbeschäftigung ist irrelevant, solange diese außerhalb der Arbeitszeiten des Hauptberufs stattfindet."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Was versteht man unter einer Nebentätigkeit? (Seite 40)",
+    "Richtige Antwort": [
+      "Eine Nebentätigkeit liegt vor, wenn dem Bediensteten weitere Aufgabe in einem anderen Wirkungskreis des Landes aufgetragen werden.",
+      "Nebentätigkeiten sind nicht genehmigungspflichtig, es gelten aber die selben Ausnahmen wie bei der Nebenbeschäftigung."
+    ],
+    "Falsche Antwort": [
+      "Eine Nebentätigkeit ist jede Form von ehrenamtlicher Tätigkeit, die der Bedienstete ohne finanzielle Entlohnung ausführt.",
+      "Nebentätigkeiten müssen immer vom Arbeitgeber genehmigt werden und sind grundsätzlich mit einer zusätzlichen Vergütung verbunden.",
+      "Unter einer Nebentätigkeit versteht man ausschließlich Tätigkeiten, die in direktem Zusammenhang mit der Hauptbeschäftigung des Bediensteten stehen."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Wie ist der Erholungsurlaub geregelt? (Seite 41 ff)",
+    "Richtige Antwort": [
+      "Urlaub ist tageweise zu verbrauchen: (.) 200h = 25 Kalendertage(.) 240h = 30 Kalendertage ab Vollendung 43. Lebensjahr",
+      "Urlaub ist innerhalb von 2 Jahren zu verbrauchen,",
+      " Bis 40h kann der Erholungsurlaub auch stundenweise verbraucht werden."
+    ],
+    "Falsche Antwort": [
+      "Urlaub darf ausschließlich am Stück genommen werden und nicht in Teilen.",
+      "Urlaub verfällt automatisch am Ende des Kalenderjahres ohne die Möglichkeit der Übertragung.",
+      "Nach Vollendung des 50. Lebensjahres erhöht sich der Erholungsurlaub automatisch auf 35 Kalendertage."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Was versteht man unter einem Karenzurlaub? (Seite 44)",
+    "Richtige Antwort": [
+      "Unter Karenzurlaub ist Urlaub gegen Entfall der Bezüge, unabhängig von der Geburt eines Kindes zu verstehen.",
+      "Die Karenzzeit wird nicht für die Vorrückung herangezogen.",
+      "Für die Dauer der Karenzzeit wird kein Pensionsbeitrag geleistet."
+    ],
+    "Falsche Antwort": [
+      "Karenzurlaub bedeutet, dass der Arbeitnehmer eine bezahlte Auszeit zur persönlichen Weiterbildung nehmen kann.",
+      "Während eines Karenzurlaubes werden die Arbeitsjahre für die Berechnung der Betriebszugehörigkeit verdoppelt.",
+      "Karenzurlaub ist eine Sonderform des Erziehungsurlaubs, der ausschließlich Vätern gewährt wird."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Welche Arten von Karenzurlauben gibt es? (Seite 44 ff)",
+    "Richtige Antwort": [
+      "Karenzurlaub aus privaten Gründen",
+      "Karenzurlaub zur Betreuung eines Kindes , längstens bis zur Schulpflicht des Kindes",
+      "Karenzurlaub zur Pflege eines behinderten Kindes oder einer/eines pflegebedürftigen Angehörigen",
+      "Frühkarenzurlaub für Väter"
+    ],
+    "Falsche Antwort": [
+      "Karenzurlaub für Sabbatical-Zwecke",
+      "Karenzurlaub zur Weiterbildung ohne beruflichen Bezug",
+      "Karenzurlaub für politische Aktivitäten"
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Was versteht man unter der Familienhospizfreistellung? (Seite 48)",
+    "Richtige Antwort": [
+      "Es besteht die Möglichkeit, dass Bedienstete im Falle einer Sterbebegleitung eine Dienstplanerleichterung (Diensttausch, Einarbeitung) in Anspruch nehmen, vorrübergehend teilzeitbeschäftigt werden, oder eine gänzliche Dienstfreistellung gegen Entfall der Bezüge in Anspruch nehmen.",
+      "Der Anspruch besteht für 3 Monate mit Möglichkeit der Verlängerung.",
+      "Sterbebegleitung naher Angehöriger (Ehegatten, Personen, die in gerader Linie verwandt sind, Geschwister, Stierf-, Wahl-, Pflegekinder, Lebensgefährten und deren Kinder, Schwiegereltern, Schwiegerkinder und Wahl- bzw. Pflegeeltern)",
+      "Betreuung von schwersterkrankten Kindern einschließlich Stief-, Wahl-, Pflegekindern oder leiblichen Kindern von Lebensgefährten (gemeinsamer Haushalt 5 Monate + Verlängerung)"
+    ],
+    "Falsche Antwort": [
+      "Die Familienhospizfreistellung kann ausschließlich für die Betreuung von leiblichen Kindern und Ehegatten in Anspruch genommen werden, nicht für andere nahe Angehörige oder Lebensgefährten.",
+      "Während der Familienhospizfreistellung erhalten Bedienstete weiterhin ihre volle Bezüge, unabhängig von der Dauer der Freistellung.",
+      "Die Familienhospizfreistellung ist auf einen festen Zeitraum von einem Monat begrenzt, ohne die Möglichkeit einer Verlängerung."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Welche Arten der Pflegefreistellung gibt es? (Seite 49 f)",
+    "Richtige Antwort": [
+      "Krankenfreistellung: Dienstfreistellung wegen notwendiger Pflege ",
+      "Betreuungsfreistellung: Dienstfreistellung aufgrund notwendiger Betreuung",
+      "Begleitujgsfreistellung: Dienstfreistellung aufgrund von Begleitung in eine Heil- oder Pflegeanstalt.",
+      "Gilt für eigene, Wahl-, Pflege- oder Stiefkinder, Ehegatte, eingetragener Partner, (Groß-)Eltern, sonstige im gemeinsamen Haushalt lebende Perosn)"
+    ],
+    "Falsche Antwort": [
+      "Erziehungsurlaub: Dienstfreistellung zur Einführung eines Kindes in die Schule oder Kindertagesstätte.",
+      "Haustierfreistellung: Dienstfreistellung für die notwendige Pflege eines kranken Haustieres.",
+      "Wohnungswechselfreistellung: Dienstfreistellung für die notwendige Unterstützung beim Umzug eines nahen Verwandten."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Erklären Sie die Dienstbeurteilung? (Seite 51)",
+    "Richtige Antwort": [
+      "Die dDienstbeurteilung ist durchzuführen(1) erstmalig nach Ablauf eines Jahresnach Dienstantritt (2) periodisch alle fünf Jahre(3) im Anlassfall, wenn begründete Annahme besteht, dass die Gesamtbeurteilung nicht mehr der letzten Dienstbeurteilung entspricht.",
+      "Die Dienstberutreilung  hat (.) fachliche Kenntnisse(.) Fähigkeiten(.) Leistungen eines Bediensteten zu beurteilen."
+    ],
+    "Falsche Antwort": [
+      "Die Dienstbeurteilung wird ausschließlich am Ende jeder zehnjährigen Dienstperiode durchgeführt und dient dazu, die Pensionierungsvoraussetzungen zu überprüfen.",
+      "Die Dienstbeurteilung ist eine informelle Rückmeldung, die monatlich zwischen dem Vorgesetzten und dem Bediensteten stattfindet, um die Arbeitsmoral und das Engagement des Mitarbeiters zu fördern.",
+      "Die Dienstbeurteilung erfolgt jährlich und konzentriert sich hauptsächlich auf die persönlichen Eigenschaften wie Pünktlichkeit und Teamfähigkeit des Bediensteten."
+    ]
+  },
+  {
+    "Fach": "Dienstrecht",
+    "Frage": "Was ist der Unterschied zwischen einer Versetzung und einer Dienstzuteilung? (Seite 21 f)",
+    "Richtige Antwort": [
+      "Eine Dienstzuteilung (ist gesetzlich betrachtet eine Weisung) ist zeitlich befristet, max. 90 Tage, mit Zustimmung auch länger möglich.",
+      "Eine Versetzung ist ein dauerhafter Wechsel in eine andere Dienststelle."
+    ],
+    "Falsche Antwort": [
+      "Eine Versetzung kann nur maximal 90 Tage dauern, während eine Dienstzuteilung einen dauerhaften Wechsel darstellt.",
+      "Bei einer Dienstzuteilung wird das Personal in der Regel in eine höherwertige Position versetzt, was bei einer Versetzung nicht der Fall ist.",
+      "Eine Versetzung erfordert die Zustimmung des Mitarbeiters, während eine Dienstzuteilung auch ohne Zustimmung durchgeführt werden kann."
+    ]
   }
 ]
