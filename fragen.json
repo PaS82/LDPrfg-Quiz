@@ -3511,8 +3511,8 @@
   },
   {
     "Fach": "Europarecht",
-    "Frage": "Wer kann nicht Mitglied im EU Parlament sein? Bundespräsident (Auswahl: Minister, Mitglieder der Landesregierung, Staatssekretäre)",
-    "Richtige Antwort": [],
+    "Frage": "Wer kann nicht Mitglied im EU Parlament sein?",
+    "Richtige Antwort": ["Bundespräsident"],
     "Falsche Antwort": [
       "Mitglieder des Europäischen Gerichtshofs",
       "Bürgermeister großer Städte",
@@ -3972,7 +3972,10 @@
   {
     "Fach": "Vergaberecht",
     "Frage": "Wonach richtet sich das Vergabeverfahren?",
-    "Richtige Antwort": [],
+    "Richtige Antwort": [
+      "Nach Auftragsart und Auftragswert",
+      "Eine einmal gewählte Verfahrensart kann nicht mehr während des Vergabeverfahrens gewechselt werden"
+    ],
     "Falsche Antwort": [
       "Nach dem höchsten Angebotspreis der Bieter.",
       "Nach der Anzahl der bisherigen Aufträge des Bieters mit dem öffentlichen Sektor.",
@@ -3982,7 +3985,7 @@
   {
     "Fach": "Vergaberecht",
     "Frage": "Welches Gesetz gilt für die Vergabe von öffentlichen Aufträgen?",
-    "Richtige Antwort": [],
+    "Richtige Antwort": ["Das Bundesvergabegesetz 2018"],
     "Falsche Antwort": [
       "Bundeskartellgesetz",
       "Gesetz gegen Wettbewerbsbeschränkungen",
@@ -4005,7 +4008,10 @@
   {
     "Fach": "Vergaberecht",
     "Frage": "Was sind die Merkmale von Verhandlungsverfahren mit vorheriger Bekanntmachung?",
-    "Richtige Antwort": [],
+    "Richtige Antwort": [
+      "Es ist ein zweistufiges Verfahren in dem über den gesamten Auftragsinhalt verhandelt wird. Es wird für nicht standardisierte Leistungen eingesetzt.",
+      "(1) unbeschränkte Anzahl von UN wird durch öffentliche Bekanntmachung zur Abgane eines Teilnehmerantrages eingeladen (2) mindestesn 3 geeignete Bewerber werden zur Abgabe eines Angebotes eingeladen."
+    ],
     "Falsche Antwort": [
       "Die Verfahren erfordern immer die Einreichung eines vollständigen Angebots durch alle interessierten Parteien vor Beginn der Verhandlungen.",
       "Es ist den Bietern nicht gestattet, während des Verfahrens Änderungen an ihren Angeboten vorzunehmen.",
@@ -4480,7 +4486,10 @@
   {
     "Fach": "Vergaberecht",
     "Frage": "Was sind die Merkmale von Verhandlungsverfahren mit vorheriger Bekanntmachung?",
-    "Richtige Antwort": [],
+    "Richtige Antwort": [
+      "Es ist ein zweistufiges Verfahren in dem über den gesamten Auftragsinhalt verhandelt wird. Es wird für nicht standardisierte Leistungen eingesetzt.",
+      "(1) unbeschränkte Anzahl von UN wird durch öffentliche Bekanntmachung zur Abgane eines Teilnehmerantrages eingeladen (2) mindestesn 3 geeignete Bewerber werden zur Abgabe eines Angebotes eingeladen."
+    ],
     "Falsche Antwort": [
       "Es dürfen keine neuen Angebote eingereicht werden, nachdem das Verfahren einmal begonnen hat.",
       "Alle interessierten Unternehmen müssen zur Teilnahme eine Sicherheitsleistung hinterlegen.",
