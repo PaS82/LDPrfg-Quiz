@@ -51,6 +51,7 @@ function toggleReport() {
 
 window.toggleReport = toggleReport;
 
+
 /*
 function toggleReport() {
   const container = document.getElementById("reportContainer");
