@@ -22,8 +22,8 @@ function toggleReport() {
               <strong>Frage ${i + 1}:</strong> ${entry.frage}<br>
               <ul style="list-style:none; padding-left:0; margin-top:0.5em;">
                 ${entry.antworten.map(a => {
-                  const isChecked = entry.userAntworten.includes(a);
-                  const isCorrect = entry.richtigeAntworten.includes(a);
+                  const isChecked = entry.userAntworten.some(ans => ans.trim() === a.trim());
+                  const isCorrect = entry.richtigeAntworten.some(ans => ans.trim() === a.trim());
 
                   let symbol = "⬜️"; // Standard: falsch ignoriert
                   if (isCorrect && isChecked) symbol = "✅";
