@@ -19,7 +19,7 @@ function toggleReport() {
         <div id=\"fach_${idx}\" style=\"display:none; margin-top:0.5em;\">
           ${fachGruppiert[fach].map((entry, i) => `
             <div style='margin-bottom:0.5em; border-bottom: 1px dashed #ddd; padding-bottom:0.5em;'>
-              <strong>Frage ${i + 1}:</strong> ${entry.Frage}<br>
+              <strong>Frage ${i + 1}:</strong> ${entry.frage}<br>
               <ul style=\"list-style:none; padding-left:0; margin-top:0.5em;\">
                 ${entry.antworten.map(a => {
                   const isChecked = entry.userAntworten.includes(a);
@@ -50,6 +50,7 @@ function toggleReport() {
 }
 
 window.toggleReport = toggleReport;
+
 
 
 /*
