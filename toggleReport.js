@@ -3,6 +3,60 @@ function toggleReport() {
   const button = document.getElementById("toggleReport");
 
   if (container.style.display === "none") {
+    let fachGruppiert = {};
+
+    // Gruppiere Einträge nach Fach
+    reportLog.forEach(entry => {
+      if (!fachGruppiert[entry.fach]) fachGruppiert[entry.fach] = [];
+      fachGruppiert[entry.fach].push(entry);
+    });
+
+    container.innerHTML = "<h3>Antwortbericht nach Fach</h3>" + Object.keys(fachGruppiert).map((fach, idx) => `
+      <div style='margin-bottom:1em; border:1px solid #ccc; border-radius:4px; padding:0.5em;'>
+        <div style="cursor:pointer; font-weight:bold;" onclick="document.getElementById('fach_${idx}').style.display = document.getElementById('fach_${idx}').style.display === 'none' ? 'block' : 'none';">
+          ${fach} ▼
+        </div>
+        <div id="fach_${idx}" style="display:none; margin-top:0.5em;">
+          ${fachGruppiert[fach].map((entry, i) => `
+            <div style='margin-bottom:0.5em; border-bottom: 1px dashed #ddd; padding-bottom:0.5em;'>
+              <strong>Frage ${i + 1}:</strong> ${entry.frage}<br>
+              <ul style="list-style:none; padding-left:0; margin-top:0.5em;">
+                ${entry.antworten.map(a => {
+                  const isChecked = entry.userAntworten.includes(a);
+                  const isCorrect = entry.richtigeAntworten.includes(a);
+
+                  let symbol = "⬜️"; // Standard: falsch ignoriert
+                  if (isCorrect && isChecked) symbol = "✅";
+                  else if (!isCorrect && isChecked) symbol = "❌";
+                  else if (isCorrect && !isChecked) symbol = "⚠️";
+
+                  return `<li style="color:black; margin-bottom:0.3em;">
+                    ${symbol} ${a}
+                  </li>`;
+                }).join('')}
+              </ul>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `).join('');
+
+    container.style.display = "block";
+    button.textContent = "Antwortbericht verbergen";
+  } else {
+    container.style.display = "none";
+    button.textContent = "Antwortbericht anzeigen";
+  }
+}
+
+window.toggleReport = toggleReport;
+
+/*
+function toggleReport() {
+  const container = document.getElementById("reportContainer");
+  const button = document.getElementById("toggleReport");
+
+  if (container.style.display === "none") {
     container.innerHTML = "<h3>Antwortbericht</h3>" +
       reportLog.map((entry, i) => `
         <div style='margin-bottom:1em; border-bottom: 1px solid #ccc; padding-bottom: 0.5em;'>
@@ -37,7 +91,7 @@ function toggleReport() {
   }
 }
 window.toggleReport = toggleReport;
-
+*/
 
 /*
 function toggleReport() {
