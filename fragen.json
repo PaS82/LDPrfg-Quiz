@@ -780,7 +780,7 @@
     "Falsche Antwort": [
       "Der Grundsatz der Gewaltentrennung bedeutet, dass jede staatliche Gewalt ihre Entscheidungen ohne Abstimmung mit den anderen Gewalten treffen kann.",
       "Der Grundsatz der Gewaltentrennung ist in Artikel 20 des Grundgesetzes explizit als solcher benannt und detailliert beschrieben.",
-      "Der Grundsatz der Gewaltentrennung erlaubt es den Gerichten, gesetzgebende Maßnahmen zu erlassen und auszuführen."
+      "Der Grundsatz der GewaltentrennungF erlaubt es den Gerichten, gesetzgebende Maßnahmen zu erlassen und auszuführen."
     ]
   },
   {
@@ -6164,7 +6164,7 @@
       "Berufungen können nur vom Verwaltungsgericht entschieden werden"
     ]
   },
-   {
+  {
     "Fach": "Verfahrensrecht",
     "Frage": "Was ist ein Mandatsbescheid und welches Rechtsmittel gibt es dagegen? (S. 35)",
     "Richtige Antwort": [
@@ -6278,7 +6278,7 @@
       "Eine nachgeholte Entscheidung ist automatisch unwirksam"
     ]
   },
-   {
+  {
     "Fach": "Verfahrensrecht",
     "Frage": "Welche Rechtsmittel gibt es gegen Entscheidungen der Verwaltungsgerichte? (S. 41)",
     "Richtige Antwort": [
@@ -6757,7 +6757,7 @@
       "Eine Beschwerdevorentscheidung ist zwingend vorgeschrieben"
     ]
   },
-   {
+  {
     "Fach": "Verfahrensrecht",
     "Frage": "Was ist der Vorlageantrag und welche Frist gilt? (S. 41-42)",
     "Richtige Antwort": [
@@ -6813,5 +6813,4 @@
       "RSa wird für einfache Schreiben verwendet, RSb für Strafverfügungen"
     ]
   }
-]
 ]
