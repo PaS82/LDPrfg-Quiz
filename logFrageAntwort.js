@@ -9,12 +9,21 @@ function logFrageAntwort(frageObj, userAntworten, richtigeAntworten) {
   ];
 
   reportLog.push({
+  Fach: frageObj.Fach,
+  frage: frageObj.Frage,
+  antworten: alleAntworten,
+  userAntworten,
+  richtigeAntworten: richtigeAntwortenListe
+});
+  
+  /*
+  reportLog.push({
     frage: frageObj.Frage,
     antworten: alleAntworten,
     userAntworten,
     richtigeAntworten: richtigeAntwortenListe
   });
-
+*/
   localStorage.setItem("reportLog", JSON.stringify(reportLog));
 }
 window.logFrageAntwort = logFrageAntwort;
