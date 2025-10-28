@@ -30,10 +30,45 @@
     .note, .fachstatus { font-size: 0.9em; color: #666; margin-top: 0.5em; }
     #toggleChart { margin-top: 2em; display: block; }
     #statsChartContainer { display: none; margin-top: 2em; }
+    /* Hilfe-Button */
+    .help-btn {
+      position: absolute; top: 10px; left: 10px;
+      border: 1px solid #ccc; background: #fff; border-radius: 999px;
+      padding: 6px 10px; font-size: 14px; cursor: pointer; box-shadow: 0 0 6px rgba(0,0,0,.15);
+    }
+    
+    /* Modal */
+    .help-modal {
+      position: fixed; inset: 0; display: none; /* hidden by default */
+      background: rgba(0,0,0,.35); z-index: 2000;
+    }
+    .help-modal[aria-hidden="false"] { display: block; }
+    
+    .help-dialog {
+      position: absolute; inset: 0; display: grid; place-items: center; padding: 1rem;
+    }
+    .help-card {
+      max-width: 780px; width: 100%;
+      background: #fff; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,.2);
+      padding: 1.25rem 1.25rem 1rem;
+    }
+    .help-card h2 { margin: 0 0 .25rem; text-align: center; }
+    .help-card .muted { text-align: center; font-size: .9em; color: #666; margin-bottom: .75rem; }
+    .help-card .grid { display: grid; gap: .6rem; }
+    .help-card .grid section { background:#f9f9f9; border:1px solid #eee; border-radius:10px; padding:.75rem; }
+    .help-close {
+      border: none; background: transparent; font-size: 22px; line-height: 1; cursor: pointer;
+      position: absolute; right: 10px; top: 8px; padding: 4px;
+    }
+    .help-actions { text-align: center; margin-top: .5rem; }
+    .help-actions button {
+      padding: .5rem .9rem; border-radius: 8px; border:1px solid #ccc; background:#fff; cursor:pointer;
+    }
   </style>
 </head>
 <body>
   <div class="container">
+  <button class="help-btn" onclick="openHelp()" aria-haspopup="dialog" aria-controls="helpModal" title="Hilfe">❔</button>
   <div class="title-block" style="text-align: center; margin-bottom: 1em;">
     <h1>📚 Dienstprüfungs-Quiz</h1>
     <h5 style="margin-top: 0.25em; font-weight: normal; color: #666;">
@@ -102,6 +137,60 @@
     <button id="toggleReport" onclick="toggleReport()">Antwortbericht anzeigen</button>
     <div id="reportContainer" style="display:none; margin-top: 2em;"></div>
     <button onclick="resetStats()">Statistik zurücksetzen</button>
+  </div>
+  <div id="helpModal" class="help-modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="help-dialog" onclick="backdropClose(event)">
+    <div class="help-card" role="document">
+      <button class="help-close" aria-label="Schließen" onclick="closeHelp()">×</button>
+      <h2>Hilfe zum Dienstprüfungs-Quiz</h2>
+      <div class="muted">Kurzanleitung & Tipps</div>
+
+      <div class="grid">
+        <section>
+          <h3>1) Fach wählen</h3>
+          <p>Wähle im Dropdown ein Fach. Bereits absolvierte Fächer sind mit ✅ markiert. Sobald alle Fächer erledigt sind, startet automatisch ein neuer Durchgang.</p>
+        </section>
+
+        <section>
+          <h3>2) Fragen beantworten</h3>
+          <ul>
+            <li>Mehrfachauswahl ist möglich.</li>
+            <li>Klicke <em>„Antwort prüfen“</em>, um zur nächsten Frage zu gelangen.</li>
+            <li>Schwierige Fragen werden durch internes Gewichtungssystem häufiger gezeigt.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>3) Lernerfolg & Bericht</h3>
+          <ul>
+            <li><strong>Lernerfolg anzeigen</strong>: Gestapeltes Balkendiagramm (richtig/falsch in % je Fach).</li>
+            <li><strong>Antwortbericht anzeigen</strong>: Detaillierter Verlauf pro Fach mit Legende:<br>
+              ✅ Richtig &nbsp; ❌ Falsch &nbsp; ⚠️ Richtige Antwort vergessen
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>4) Speicher & Datenschutz</h3>
+          <p>Dein Lernstand wird ausschließlich lokal im Browser gespeichert (Local Storage). Keine Serverübertragung.</p>
+        </section>
+
+        <section>
+          <h3>5) Zurücksetzen</h3>
+          <p>Über <em>„Statistik zurücksetzen“</em> löschst du alle lokal gespeicherten Lernstände und Berichte.</p>
+        </section>
+
+        <section>
+          <h3>Kontakt</h3>
+          <p>Tippfehler oder fachliche Hinweise bitte an: <a href="mailto:patrick.schwager@stmk.gv.at">patrick.schwager@stmk.gv.at</a></p>
+        </section>
+      </div>
+
+      <div class="help-actions">
+        <button onclick="closeHelp()">OK, verstanden</button>
+      </div>
+    </div>
+  </div>
   </div>
 
 <script>
@@ -501,6 +590,26 @@ function resetStats() {
 // ... eventuell weitere Funktionen (z. B. window.checkAnswer = checkAnswer; usw.)
 
 </script>
+  <script>
+function openHelp() {
+  const m = document.getElementById('helpModal');
+  m.setAttribute('aria-hidden', 'false');
+  // ESC zum Schließen
+  document.addEventListener('keydown', escClose, { once: true });
+}
+function closeHelp() {
+  const m = document.getElementById('helpModal');
+  m.setAttribute('aria-hidden', 'true');
+}
+function escClose(e) {
+  if (e.key === 'Escape') closeHelp();
+}
+function backdropClose(e) {
+  // Klick auf Hintergrund schließt, Klicks innerhalb .help-card nicht
+  if (e.target.classList.contains('help-dialog')) closeHelp();
+}
+</script>
+
 
 <script>
 
