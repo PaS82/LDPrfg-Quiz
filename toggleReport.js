@@ -28,7 +28,7 @@ function toggleReport() {
                   let symbol = "⬜️"; // Standard: falsch ignoriert
                   if (isCorrect && isChecked) symbol = "✅";
                   else if (!isCorrect && isChecked) symbol = "❌";
-                  else if (isCorrect && !isChecked) symbol = "⚠️";
+                  else if (isCorrect && !isChecked) symbol = "❌";
 
                   return `<li style="color:black; margin-bottom:0.3em;">${symbol} ${a}</li>`;
                 }).join('')}
@@ -69,7 +69,7 @@ function toggleReport() {
               } else if (!isCorrect && isChecked) {
                 symbol = "❌";  // Falsch angeklickt
               } else if (isCorrect && !isChecked) {
-                symbol = "⚠️";  // Richtige Antwort vergessen
+                symbol = "⚠️❌";  // Richtige Antwort vergessen
               }
 
               return `<li style="color:black; margin-bottom:0.3em;">
@@ -127,3 +127,4 @@ function toggleReport() {
 }
 window.toggleReport = toggleReport;
 */
+
