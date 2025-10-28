@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -6,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>📚 Dienstprüfungs-Quiz</title>
   <link rel="manifest" href="manifest.json">
-  
   
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
@@ -18,7 +16,6 @@
   <script src="toggleReport.js"></script>
   <script src="checkAnswer.js"></script>
 
-  
   <style>
     body { font-family: sans-serif; background: #f4f4f4; margin: 0; padding: 1em; }
     .container { max-width: 800px; margin: auto; background: #fff; padding: 2em; border-radius: 16px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
@@ -30,27 +27,48 @@
     .note, .fachstatus { font-size: 0.9em; color: #666; margin-top: 0.5em; }
     #toggleChart { margin-top: 2em; display: block; }
     #statsChartContainer { display: none; margin-top: 2em; }
-    /* Hilfe-Button */
-    .help-btn {
-      position: absolute; top: 10px; left: 10px;
-      border: 1px solid #ccc; background: #fff; border-radius: 999px;
-      padding: 6px 10px; font-size: 14px; cursor: pointer; box-shadow: 0 0 6px rgba(0,0,0,.15);
+
+    /* Hilfe-Button: klein, unten rechts, farblich auffällig */
+    .help-btn{
+      position: fixed;
+      right: 12px;
+      bottom: 12px;
+      z-index: 1100; /* über dem Converter-Panel (1000) */
+      border: none;
+      border-radius: 999px;
+      width: 38px; height: 38px;
+      display: grid; place-items: center;
+      font-size: 18px;
+      background: linear-gradient(180deg, #2f6af2, #2256c9);
+      color: #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,.25);
+      cursor: pointer;
     }
-    
+    .help-btn:hover { filter: brightness(1.08); }
+    .help-btn:focus { outline: 2px solid rgba(37,99,235,.5); outline-offset: 2px; }
+
     /* Modal */
     .help-modal {
       position: fixed; inset: 0; display: none; /* hidden by default */
       background: rgba(0,0,0,.35); z-index: 2000;
     }
     .help-modal[aria-hidden="false"] { display: block; }
-    
+
+    /* Dialog-Wrapper darf scrollen (bei sehr großen Inhalten) */
     .help-dialog {
-      position: absolute; inset: 0; display: grid; place-items: center; padding: 1rem;
+      position: absolute; inset: 0;
+      display: grid; place-items: center;
+      padding: 1rem;
+      overflow: auto; /* wichtig */
     }
+    /* Karte selbst begrenzen und scrollen lassen */
     .help-card {
       max-width: 780px; width: 100%;
+      max-height: min(85vh, 900px);
+      overflow: auto;
       background: #fff; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,.2);
       padding: 1.25rem 1.25rem 1rem;
+      position: relative;
     }
     .help-card h2 { margin: 0 0 .25rem; text-align: center; }
     .help-card .muted { text-align: center; font-size: .9em; color: #666; margin-bottom: .75rem; }
@@ -68,56 +86,46 @@
 </head>
 <body>
   <div class="container">
-  <button class="help-btn" onclick="openHelp()" aria-haspopup="dialog" aria-controls="helpModal" title="Hilfe">❔</button>
-  <div class="title-block" style="text-align: center; margin-bottom: 1em;">
-    <h1>📚 Dienstprüfungs-Quiz</h1>
-    <h5 style="margin-top: 0.25em; font-weight: normal; color: #666;">
-      Tippfehler und Anregungen bitte an patrick.schwager@stmk.gv.at schicken. Danke!
-    </h5>
-  </div>
+    <div class="title-block" style="text-align: center; margin-bottom: 1em;">
+      <h1>📚 Dienstprüfungs-Quiz</h1>
+      <h5 style="margin-top: 0.25em; font-weight: normal; color: #666;">
+        Tippfehler und Anregungen bitte an patrick.schwager@stmk.gv.at schicken. Danke!
+      </h5>
+    </div>
     
-  <div id="converter-panel" style="
-  position: absolute; 
-  top: 10px; 
-  right: 10px; 
-  background: transparent; 
-  font-family: sans-serif; 
-  z-index: 1000;
-">
-  <button onclick="togglePanel()" title="CSV/Excel in JSON umwandeln" style="
-    font-size: 0.9em; 
-    padding: 5px 10px; 
-    border-radius: 8px; 
-    border: 1px solid #ccc; 
-    background: #fff; 
-    cursor: pointer; 
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-  ">🔽</button>
+    <div id="converter-panel" style="
+      position: absolute; 
+      top: 10px; 
+      right: 10px; 
+      background: transparent; 
+      font-family: sans-serif; 
+      z-index: 1000;
+    ">
+      <button onclick="togglePanel()" title="CSV/Excel in JSON umwandeln" style="
+        font-size: 0.9em; 
+        padding: 5px 10px; 
+        border-radius: 8px; 
+        border: 1px solid #ccc; 
+        background: #fff; 
+        cursor: pointer; 
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+      ">🔽</button>
 
-  <div id="panel-body" style="
-    display: none;
-    margin-top: 5px; 
-    background: #f9f9f9; 
-    padding: 10px; 
-    border: 1px solid #ccc; 
-    border-radius: 8px; 
-    width: 220px; 
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-  ">
-    <input type="file" id="fileInput" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" style="width: 100%; font-size: 0.8em;" />
-    <button onclick="convertAndDownload()" style="margin-top: 5px; width: 100%; font-size: 0.9em;">Konvertieren & Download</button>
-  </div>
-</div>
-
-    <!--
-    <div id="converter-panel" style="position: fixed; bottom: 10px; right: 10px; background: #f0f0f0; border: 1px solid #ccc; border-radius: 8px; padding: 10px; width: 300px; font-family: sans-serif;">
-    <button onclick="togglePanel()" style="margin-bottom: 10px;">🔽 CSV/Excel zu JSON</button>
-      <div id="panel-body" style="display: none;">
-        <input type="file" id="fileInput" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" />
-        <button onclick="convertAndDownload()" style="margin-top: 10px;">Konvertieren und Speichern</button>
+      <div id="panel-body" style="
+        display: none;
+        margin-top: 5px; 
+        background: #f9f9f9; 
+        padding: 10px; 
+        border: 1px solid #ccc; 
+        border-radius: 8px; 
+        width: 220px; 
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+      ">
+        <input type="file" id="fileInput" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" style="width: 100%; font-size: 0.8em;" />
+        <button onclick="convertAndDownload()" style="margin-top: 5px; width: 100%; font-size: 0.9em;">Konvertieren & Download</button>
       </div>
     </div>
-    -->
+
     <select id="fachSelect"><option value="">Fach wählen...</option></select>
     <div class="fachstatus" id="fachStatus"></div>
     <div id="quiz"></div>
@@ -138,59 +146,64 @@
     <div id="reportContainer" style="display:none; margin-top: 2em;"></div>
     <button onclick="resetStats()">Statistik zurücksetzen</button>
   </div>
+
+  <!-- Hilfe-Button (fixiert unten rechts, außerhalb der Container-Hierarchie ist auch okay, aber so passt es) -->
+  <button class="help-btn" onclick="openHelp()" aria-haspopup="dialog" aria-controls="helpModal" title="Hilfe">❔</button>
+
+  <!-- Hilfe-Modal -->
   <div id="helpModal" class="help-modal" aria-hidden="true" role="dialog" aria-modal="true">
-  <div class="help-dialog" onclick="backdropClose(event)">
-    <div class="help-card" role="document">
-      <button class="help-close" aria-label="Schließen" onclick="closeHelp()">×</button>
-      <h2>Hilfe zum Dienstprüfungs-Quiz</h2>
-      <div class="muted">Kurzanleitung & Tipps</div>
+    <div class="help-dialog" onclick="backdropClose(event)">
+      <div class="help-card" role="document">
+        <button class="help-close" aria-label="Schließen" onclick="closeHelp()">×</button>
+        <h2>Hilfe zum Dienstprüfungs-Quiz</h2>
+        <div class="muted">Kurzanleitung & Tipps</div>
 
-      <div class="grid">
-        <section>
-          <h3>1) Fach wählen</h3>
-          <p>Wähle im Dropdown ein Fach. Bereits absolvierte Fächer sind mit ✅ markiert. Sobald alle Fächer erledigt sind, startet automatisch ein neuer Durchgang.</p>
-        </section>
+        <div class="grid">
+          <section>
+            <h3>1) Fach wählen</h3>
+            <p>Wähle im Dropdown ein Fach. Bereits absolvierte Fächer sind mit ✅ markiert. Sobald alle Fächer erledigt sind, startet automatisch ein neuer Durchgang.</p>
+          </section>
 
-        <section>
-          <h3>2) Fragen beantworten</h3>
-          <ul>
-            <li>Mehrfachauswahl ist möglich.</li>
-            <li>Klicke <em>„Antwort prüfen“</em>, um zur nächsten Frage zu gelangen.</li>
-            <li>Schwierige Fragen werden durch internes Gewichtungssystem häufiger gezeigt.</li>
-          </ul>
-        </section>
+          <section>
+            <h3>2) Fragen beantworten</h3>
+            <ul>
+              <li>Mehrfachauswahl ist möglich.</li>
+              <li>Klicke <em>„Antwort prüfen“</em>, um zur nächsten Frage zu gelangen.</li>
+              <li>Schwierige Fragen werden durch internes Gewichtungssystem häufiger gezeigt.</li>
+            </ul>
+          </section>
 
-        <section>
-          <h3>3) Lernerfolg & Bericht</h3>
-          <ul>
-            <li><strong>Lernerfolg anzeigen</strong>: Gestapeltes Balkendiagramm (richtig/falsch in % je Fach).</li>
-            <li><strong>Antwortbericht anzeigen</strong>: Detaillierter Verlauf pro Fach mit Legende:<br>
-              ✅ Richtig &nbsp; ❌ Falsch &nbsp; ⚠️ Richtige Antwort vergessen
-            </li>
-          </ul>
-        </section>
+          <section>
+            <h3>3) Lernerfolg & Bericht</h3>
+            <ul>
+              <li><strong>Lernerfolg anzeigen</strong>: Gestapeltes Balkendiagramm (richtig/falsch in % je Fach).</li>
+              <li><strong>Antwortbericht anzeigen</strong>: Detaillierter Verlauf pro Fach mit Legende:<br>
+                ✅ Richtig &nbsp; ❌ Falsch &nbsp; ⚠️ Richtige Antwort vergessen
+              </li>
+            </ul>
+          </section>
 
-        <section>
-          <h3>4) Speicher & Datenschutz</h3>
-          <p>Dein Lernstand wird ausschließlich lokal im Browser gespeichert (Local Storage). Keine Serverübertragung.</p>
-        </section>
+          <section>
+            <h3>4) Speicher & Datenschutz</h3>
+            <p>Dein Lernstand wird ausschließlich lokal im Browser gespeichert (Local Storage). Keine Serverübertragung.</p>
+          </section>
 
-        <section>
-          <h3>5) Zurücksetzen</h3>
-          <p>Über <em>„Statistik zurücksetzen“</em> löschst du alle lokal gespeicherten Lernstände und Berichte.</p>
-        </section>
+          <section>
+            <h3>5) Zurücksetzen</h3>
+            <p>Über <em>„Statistik zurücksetzen“</em> löschst du alle lokal gespeicherten Lernstände und Berichte.</p>
+          </section>
 
-        <section>
-          <h3>Kontakt</h3>
-          <p>Tippfehler oder fachliche Hinweise bitte an: <a href="mailto:patrick.schwager@stmk.gv.at">patrick.schwager@stmk.gv.at</a></p>
-        </section>
-      </div>
+          <section>
+            <h3>Kontakt</h3>
+            <p>Tippfehler oder fachliche Hinweise bitte an: <a href="mailto:patrick.schwager@stmk.gv.at">patrick.schwager@stmk.gv.at</a></p>
+          </section>
+        </div>
 
-      <div class="help-actions">
-        <button onclick="closeHelp()">OK, verstanden</button>
+        <div class="help-actions">
+          <button onclick="closeHelp()">OK, verstanden</button>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 
 <script>
@@ -245,33 +258,8 @@ function formatText(text) {
              .replaceAll("(4)", "<br>4.")
              .replaceAll("(.)", "<br>&bull;");
 }
-/*
+
 function showQuestion() {
-  const q = questions[current];
-  const answers = [];
-  if (q["Richtige Antwort"]) {
-    answers.push({ text: q["Richtige Antwort"], correct: true });
-  }
-  if (Array.isArray(q["Falsche Antwort"])) {
-    q["Falsche Antwort"].forEach(text => {
-      if (text && text.trim()) {
-        answers.push({ text: text.trim(), correct: false });
-      }
-    });
-  }
-  const shuffled = shuffleArray(answers);
-  const container = document.getElementById("quiz");
-  container.innerHTML = `<div class="question-block">
-    <h2>Frage ${current + 1}/12</h2>
-    <p>${formatText(q.Frage)}</p>
-    <form class="answers">
-      ${shuffled.map((a, i) => `<label><input type="checkbox" name="answer" value="${a.correct}"> ${formatText(a.text)}</label>`).join("")}
-    </form>
-    <button onclick="checkAnswer()">Antwort prüfen</button>
-  </div>`;
-}
-*/
-  function showQuestion() {
   const q = questions[current];
   const answers = [];
 
@@ -305,35 +293,7 @@ function showQuestion() {
     <button onclick="checkAnswer()">Antwort prüfen</button>
   </div>`;
 }
- /* 
-function checkAnswer() {
-  const inputs = document.querySelectorAll('input[name="answer"]');
-  let richtig = 0, falsch = 0;
-  let userAntworten = [];
-  inputs.forEach(input => {
-    const isCorrect = input.value === "true";
-    const antwortText = input.parentElement.textContent.trim();
-    if (input.checked) {
-      userAntworten.push(antwortText);
-      if (isCorrect) richtig++;
-      else falsch++;
-    }
-    if (!input.checked && isCorrect) falsch++;
-  });
-  const f = selectedFach;
-  if (!stats[f]) stats[f] = { richtig: 0, falsch: 0 };
-  stats[f].richtig += richtig;
-  stats[f].falsch += falsch;
-  const frageId = questions[current].Frage;
-  if (!frageFehlerCounter[frageId]) frageFehlerCounter[frageId] = 0;
-  if (falsch > 0) frageFehlerCounter[frageId]++;
-  const richtigeAntworten = [questions[current]["Richtige Antwort"]];
-  logFrageAntwort(questions[current], userAntworten, richtigeAntworten);
-  localStorage.setItem("quizStats", JSON.stringify(stats));
-  localStorage.setItem("frageFehlerCounter", JSON.stringify(frageFehlerCounter));
-  nextQuestion();
-}
-*/
+
 function nextQuestion() {
   if (current < questions.length - 1) {
     current++;
@@ -367,40 +327,6 @@ function toggleChart() {
     button.textContent = "Lernerfolg anzeigen";
   }
 }
-
-  /*
-// Kreisdiagramm
-
-function drawChart() {
-  const ctx = document.getElementById("statsChart").getContext("2d");
-  if (chartInstance) chartInstance.destroy();
-
-  const f = selectedFach;
-  if (!f || !stats[f]) return;
-
-  const richtig = stats[f].richtig || 0;
-  const falsch = stats[f].falsch || 0;
-
-  chartInstance = new Chart(ctx, {
-    type: 'pie',
-    data: {
-      labels: ['Richtig', 'Falsch'],
-      datasets: [{
-        data: [richtig, falsch],
-        backgroundColor: ['green', 'red']
-      }]
-    },
-    options: {
-      responsive: true,
-      plugins: {
-        title: { display: true, text: `Verteilung für ${f}` }
-      }
-    }
-  });
-}
-*/
-
-// Stapeldiagramm
 
 // Gestapeltes Prozent-Stapeldiagramm
 function drawChart() {
@@ -475,104 +401,6 @@ function drawChart() {
   });
 }
 
-  
-/*
-// Balkendiagramm
-function drawChart() {
-  const ctx = document.getElementById("statsChart").getContext("2d");
-  if (chartInstance) chartInstance.destroy();
-  const labels = Object.keys(stats).filter(f => stats[f].richtig + stats[f].falsch > 0);
-  const correct = labels.map(f => stats[f].richtig);
-  const total = labels.map(f => stats[f].richtig + stats[f].falsch);
-  const percentage = labels.map((_, i) => (correct[i] / total[i]) * 100);
-  chartInstance = new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels,
-      datasets: [{ label: 'Lernerfolg (%)', data: percentage, backgroundColor: 'blue' }]
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true,
-      scales: { x: { beginAtZero: true, max: 100 } },
-      plugins: { title: { display: true, text: 'Lernerfolg nach Fach (%)' } }
-    }
-  });
-}
-*/
-/*
-function toggleReport() {
-  const container = document.getElementById("reportContainer");
-  const button = document.getElementById("toggleReport");
-  if (container.style.display === "none") {
-    container.innerHTML = "<h3>Antwortbericht</h3>" +
-      reportLog.map((entry, i) => `
-        <div style='margin-bottom:1em;'>
-          <strong>Frage ${i + 1}:</strong> ${entry.frage}<br>
-          <ul>
-            ${entry.antworten.map(a => {
-              const isChecked = entry.userAntworten.includes(a);
-              const isCorrect = entry.richtigeAntworten.includes(a);
-
-              let color = "black";  // Default
-              if (isCorrect && isChecked) color = "green";       // richtig angekreuzt ✅
-              if (!isCorrect && isChecked) color = "red";         // falsch angekreuzt ❌
-              if (isCorrect && !isChecked) color = "orange";      // richtige Antwort vergessen ⚠️
-
-              let symbol = isChecked ? "✅" : "⬜";
-
-              return `<li style='color:${color}'>${symbol} ${a} ${isCorrect ? "(richtig)" : ""}</li>`;
-            }).join('')}
-          </ul>
-        </div>
-      `).join('');
-    container.style.display = "block";
-    button.textContent = "Antwortbericht verbergen";
-  } else {
-    container.style.display = "none";
-    button.textContent = "Antwortbericht anzeigen";
-  }
-} 
-*/
-  /*
-  function toggleReport() {
-  const container = document.getElementById("reportContainer");
-  const button = document.getElementById("toggleReport");
-  if (container.style.display === "none") {
-    container.innerHTML = "<h3>Antwortbericht</h3>" +
-      reportLog.map((entry, i) => `
-        <div style='margin-bottom:1em;'>
-          <strong>Frage ${i + 1}:</strong> ${entry.frage}<br>
-          <ul>
-            ${entry.antworten.map(a => {
-              const isChecked = entry.userAntworten.includes(a);
-              const isCorrect = entry.richtigeAntworten.includes(a);
-              return `<li style='color:${isChecked ? (isCorrect ? "green" : "red") : "black"}'>
-                ${isChecked ? "✅" : "⬜"} ${a} ${isCorrect ? "(richtig)" : ""}
-              </li>`;
-            }).join('')}
-          </ul>
-        </div>
-      `).join('');
-    container.style.display = "block";
-    button.textContent = "Antwortbericht verbergen";
-  } else {
-    container.style.display = "none";
-    button.textContent = "Antwortbericht anzeigen";
-  }
-}
-*/
-/*
-  function logFrageAntwort(frageObj, userAntworten, richtigeAntworten) {
-  reportLog.push({
-    frage: frageObj.Frage,
-    antworten: [frageObj["Richtige Antwort"], ...(frageObj["Falsche Antwort"] || [])],
-    userAntworten,
-    richtigeAntworten
-  });
-  localStorage.setItem("reportLog", JSON.stringify(reportLog));
-}
-*/
 function shuffleArray(arr) {
   return arr.map(v => [Math.random(), v]).sort((a, b) => a[0] - b[0]).map(a => a[1]);
 }
@@ -586,43 +414,34 @@ function resetStats() {
     location.reload();
   }
 }
-
-// ... eventuell weitere Funktionen (z. B. window.checkAnswer = checkAnswer; usw.)
-
-</script>
-  <script>
-function openHelp() {
-  const m = document.getElementById('helpModal');
-  m.setAttribute('aria-hidden', 'false');
-  // ESC zum Schließen
-  document.addEventListener('keydown', escClose, { once: true });
-}
-function closeHelp() {
-  const m = document.getElementById('helpModal');
-  m.setAttribute('aria-hidden', 'true');
-}
-function escClose(e) {
-  if (e.key === 'Escape') closeHelp();
-}
-function backdropClose(e) {
-  // Klick auf Hintergrund schließt, Klicks innerhalb .help-card nicht
-  if (e.target.classList.contains('help-dialog')) closeHelp();
-}
 </script>
 
+<!-- Hilfe-Logik -->
+<script>
+function openHelp(){
+  const m = document.getElementById('helpModal');
+  m.setAttribute('aria-hidden','false');
+  document.body.style.overflow = 'hidden';  // Seite nicht scrollen
+  document.addEventListener('keydown', escClose, { once:true });
+}
+function closeHelp(){
+  const m = document.getElementById('helpModal');
+  m.setAttribute('aria-hidden','true');
+  document.body.style.overflow = '';        // Scroll wieder erlauben
+}
+function escClose(e){ if(e.key==='Escape') closeHelp(); }
+function backdropClose(e){
+  if(e.target.classList.contains('help-dialog')) closeHelp(); // nur Hintergrundklick
+}
+</script>
 
 <script>
-
 window.checkAnswer = checkAnswer;
 window.nextQuestion = nextQuestion;
 window.prevQuestion = prevQuestion;
 window.toggleChart = toggleChart;
 window.resetStats = resetStats;
-  
 </script>
-  
-
-
 
 </body>
 </html>
