@@ -115,6 +115,13 @@ let chartInstance = null;
 let frageFehlerCounter = JSON.parse(localStorage.getItem("frageFehlerCounter") || "{}");
 let reportLog = [];
 
+// Stabile ID: Fach|Frage|Antwort -> Base64 (UTF-8-sicher)
+function mkId(fach, frage, text) {
+  const raw = `${fach}||${frage}||${text}`;
+  return btoa(unescape(encodeURIComponent(raw)));
+}
+
+
 function updateFachauswahl() {
   const faecher = [...new Set(window.fragen.map(q => q.Fach))];
   const sel = document.getElementById("fachSelect");
@@ -176,7 +183,19 @@ function showQuestion() {
     <h2>Frage ${current + 1}/12</h2>
     <p>${formatText(q.Frage)}</p>
     <form class="answers">
-      ${shuffled.map((a, i) => `<label><input type="checkbox" name="answer" value="${a.correct}"> ${formatText(a.text)}</label>`).join("")}
+            ${shuffled.map((a) => {
+        const raw = (a.text ?? "").toString().trim();
+        const id  = mkId(selectedFach, q.Frage, raw);
+        return `<label>
+          <input type="checkbox"
+                 name="answer"
+                 data-correct="${a.correct ? '1' : '0'}"
+                 data-id="${id}"
+                 data-raw="${raw.replace(/"/g, '&quot;')}">
+          <span class="ans-text">${formatText(a.text)}</span>
+        </label>`;
+      }).join("")}
+    
     </form>
     <button onclick="checkAnswer()">Antwort prüfen</button>
   </div>`;

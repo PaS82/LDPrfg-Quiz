@@ -1,39 +1,76 @@
+// Fallback, falls mkId nicht global definiert ist (z. B. wenn checkAnswer.js separat geladen wird)
+function mkId(fach, frage, text) {
+  const raw = `${fach}||${frage}||${text}`;
+  return btoa(unescape(encodeURIComponent(raw)));
+}
+
 function checkAnswer() {
   const inputs = document.querySelectorAll('input[name="answer"]');
   let richtig = 0, falsch = 0;
-  let userAntworten = [];
+  const userAntwortenIds = [];
+  const userAntworten = [];
 
   inputs.forEach(input => {
-    const isCorrect = input.value === "true";
-    const antwortText = input.parentElement.textContent.trim();
+    const isCorrect = input.dataset.correct === '1';
+    const rawText = (input.dataset.raw || "").trim();
+    const ansId   = input.dataset.id;
 
     if (input.checked) {
-      userAntworten.push(antwortText);
+      userAntworten.push(rawText);     // Anzeige / Rückwärtskompatibilität
+      userAntwortenIds.push(ansId);    // robuste Auswertung
       if (isCorrect) richtig++;
       else falsch++;
     }
-    if (!input.checked && isCorrect) falsch++;
+    if (!input.checked && isCorrect) falsch++; // richtige, aber nicht gewählte Antwort = Fehler
   });
 
-  const f = selectedFach;
-  if (!stats[f]) stats[f] = { richtig: 0, falsch: 0 };
-  stats[f].richtig += richtig;
-  stats[f].falsch += falsch;
+  const f = window.selectedFach || '';
+  if (!window.stats) window.stats = {};
+  if (!window.stats[f]) window.stats[f] = { richtig: 0, falsch: 0 };
+  window.stats[f].richtig += richtig;
+  window.stats[f].falsch  += falsch;
 
-  const frageId = questions[current].Frage;
-  if (!frageFehlerCounter[frageId]) frageFehlerCounter[frageId] = 0;
-  if (falsch > 0) frageFehlerCounter[frageId]++;
+  const qIdx = window.current || 0;
+  const q = (window.questions || [])[qIdx] || {};
 
-  // Richtige Antwort sicher als Array speichern
-  const richtigeAntworten = Array.isArray(questions[current]["Richtige Antwort"]) 
-    ? questions[current]["Richtige Antwort"] 
-    : [questions[current]["Richtige Antwort"]];
+  // Frage & Antworten aus Daten holen (Texte, Rohform)
+  const richtigeAntworten = Array.isArray(q["Richtige Antwort"])
+    ? q["Richtige Antwort"].filter(Boolean)
+    : [q["Richtige Antwort"]].filter(Boolean);
+  const falscheAntworten = Array.isArray(q["Falsche Antwort"])
+    ? q["Falsche Antwort"].filter(Boolean)
+    : [];
+  const alleAntworten = [...richtigeAntworten, ...falscheAntworten];
 
-  logFrageAntwort(questions[current], userAntworten, richtigeAntworten);
+  // IDs aus Texten berechnen (identisch zu Render-IDs)
+  const antwortenIds = alleAntworten.map(t => mkId(f, q.Frage, (t ?? "").toString().trim()));
+  const richtigeAntwortenIds = richtigeAntworten.map(t => mkId(f, q.Frage, (t ?? "").toString().trim()));
 
-  localStorage.setItem("quizStats", JSON.stringify(stats));
-  localStorage.setItem("frageFehlerCounter", JSON.stringify(frageFehlerCounter));
+  // Frage-Fehlerzähler (weiter Fragetext, falls keine q.id vorhanden)
+  if (!window.frageFehlerCounter) window.frageFehlerCounter = {};
+  const frageId = q.id || q.Frage;
+  if (!window.frageFehlerCounter[frageId]) window.frageFehlerCounter[frageId] = 0;
+  if (falsch > 0) window.frageFehlerCounter[frageId]++;
 
-  nextQuestion();
+  // Report-Log-Eintrag mit IDs + Texten
+  if (!window.reportLog) window.reportLog = [];
+  const entry = {
+    Fach: f,
+    frage: q.Frage,
+    antworten: alleAntworten,
+    antwortenIds: antwortenIds,
+    userAntworten: userAntworten,
+    userAntwortenIds: userAntwortenIds,
+    richtigeAntworten: richtigeAntworten,
+    richtigeAntwortenIds: richtigeAntwortenIds
+  };
+
+  window.reportLog.push(entry);
+  try { localStorage.setItem("reportLog", JSON.stringify(window.reportLog)); } catch (e) {}
+
+  try { localStorage.setItem("quizStats", JSON.stringify(window.stats)); } catch (e) {}
+  try { localStorage.setItem("frageFehlerCounter", JSON.stringify(window.frageFehlerCounter)); } catch (e) {}
+
+  if (typeof window.nextQuestion === 'function') window.nextQuestion();
 }
 window.checkAnswer = checkAnswer;
