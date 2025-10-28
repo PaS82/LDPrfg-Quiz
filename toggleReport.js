@@ -11,7 +11,11 @@ function toggleReport() {
       fachGruppiert[fach].push(entry);
     });
 
-    container.innerHTML = "<h3>Antwortbericht nach Fach</h3>" + Object.keys(fachGruppiert).map((fach, idx) => `
+    container.innerHTML = "<h3>Antwortbericht nach Fach</h3>" 
+      <div style="background: #f9f9f9; border: 1px solid #ddd; border-radius: 6px; padding: 0.5em; margin-bottom: 1em; text-align: center; font-size: 0.9em; color: #333;">
+       <strong>Legende:</strong> 
+       ✅ Richtige Antwort &nbsp;&nbsp; ❌ Falsche Antwort &nbsp;&nbsp; ⚠️ Richtige Antwort vergessen 
+     </div> & Object.keys(fachGruppiert).map((fach, idx) => `
       <div style='margin-bottom:1em; border:1px solid #ccc; border-radius:4px; padding:0.5em;'>
         <div style="cursor:pointer; font-weight:bold;" onclick="document.getElementById('fach_${idx}').style.display = document.getElementById('fach_${idx}').style.display === 'none' ? 'block' : 'none';">
           ${fach} ▼
@@ -26,9 +30,9 @@ function toggleReport() {
                   const isCorrect = entry.richtigeAntworten.some(ans => ans.trim() === a.trim());
 
                   let symbol = "⬜️"; // Standard: falsch ignoriert
-                  if (isCorrect && isChecked) symbol = "✅ Richtige Antwort";
-                  else if (!isCorrect && isChecked) symbol = "❌ Falsche Antwort ";
-                  else if (isCorrect && !isChecked) symbol = "⚠️ Richtige Antwort vergessen";
+                  if (isCorrect && isChecked) symbol = "✅";
+                  else if (!isCorrect && isChecked) symbol = "❌";
+                  else if (isCorrect && !isChecked) symbol = "⚠️";
 
                   return `<li style="color:black; margin-bottom:0.3em;">${symbol} ${a}</li>`;
                 }).join('')}
@@ -127,5 +131,6 @@ function toggleReport() {
 }
 window.toggleReport = toggleReport;
 */
+
 
 
