@@ -26,9 +26,9 @@ function toggleReport() {
                   const isCorrect = entry.richtigeAntworten.some(ans => ans.trim() === a.trim());
 
                   let symbol = "⬜️"; // Standard: falsch ignoriert
-                  if (isCorrect && isChecked) symbol = "✅";
-                  else if (!isCorrect && isChecked) symbol = "❌";
-                  else if (isCorrect && !isChecked) symbol = "❌";
+                  if (isCorrect && isChecked) symbol = "✅ Richtige Antwort";
+                  else if (!isCorrect && isChecked) symbol = "❌ Falsche Antwort ";
+                  else if (isCorrect && !isChecked) symbol = "⚠️ Richtige Antwort vergessen";
 
                   return `<li style="color:black; margin-bottom:0.3em;">${symbol} ${a}</li>`;
                 }).join('')}
@@ -127,4 +127,5 @@ function toggleReport() {
 }
 window.toggleReport = toggleReport;
 */
+
 
